@@ -1,5 +1,5 @@
 {
-  "base_url": "https://mercatornaxi-glitch.github.io/c2kor/seafarer-info-web",
+  "base_url": "https://mercatornaxi-glitch.github.io/c2kor",
   "pages": [
     { "slug": "index", "path": "index.html", "label": "Home / 홈" },
     { "slug": "safety-at-sea", "path": "pages/safety-at-sea.html", "label": "Safety at Sea / 바다에서 안전을 이렇게 지켜요" },
