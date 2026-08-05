@@ -160,14 +160,14 @@
   // live under pages/, so the ../ prefix here is safe and doesn't need to
   // be computed dynamically.
   var HERO_IMAGES = {
-    "safety-at-sea": "../assets/images/safety-at-sea.png",
-    "worker-rights": "../assets/images/worker-rights.png",
-    "living-in-korea": "../assets/images/living-in-korea.png",
-    "first-time-korea": "../assets/images/first-time-korea.png",
-    "know-korea": "../assets/images/know-korea.png",
-    "port-city-guide": "../assets/images/port-city-guide.png",
-    "phrasebook": "../assets/images/phrasebook.png",
-    "emergency": "../assets/images/emergency.png"
+    "safety-at-sea": "../assets/images/safety-at-sea.jpg",
+    "worker-rights": "../assets/images/worker-rights.jpg",
+    "living-in-korea": "../assets/images/living-in-korea.jpg",
+    "first-time-korea": "../assets/images/first-time-korea.jpg",
+    "know-korea": "../assets/images/know-korea.jpg",
+    "port-city-guide": "../assets/images/port-city-guide.jpg",
+    "phrasebook": "../assets/images/phrasebook.jpg",
+    "emergency": "../assets/images/emergency.jpg"
   };
 
   function renderHeroImage(pageId, altText) {
