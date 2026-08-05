@@ -1,0 +1,14 @@
+{
+  "base_url": "https://mercatornaxi-glitch.github.io/c2kor/seafarer-info-web",
+  "pages": [
+    { "slug": "index", "path": "index.html", "label": "Home / 홈" },
+    { "slug": "safety-at-sea", "path": "pages/safety-at-sea.html", "label": "Safety at Sea / 바다에서 안전을 이렇게 지켜요" },
+    { "slug": "worker-rights", "path": "pages/worker-rights.html", "label": "Worker Rights / 선원 권리" },
+    { "slug": "living-in-korea", "path": "pages/living-in-korea.html", "label": "Living in Korea / 한국 생활 정보" },
+    { "slug": "first-time-korea", "path": "pages/first-time-korea.html", "label": "First Time in Korea / 한국에 처음 왔어요" },
+    { "slug": "know-korea", "path": "pages/know-korea.html", "label": "Know Korea / 한국을 알고 싶어요" },
+    { "slug": "port-city-guide", "path": "pages/port-city-guide.html", "label": "Port City Guide / 항구도시 외출 가이드" },
+    { "slug": "emergency", "path": "pages/emergency.html", "label": "Emergency Contacts / 비상연락처" },
+    { "slug": "phrasebook", "path": "pages/phrasebook.html", "label": "Phrasebook / 생존 한국어" }
+  ]
+}
