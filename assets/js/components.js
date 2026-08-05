@@ -6,11 +6,13 @@
  * SFW_SITE_CONTENT.meta.languageOrder / meta.languages at render time.
  */
 (function (global) {
-  // Taegeuk (태극) mark: red on top, blue on bottom, no dots. Exported so
-  // content-render.js can reuse it for the home page hero.
+  // Taegeuk (태극) mark: split along the upper-left/lower-right diagonal
+  // (red upper-left, blue lower-right), matching the official construction
+  // in the National Flag Act enforcement decree — not a plain vertical
+  // split. Exported so content-render.js can reuse it for the home hero.
   var TAEGEUK_SVG = '<svg viewBox="0 0 100 100" width="26" height="26" focusable="false">' +
     '<circle cx="50" cy="50" r="50" fill="#0047A0"/>' +
-    '<path d="M50 0a50 50 0 000 100 25 25 0 000-50 25 25 0 010-50z" fill="#CD2E3A" transform="rotate(90 50 50)"/>' +
+    '<path d="M50 0a50 50 0 000 100 25 25 0 000-50 25 25 0 010-50z" fill="#CD2E3A" transform="rotate(45 50 50)"/>' +
     '</svg>';
 
   function pathPrefix() {
