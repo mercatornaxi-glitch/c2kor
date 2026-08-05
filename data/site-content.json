@@ -460,9 +460,17 @@
               {
                 "label": "Key centres",
                 "items": [
-                  "Busan New Port Seafarers Center — 354 Sinhangman-ro, Gangseo-gu, Busan. Tel +82 51 974 0774 / mobile +82 10 9171 2333. Open Mon–Fri 09:00–22:00, Sat–Sun 10:00–19:00.",
-                  "Mission to Seafarers Busan — 294 Sinseon-ro, Nam-gu, Busan 48562. Open daily 12:00–20:00.",
-                  "United Seamen's Service Busan — Seamen's Club, 99 Gamman 1-dong, Busan 48480 (operating in Busan since 1954)."
+                  "Busan South Port Fishing Vessel Welfare Center — 88 Haean Saebyeok Sijang-gil, Seo-gu, Busan. Tel 051-255-1821. Accommodation, bathhouse, gym, laundry, meeting rooms, convenience store.",
+                  "Busan New Port Seamen's Center — 354 Sinhangnam-ro, Gangseo-gu, Busan. Tel 051-974-0774 (shuttle 010-8427-6421). Weekdays 09:00–19:00, Sat 09:00–15:00. Lounge with Wi-Fi, TV, billiards, convenience store, shuttle service.",
+                  "Gwangyang Port Container Terminal Rest Area — 336 Keonbudu-ro (Doi-dong), Gwangyang, Jeollanam-do. Tel 010-7344-6422. Weekdays 09:00–18:00. Lounge with Wi-Fi, TV, billiards, table tennis, shuttle.",
+                  "Gwangyang Port Product Terminal Rest Area — 1655-426 Jecheol-ro (Geumho-dong), Gwangyang, Jeollanam-do. Tel 061-795-8880. Weekdays 09:00–18:00. Lounge with Wi-Fi, TV, billiards, table tennis, shuttle.",
+                  "Hallim Port Seafarers' Welfare Center — 139 Hallim Haean-ro, Hallim-eup, Jeju. Tel 064-796-2138. Accommodation, lounge, showers, convenience store, restaurant, meeting rooms, shuttle.",
+                  "Pohang New Port Rest Area — 99-98 Sinhang-ro, Nam-gu, Pohang. Tel 010-9231-6420 / 010-6241-6420. Weekdays 09:00–19:00, Sat 09:00–15:00. Lounge with Wi-Fi and TV, shuttle.",
+                  "Incheon Port Rest Area — 208 Naehang-ro, Jung-gu, Incheon. Tel 010-9234-6420. Weekdays 09:00–18:00. Lounge with Wi-Fi, shuttle.",
+                  "Donghae Port Rest Area — 210 Daedong-ro, Donghae, Gangwon-do (next to the international ferry terminal). Tel 010-8201-2223. Weekdays and Saturday 09:00–18:00. Lounge with Wi-Fi, shuttle.",
+                  "Daecheon Port Welfare Center — 48 Daecheonhang Jungang-gil, Boryeong, Chungcheongnam-do. Tel 070-4040-9290. Accommodation, lounge with Wi-Fi and TV, shuttle.",
+                  "Mokpo Port Welfare Center — 75-51 Gohadae-ro 597beon-gil, Mokpo, Jeollanam-do. Tel 061-242-5522. Accommodation, lounge with Wi-Fi, billiards, TV, convenience store, shuttle.",
+                  "Daesan Port Rest Area — 1110-12 Daejuk-ri, Daesan-eup, Seosan, Chungcheongnam-do. Tel 041-681-3642. Lounge with Wi-Fi and TV."
                 ]
               }
             ]
@@ -553,6 +561,10 @@
           }
         ],
         "referenceLinks": [
+          {
+            "label": "KOSWEC — Seafarer Rest Areas & Welfare Centers",
+            "url": "https://www.koswec.or.kr/cop/cnt/selectContentsPage.do?cntId=ship_center_new"
+          },
           {
             "label": "ITF Seafarers — Find a Welfare Centre",
             "url": "https://www.itfseafarers.org/en/directories/seafarers-welfare-centre-index"
@@ -1290,9 +1302,17 @@
               {
                 "label": "주요 센터",
                 "items": [
-                  "부산신항 선원센터 — 부산 강서구 신항만로 354. 전화 +82 51 974 0774 / 휴대폰 +82 10 9171 2333. 평일 09:00~22:00, 주말 10:00~19:00.",
-                  "선원선교회 부산 — 부산 남구 신선로 294 (48562). 매일 12:00~20:00.",
-                  "United Seamen's Service 부산 — 부산 감만1동 99 Seamen's Club (48480). 1954년부터 부산에서 운영."
+                  "부산 남항 어선원 복지회관 — 부산광역시 서구 해안새벽시장길 88. 전화 051-255-1821. 숙소, 목욕시설, 체력단련실, 세탁실, 회의실, 편의점.",
+                  "부산항 신항 선원회관 — 부산광역시 강서구 신항남로 354. 전화 051-974-0774 (셔틀 010-8427-6421). 평일 09:00~19:00, 토요일 09:00~15:00. 휴게실(와이파이·TV·당구), 편의점, 셔틀 운행.",
+                  "광양항 컨테이너부두 선원휴게소 — 전라남도 광양시 컨부두로 336(도이동). 전화 010-7344-6422. 평일 09:00~18:00. 휴게실(와이파이·TV·당구·탁구), 셔틀 운행.",
+                  "광양항 제품부두 선원휴게소 — 전라남도 광양시 제철로 1655-426(금호동). 전화 (061)795-8880. 평일 09:00~18:00. 휴게실(와이파이·TV·당구·탁구), 셔틀 운행.",
+                  "한림항 선원복지회관 — 제주특별자치도 제주시 한림읍 한림해안로 139. 전화 064-796-2138. 숙소, 휴게실, 샤워실, 편의점, 식당, 회의실, 셔틀 운행.",
+                  "포항신항 선원휴게소 — 경상북도 포항시 남구 신항로 99-98. 전화 010-9231-6420 / 010-6241-6420. 평일 09:00~19:00, 토요일 09:00~15:00. 휴게실(와이파이·TV), 셔틀 운행.",
+                  "인천항 선원휴게소 — 인천광역시 중구 내항로 208. 전화 010-9234-6420. 평일 09:00~18:00. 휴게실(와이파이), 셔틀 운행.",
+                  "동해항 선원휴게소 — 강원도 동해시 대동로 210 (국제여객터미널 인근). 전화 010-8201-2223. 평일·토요일 09:00~18:00. 휴게실(와이파이), 셔틀 운행.",
+                  "대천항 선원복지회관 — 충청남도 보령시 대천항중앙길 48. 전화 070-4040-9290. 숙소, 휴게실(와이파이·TV), 셔틀 운행.",
+                  "목포항 선원복지회관 — 전라남도 목포시 고하대로597번길 75-51. 전화 061-242-5522. 숙소, 휴게실(와이파이·당구·TV), 편의점, 셔틀 운행.",
+                  "대산항 선원휴게소 — 충청남도 서산시 대산읍 대죽리 1110-12. 전화 041-681-3642. 휴게실(와이파이·TV)."
                 ]
               }
             ]
@@ -1383,6 +1403,10 @@
           }
         ],
         "referenceLinks": [
+          {
+            "label": "한국선원복지고용센터(KOSWEC) — 선원휴게소·복지회관",
+            "url": "https://www.koswec.or.kr/cop/cnt/selectContentsPage.do?cntId=ship_center_new"
+          },
           {
             "label": "ITF Seafarers — 선원 복지센터 찾기",
             "url": "https://www.itfseafarers.org/en/directories/seafarers-welfare-centre-index"
@@ -2120,9 +2144,17 @@
               {
                 "label": "Các trung tâm chính",
                 "items": [
-                  "Trung tâm Thuyền viên Cảng mới Busan — 354 Sinhangman-ro, Gangseo-gu, Busan. Điện thoại +82 51 974 0774 / di động +82 10 9171 2333. Mở cửa Thứ Hai–Thứ Sáu 09:00–22:00, Thứ Bảy–Chủ Nhật 10:00–19:00.",
-                  "Hội Truyền giáo cho Thuyền viên Busan (Mission to Seafarers Busan) — 294 Sinseon-ro, Nam-gu, Busan 48562. Mở cửa hàng ngày 12:00–20:00.",
-                  "Dịch vụ Thủy thủ Hoa Kỳ Busan (United Seamen's Service Busan) — Câu lạc bộ Thủy thủ, 99 Gamman 1-dong, Busan 48480 (hoạt động tại Busan từ năm 1954)."
+                  "Trung tâm Phúc lợi Thuyền viên Tàu cá Cảng Nam Busan — 88 Haean Saebyeok Sijang-gil, Seo-gu, Busan. Điện thoại 051-255-1821. Chỗ nghỉ, nhà tắm, phòng gym, phòng giặt, phòng họp, cửa hàng tiện lợi.",
+                  "Trung tâm Thuyền viên Cảng mới Busan — 354 Sinhangnam-ro, Gangseo-gu, Busan. Điện thoại 051-974-0774 (xe đưa đón 010-8427-6421). Thứ Hai–Thứ Sáu 09:00–19:00, Thứ Bảy 09:00–15:00. Phòng nghỉ có Wi-Fi, TV, bàn billiards, cửa hàng tiện lợi, xe đưa đón.",
+                  "Khu nghỉ Thuyền viên Bến Container Cảng Gwangyang — 336 Keonbudu-ro (Doi-dong), Gwangyang, Jeollanam-do. Điện thoại 010-7344-6422. Thứ Hai–Thứ Sáu 09:00–18:00. Phòng nghỉ có Wi-Fi, TV, billiards, bóng bàn, xe đưa đón.",
+                  "Khu nghỉ Thuyền viên Bến Sản phẩm Cảng Gwangyang — 1655-426 Jecheol-ro (Geumho-dong), Gwangyang, Jeollanam-do. Điện thoại 061-795-8880. Thứ Hai–Thứ Sáu 09:00–18:00. Phòng nghỉ có Wi-Fi, TV, billiards, bóng bàn, xe đưa đón.",
+                  "Trung tâm Phúc lợi Thuyền viên Cảng Hallim — 139 Hallim Haean-ro, Hallim-eup, Jeju. Điện thoại 064-796-2138. Chỗ nghỉ, phòng nghỉ, phòng tắm, cửa hàng tiện lợi, nhà hàng, phòng họp, xe đưa đón.",
+                  "Khu nghỉ Thuyền viên Cảng mới Pohang — 99-98 Sinhang-ro, Nam-gu, Pohang. Điện thoại 010-9231-6420 / 010-6241-6420. Thứ Hai–Thứ Sáu 09:00–19:00, Thứ Bảy 09:00–15:00. Phòng nghỉ có Wi-Fi và TV, xe đưa đón.",
+                  "Khu nghỉ Thuyền viên Cảng Incheon — 208 Naehang-ro, Jung-gu, Incheon. Điện thoại 010-9234-6420. Thứ Hai–Thứ Sáu 09:00–18:00. Phòng nghỉ có Wi-Fi, xe đưa đón.",
+                  "Khu nghỉ Thuyền viên Cảng Donghae — 210 Daedong-ro, Donghae, Gangwon-do (gần bến phà quốc tế). Điện thoại 010-8201-2223. Thứ Hai–Thứ Bảy 09:00–18:00. Phòng nghỉ có Wi-Fi, xe đưa đón.",
+                  "Trung tâm Phúc lợi Cảng Daecheon — 48 Daecheonhang Jungang-gil, Boryeong, Chungcheongnam-do. Điện thoại 070-4040-9290. Chỗ nghỉ, phòng nghỉ có Wi-Fi và TV, xe đưa đón.",
+                  "Trung tâm Phúc lợi Cảng Mokpo — 75-51 Gohadae-ro 597beon-gil, Mokpo, Jeollanam-do. Điện thoại 061-242-5522. Chỗ nghỉ, phòng nghỉ có Wi-Fi, billiards, TV, cửa hàng tiện lợi, xe đưa đón.",
+                  "Khu nghỉ Thuyền viên Cảng Daesan — 1110-12 Daejuk-ri, Daesan-eup, Seosan, Chungcheongnam-do. Điện thoại 041-681-3642. Phòng nghỉ có Wi-Fi và TV."
                 ]
               }
             ]
@@ -2213,6 +2245,10 @@
           }
         ],
         "referenceLinks": [
+          {
+            "label": "KOSWEC — Khu nghỉ & Trung tâm Phúc lợi Thuyền viên",
+            "url": "https://www.koswec.or.kr/cop/cnt/selectContentsPage.do?cntId=ship_center_new"
+          },
           {
             "label": "ITF Seafarers — Tìm Trung tâm Phúc lợi",
             "url": "https://www.itfseafarers.org/en/directories/seafarers-welfare-centre-index"
@@ -2950,9 +2986,17 @@
               {
                 "label": "Pusat-pusat utama",
                 "items": [
-                  "Busan New Port Seafarers Center — 354 Sinhangman-ro, Gangseo-gu, Busan. Telp +82 51 974 0774 / ponsel +82 10 9171 2333. Buka Senin–Jumat 09:00–22:00, Sabtu–Minggu 10:00–19:00.",
-                  "Mission to Seafarers Busan — 294 Sinseon-ro, Nam-gu, Busan 48562. Buka setiap hari 12:00–20:00.",
-                  "United Seamen's Service Busan — Seamen's Club, 99 Gamman 1-dong, Busan 48480 (beroperasi di Busan sejak 1954)."
+                  "Pusat Kesejahteraan Awak Kapal Ikan Pelabuhan Selatan Busan — 88 Haean Saebyeok Sijang-gil, Seo-gu, Busan. Telepon 051-255-1821. Penginapan, kamar mandi, gym, ruang cuci, ruang pertemuan, minimarket.",
+                  "Pusat Pelaut Pelabuhan Baru Busan — 354 Sinhangnam-ro, Gangseo-gu, Busan. Telepon 051-974-0774 (shuttle 010-8427-6421). Senin–Jumat 09:00–19:00, Sabtu 09:00–15:00. Ruang santai dengan Wi-Fi, TV, biliar, minimarket, layanan shuttle.",
+                  "Ruang Istirahat Pelaut Terminal Kontainer Pelabuhan Gwangyang — 336 Keonbudu-ro (Doi-dong), Gwangyang, Jeollanam-do. Telepon 010-7344-6422. Senin–Jumat 09:00–18:00. Ruang santai dengan Wi-Fi, TV, biliar, tenis meja, shuttle.",
+                  "Ruang Istirahat Pelaut Terminal Produk Pelabuhan Gwangyang — 1655-426 Jecheol-ro (Geumho-dong), Gwangyang, Jeollanam-do. Telepon 061-795-8880. Senin–Jumat 09:00–18:00. Ruang santai dengan Wi-Fi, TV, biliar, tenis meja, shuttle.",
+                  "Pusat Kesejahteraan Pelaut Pelabuhan Hallim — 139 Hallim Haean-ro, Hallim-eup, Jeju. Telepon 064-796-2138. Penginapan, ruang santai, kamar mandi, minimarket, restoran, ruang pertemuan, shuttle.",
+                  "Ruang Istirahat Pelaut Pelabuhan Baru Pohang — 99-98 Sinhang-ro, Nam-gu, Pohang. Telepon 010-9231-6420 / 010-6241-6420. Senin–Jumat 09:00–19:00, Sabtu 09:00–15:00. Ruang santai dengan Wi-Fi dan TV, shuttle.",
+                  "Ruang Istirahat Pelaut Pelabuhan Incheon — 208 Naehang-ro, Jung-gu, Incheon. Telepon 010-9234-6420. Senin–Jumat 09:00–18:00. Ruang santai dengan Wi-Fi, shuttle.",
+                  "Ruang Istirahat Pelaut Pelabuhan Donghae — 210 Daedong-ro, Donghae, Gangwon-do (di sebelah terminal feri internasional). Telepon 010-8201-2223. Senin–Sabtu 09:00–18:00. Ruang santai dengan Wi-Fi, shuttle.",
+                  "Pusat Kesejahteraan Pelabuhan Daecheon — 48 Daecheonhang Jungang-gil, Boryeong, Chungcheongnam-do. Telepon 070-4040-9290. Penginapan, ruang santai dengan Wi-Fi dan TV, shuttle.",
+                  "Pusat Kesejahteraan Pelabuhan Mokpo — 75-51 Gohadae-ro 597beon-gil, Mokpo, Jeollanam-do. Telepon 061-242-5522. Penginapan, ruang santai dengan Wi-Fi, biliar, TV, minimarket, shuttle.",
+                  "Ruang Istirahat Pelaut Pelabuhan Daesan — 1110-12 Daejuk-ri, Daesan-eup, Seosan, Chungcheongnam-do. Telepon 041-681-3642. Ruang santai dengan Wi-Fi dan TV."
                 ]
               }
             ]
@@ -3043,6 +3087,10 @@
           }
         ],
         "referenceLinks": [
+          {
+            "label": "KOSWEC — Ruang Istirahat & Pusat Kesejahteraan Pelaut",
+            "url": "https://www.koswec.or.kr/cop/cnt/selectContentsPage.do?cntId=ship_center_new"
+          },
           {
             "label": "ITF Seafarers — Temukan Pusat Kesejahteraan",
             "url": "https://www.itfseafarers.org/en/directories/seafarers-welfare-centre-index"
@@ -3780,9 +3828,17 @@
               {
                 "label": "Mga Pangunahing Sentro",
                 "items": [
-                  "Busan New Port Seafarers Center — 354 Sinhangman-ro, Gangseo-gu, Busan. Tel +82 51 974 0774 / mobile +82 10 9171 2333. Bukas Lunes–Biyernes 09:00–22:00, Sabado–Linggo 10:00–19:00.",
-                  "Mission to Seafarers Busan — 294 Sinseon-ro, Nam-gu, Busan 48562. Bukas araw-araw 12:00–20:00.",
-                  "United Seamen's Service Busan — Seamen's Club, 99 Gamman 1-dong, Busan 48480 (nagpapatakbo sa Busan mula 1954)."
+                  "Busan South Port Fishing Vessel Welfare Center — 88 Haean Saebyeok Sijang-gil, Seo-gu, Busan. Tel 051-255-1821. Tulugan, paliguan, gym, laundry, meeting room, convenience store.",
+                  "Busan New Port Seamen's Center — 354 Sinhangnam-ro, Gangseo-gu, Busan. Tel 051-974-0774 (shuttle 010-8427-6421). Lunes–Biyernes 09:00–19:00, Sabado 09:00–15:00. Lounge na may Wi-Fi, TV, billiards, convenience store, shuttle service.",
+                  "Gwangyang Port Container Terminal Rest Area — 336 Keonbudu-ro (Doi-dong), Gwangyang, Jeollanam-do. Tel 010-7344-6422. Lunes–Biyernes 09:00–18:00. Lounge na may Wi-Fi, TV, billiards, table tennis, shuttle.",
+                  "Gwangyang Port Product Terminal Rest Area — 1655-426 Jecheol-ro (Geumho-dong), Gwangyang, Jeollanam-do. Tel 061-795-8880. Lunes–Biyernes 09:00–18:00. Lounge na may Wi-Fi, TV, billiards, table tennis, shuttle.",
+                  "Hallim Port Seafarers' Welfare Center — 139 Hallim Haean-ro, Hallim-eup, Jeju. Tel 064-796-2138. Tulugan, lounge, paliguan, convenience store, restaurant, meeting room, shuttle.",
+                  "Pohang New Port Rest Area — 99-98 Sinhang-ro, Nam-gu, Pohang. Tel 010-9231-6420 / 010-6241-6420. Lunes–Biyernes 09:00–19:00, Sabado 09:00–15:00. Lounge na may Wi-Fi at TV, shuttle.",
+                  "Incheon Port Rest Area — 208 Naehang-ro, Jung-gu, Incheon. Tel 010-9234-6420. Lunes–Biyernes 09:00–18:00. Lounge na may Wi-Fi, shuttle.",
+                  "Donghae Port Rest Area — 210 Daedong-ro, Donghae, Gangwon-do (katabi ng international ferry terminal). Tel 010-8201-2223. Lunes hanggang Sabado 09:00–18:00. Lounge na may Wi-Fi, shuttle.",
+                  "Daecheon Port Welfare Center — 48 Daecheonhang Jungang-gil, Boryeong, Chungcheongnam-do. Tel 070-4040-9290. Tulugan, lounge na may Wi-Fi at TV, shuttle.",
+                  "Mokpo Port Welfare Center — 75-51 Gohadae-ro 597beon-gil, Mokpo, Jeollanam-do. Tel 061-242-5522. Tulugan, lounge na may Wi-Fi, billiards, TV, convenience store, shuttle.",
+                  "Daesan Port Rest Area — 1110-12 Daejuk-ri, Daesan-eup, Seosan, Chungcheongnam-do. Tel 041-681-3642. Lounge na may Wi-Fi at TV."
                 ]
               }
             ]
@@ -3873,6 +3929,10 @@
           }
         ],
         "referenceLinks": [
+          {
+            "label": "KOSWEC — Rest Area at Welfare Center para sa Marino",
+            "url": "https://www.koswec.or.kr/cop/cnt/selectContentsPage.do?cntId=ship_center_new"
+          },
           {
             "label": "ITF Seafarers — Maghanap ng Welfare Centre",
             "url": "https://www.itfseafarers.org/en/directories/seafarers-welfare-centre-index"
@@ -4610,9 +4670,17 @@
               {
                 "label": "အဓိကစင်တာများ",
                 "items": [
-                  "Busan New Port Seafarers Center — 354 Sinhangman-ro, Gangseo-gu, Busan။ ဖုန်း +82 51 974 0774 / မိုဘိုင်း +82 10 9171 2333။ ဖွင့်ချိန် တနင်္လာ-သောကြာ 09:00–22:00၊ စနေ-တနင်္ဂနွေ 10:00–19:00။",
-                  "Mission to Seafarers Busan — 294 Sinseon-ro, Nam-gu, Busan 48562။ နေ့စဉ်ဖွင့်ချိန် 12:00–20:00။",
-                  "United Seamen's Service Busan — Seamen's Club, 99 Gamman 1-dong, Busan 48480 (1954 ခုနှစ်မှစတင်၍ ပူဆန်းတွင် လုပ်ငန်းလည်ပတ်နေသည်)။"
+                  "Busan တောင်ကမ်း ငါးဖမ်းသင်္ဘောသား ကူညီရေးစင်တာ — 88 Haean Saebyeok Sijang-gil, Seo-gu, Busan။ ဖုန်း 051-255-1821။ အိပ်ခန်း၊ ရေချိုးခန်း၊ လေ့ကျင့်ခန်း၊ အဝတ်လျှော်ခန်း၊ အစည်းအဝေးခန်း၊ အဆင်ပြေဆိုင်။",
+                  "Busan New Port သင်္ဘောသားစင်တာ — 354 Sinhangnam-ro, Gangseo-gu, Busan။ ဖုန်း 051-974-0774 (ကားဆက်သွယ်ရေး 010-8427-6421)။ တနင်္လာ–သောကြာ 09:00–19:00၊ စနေ 09:00–15:00။ Wi-Fi၊ TV၊ ဘီလိယက်ပါသော အနားယူခန်း၊ အဆင်ပြေဆိုင်၊ ကားဝန်ဆောင်မှု။",
+                  "Gwangyang ကွန်တိန်နာဆိပ်ကမ်း သင်္ဘောသားအနားယူရာ — 336 Keonbudu-ro (Doi-dong), Gwangyang, Jeollanam-do။ ဖုန်း 010-7344-6422။ တနင်္လာ–သောကြာ 09:00–18:00။ Wi-Fi၊ TV၊ ဘီလိယက်၊ ပင်ပေါင်းပါသော အနားယူခန်း၊ ကား။",
+                  "Gwangyang ကုန်ပစ္စည်းဆိပ်ကမ်း သင်္ဘောသားအနားယူရာ — 1655-426 Jecheol-ro (Geumho-dong), Gwangyang, Jeollanam-do။ ဖုန်း 061-795-8880။ တနင်္လာ–သောကြာ 09:00–18:00။ Wi-Fi၊ TV၊ ဘီလိယက်၊ ပင်ပေါင်းပါသော အနားယူခန်း၊ ကား။",
+                  "Hallim ဆိပ်ကမ်း သင်္ဘောသားကူညီရေးစင်တာ — 139 Hallim Haean-ro, Hallim-eup, Jeju။ ဖုန်း 064-796-2138။ အိပ်ခန်း၊ အနားယူခန်း၊ ရေချိုးခန်း၊ အဆင်ပြေဆိုင်၊ စားသောက်ဆိုင်၊ အစည်းအဝေးခန်း၊ ကား။",
+                  "Pohang New Port သင်္ဘောသားအနားယူရာ — 99-98 Sinhang-ro, Nam-gu, Pohang။ ဖုန်း 010-9231-6420 / 010-6241-6420။ တနင်္လာ–သောကြာ 09:00–19:00၊ စနေ 09:00–15:00။ Wi-Fi နှင့် TV ပါသော အနားယူခန်း၊ ကား။",
+                  "Incheon ဆိပ်ကမ်း သင်္ဘောသားအနားယူရာ — 208 Naehang-ro, Jung-gu, Incheon။ ဖုန်း 010-9234-6420။ တနင်္လာ–သောကြာ 09:00–18:00။ Wi-Fi ပါသော အနားယူခန်း၊ ကား။",
+                  "Donghae ဆိပ်ကမ်း သင်္ဘောသားအနားယူရာ — 210 Daedong-ro, Donghae, Gangwon-do (နိုင်ငံတကာသင်္ဘောဆိပ်ကံ်းအနီး)။ ဖုန်း 010-8201-2223။ တနင်္လာ–စနေ 09:00–18:00။ Wi-Fi ပါသော အနားယူခန်း၊ ကား။",
+                  "Daecheon ဆိပ်ကမ်း ကူညီရေးစင်တာ — 48 Daecheonhang Jungang-gil, Boryeong, Chungcheongnam-do။ ဖုန်း 070-4040-9290။ အိပ်ခန်း၊ Wi-Fi နှင့် TV ပါသော အနားယူခန်း၊ ကား။",
+                  "Mokpo ဆိပ်ကမ်း ကူညီရေးစင်တာ — 75-51 Gohadae-ro 597beon-gil, Mokpo, Jeollanam-do။ ဖုန်း 061-242-5522။ အိပ်ခန်း၊ Wi-Fi၊ ဘီလိယက်၊ TV ပါသော အနားယူခန်း၊ အဆင်ပြေဆိုင်၊ ကား။",
+                  "Daesan ဆိပ်ကမ်း သင်္ဘောသားအနားယူရာ — 1110-12 Daejuk-ri, Daesan-eup, Seosan, Chungcheongnam-do။ ဖုန်း 041-681-3642။ Wi-Fi နှင့် TV ပါသော အနားယူခန်း။"
                 ]
               }
             ]
@@ -4703,6 +4771,10 @@
           }
         ],
         "referenceLinks": [
+          {
+            "label": "KOSWEC — သင်္ဘောသားအနားယူရာနှင့် ကူညီရေးစင်တာများ",
+            "url": "https://www.koswec.or.kr/cop/cnt/selectContentsPage.do?cntId=ship_center_new"
+          },
           {
             "label": "ITF Seafarers — လူမှုဖူလုံရေးစင်တာရှာဖွေရန်",
             "url": "https://www.itfseafarers.org/en/directories/seafarers-welfare-centre-index"
@@ -5440,9 +5512,17 @@
               {
                 "label": "ศูนย์บริการหลัก",
                 "items": [
-                  "ศูนย์ลูกเรือท่าเรือใหม่ปูซาน (Busan New Port Seafarers Center) — 354 Sinhangman-ro, Gangseo-gu, Busan โทร +82 51 974 0774 / มือถือ +82 10 9171 2333 เปิดวันจันทร์–ศุกร์ 09:00–22:00 น. วันเสาร์–อาทิตย์ 10:00–19:00 น.",
-                  "Mission to Seafarers Busan — 294 Sinseon-ro, Nam-gu, Busan 48562 เปิดทุกวัน 12:00–20:00 น.",
-                  "United Seamen's Service Busan — สโมสรลูกเรือ (Seamen's Club), 99 Gamman 1-dong, Busan 48480 (ดำเนินการในปูซานมาตั้งแต่ปี 1954)"
+                  "ศูนย์สวัสดิการลูกเรือประมง ท่าเรือใต้ปูซาน — 88 Haean Saebyeok Sijang-gil, Seo-gu, Busan โทร 051-255-1821 ที่พัก ห้องอาบน้ำ ห้องออกกำลังกาย ห้องซักผ้า ห้องประชุม ร้านสะดวกซื้อ",
+                  "ศูนย์ลูกเรือท่าเรือใหม่ปูซาน — 354 Sinhangnam-ro, Gangseo-gu, Busan โทร 051-974-0774 (รถรับส่ง 010-8427-6421) จันทร์–ศุกร์ 09:00–19:00 น. เสาร์ 09:00–15:00 น. ห้องพักผ่อนมี Wi-Fi ทีวี บิลเลียด ร้านสะดวกซื้อ รถรับส่ง",
+                  "ที่พักลูกเรือ ท่าเทียบเรือตู้คอนเทนเนอร์ ท่าเรือกวางยาง — 336 Keonbudu-ro (Doi-dong), Gwangyang, Jeollanam-do โทร 010-7344-6422 จันทร์–ศุกร์ 09:00–18:00 น. ห้องพักผ่อนมี Wi-Fi ทีวี บิลเลียด ปิงปอง รถรับส่ง",
+                  "ที่พักลูกเรือ ท่าเทียบเรือผลิตภัณฑ์ ท่าเรือกวางยาง — 1655-426 Jecheol-ro (Geumho-dong), Gwangyang, Jeollanam-do โทร 061-795-8880 จันทร์–ศุกร์ 09:00–18:00 น. ห้องพักผ่อนมี Wi-Fi ทีวี บิลเลียด ปิงปอง รถรับส่ง",
+                  "ศูนย์สวัสดิการลูกเรือ ท่าเรือฮัลลิม — 139 Hallim Haean-ro, Hallim-eup, Jeju โทร 064-796-2138 ที่พัก ห้องพักผ่อน ห้องอาบน้ำ ร้านสะดวกซื้อ ร้านอาหาร ห้องประชุม รถรับส่ง",
+                  "ที่พักลูกเรือ ท่าเรือใหม่โพฮัง — 99-98 Sinhang-ro, Nam-gu, Pohang โทร 010-9231-6420 / 010-6241-6420 จันทร์–ศุกร์ 09:00–19:00 น. เสาร์ 09:00–15:00 น. ห้องพักผ่อนมี Wi-Fi และทีวี รถรับส่ง",
+                  "ที่พักลูกเรือ ท่าเรืออินชอน — 208 Naehang-ro, Jung-gu, Incheon โทร 010-9234-6420 จันทร์–ศุกร์ 09:00–18:00 น. ห้องพักผ่อนมี Wi-Fi รถรับส่ง",
+                  "ที่พักลูกเรือ ท่าเรือทงแฮ — 210 Daedong-ro, Donghae, Gangwon-do (ติดกับท่าเทียบเรือเฟอร์รี่ระหว่างประเทศ) โทร 010-8201-2223 จันทร์–เสาร์ 09:00–18:00 น. ห้องพักผ่อนมี Wi-Fi รถรับส่ง",
+                  "ศูนย์สวัสดิการ ท่าเรือแดชอน — 48 Daecheonhang Jungang-gil, Boryeong, Chungcheongnam-do โทร 070-4040-9290 ที่พัก ห้องพักผ่อนมี Wi-Fi และทีวี รถรับส่ง",
+                  "ศูนย์สวัสดิการ ท่าเรือมกโพ — 75-51 Gohadae-ro 597beon-gil, Mokpo, Jeollanam-do โทร 061-242-5522 ที่พัก ห้องพักผ่อนมี Wi-Fi บิลเลียด ทีวี ร้านสะดวกซื้อ รถรับส่ง",
+                  "ที่พักลูกเรือ ท่าเรือแดซาน — 1110-12 Daejuk-ri, Daesan-eup, Seosan, Chungcheongnam-do โทร 041-681-3642 ห้องพักผ่อนมี Wi-Fi และทีวี"
                 ]
               }
             ]
@@ -5533,6 +5613,10 @@
           }
         ],
         "referenceLinks": [
+          {
+            "label": "KOSWEC — ที่พักและศูนย์สวัสดิการลูกเรือ",
+            "url": "https://www.koswec.or.kr/cop/cnt/selectContentsPage.do?cntId=ship_center_new"
+          },
           {
             "label": "ITF Seafarers — ค้นหาศูนย์สวัสดิการ",
             "url": "https://www.itfseafarers.org/en/directories/seafarers-welfare-centre-index"
@@ -6270,9 +6354,17 @@
               {
                 "label": "主要中心",
                 "items": [
-                  "釜山新港海员中心——釜山广域市江西区新港湾路354号。电话+82 51 974 0774/手机+82 10 9171 2333。周一至周五09:00–22:00开放,周六至周日10:00–19:00开放。",
-                  "釜山海员传教会(Mission to Seafarers Busan)——釜山广域市南区新仙路294号,邮编48562。每日12:00–20:00开放。",
-                  "釜山联合海员服务中心(United Seamen's Service Busan)——海员俱乐部,釜山广域市甘万1洞99号,邮编48480(自1954年起在釜山运营)。"
+                  "釜山南港渔船船员福利会馆 — 88 Haean Saebyeok Sijang-gil, Seo-gu, Busan。电话051-255-1821。住宿、浴室、健身房、洗衣房、会议室、便利店。",
+                  "釜山新港海员中心 — 354 Sinhangnam-ro, Gangseo-gu, Busan。电话051-974-0774（班车010-8427-6421）。周一至周五09:00–19:00，周六09:00–15:00。休息室（Wi-Fi、电视、台球）、便利店、班车服务。",
+                  "光阳港集装箱码头船员休息处 — 336 Keonbudu-ro（道二洞）, Gwangyang, Jeollanam-do。电话010-7344-6422。周一至周五09:00–18:00。休息室（Wi-Fi、电视、台球、乒乓球）、班车。",
+                  "光阳港产品码头船员休息处 — 1655-426 Jecheol-ro（金湖洞）, Gwangyang, Jeollanam-do。电话061-795-8880。周一至周五09:00–18:00。休息室（Wi-Fi、电视、台球、乒乓球）、班车。",
+                  "翰林港船员福利会馆 — 139 Hallim Haean-ro, Hallim-eup, Jeju。电话064-796-2138。住宿、休息室、淋浴间、便利店、餐厅、会议室、班车。",
+                  "浦项新港船员休息处 — 99-98 Sinhang-ro, Nam-gu, Pohang。电话010-9231-6420 / 010-6241-6420。周一至周五09:00–19:00，周六09:00–15:00。休息室（Wi-Fi、电视）、班车。",
+                  "仁川港船员休息处 — 208 Naehang-ro, Jung-gu, Incheon。电话010-9234-6420。周一至周五09:00–18:00。休息室（Wi-Fi）、班车。",
+                  "东海港船员休息处 — 210 Daedong-ro, Donghae, Gangwon-do（毗邻国际客运码头）。电话010-8201-2223。周一至周六09:00–18:00。休息室（Wi-Fi）、班车。",
+                  "大川港船员福利会馆 — 48 Daecheonhang Jungang-gil, Boryeong, Chungcheongnam-do。电话070-4040-9290。住宿、休息室（Wi-Fi、电视）、班车。",
+                  "木浦港船员福利会馆 — 75-51 Gohadae-ro 597beon-gil, Mokpo, Jeollanam-do。电话061-242-5522。住宿、休息室（Wi-Fi、台球、电视）、便利店、班车。",
+                  "大山港船员休息处 — 1110-12 Daejuk-ri, Daesan-eup, Seosan, Chungcheongnam-do。电话041-681-3642。休息室（Wi-Fi、电视）。"
                 ]
               }
             ]
@@ -6363,6 +6455,10 @@
           }
         ],
         "referenceLinks": [
+          {
+            "label": "KOSWEC — 船员休息处与福利会馆",
+            "url": "https://www.koswec.or.kr/cop/cnt/selectContentsPage.do?cntId=ship_center_new"
+          },
           {
             "label": "国际运输工人联合会(ITF)海员——查找福利中心",
             "url": "https://www.itfseafarers.org/en/directories/seafarers-welfare-centre-index"
@@ -7100,9 +7196,17 @@
               {
                 "label": "មជ្ឈមណ្ឌលសំខាន់ៗ",
                 "items": [
-                  "មជ្ឈមណ្ឌលនាវិកកំពង់ផែថ្មីប៊ូសាន (Busan New Port Seafarers Center) — 354 Sinhangman-ro, Gangseo-gu, Busan។ ទូរស័ព្ទ +82 51 974 0774 / ទូរស័ព្ទចល័ត +82 10 9171 2333។ បើកថ្ងៃច័ន្ទ–សុក្រ 09:00–22:00, សៅរ៍–អាទិត្យ 10:00–19:00។",
-                  "បេសកកម្មសម្រាប់នាវិកប៊ូសាន (Mission to Seafarers Busan) — 294 Sinseon-ro, Nam-gu, Busan 48562។ បើកជារៀងរាល់ថ្ងៃ 12:00–20:00។",
-                  "United Seamen's Service ប៊ូសាន — ក្លឹបនាវិក, 99 Gamman 1-dong, Busan 48480 (ដំណើរការនៅប៊ូសានតាំងពីឆ្នាំ 1954)។"
+                  "មជ្ឈមណ្ឌលសុខុមាលភាពនាវិកនាវាចាប់ត្រី កំពង់ផែខាងត្បូងប៊ូសាន — 88 Haean Saebyeok Sijang-gil, Seo-gu, Busan។ ទូរស័ព្ទ 051-255-1821។ កន្លែងស្នាក់នៅ បន្ទប់ងូតទឹក កន្លែងហាត់ប្រាណ បន្ទប់លាងខោអាវ បន្ទប់ប្រជុំ ហាងលក់ទំនិញ។",
+                  "មជ្ឈមណ្ឌលនាវិកកំពង់ផែថ្មីប៊ូសាន — 354 Sinhangnam-ro, Gangseo-gu, Busan។ ទូរស័ព្ទ 051-974-0774 (ឡានក្រុងបញ្ជូន 010-8427-6421)។ ច័ន្ទ–សុក្រ 09:00–19:00, សៅរ៍ 09:00–15:00។ បន្ទប់សម្រាកមាន Wi-Fi ទីវី ប៊ីយ៉ា ហាងលក់ទំនិញ សេវាឡានក្រុងបញ្ជូន។",
+                  "កន្លែងសម្រាកនាវិក ស្តុកទូកំពង់ផែក្វាំងយាង — 336 Keonbudu-ro (Doi-dong), Gwangyang, Jeollanam-do។ ទូរស័ព្ទ 010-7344-6422។ ច័ន្ទ–សុក្រ 09:00–18:00។ បន្ទប់សម្រាកមាន Wi-Fi ទីវី ប៊ីយ៉ា កីឡាតេនីសតុ ឡានក្រុងបញ្ជូន។",
+                  "កន្លែងសម្រាកនាវិក ផែផលិតផលកំពង់ផែក្វាំងយាង — 1655-426 Jecheol-ro (Geumho-dong), Gwangyang, Jeollanam-do។ ទូរស័ព្ទ 061-795-8880។ ច័ន្ទ–សុក្រ 09:00–18:00។ បន្ទប់សម្រាកមាន Wi-Fi ទីវី ប៊ីយ៉ា កីឡាតេនីសតុ ឡានក្រុងបញ្ជូន។",
+                  "មជ្ឈមណ្ឌលសុខុមាលភាពនាវិក កំពង់ផែហាល់លីម — 139 Hallim Haean-ro, Hallim-eup, Jeju។ ទូរស័ព្ទ 064-796-2138។ កន្លែងស្នាក់នៅ បន្ទប់សម្រាក បន្ទប់ងូតទឹក ហាងលក់ទំនិញ ភោជនីយដ្ឋាន បន្ទប់ប្រជុំ ឡានក្រុងបញ្ជូន។",
+                  "កន្លែងសម្រាកនាវិក កំពង់ផែថ្មីផូហាំង — 99-98 Sinhang-ro, Nam-gu, Pohang។ ទូរស័ព្ទ 010-9231-6420 / 010-6241-6420។ ច័ន្ទ–សុក្រ 09:00–19:00, សៅរ៍ 09:00–15:00។ បន្ទប់សម្រាកមាន Wi-Fi និងទីវី ឡានក្រុងបញ្ជូន។",
+                  "កន្លែងសម្រាកនាវិក កំពង់ផែអ៊ីនឆន — 208 Naehang-ro, Jung-gu, Incheon។ ទូរស័ព្ទ 010-9234-6420។ ច័ន្ទ–សុក្រ 09:00–18:00។ បន្ទប់សម្រាកមាន Wi-Fi ឡានក្រុងបញ្ជូន។",
+                  "កន្លែងសម្រាកនាវិក កំពង់ផែដុងហេ — 210 Daedong-ro, Donghae, Gangwon-do (នៅជាប់ស្ថានីយ៍ចម្លងអន្តរជាតិ)។ ទូរស័ព្ទ 010-8201-2223។ ច័ន្ទ–សៅរ៍ 09:00–18:00។ បន្ទប់សម្រាកមាន Wi-Fi ឡានក្រុងបញ្ជូន។",
+                  "មជ្ឈមណ្ឌលសុខុមាលភាព កំពង់ផែដេឈន — 48 Daecheonhang Jungang-gil, Boryeong, Chungcheongnam-do។ ទូរស័ព្ទ 070-4040-9290។ កន្លែងស្នាក់នៅ បន្ទប់សម្រាកមាន Wi-Fi និងទីវី ឡានក្រុងបញ្ជូន។",
+                  "មជ្ឈមណ្ឌលសុខុមាលភាព កំពង់ផែម៉ុកបូ — 75-51 Gohadae-ro 597beon-gil, Mokpo, Jeollanam-do។ ទូរស័ព្ទ 061-242-5522។ កន្លែងស្នាក់នៅ បន្ទប់សម្រាកមាន Wi-Fi ប៊ីយ៉ា ទីវី ហាងលក់ទំនិញ ឡានក្រុងបញ្ជូន។",
+                  "កន្លែងសម្រាកនាវិក កំពង់ផែដេសាន — 1110-12 Daejuk-ri, Daesan-eup, Seosan, Chungcheongnam-do។ ទូរស័ព្ទ 041-681-3642។ បន្ទប់សម្រាកមាន Wi-Fi និងទីវី។"
                 ]
               }
             ]
@@ -7193,6 +7297,10 @@
           }
         ],
         "referenceLinks": [
+          {
+            "label": "KOSWEC — កន្លែងសម្រាក និងមជ្ឈមណ្ឌលសុខុមាលភាពនាវិក",
+            "url": "https://www.koswec.or.kr/cop/cnt/selectContentsPage.do?cntId=ship_center_new"
+          },
           {
             "label": "ITF Seafarers — ស្វែងរកមជ្ឈមណ្ឌលសុខុមាលភាព",
             "url": "https://www.itfseafarers.org/en/directories/seafarers-welfare-centre-index"
