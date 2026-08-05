@@ -55,7 +55,7 @@
       return '<a href="' + l.href + '" class="' + cls.trim() + '">' + l.label + "</a>";
     }).join("");
 
-    var brandName = "C2KOR";
+    var brandName = "Welcome to Korean Ports!";
 
     mount.innerHTML =
       '<header class="sfw-header">' +
@@ -74,6 +74,13 @@
     select.addEventListener("change", function () {
       global.SFWi18n.setLang(select.value);
     });
+
+    // Keep the horizontally-scrolling subnav positioned so the active page
+    // link is visible, instead of always showing the start of the list.
+    var activeLink = mount.querySelector(".sfw-header__subnav a.active");
+    if (activeLink) {
+      activeLink.scrollIntoView({ block: "nearest", inline: "center" });
+    }
   }
 
   function mountEmergencyFab() {

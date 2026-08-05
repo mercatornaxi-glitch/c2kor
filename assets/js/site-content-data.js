@@ -28,37 +28,37 @@ window.SFW_SITE_CONTENT = {
       "vi": {
         "name": "Vietnamese",
         "nativeName": "Tiếng Việt",
-        "status": "todo"
+        "status": "complete"
       },
       "id": {
         "name": "Indonesian",
         "nativeName": "Bahasa Indonesia",
-        "status": "todo"
+        "status": "complete"
       },
       "tl": {
         "name": "Tagalog",
         "nativeName": "Tagalog",
-        "status": "todo"
+        "status": "complete"
       },
       "my": {
         "name": "Burmese",
         "nativeName": "မြန်မာဘာသာ",
-        "status": "todo"
+        "status": "complete"
       },
       "th": {
         "name": "Thai",
         "nativeName": "ไทย",
-        "status": "todo"
+        "status": "complete"
       },
       "zh": {
         "name": "Chinese",
         "nativeName": "中文",
-        "status": "todo"
+        "status": "complete"
       },
       "km": {
         "name": "Khmer",
         "nativeName": "ខ្មែរ",
-        "status": "todo"
+        "status": "complete"
       }
     },
     "pageOrder": [
@@ -71,14 +71,82 @@ window.SFW_SITE_CONTENT = {
       "phrasebook",
       "emergency"
     ],
-    "note": "English must always render first. Korean second. Remaining languages in any order. Do not change pageOrder without instruction — 'worker-rights' was deliberately moved after 'port-city-guide'."
+    "note": "English must always render first. Korean second. Remaining languages in any order. 'worker-rights' stays 6th (confirmed by user) — its hero image is page2.png, but its position in pageOrder is unrelated to the image filename.",
+    "portMapPoints": [
+      {
+        "lat": 35.0979,
+        "lon": 129.0402,
+        "naverQuery": "부산항 북항"
+      },
+      {
+        "lat": 35.0775,
+        "lon": 128.8014,
+        "naverQuery": "부산 신항"
+      },
+      {
+        "lat": 37.4636,
+        "lon": 126.6069,
+        "naverQuery": "인천항"
+      },
+      {
+        "lat": 36.97,
+        "lon": 126.82,
+        "naverQuery": "평택당진항"
+      },
+      {
+        "lat": 36.935,
+        "lon": 126.628,
+        "naverQuery": "당진항"
+      },
+      {
+        "lat": 34.907,
+        "lon": 127.748,
+        "naverQuery": "광양항"
+      },
+      {
+        "lat": 34.7396,
+        "lon": 127.7381,
+        "naverQuery": "여수항"
+      },
+      {
+        "lat": 35.1985,
+        "lon": 128.568,
+        "naverQuery": "마산항"
+      },
+      {
+        "lat": 36.0508,
+        "lon": 129.3756,
+        "naverQuery": "포항 영일만항"
+      },
+      {
+        "lat": 37.4967,
+        "lon": 129.1364,
+        "naverQuery": "동해항"
+      },
+      {
+        "lat": 37.5024,
+        "lon": 129.1147,
+        "naverQuery": "묵호항"
+      },
+      {
+        "lat": 37.4497,
+        "lon": 129.1706,
+        "naverQuery": "삼척항"
+      },
+      {
+        "lat": 35.975,
+        "lon": 126.635,
+        "naverQuery": "군산항"
+      }
+    ]
   },
   "en": {
     "home": {
       "title": "Safety & Life Guide for Foreign Seafarers",
       "subtitle": "Everything you need for safe and confident life at sea and ashore in Korea.",
       "prompt": "Choose what you need below",
-      "disclaimer": "This website is for informational purposes only."
+      "disclaimer": "This website is for informational purposes only.",
+      "aiLinkLabel": "Ask AI for anything else"
     },
     "pages": {
       "safety-at-sea": {
@@ -302,6 +370,11 @@ window.SFW_SITE_CONTENT = {
                   "Half-dried saury, a winter delicacy"
                 ],
                 [
+                  "Pohang",
+                  "물회 (Mulhoe)",
+                  "Raw fish in chilled, tangy broth — a refreshing local favourite, especially in summer"
+                ],
+                [
                   "Yeosu",
                   "갓김치 (Gat-kimchi)",
                   "Mustard-leaf kimchi, spicy and pungent"
@@ -397,6 +470,7 @@ window.SFW_SITE_CONTENT = {
             ]
           },
           {
+            "id": "port-transport-table",
             "heading": "Getting from the Port to Town",
             "body": "Access differs greatly by port. Most Korean ports are in industrial areas some distance from the town centre, so taxis are usually the fastest and simplest option. Have your destination written in Korean, or show it on your phone. Always confirm the exact route with your ship's agent before going ashore.",
             "table": {
@@ -901,7 +975,8 @@ window.SFW_SITE_CONTENT = {
       "title": "외국인 선원을 위한 안전·생활 가이드",
       "subtitle": "한국에서의 해상 및 육상 생활을 안전하고 자신 있게 하기 위한 모든 것.",
       "prompt": "필요한 항목을 선택하세요",
-      "disclaimer": "본 웹사이트는 정보 제공 목적으로만 운영됩니다."
+      "disclaimer": "본 웹사이트는 정보 제공 목적으로만 운영됩니다.",
+      "aiLinkLabel": "더 궁금한 것 AI에 물어보기"
     },
     "pages": {
       "safety-at-sea": {
@@ -1125,6 +1200,11 @@ window.SFW_SITE_CONTENT = {
                   "반건조 꽁치, 겨울철 별미"
                 ],
                 [
+                  "포항",
+                  "물회 (Mulhoe)",
+                  "새콤하고 시원한 육수에 회를 넣은 음식 — 특히 여름철에 인기 있는 별미"
+                ],
+                [
                   "여수",
                   "갓김치 (Gat-kimchi)",
                   "갓으로 담근 김치, 매콤하고 톡 쏘는 맛"
@@ -1220,6 +1300,7 @@ window.SFW_SITE_CONTENT = {
             ]
           },
           {
+            "id": "port-transport-table",
             "heading": "항구에서 시내로 가는 교통편",
             "body": "항구마다 접근성이 크게 다릅니다. 한국의 항구는 대부분 시내에서 떨어진 산업지역에 있어 택시가 가장 빠르고 간편합니다. 목적지를 한국어로 적어두거나 휴대폰에 띄워 보여주세요. 상륙 전 반드시 선사 대리점에 경로를 확인하시기 바랍니다.",
             "table": {
@@ -1713,6 +1794,5816 @@ window.SFW_SITE_CONTENT = {
           },
           {
             "label": "SeafarerHelp — 24시간 무료 선원 상담",
+            "url": "https://www.seafarerhelp.org"
+          }
+        ]
+      }
+    }
+  },
+  "vi": {
+    "home": {
+      "title": "Hướng Dẫn An Toàn & Đời Sống Dành Cho Thuyền Viên Nước Ngoài",
+      "subtitle": "Mọi thứ bạn cần để có cuộc sống an toàn và tự tin trên biển cũng như trên đất liền tại Hàn Quốc.",
+      "prompt": "Chọn nội dung bạn cần bên dưới",
+      "disclaimer": "Trang web này chỉ nhằm mục đích cung cấp thông tin.",
+      "aiLinkLabel": "Hỏi AI những điều khác"
+    },
+    "pages": {
+      "safety-at-sea": {
+        "icon": "🦺",
+        "navTitle": "An Toàn Trên Biển",
+        "navDescription": "Áo phao, thời tiết xấu, hỏa hoạn, báo cáo tai nạn",
+        "title": "An Toàn Trên Biển",
+        "summary": "Hãy ghi nhớ các quy tắc an toàn thiết yếu để bảo vệ tính mạng của bạn trên biển — từ cảnh báo thời tiết đến hỏa hoạn, té ngã, và cách báo cáo tai nạn!",
+        "sections": [
+          {
+            "heading": "Mặc Áo Phao",
+            "body": "Kể từ ngày 1 tháng 7 năm 2026, tất cả mọi người trên boong hở của tàu cá đều phải mặc áo phao, bất kể có cảnh báo thời tiết hay quy mô thuyền viên. Thuyền trưởng sẽ phải chịu mức phạt 900.000 KRW (vi phạm lần 1), 1,5 triệu KRW (lần 2), và lên đến 3 triệu KRW (lần 3 trở lên) — quy định này áp dụng như nhau đối với thuyền viên nước ngoài. Theo KOMSA, khoảng 81% những người tử vong hoặc mất tích trên biển trong 5 năm qua đã không mặc áo phao; Lực lượng Bảo vệ Bờ biển ước tính tỷ lệ sống sót tăng lên khoảng 78% khi mặc áo phao. Trong nước lạnh, bạn chỉ có khoảng 1 phút bị sốc lạnh, 10 phút còn có thể cử động hữu ích, và 1 giờ trước khi mất ý thức (nguyên tắc 1-10-1) — việc mặc áo phao sau khi đã rơi xuống nước là đã quá muộn. Hãy cài khóa chắc chắn và siết chặt sát vào cơ thể."
+          },
+          {
+            "heading": "Ứng Phó Với Thời Tiết Xấu",
+            "body": "Cảnh báo gió-sóng (풍랑주의보) được ban hành khi tốc độ gió trung bình vượt quá 14 m/s trong 3 giờ trở lên hoặc dự báo sóng cao trên 3 m. Các tàu cá nhỏ bị cấm xuất bến khi có cảnh báo, và vi phạm có thể dẫn đến việc đình chỉ hoặc thu hồi giấy phép đánh bắt. Hãy kiểm tra thời tiết biển trước mỗi lần xuất bến, tuân theo quyết định của thuyền trưởng và Lực lượng Bảo vệ Bờ biển, và nếu cảnh báo xảy ra khi bạn đang ở trên biển: hãy mặc áo phao, cố định các thiết bị rời, giảm tốc độ, và giữ mũi tàu hướng vào sóng."
+          },
+          {
+            "heading": "Phòng Cháy và Ứng Phó Hỏa Hoạn",
+            "body": "Cháy phòng máy (do nhiên liệu hoặc dầu bôi trơn tiếp xúc với bề mặt nóng) và cháy nhà bếp chiếm phần lớn các vụ hỏa hoạn trên tàu. Hãy kiểm tra đường ống thường xuyên, sửa chữa rò rỉ ngay lập tức, và không bao giờ để quá tải mạch điện. Nếu xảy ra cháy, hãy báo động và thông báo cho thuyền trưởng trước tiên. Không bao giờ dùng nước để dập cháy bếp hoặc cháy dầu — hãy dập tắt bằng cách cách ly oxy hoặc sử dụng bình chữa cháy phù hợp."
+          },
+          {
+            "heading": "Phòng Ngừa Té Ngã và Tai Nạn Rơi Xuống Biển",
+            "body": "Số liệu thống kê của Lực lượng Bảo vệ Bờ biển cho thấy hơn 80% số ca tử vong và mất tích trong các vụ tai nạn tàu thuyền xảy ra trên tàu cá, và té ngã mang rủi ro tử vong cao nhất vì việc cứu hộ rất khó khăn. Hãy giữ boong tàu sạch dầu mỡ và nhớt cá, mang giày chống trượt và đội mũ bảo hộ, kiểm tra dây thừng và cáp xem có bị mòn trước khi xuất bến, và không bao giờ đứng trong đường bật lại của tời kéo lưới hoặc tời."
+          },
+          {
+            "heading": "Cách Báo Cáo Tai Nạn",
+            "body": "Gọi 122 (Lực lượng Bảo vệ Bờ biển Hàn Quốc) cho các trường hợp khẩn cấp trên biển; số 119 cũng tiếp nhận báo cáo tai nạn hàng hải và chia sẻ thông tin với tất cả các cơ quan liên quan trong thời gian thực. Khi báo cáo, hãy nêu rõ: sự việc đã xảy ra như thế nào, vị trí của bạn, tên tàu, số người trên tàu, và số điện thoại liên lạc lại."
+          },
+          {
+            "heading": "Huấn Luyện An Toàn",
+            "body": "Theo Điều 25 của Luật An toàn Tàu cá, thuyền viên nước ngoài được quy định rõ ràng phải tham gia huấn luyện an toàn bắt buộc hàng năm cùng với chủ tàu, thuyền trưởng, và máy trưởng. Chương trình huấn luyện bao gồm các bài học hàng hải dựa trên tình huống tai nạn thực tế, cách sử dụng thiết bị cứu sinh, và thực hành sử dụng bình chữa cháy, hô hấp nhân tạo (CPR), và áo phao."
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "Lực lượng Bảo vệ Bờ biển Hàn Quốc (Tiếng Anh)",
+            "url": "https://www.kcg.go.kr/kcg/main.do"
+          },
+          {
+            "label": "Korea.net — Quy định bắt buộc mặc áo phao đối với tất cả tàu cá",
+            "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148967364"
+          },
+          {
+            "label": "Cổng Báo Cáo An Toàn",
+            "url": "https://www.safetyreport.go.kr"
+          }
+        ]
+      },
+      "living-in-korea": {
+        "icon": "🏠",
+        "navTitle": "Sinh Sống Tại Hàn Quốc",
+        "navDescription": "Chăm sóc y tế, ngân hàng, điện thoại, giấy tờ",
+        "title": "Sinh Sống Tại Hàn Quốc",
+        "summary": "Từ bảo hiểm y tế đến tài khoản ngân hàng và điện thoại di động — hãy tìm hiểu các bước thực tế cho cuộc sống tại Hàn Quốc trước khi bạn cần đến chúng!",
+        "sections": [
+          {
+            "heading": "Bảo Hiểm Y Tế (NHIS)",
+            "body": "Người nước ngoài đi làm sẽ được đăng ký Bảo hiểm Y tế Quốc gia ngay từ ngày đầu tiên thông qua người sử dụng lao động. Dịch vụ tư vấn có sẵn qua số 1577-1000 (tiếng Hàn) hoặc 033-811-2000 (tiếng Anh, tiếng Trung, tiếng Nhật, tiếng Việt). Việc chưa đóng phí bảo hiểm có thể khiến bạn không được gia hạn visa."
+          },
+          {
+            "heading": "Mở Tài Khoản Ngân Hàng",
+            "body": "Bạn cần ba thứ: Thẻ Đăng ký Người nước ngoài (ARC), hộ chiếu gốc, và số điện thoại di động Hàn Quốc để xác thực OTP. Hãy mang theo cả hợp đồng lao động của bạn. Trước khi ARC của bạn được cấp, một số ngân hàng sẽ mở tài khoản với chức năng hạn chế chỉ cần hộ chiếu. Các ngân hàng thân thiện với người nước ngoài: KEB Hana, Shinhan, Woori, và IBK. Việc mở tài khoản mất khoảng 30–60 phút; thẻ của bạn sẽ được gửi qua bưu điện trong 1–2 tuần."
+          },
+          {
+            "heading": "Đăng Ký Điện Thoại Di Động",
+            "body": "SIM trả trước có thể mua chỉ cần hộ chiếu. Hợp đồng trả sau yêu cầu ARC cùng với tài khoản ngân hàng Hàn Quốc để trừ tiền tự động. Cách khuyến nghị: sử dụng SIM trả trước khi mới đến, sau đó chuyển sang gói trả sau của nhà mạng ảo (MVNO, 알뜰폰) rẻ hơn khi ARC của bạn đã có, vẫn giữ nguyên số điện thoại."
+          },
+          {
+            "heading": "Giấy Tờ Cần Thiết",
+            "body": "Thẻ Đăng ký Người nước ngoài là bắt buộc đối với thời gian lưu trú trên 90 ngày — hãy đăng ký tại văn phòng xuất nhập cảnh địa phương trong vòng 90 ngày kể từ khi đến. Thuyền viên cũng cần mang theo Sổ Thuyền viên và Giấy tờ Tùy thân Thuyền viên (theo Công ước ILO C185). Hãy giữ bản sao của tất cả giấy tờ."
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "NHIS — Bảo hiểm Y tế cho Người nước ngoài (Tiếng Anh)",
+            "url": "https://www.nhis.or.kr/english/index.do"
+          },
+          {
+            "label": "HiKorea — Đăng ký Người nước ngoài (Tiếng Anh)",
+            "url": "https://www.hikorea.go.kr/Main.pt?locale=en"
+          }
+        ]
+      },
+      "first-time-korea": {
+        "icon": "🛬",
+        "navTitle": "Lần Đầu Đến Hàn Quốc",
+        "navDescription": "Xuất nhập cảnh, tiền tệ, thẻ giao thông, phép tắc cơ bản",
+        "title": "Lần Đầu Đến Hàn Quốc",
+        "summary": "Từ visa, tiền bạc đến phép tắc hàng ngày — hãy tự tin bắt đầu những bước chân đầu tiên tại Hàn Quốc!",
+        "sections": [
+          {
+            "heading": "Visa",
+            "body": "Visa lao động chính dành cho thuyền viên là E-10, có hiệu lực tối đa 3 năm và có thể gia hạn lên đến 4 năm 10 tháng khi được tái tuyển dụng. Hãy xác nhận chính xác tình trạng visa của bạn với Cục Xuất nhập cảnh qua số 1345 (20 ngôn ngữ; gọi +82-2-1345 từ nước ngoài)."
+          },
+          {
+            "heading": "Tiền Tệ và Tài Chính",
+            "body": "Hàn Quốc sử dụng đồng won (KRW/₩). Các máy ATM có ghi \"Global\" chấp nhận thẻ nước ngoài. Thẻ được chấp nhận ở hầu hết mọi nơi, nhưng hãy mang theo một ít tiền mặt cho các cửa hàng nhỏ và chợ truyền thống."
+          },
+          {
+            "heading": "Mua Thẻ Giao Thông (T-money) — Từng Bước",
+            "body": "Thẻ T-money là cách đơn giản nhất để sử dụng xe buýt và tàu điện ngầm trên toàn quốc.",
+            "subsections": [
+              {
+                "label": "Mua ở đâu",
+                "text": "Bất kỳ cửa hàng tiện lợi nào — CU, GS25, 7-Eleven, Emart24 — hãy tìm nhãn dán T-money trên cửa. Cũng có sẵn tại máy bán vé ở ga tàu điện ngầm và các cửa hàng tiện lợi ở sân bay."
+              },
+              {
+                "label": "Cách mua",
+                "text": "Hãy nói \"Cho tôi một thẻ T-money\" (티머니 카드 주세요 — Tee-money kadeu ju-se-yo). Không cần giấy tờ tùy thân hay đăng ký."
+              },
+              {
+                "label": "Chi phí",
+                "text": "Bản thân chiếc thẻ có giá khoảng 2.500–4.000 KRW (các phiên bản có hình nhân vật/thiết kế đặc biệt có giá cao hơn). Đây là phí một lần cho thẻ và không được hoàn lại dưới dạng tiền nạp giao thông."
+              },
+              {
+                "label": "Cách nạp tiền",
+                "text": "Hãy nói \"Chungjeon haejuseyo\" (충전해주세요 — Choong-jeon hae-ju-se-yo = \"Vui lòng nạp tiền\") và đưa tiền mặt. Hầu hết các cửa hàng tiện lợi chỉ nhận tiền mặt. Số tiền nạp phổ biến là từ 10.000–50.000 KRW."
+              },
+              {
+                "label": "Cách sử dụng",
+                "text": "Chạm thẻ vào máy đọc khi lên xe và chạm lại lần nữa khi xuống xe buýt — việc chạm khi xuống giúp bạn được chuyển tuyến miễn phí giữa xe buýt và tàu điện ngầm trong vòng 30 phút. Giá vé cơ bản khoảng 1.500 KRW và rẻ hơn một chút so với trả bằng tiền mặt."
+              },
+              {
+                "label": "Cũng hữu ích",
+                "text": "Cùng một chiếc thẻ này có thể sử dụng tại các cửa hàng tiện lợi, một số taxi, và máy bán hàng tự động. Thẻ T-money vật lý là đơn giản nhất — không cần ARC."
+              }
+            ]
+          },
+          {
+            "heading": "Phép Tắc Cơ Bản — Nên Làm Gì và Nên Tránh Gì",
+            "body": "",
+            "lists": [
+              {
+                "label": "Nên làm",
+                "items": [
+                  "Sử dụng cả hai tay khi đưa hoặc nhận bất cứ thứ gì từ người lớn tuổi hơn hoặc cấp trên — tiền, giấy tờ, đồ uống.",
+                  "Cúi đầu nhẹ khi chào hỏi; trong bối cảnh thân mật, gật đầu là đủ.",
+                  "Cởi giày khi vào nhà hoặc nhà hàng truyền thống có chỗ ngồi trên sàn.",
+                  "Đợi người lớn tuổi nhất bắt đầu ăn trước khi bạn bắt đầu.",
+                  "Khi rót hoặc nhận đồ uống từ người lớn tuổi hơn, hãy cầm ly hoặc chai bằng hai tay và hơi quay đầu sang một bên khi uống."
+                ]
+              },
+              {
+                "label": "Nên tránh — những điều người Hàn Quốc thực sự không thích",
+                "items": [
+                  "Nói chuyện to tiếng ở nơi công cộng, đặc biệt là trên tàu điện ngầm, xe buýt, và tàu hỏa. Phương tiện giao thông công cộng ở Hàn Quốc thường rất yên tĩnh — gọi điện thoại được coi là bất lịch sự. Hãy nhắn tin thay vì gọi điện.",
+                  "Phát nhạc hoặc video mà không đeo tai nghe ở nơi công cộng.",
+                  "Xì mũi tại bàn ăn — hãy ra nhà vệ sinh.",
+                  "Cắm đũa thẳng đứng vào bát cơm — hành động này giống với nghi thức tang lễ.",
+                  "Từ chối đồ uống hoặc thức ăn một cách thẳng thừng — hãy từ chối một cách lịch sự (\"괜찮습니다\" — Gwaen-chan-seum-ni-da) thay vì nói không một cách cộc lốc.",
+                  "Chen ngang hàng hoặc chen lên phương tiện giao thông công cộng trước khi người khác xuống hết.",
+                  "Xả rác hoặc hút thuốc ngoài khu vực quy định — nhiều khu vực công cộng sẽ bị phạt tiền.",
+                  "Ngạc nhiên khi bị hỏi tuổi — điều này rất phổ biến ở Hàn Quốc và không hề bất lịch sự; nó quyết định cách mọi người xưng hô với nhau.",
+                  "Đến trễ. Tính đúng giờ được coi trọng cả trong công việc lẫn trong giao tiếp xã hội.",
+                  "Nói chuyện điện thoại to tiếng trong nhà hàng hoặc nói năng gay gắt với nhân viên phục vụ."
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "HiKorea — Thông tin Visa (Tiếng Anh)",
+            "url": "https://www.hikorea.go.kr/Main.pt?locale=en"
+          },
+          {
+            "label": "T-money Chính thức (Tiếng Anh)",
+            "url": "https://www.t-money.co.kr"
+          },
+          {
+            "label": "Visit Korea — Thẻ Giao thông (Tiếng Anh)",
+            "url": "https://english.visitkorea.or.kr"
+          }
+        ]
+      },
+      "know-korea": {
+        "icon": "🇰🇷",
+        "navTitle": "Tìm Hiểu Về Hàn Quốc",
+        "navDescription": "Văn hóa, ẩm thực, gọi món, các mùa",
+        "title": "Tìm Hiểu Về Hàn Quốc",
+        "summary": "Khám phá ẩm thực, văn hóa, và các mùa của Hàn Quốc — hiểu biết về đất nước này sẽ giúp cuộc sống trên biển và trên bờ dễ dàng hơn nhiều!",
+        "sections": [
+          {
+            "heading": "Văn Hóa Hàn Quốc — Cách Suy Nghĩ Của Người Dân",
+            "body": "Hàn Quốc coi trọng jeong (정) — một cảm giác gắn bó sâu sắc và sự quan tâm lẫn nhau, thậm chí mở rộng đến cả người lạ. Nếu bạn gặp khó khăn, người dân thường sẽ giúp đỡ mà không cần bạn yêu cầu. Tuổi tác và thứ bậc định hình cách nói chuyện và hành xử, vì vậy lời nói lịch sự được sử dụng với người lạ, người lớn tuổi, và nhân viên phục vụ. Nunchi (눈치) — khả năng đọc hiểu bầu không khí xung quanh — được đánh giá rất cao; việc quan sát người khác đang làm gì trước khi hành động được xem là chu đáo, chứ không phải thụ động. Sự hài hòa nhóm quan trọng hơn sự thể hiện cá nhân ở hầu hết các nơi làm việc. Các bữa ăn và tiệc rượu sau giờ làm là một phần cốt lõi của việc gắn kết nhóm, mặc dù việc từ chối rượu bia ngày càng được chấp nhận nhiều hơn. Chức danh được sử dụng thay vì tên riêng (선장님 = Seon-jang-nim = Thuyền trưởng); việc thêm \"-nim\" (님) thể hiện sự tôn trọng."
+          },
+          {
+            "heading": "Món Ăn Nổi Tiếng Theo Thành Phố",
+            "body": "",
+            "table": {
+              "columns": [
+                "Thành phố",
+                "Món Đặc Trưng",
+                "Món Ăn Này Là Gì"
+              ],
+              "rows": [
+                [
+                  "Busan",
+                  "돼지국밥 (Dwaeji-gukbap)",
+                  "Súp cơm nước hầm thịt heo — món ăn đặc trưng của Busan, rẻ và no bụng"
+                ],
+                [
+                  "Busan",
+                  "밀면 (Milmyeon)",
+                  "Mì lúa mì lạnh, món ăn nguyên bản của Busan"
+                ],
+                [
+                  "Incheon",
+                  "짜장면 (Jjajangmyeon)",
+                  "Mì tương đen — ra đời tại khu phố Tàu Incheon"
+                ],
+                [
+                  "Jeonju",
+                  "비빔밥 (Bibimbap)",
+                  "Cơm trộn với rau củ và tương ớt gochujang"
+                ],
+                [
+                  "Pohang",
+                  "과메기 (Gwamegi)",
+                  "Cá thu đao phơi nửa khô, món ngon mùa đông"
+                ],
+                [
+                  "Pohang",
+                  "물회 (Mulhoe)",
+                  "Cá sống trong nước dùng lạnh, chua nhẹ — món đặc sản mát lạnh được yêu thích, nhất là vào mùa hè"
+                ],
+                [
+                  "Yeosu",
+                  "갓김치 (Gat-kimchi)",
+                  "Kim chi lá cải mù tạt, cay và nồng"
+                ],
+                [
+                  "Gwangyang",
+                  "불고기 (Bulgogi)",
+                  "Thịt bò ướp nướng, kiểu Gwangyang"
+                ],
+                [
+                  "Mokpo",
+                  "세발낙지 (Sebal-nakji)",
+                  "Bạch tuộc nhỏ, ăn tươi sống"
+                ],
+                [
+                  "Chuncheon",
+                  "닭갈비 (Dakgalbi)",
+                  "Gà xào cay"
+                ]
+              ]
+            }
+          },
+          {
+            "heading": "Cách Gọi Món — Các Câu Nói Thực Tế",
+            "body": "",
+            "lists": [
+              {
+                "label": "",
+                "items": [
+                  "Gọi sự chú ý: \"여기요!\" (Yeo-gi-yo!) hoặc \"저기요!\" (Jeo-gi-yo!) — việc gọi to như vậy là bình thường và không hề bất lịch sự trong các nhà hàng Hàn Quốc.",
+                  "Gọi món: Chỉ vào thực đơn và nói \"이거 주세요\" (I-geo ju-se-yo) = \"Cho tôi món này.\"",
+                  "Số lượng: \"하나 주세요\" (Ha-na ju-se-yo) = một, \"둘 주세요\" (Dul ju-se-yo) = hai.",
+                  "Không cay: \"안 맵게 해주세요\" (An maep-ge hae-ju-se-yo).",
+                  "Không thịt heo / không thịt bò: \"돼지고기 빼주세요\" (Dwaeji-gogi ppae-ju-se-yo) / \"소고기 빼주세요\" (So-gogi ppae-ju-se-yo). Có các lựa chọn halal gần Busan và khu Itaewon của Seoul.",
+                  "Nước và món ăn kèm: Nước lọc (물 — mul) và món ăn kèm (반찬 — ban-chan) luôn miễn phí và có thể được tiếp thêm. Hãy nói \"리필 주세요\" (Ri-pil ju-se-yo) để xin thêm.",
+                  "Thanh toán: Thanh toán tại quầy khi ra về, không thanh toán tại bàn. \"계산해주세요\" (Gye-san-hae-ju-se-yo).",
+                  "Không cần tiền tip. Việc cho tiền tip không phổ biến ở Hàn Quốc và có thể khiến nhân viên bối rối."
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Các Mùa và Thời Tiết",
+            "body": "",
+            "lists": [
+              {
+                "label": "",
+                "items": [
+                  "Mùa xuân (tháng 3–5) — Ôn hòa và dễ chịu, hoa anh đào nở vào cuối tháng 3–tháng 4. Hãy chú ý đến bụi mịn (미세먼지) và bụi vàng; kiểm tra các ứng dụng chất lượng không khí và đeo khẩu trang vào những ngày ô nhiễm nặng. Nhiệt độ thay đổi lớn giữa buổi sáng và buổi chiều — hãy mặc nhiều lớp áo.",
+                  "Mùa giao thời (환절기, cuối tháng 3 và cuối tháng 10) — Thời điểm dễ bị cảm lạnh nhất. Chênh lệch nhiệt độ ngày-đêm có thể vượt quá 10°C. Hãy luôn mang theo áo khoác kể cả vào những buổi chiều ấm áp.",
+                  "Mùa hè (tháng 6–8) — Nóng và rất ẩm, thường trên 30°C với độ ẩm trên 80%. Mùa mưa (장마) kéo dài khoảng từ cuối tháng 6 đến cuối tháng 7, và mùa bão đạt đỉnh vào tháng 8–9. Đây là thời điểm các cảnh báo thời tiết biển và hạn chế xuất bến xảy ra thường xuyên nhất. Kiệt sức do nóng là rủi ro thực sự trên boong tàu — hãy uống nước liên tục và nghỉ ngơi trong bóng râm.",
+                  "Mùa thu (tháng 9–11) — Trời quang, khô ráo, và dễ chịu; được coi là mùa đẹp nhất trong năm. Điều kiện biển nhìn chung êm hơn, mặc dù vẫn có thể xảy ra bão muộn.",
+                  "Mùa đông (tháng 12–2) — Lạnh và khô, thường xuống dưới mức đóng băng, với gió tây bắc mạnh. Các cảnh báo gió-sóng thường xuyên hạn chế tàu nhỏ rời cảng, và rủi ro ngâm mình trong nước lạnh đạt mức cao nhất — nhiệt độ nước biển có thể giảm đủ thấp để gây mất khả năng vận động chỉ trong vài phút. Hãy mặc lớp giữ nhiệt bên trong trang phục làm việc."
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "Thời tiết Biển KMA (Tiếng Anh)",
+            "url": "https://www.weather.go.kr/w/index.do"
+          },
+          {
+            "label": "AirKorea — Chất lượng Không khí (Tiếng Anh)",
+            "url": "https://www.airkorea.or.kr/eng"
+          },
+          {
+            "label": "Visit Korea — Hướng dẫn Ẩm thực Hàn Quốc (Tiếng Anh)",
+            "url": "https://english.visitkorea.or.kr"
+          }
+        ]
+      },
+      "port-city-guide": {
+        "icon": "🏙️",
+        "navTitle": "Hướng Dẫn Các Thành Phố Cảng",
+        "navDescription": "Câu lạc bộ thủy thủ, di chuyển vào thành phố, lên bờ",
+        "title": "Hướng Dẫn Các Thành Phố Cảng",
+        "summary": "Dịch vụ Câu lạc bộ Thủy thủ và di chuyển vào thành phố — tận dụng tối đa thời gian trên bờ của bạn, an toàn và dễ dàng!",
+        "sections": [
+          {
+            "heading": "Các Câu Lạc Bộ Thủy Thủ Tại Hàn Quốc",
+            "body": "Dịch vụ Câu lạc bộ Thủy thủ có sẵn tại các cảng lớn của Hàn Quốc, bao gồm Busan, Incheon, và Pohang. Các trung tâm này cung cấp khu vực nghỉ ngơi, phòng tắm, truy cập internet và điện thoại, cửa hàng, đổi ngoại tệ, tư vấn, và cơ sở tôn giáo — một nơi để thư giãn tránh xa con tàu.\n\nHãy hỏi đại lý địa phương của công ty vận tải bạn về cách đến Câu lạc bộ Thủy thủ và các phương tiện di chuyển hiện có. Đại lý có thể sắp xếp xe đưa đón hoặc tư vấn về taxi, và biết giờ mở cửa hiện tại. Đây là cách đáng tin cậy nhất để đến đó, vì quy định ra vào bến cảng và thủ tục cổng khác nhau tùy theo cảng và cầu cảng.",
+            "lists": [
+              {
+                "label": "Các trung tâm chính",
+                "items": [
+                  "Trung tâm Thuyền viên Cảng mới Busan — 354 Sinhangman-ro, Gangseo-gu, Busan. Điện thoại +82 51 974 0774 / di động +82 10 9171 2333. Mở cửa Thứ Hai–Thứ Sáu 09:00–22:00, Thứ Bảy–Chủ Nhật 10:00–19:00.",
+                  "Hội Truyền giáo cho Thuyền viên Busan (Mission to Seafarers Busan) — 294 Sinseon-ro, Nam-gu, Busan 48562. Mở cửa hàng ngày 12:00–20:00.",
+                  "Dịch vụ Thủy thủ Hoa Kỳ Busan (United Seamen's Service Busan) — Câu lạc bộ Thủy thủ, 99 Gamman 1-dong, Busan 48480 (hoạt động tại Busan từ năm 1954)."
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Di Chuyển Từ Cảng Vào Thành Phố",
+            "body": "Cách di chuyển khác nhau rất nhiều tùy theo cảng. Hầu hết các cảng của Hàn Quốc nằm trong khu công nghiệp cách trung tâm thành phố một khoảng, vì vậy taxi thường là lựa chọn nhanh nhất và đơn giản nhất. Hãy viết sẵn địa điểm đến bằng tiếng Hàn, hoặc hiển thị trên điện thoại của bạn. Luôn xác nhận lộ trình chính xác với đại lý của tàu trước khi lên bờ.",
+            "table": {
+              "columns": [
+                "Cảng",
+                "Trung tâm / quận gần nhất",
+                "Cách di chuyển thông thường"
+              ],
+              "rows": [
+                [
+                  "Busan (North Port)",
+                  "Nampo-dong, Jungang-dong",
+                  "Tàu điện ngầm Tuyến 1 (ga Jungang hoặc Nampo), đi bộ ngắn hoặc taxi từ bến cảng"
+                ],
+                [
+                  "Busan (New Port)",
+                  "Hadan / Jinhae",
+                  "Taxi hoặc xe đưa đón của đại lý — bến cảng cách xa thành phố; phương tiện công cộng hạn chế"
+                ],
+                [
+                  "Incheon",
+                  "Sinpo, Dong-Incheon, khu phố Tàu",
+                  "Tàu điện ngầm Tuyến 1 (ga Incheon hoặc Dong-Incheon); taxi từ cầu cảng đến ga"
+                ],
+                [
+                  "Pyeongtaek",
+                  "Anjung, trung tâm thành phố Pyeongtaek",
+                  "Xe buýt địa phương hoặc taxi đến ga Pyeongtaek (Tuyến 1)"
+                ],
+                [
+                  "Dangjin",
+                  "Songak, trung tâm thành phố Dangjin",
+                  "Taxi — cảng không có kết nối đường sắt; dịch vụ xe buýt địa phương không thường xuyên"
+                ],
+                [
+                  "Gwangyang",
+                  "Trung tâm thành phố Gwangyang / Suncheon",
+                  "Taxi vào thành phố; bến xe buýt liên tỉnh để di chuyển tiếp"
+                ],
+                [
+                  "Yeosu",
+                  "Trung tâm thành phố Yeosu, Idong",
+                  "Taxi; ga Yeosu-Expo (KTX) để di chuyển tiếp"
+                ],
+                [
+                  "Masan",
+                  "Masan Hapseong-dong, Changwon",
+                  "Xe buýt địa phương hoặc taxi đến trung tâm thành phố Masan"
+                ],
+                [
+                  "Pohang",
+                  "Trung tâm thành phố Pohang, Yeongildae",
+                  "Taxi từ Cảng cũ/mới Pohang; ga Pohang (KTX) để di chuyển tiếp"
+                ],
+                [
+                  "Donghae",
+                  "Trung tâm thành phố Donghae",
+                  "Taxi; ga Donghae gần đó"
+                ],
+                [
+                  "Mukho",
+                  "Khu vực cảng Mukho, Donghae",
+                  "Đi taxi quãng ngắn — thị trấn Mukho gần cảng"
+                ],
+                [
+                  "Samcheok",
+                  "Trung tâm thành phố Samcheok",
+                  "Taxi từ Cảng Samcheok; có xe buýt địa phương"
+                ],
+                [
+                  "Gunsan",
+                  "Trung tâm thành phố Gunsan",
+                  "Taxi hoặc xe buýt địa phương; ga Gunsan để di chuyển tiếp"
+                ]
+              ]
+            },
+            "note": "Số hiệu và lịch trình xe buýt thay đổi thường xuyên, vì vậy bảng này chỉ cung cấp điểm đến và phương thức di chuyển. Hãy xác nhận tuyến đường và giá vé hiện tại với đại lý của tàu hoặc nhân viên Câu lạc bộ Thủy thủ trước khi rời cảng.",
+            "id": "port-transport-table"
+          },
+          {
+            "heading": "Lên Bờ An Toàn",
+            "body": "Hàn Quốc có tỷ lệ tội phạm bạo lực rất thấp và móc túi hiếm khi xảy ra. Hãy luôn mang theo ARC hoặc bản sao hộ chiếu, tuân thủ tín hiệu giao thông, và ghi nhớ giờ tàu quay trở lại cũng như số điện thoại của đại lý trước khi bạn rời đi."
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "ITF Seafarers — Tìm Trung tâm Phúc lợi",
+            "url": "https://www.itfseafarers.org/en/directories/seafarers-welfare-centre-index"
+          },
+          {
+            "label": "ISWAN — Các Trung tâm Thuyền viên tại Hàn Quốc",
+            "url": "https://www.iswan.org.uk/centres/"
+          },
+          {
+            "label": "United Seamen's Service",
+            "url": "https://unitedseamensservice.org/uss-centers/"
+          }
+        ]
+      },
+      "worker-rights": {
+        "icon": "📜",
+        "navTitle": "Quyền Lợi Của Bạn Với Tư Cách Thuyền Viên",
+        "navDescription": "Giờ làm việc, hợp đồng, khiếu nại, tư vấn",
+        "title": "Quyền Lợi Của Bạn Với Tư Cách Thuyền Viên",
+        "summary": "Hãy nắm rõ giờ làm việc, hợp đồng lao động, và nơi tìm kiếm sự giúp đỡ — hiểu rõ quyền lợi của bạn và tự tin bảo vệ chúng!",
+        "sections": [
+          {
+            "heading": "Giờ Làm Việc và Nghỉ Ngơi",
+            "body": "Luật Thuyền viên của Hàn Quốc (Điều 60) quy định mức cơ bản là 8 giờ mỗi ngày và 40 giờ mỗi tuần. Theo Công ước Lao động Hàng hải MLC 2006, bạn có quyền được nghỉ ngơi ít nhất 10 giờ trong bất kỳ khoảng thời gian 24 giờ nào và 77 giờ trong bất kỳ khoảng thời gian 7 ngày nào. Thời gian nghỉ có thể được chia thành không quá hai giai đoạn, trong đó một giai đoạn phải kéo dài ít nhất 6 giờ. Hồ sơ về giờ làm việc và giờ nghỉ ngơi của bạn phải được lưu giữ."
+          },
+          {
+            "heading": "Hợp Đồng và Giấy Tờ Tùy Thân",
+            "body": "Pháp luật yêu cầu phải có hợp đồng lao động thuyền viên bằng văn bản. Bạn cũng nên có Sổ Thuyền viên (선원수첩) ghi lại quá trình làm việc và trình độ chuyên môn của bạn, và Giấy tờ Tùy thân Thuyền viên theo Công ước ILO số 185. Hãy giữ bản sao hợp đồng của riêng bạn — không bao giờ giao nộp bản duy nhất bạn có."
+          },
+          {
+            "heading": "Khiếu Nại và Tư Vấn",
+            "body": "Theo MLC 2006 (Quy định 5.1.5), mọi tàu đều phải có quy trình khiếu nại công bằng trên tàu, nhưng bạn cũng có thể khiếu nại trực tiếp đến các cơ quan bên ngoài — chủ tàu, quốc gia treo cờ, quốc gia cảng, hoặc quốc gia của bạn — và bạn có quyền được đi cùng người hỗ trợ và được bảo vệ khỏi hành vi trả đũa. Tại cảng, bạn có thể báo cáo vi phạm cho một nhân viên Kiểm soát Nhà nước Cảng biển (Port State Control), hoặc nhờ thanh tra viên ITF hay nhân viên phúc lợi nộp đơn thay bạn.",
+            "lists": [
+              {
+                "label": "Tại Hàn Quốc, hãy liên hệ",
+                "items": [
+                  "Thanh tra Lao động Thuyền viên tại Văn phòng Khu vực về Đại dương và Thủy sản gần nhất — họ xử lý các vấn đề tiền lương chưa thanh toán và vi phạm Luật Thuyền viên.",
+                  "Trung tâm Phúc lợi & Việc làm Thuyền viên Hàn Quốc (KOSWEC) — tư vấn khiếu nại và dịch vụ phúc lợi.",
+                  "Trung tâm Tư vấn Lao động Nước ngoài 1577-0071 — 16 ngôn ngữ, 365 ngày, 09:00–18:00.",
+                  "Bộ Việc làm và Lao động 1350 — tư vấn lao động.",
+                  "APIL (Advocates for Public Interest Law) — +82-2-3478-0529, tổ chức phi chính phủ pháp lý hàng đầu dành cho thuyền viên đánh cá di cư.",
+                  "Hỗ trợ Thuyền viên ITF — seafsupport@itf.org.uk, WhatsApp +44 7523 515097."
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "ITF Seafarers — Quyền Lợi Của Bạn Theo MLC",
+            "url": "https://www.itfseafarers.org/en/resources/your-rights-under-mlc"
+          },
+          {
+            "label": "ILO — Công ước Lao động Hàng hải 2006",
+            "url": "https://www.ilo.org/global/standards/maritime-labour-convention/lang--en/index.htm"
+          },
+          {
+            "label": "HUG Korea — Hỗ trợ Lao động Nước ngoài (đa ngôn ngữ)",
+            "url": "http://www.hugkorea.or.kr"
+          },
+          {
+            "label": "ISWAN — Hỗ trợ Thuyền viên (24/7, đa ngôn ngữ)",
+            "url": "https://www.seafarerhelp.org"
+          }
+        ]
+      },
+      "phrasebook": {
+        "icon": "💬",
+        "navTitle": "Tiếng Hàn Sinh Tồn",
+        "navDescription": "Các câu nói quan trọng trong trường hợp khẩn cấp",
+        "title": "Tiếng Hàn Sinh Tồn",
+        "summary": "Một câu nói có thể cứu một mạng người — hãy học ngay những cụm từ tiếng Hàn khẩn cấp này!",
+        "phraseGroups": [
+          {
+            "heading": "Kêu Cứu",
+            "phrases": [
+              {
+                "korean": "도와주세요!",
+                "pronunciation": "Do wa ju se yo!",
+                "meaning": "Cứu tôi với!"
+              },
+              {
+                "korean": "살려주세요!",
+                "pronunciation": "Sal lyo ju se yo!",
+                "meaning": "Cứu mạng tôi! (nguy hiểm đến tính mạng)"
+              },
+              {
+                "korean": "급해요!",
+                "pronunciation": "Geu pae yo!",
+                "meaning": "Khẩn cấp lắm!"
+              },
+              {
+                "korean": "응급상황이에요",
+                "pronunciation": "Eung geup sang hwang i e yo",
+                "meaning": "Đây là trường hợp khẩn cấp"
+              },
+              {
+                "korean": "119에 전화해주세요",
+                "pronunciation": "Il il gu e jeon hwa hae ju se yo",
+                "meaning": "Vui lòng gọi 119"
+              },
+              {
+                "korean": "경찰을 불러주세요",
+                "pronunciation": "Gyeong chal eul bul lo ju se yo",
+                "meaning": "Gọi cảnh sát"
+              },
+              {
+                "korean": "구급차를 불러주세요",
+                "pronunciation": "Gu geup cha reul bul lo ju se yo",
+                "meaning": "Gọi xe cứu thương"
+              }
+            ]
+          },
+          {
+            "heading": "Tình Huống Khẩn Cấp Trên Biển",
+            "phrases": [
+              {
+                "korean": "불이야!",
+                "pronunciation": "Bu ri ya!",
+                "meaning": "Cháy!"
+              },
+              {
+                "korean": "사람이 바다에 빠졌어요",
+                "pronunciation": "Sa ra mi ba da e ppa jyeo sseo yo",
+                "meaning": "Có người rơi xuống biển!"
+              },
+              {
+                "korean": "배가 침몰해요",
+                "pronunciation": "Bae ga chim mo rae yo",
+                "meaning": "Tàu đang chìm"
+              },
+              {
+                "korean": "배가 고장났어요",
+                "pronunciation": "Bae ga go jang na sseo yo",
+                "meaning": "Tàu đã bị hỏng"
+              },
+              {
+                "korean": "구명조끼 주세요",
+                "pronunciation": "Gu myeong jo kki ju se yo",
+                "meaning": "Đưa cho tôi áo phao"
+              },
+              {
+                "korean": "여기 위치는...",
+                "pronunciation": "Yeo gi wi chi neun...",
+                "meaning": "Vị trí của chúng tôi là..."
+              },
+              {
+                "korean": "배 이름은...",
+                "pronunciation": "Bae i reu meun...",
+                "meaning": "Tên tàu là..."
+              },
+              {
+                "korean": "사람 다섯 명 있어요",
+                "pronunciation": "Sa ram da seot myeong i sseo yo",
+                "meaning": "Có năm người"
+              }
+            ]
+          },
+          {
+            "heading": "Tình Huống Khẩn Cấp Y Tế",
+            "phrases": [
+              {
+                "korean": "다쳤어요",
+                "pronunciation": "Da chyeo sseo yo",
+                "meaning": "Tôi bị thương"
+              },
+              {
+                "korean": "여기 아파요",
+                "pronunciation": "Yeo gi a pa yo",
+                "meaning": "Đau ở đây (chỉ vào vị trí đau)"
+              },
+              {
+                "korean": "피가 나요",
+                "pronunciation": "Pi ga na yo",
+                "meaning": "Tôi đang chảy máu"
+              },
+              {
+                "korean": "숨을 못 쉬어요",
+                "pronunciation": "Su meul mot swi eo yo",
+                "meaning": "Tôi không thở được"
+              },
+              {
+                "korean": "의사가 필요해요",
+                "pronunciation": "Ui sa ga pi ryo hae yo",
+                "meaning": "Tôi cần bác sĩ"
+              },
+              {
+                "korean": "병원이 어디예요?",
+                "pronunciation": "Byeong wo ni eo di ye yo?",
+                "meaning": "Bệnh viện ở đâu?"
+              },
+              {
+                "korean": "약국이 어디예요?",
+                "pronunciation": "Yak gu gi eo di ye yo?",
+                "meaning": "Nhà thuốc ở đâu?"
+              },
+              {
+                "korean": "알레르기가 있어요",
+                "pronunciation": "Al le reu gi ga i sseo yo",
+                "meaning": "Tôi bị dị ứng"
+              },
+              {
+                "korean": "열이 나요",
+                "pronunciation": "Yeo ri na yo",
+                "meaning": "Tôi bị sốt"
+              },
+              {
+                "korean": "어지러워요",
+                "pronunciation": "Eo ji reo wo yo",
+                "meaning": "Tôi cảm thấy chóng mặt"
+              }
+            ]
+          },
+          {
+            "heading": "Vấn Đề Giao Tiếp",
+            "phrases": [
+              {
+                "korean": "한국어를 못해요",
+                "pronunciation": "Han gu geo reul mo tae yo",
+                "meaning": "Tôi không nói được tiếng Hàn"
+              },
+              {
+                "korean": "영어 할 수 있어요?",
+                "pronunciation": "Yeong eo hal su i sseo yo?",
+                "meaning": "Bạn có nói được tiếng Anh không?"
+              },
+              {
+                "korean": "통역이 필요해요",
+                "pronunciation": "Tong yeo gi pi ryo hae yo",
+                "meaning": "Tôi cần thông dịch viên"
+              },
+              {
+                "korean": "천천히 말해주세요",
+                "pronunciation": "Cheon cheo ni mal hae ju se yo",
+                "meaning": "Vui lòng nói chậm lại"
+              },
+              {
+                "korean": "다시 말해주세요",
+                "pronunciation": "Da si mal hae ju se yo",
+                "meaning": "Vui lòng nói lại"
+              },
+              {
+                "korean": "모르겠어요",
+                "pronunciation": "Mo reu ge sseo yo",
+                "meaning": "Tôi không hiểu"
+              },
+              {
+                "korean": "써주세요",
+                "pronunciation": "Sseo ju se yo",
+                "meaning": "Vui lòng viết ra"
+              }
+            ]
+          },
+          {
+            "heading": "Rắc Rối và Giấy Tờ",
+            "phrases": [
+              {
+                "korean": "여권을 잃어버렸어요",
+                "pronunciation": "Yeo gwo neul i reo beo ryeo sseo yo",
+                "meaning": "Tôi bị mất hộ chiếu"
+              },
+              {
+                "korean": "지갑을 도둑맞았어요",
+                "pronunciation": "Ji ga beul do dung ma ja sseo yo",
+                "meaning": "Ví của tôi bị đánh cắp"
+              },
+              {
+                "korean": "길을 잃었어요",
+                "pronunciation": "Gi reul i reo sseo yo",
+                "meaning": "Tôi bị lạc đường"
+              },
+              {
+                "korean": "대사관에 연락해주세요",
+                "pronunciation": "Dae sa gwa ne yeon la kae ju se yo",
+                "meaning": "Vui lòng liên hệ đại sứ quán của tôi"
+              },
+              {
+                "korean": "회사에 연락해주세요",
+                "pronunciation": "Hoe sa e yeon la kae ju se yo",
+                "meaning": "Vui lòng liên hệ công ty của tôi"
+              },
+              {
+                "korean": "월급을 못 받았어요",
+                "pronunciation": "Wol geu beul mot ba da sseo yo",
+                "meaning": "Tôi chưa được trả lương"
+              },
+              {
+                "korean": "도움이 필요해요",
+                "pronunciation": "Do u mi pi ryo hae yo",
+                "meaning": "Tôi cần giúp đỡ"
+              }
+            ]
+          },
+          {
+            "heading": "Số Điện Thoại Khẩn Cấp — Cách Đọc",
+            "phrases": [
+              {
+                "korean": "119",
+                "pronunciation": "Il il gu",
+                "meaning": "Cứu hỏa / cứu thương"
+              },
+              {
+                "korean": "112",
+                "pronunciation": "Il il i",
+                "meaning": "Cảnh sát"
+              },
+              {
+                "korean": "122",
+                "pronunciation": "Il i i",
+                "meaning": "Lực lượng Bảo vệ Bờ biển"
+              }
+            ]
+          }
+        ],
+        "tip": "Khi bạn gọi 119 hoặc 112, hãy nói \"Tong yeo gi pi ryo hae yo\" (통역이 필요해요) và nhân viên trực tổng đài có thể kết nối bạn với thông dịch viên. Bạn cũng có thể gọi BBB Korea theo số 1588-5644 để được thông dịch miễn phí 24 giờ bằng 20 ngôn ngữ.",
+        "referenceLinks": [
+          {
+            "label": "BBB Korea — Dịch vụ Thông dịch Miễn phí (Tiếng Anh)",
+            "url": "https://www.bbbkorea.org/eng/main/main.php"
+          },
+          {
+            "label": "Danuri — Hỗ trợ Đa ngôn ngữ",
+            "url": "https://www.liveinkorea.kr/web/index.do"
+          }
+        ]
+      },
+      "emergency": {
+        "icon": "🆘",
+        "navTitle": "Liên Hệ Khẩn Cấp",
+        "navDescription": "112 / 119 / 122 / 1345 và các đường dây hỗ trợ đa ngôn ngữ",
+        "title": "Liên Hệ Khẩn Cấp",
+        "summary": "Bất cứ khi nào và bất cứ nơi đâu bạn cần giúp đỡ — hãy lưu ngay những số điện thoại khẩn cấp này!",
+        "contacts": [
+          {
+            "number": "119",
+            "service": "Cứu hỏa, cứu thương, cứu hộ (cũng tiếp nhận tai nạn hàng hải)",
+            "languages": "Có hỗ trợ thông dịch"
+          },
+          {
+            "number": "112",
+            "service": "Cảnh sát",
+            "languages": "Có hỗ trợ thông dịch"
+          },
+          {
+            "number": "122",
+            "service": "Lực lượng Bảo vệ Bờ biển Hàn Quốc — tình huống khẩn cấp trên biển",
+            "languages": "Tiếng Hàn/Tiếng Anh"
+          },
+          {
+            "number": "1345",
+            "service": "Trung tâm Liên hệ Xuất nhập cảnh",
+            "languages": "20 ngôn ngữ"
+          },
+          {
+            "number": "1350",
+            "service": "Bộ Việc làm & Lao động — tư vấn lao động",
+            "languages": "Tiếng Hàn + thông dịch"
+          },
+          {
+            "number": "1577-0071",
+            "service": "Trung tâm Tư vấn Lao động Nước ngoài",
+            "languages": "16 ngôn ngữ"
+          },
+          {
+            "number": "1588-5644",
+            "service": "BBB Korea — thông dịch điện thoại miễn phí",
+            "languages": "20 ngôn ngữ, 24/7"
+          },
+          {
+            "number": "1577-1366",
+            "service": "Tổng đài Danuri — người di cư & gia đình",
+            "languages": "13 ngôn ngữ, 24/7"
+          },
+          {
+            "number": "1339",
+            "service": "Thông tin y tế khẩn cấp",
+            "languages": "Tiếng Hàn"
+          },
+          {
+            "number": "1330",
+            "service": "Đường dây nóng Du lịch Hàn Quốc",
+            "languages": "Đa ngôn ngữ"
+          },
+          {
+            "number": "033-811-2000",
+            "service": "Bảo hiểm Y tế Quốc gia — đường dây dành cho người nước ngoài",
+            "languages": "Tiếng Anh, Tiếng Trung, Tiếng Nhật, Tiếng Việt"
+          },
+          {
+            "number": "+44 7523 515097",
+            "service": "Hỗ trợ Thuyền viên ITF (WhatsApp/SMS)",
+            "languages": "Đa ngôn ngữ"
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "Lực lượng Bảo vệ Bờ biển Hàn Quốc (Tiếng Anh)",
+            "url": "https://www.kcg.go.kr/kcg/main.do"
+          },
+          {
+            "label": "HUG Korea — Tư vấn Lao động Nước ngoài (đa ngôn ngữ)",
+            "url": "http://www.hugkorea.or.kr"
+          },
+          {
+            "label": "BBB Korea — Dịch vụ Thông dịch (Tiếng Anh)",
+            "url": "https://www.bbbkorea.org/eng/main/main.php"
+          },
+          {
+            "label": "SeafarerHelp — Đường dây hỗ trợ miễn phí 24/7 dành cho thuyền viên",
+            "url": "https://www.seafarerhelp.org"
+          }
+        ]
+      }
+    }
+  },
+  "id": {
+    "home": {
+      "title": "Panduan Keselamatan & Kehidupan untuk Pelaut Asing",
+      "subtitle": "Semua yang Anda butuhkan untuk kehidupan yang aman dan percaya diri di laut dan di darat di Korea.",
+      "prompt": "Pilih yang Anda butuhkan di bawah ini",
+      "disclaimer": "Situs web ini hanya untuk tujuan informasi.",
+      "aiLinkLabel": "Tanya AI untuk hal lainnya"
+    },
+    "pages": {
+      "safety-at-sea": {
+        "icon": "🦺",
+        "navTitle": "Menjaga Keselamatan di Laut",
+        "navDescription": "Jaket pelampung, cuaca buruk, kebakaran, melaporkan kecelakaan",
+        "title": "Menjaga Keselamatan di Laut",
+        "summary": "Ingat aturan keselamatan penting yang melindungi nyawa Anda di laut — mulai dari peringatan cuaca hingga kebakaran, terjatuh, dan cara melaporkan kecelakaan!",
+        "sections": [
+          {
+            "heading": "Kenakan Jaket Pelampung Anda",
+            "body": "Mulai 1 Juli 2026, setiap orang di dek terbuka kapal penangkap ikan wajib mengenakan jaket pelampung, terlepas dari peringatan cuaca atau jumlah awak kapal. Nakhoda menghadapi denda sebesar KRW 900.000 (pelanggaran ke-1), 1,5 juta (ke-2), dan hingga 3 juta (ke-3 atau lebih) — dan aturan ini berlaku sama bagi awak kapal asing. Menurut KOMSA, sekitar 81% dari mereka yang meninggal atau hilang di laut selama lima tahun terakhir tidak mengenakan jaket pelampung; Penjaga Pantai memperkirakan tingkat kelangsungan hidup meningkat menjadi sekitar 78% ketika jaket pelampung dikenakan. Di air dingin, Anda hanya memiliki sekitar 1 menit sebelum mengalami syok dingin, 10 menit gerakan yang masih berguna, dan 1 jam sebelum kehilangan kesadaran (prinsip 1-10-1) — mengenakan jaket pelampung setelah terjatuh ke air sudah terlambat. Kencangkan gesper dengan kuat dan rapatkan ke tubuh Anda."
+          },
+          {
+            "heading": "Menghadapi Cuaca Buruk",
+            "body": "Peringatan angin-gelombang (풍랑주의보) dikeluarkan ketika kecepatan angin rata-rata melebihi 14 m/s selama 3 jam atau lebih, atau ketika gelombang diperkirakan melebihi 3 m. Kapal penangkap ikan yang lebih kecil dilarang berlayar selama peringatan berlaku, dan pelanggaran dapat menyebabkan penangguhan atau pencabutan izin penangkapan ikan. Periksa cuaca laut sebelum setiap keberangkatan, ikuti keputusan nakhoda dan Penjaga Pantai, dan jika peringatan berlaku saat Anda sedang di laut: kenakan jaket pelampung, amankan peralatan yang tidak terikat, kurangi kecepatan, dan jaga haluan kapal menghadap gelombang."
+          },
+          {
+            "heading": "Pencegahan dan Penanganan Kebakaran",
+            "body": "Kebakaran di ruang mesin (bahan bakar atau oli pelumas yang mengenai permukaan panas) dan kebakaran di dapur menyebabkan sebagian besar kebakaran kapal. Periksa perpipaan secara berkala, perbaiki kebocoran segera, dan jangan pernah membebani sirkuit listrik secara berlebihan. Jika kebakaran terjadi, bunyikan alarm dan segera beri tahu nakhoda. Jangan pernah menggunakan air untuk memadamkan kebakaran di dapur atau kebakaran akibat minyak — padamkan dengan cara menutup api atau gunakan alat pemadam kebakaran yang sesuai."
+          },
+          {
+            "heading": "Mencegah Terjatuh dan Kecelakaan Jatuh ke Laut",
+            "body": "Statistik Penjaga Pantai menunjukkan lebih dari 80% kematian dan orang hilang dalam kecelakaan kapal terjadi pada kapal penangkap ikan, dan jatuh ke laut membawa risiko kematian tertinggi karena penyelamatan sulit dilakukan. Jaga agar dek tetap bersih dari minyak dan lendir ikan, kenakan alas kaki anti-selip dan helm keras, periksa tali dan kawat untuk keausan sebelum keberangkatan, dan jangan pernah berdiri di jalur hentakan balik alat penarik jaring atau derek (winch)."
+          },
+          {
+            "heading": "Cara Melaporkan Kecelakaan",
+            "body": "Hubungi 122 (Penjaga Pantai Korea) untuk keadaan darurat di laut; 119 juga menerima laporan kecelakaan laut dan membagikannya kepada semua instansi terkait secara real time. Saat melapor, sebutkan: apa yang terjadi, posisi Anda, nama kapal, jumlah orang di kapal, dan nomor telepon yang bisa dihubungi kembali."
+          },
+          {
+            "heading": "Pelatihan Keselamatan",
+            "body": "Berdasarkan Pasal 25 Undang-Undang Keselamatan Kapal Penangkap Ikan, awak kapal asing secara eksplisit disertakan dalam pelatihan keselamatan tahunan wajib bersama pemilik kapal, nakhoda, dan masinis. Pelatihan mencakup pelajaran navigasi berdasarkan kasus kecelakaan, penggunaan peralatan penyelamat jiwa, serta praktik langsung dengan alat pemadam kebakaran, CPR, dan jaket pelampung."
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "Penjaga Pantai Korea (Bahasa Inggris)",
+            "url": "https://www.kcg.go.kr/kcg/main.do"
+          },
+          {
+            "label": "Korea.net — Kewajiban jaket pelampung untuk semua kapal penangkap ikan",
+            "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148967364"
+          },
+          {
+            "label": "Portal Laporan Keselamatan",
+            "url": "https://www.safetyreport.go.kr"
+          }
+        ]
+      },
+      "living-in-korea": {
+        "icon": "🏠",
+        "navTitle": "Kehidupan di Korea",
+        "navDescription": "Perawatan medis, perbankan, telepon, dokumen",
+        "title": "Kehidupan di Korea",
+        "summary": "Mulai dari asuransi kesehatan hingga rekening bank dan telepon seluler — pelajari langkah-langkah praktis untuk kehidupan di Korea sebelum Anda membutuhkannya!",
+        "sections": [
+          {
+            "heading": "Asuransi Kesehatan (NHIS)",
+            "body": "Warga negara asing yang bekerja didaftarkan dalam Asuransi Kesehatan Nasional sejak hari pertama melalui pemberi kerja mereka. Konsultasi tersedia di 1577-1000 (Bahasa Korea) atau 033-811-2000 (Bahasa Inggris, Mandarin, Jepang, Vietnam). Premi yang belum dibayar dapat menghalangi perpanjangan visa Anda."
+          },
+          {
+            "heading": "Membuka Rekening Bank",
+            "body": "Anda memerlukan tiga hal: Kartu Registrasi Orang Asing (ARC), paspor asli Anda, dan nomor ponsel Korea untuk verifikasi OTP. Bawa juga kontrak kerja Anda. Sebelum ARC Anda terbit, beberapa bank akan membuka rekening dengan fungsi terbatas hanya dengan paspor. Bank yang ramah bagi warga asing: KEB Hana, Shinhan, Woori, dan IBK. Pembukaan rekening memakan waktu 30–60 menit; kartu Anda akan tiba melalui pos dalam 1–2 minggu."
+          },
+          {
+            "heading": "Mendapatkan Telepon Seluler",
+            "body": "Kartu SIM prabayar dapat dibeli hanya dengan paspor. Kontrak pascabayar memerlukan ARC ditambah rekening bank Korea untuk pendebetan otomatis. Jalur yang disarankan: gunakan prabayar saat kedatangan, lalu beralih ke paket pascabayar MVNO (알뜰폰) yang lebih murah setelah ARC Anda terbit, dengan tetap mempertahankan nomor Anda."
+          },
+          {
+            "heading": "Dokumen Penting",
+            "body": "Kartu Registrasi Orang Asing wajib dimiliki untuk masa tinggal lebih dari 90 hari — daftarkan diri Anda di kantor imigrasi setempat dalam waktu 90 hari sejak kedatangan. Pelaut juga membawa Buku Pelaut (Seafarer's Book) dan Dokumen Identitas Pelaut (ILO C185). Simpan salinan dari semua dokumen."
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "NHIS — Asuransi Kesehatan untuk Warga Asing (Bahasa Inggris)",
+            "url": "https://www.nhis.or.kr/english/index.do"
+          },
+          {
+            "label": "HiKorea — Registrasi Orang Asing (Bahasa Inggris)",
+            "url": "https://www.hikorea.go.kr/Main.pt?locale=en"
+          }
+        ]
+      },
+      "first-time-korea": {
+        "icon": "🛬",
+        "navTitle": "Pertama Kali di Korea",
+        "navDescription": "Imigrasi, mata uang, kartu transit, etiket dasar",
+        "title": "Pertama Kali di Korea",
+        "summary": "Mulai dari visa dan uang hingga sopan santun sehari-hari — mulailah langkah pertama Anda di Korea dengan percaya diri!",
+        "sections": [
+          {
+            "heading": "Visa",
+            "body": "Visa kerja pelaut utama adalah E-10, berlaku hingga 3 tahun dan dapat diperpanjang menjadi 4 tahun 10 bulan jika dipekerjakan kembali. Konfirmasikan status pasti Anda dengan Imigrasi di 1345 (20 bahasa; +82-2-1345 dari luar negeri)."
+          },
+          {
+            "heading": "Mata Uang dan Uang",
+            "body": "Korea menggunakan won (KRW/₩). ATM bertanda \"Global\" menerima kartu asing. Kartu diterima hampir di mana saja, tetapi bawalah sejumlah uang tunai untuk toko-toko kecil dan pasar tradisional."
+          },
+          {
+            "heading": "Membeli Kartu Transit (T-money) — Langkah demi Langkah",
+            "body": "Kartu T-money adalah cara termudah untuk menggunakan bus dan kereta bawah tanah di seluruh negeri.",
+            "subsections": [
+              {
+                "label": "Tempat membeli",
+                "text": "Toko serba ada mana pun — CU, GS25, 7-Eleven, Emart24 — carilah stiker T-money di pintu. Juga tersedia di mesin penjual otomatis stasiun kereta bawah tanah dan toko serba ada di bandara."
+              },
+              {
+                "label": "Cara membeli",
+                "text": "Katakan \"T-money card, please\" (티머니 카드 주세요 — Tee-money kadeu ju-se-yo). Tidak diperlukan identitas atau pendaftaran."
+              },
+              {
+                "label": "Biaya",
+                "text": "Kartu itu sendiri berharga sekitar KRW 2.500–4.000 (versi karakter/desain khusus lebih mahal). Ini adalah biaya kartu satu kali dan tidak dapat dikembalikan sebagai saldo transit."
+              },
+              {
+                "label": "Cara mengisi ulang",
+                "text": "Katakan \"Chungjeon haejuseyo\" (충전해주세요 — Choong-jeon hae-ju-se-yo = \"Tolong isi ulang\") dan serahkan uang tunai. Hanya uang tunai di sebagian besar toko serba ada. Jumlah isi ulang yang umum adalah KRW 10.000–50.000."
+              },
+              {
+                "label": "Cara menggunakan",
+                "text": "Tempelkan kartu pada pembaca saat naik dan sekali lagi saat turun dari bus — menempelkan kartu saat turun memberi Anda transfer gratis antara bus dan kereta bawah tanah dalam waktu 30 menit. Tarif dasar sekitar KRW 1.500 dan sedikit lebih murah dibandingkan membayar tunai."
+              },
+              {
+                "label": "Juga berguna",
+                "text": "Kartu yang sama dapat digunakan di toko serba ada, beberapa taksi, dan mesin penjual otomatis. Kartu T-money fisik adalah yang paling sederhana — tidak memerlukan ARC."
+              }
+            ]
+          },
+          {
+            "heading": "Etiket Dasar — Yang Perlu Dilakukan dan Dihindari",
+            "body": "",
+            "lists": [
+              {
+                "label": "Lakukan",
+                "items": [
+                  "Gunakan kedua tangan saat memberikan atau menerima sesuatu dari orang yang lebih tua atau senior — uang, dokumen, minuman.",
+                  "Membungkuklah sedikit saat menyapa; anggukan sudah cukup dalam situasi santai.",
+                  "Lepaskan sepatu Anda saat memasuki rumah atau restoran tradisional dengan tempat duduk di lantai.",
+                  "Tunggu orang tertua mulai makan sebelum Anda mulai.",
+                  "Saat menuang atau menerima minuman dari orang yang lebih tua, pegang gelas atau botol dengan kedua tangan dan sedikit palingkan kepala Anda saat minum."
+                ]
+              },
+              {
+                "label": "Hindari — hal-hal yang benar-benar tidak disukai orang Korea",
+                "items": [
+                  "Berbicara keras di tempat umum, terutama di kereta bawah tanah, bus, dan kereta api. Transportasi umum Korea sangat tenang — panggilan telepon dianggap tidak sopan. Gunakan pesan teks sebagai gantinya.",
+                  "Memutar musik atau video tanpa earphone di tempat umum.",
+                  "Membuang ingus di meja makan — pergilah ke toilet.",
+                  "Menancapkan sumpit tegak lurus di nasi — ini menyerupai ritual pemakaman.",
+                  "Menolak minuman atau makanan secara langsung — tolaklah dengan sopan (\"괜찮습니다\" — Gwaen-chan-seum-ni-da) daripada mengatakan tidak secara terus terang.",
+                  "Menyerobot antrean atau mendorong masuk ke transportasi umum sebelum orang lain turun.",
+                  "Membuang sampah sembarangan atau merokok di luar area yang ditentukan — denda berlaku di banyak zona publik.",
+                  "Terkejut saat ditanya usia Anda — ini hal yang umum di Korea dan tidak dianggap tidak sopan; usia menentukan cara orang berbicara satu sama lain.",
+                  "Terlambat. Ketepatan waktu sangat diperhatikan baik dalam pekerjaan maupun pergaulan sosial.",
+                  "Percakapan telepon yang keras di restoran atau berbicara kasar kepada staf layanan."
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "HiKorea — Informasi Visa (Bahasa Inggris)",
+            "url": "https://www.hikorea.go.kr/Main.pt?locale=en"
+          },
+          {
+            "label": "T-money Resmi (Bahasa Inggris)",
+            "url": "https://www.t-money.co.kr"
+          },
+          {
+            "label": "Visit Korea — Kartu Transportasi (Bahasa Inggris)",
+            "url": "https://english.visitkorea.or.kr"
+          }
+        ]
+      },
+      "know-korea": {
+        "icon": "🇰🇷",
+        "navTitle": "Mengenal Korea",
+        "navDescription": "Budaya, makanan, memesan, musim",
+        "title": "Mengenal Korea",
+        "summary": "Temukan makanan, budaya, dan musim di Korea — mengenal negara ini membuat kehidupan di laut maupun di darat jauh lebih mudah!",
+        "sections": [
+          {
+            "heading": "Budaya Korea — Cara Orang Berpikir",
+            "body": "Korea menjunjung tinggi jeong (정) — rasa keterikatan yang mendalam dan kepedulian timbal balik yang bahkan meluas kepada orang asing. Jika Anda mengalami kesulitan, orang-orang sering kali akan membantu tanpa diminta. Usia dan senioritas membentuk bahasa dan perilaku, sehingga bahasa yang sopan digunakan kepada orang asing, orang yang lebih tua, dan staf layanan. Nunchi (눈치) — membaca suasana — sangat dihargai; mengamati apa yang dilakukan orang lain sebelum bertindak dianggap sebagai sikap yang penuh pertimbangan, bukan sikap pasif. Keharmonisan kelompok lebih diutamakan daripada ekspresi individu di sebagian besar tempat kerja. Makan dan minum bersama setelah kerja merupakan bagian inti dari ikatan tim, meskipun menolak alkohol semakin dapat diterima. Gelar digunakan sebagai pengganti nama depan (선장님 = Seon-jang-nim = Kapten); menambahkan \"-nim\" (님) menunjukkan rasa hormat."
+          },
+          {
+            "heading": "Makanan Terkenal Berdasarkan Kota",
+            "body": "",
+            "table": {
+              "columns": [
+                "Kota",
+                "Hidangan Khas",
+                "Apa Itu"
+              ],
+              "rows": [
+                [
+                  "Busan",
+                  "돼지국밥 (Dwaeji-gukbap)",
+                  "Sup nasi kaldu babi — makanan jiwa Busan, murah dan mengenyangkan"
+                ],
+                [
+                  "Busan",
+                  "밀면 (Milmyeon)",
+                  "Mi gandum dingin, khas asli Busan"
+                ],
+                [
+                  "Incheon",
+                  "짜장면 (Jjajangmyeon)",
+                  "Mi kacang hitam — lahir di Pecinan Incheon"
+                ],
+                [
+                  "Jeonju",
+                  "비빔밥 (Bibimbap)",
+                  "Nasi dengan sayuran dan gochujang"
+                ],
+                [
+                  "Pohang",
+                  "과메기 (Gwamegi)",
+                  "Ikan saury setengah kering, hidangan istimewa musim dingin"
+                ],
+                [
+                  "Pohang",
+                  "물회 (Mulhoe)",
+                  "Ikan mentah dalam kuah dingin yang segar — hidangan khas favorit, terutama saat musim panas"
+                ],
+                [
+                  "Yeosu",
+                  "갓김치 (Gat-kimchi)",
+                  "Kimchi daun sawi, pedas dan tajam"
+                ],
+                [
+                  "Gwangyang",
+                  "불고기 (Bulgogi)",
+                  "Daging sapi panggang berbumbu, gaya Gwangyang"
+                ],
+                [
+                  "Mokpo",
+                  "세발낙지 (Sebal-nakji)",
+                  "Gurita kecil, dimakan segar"
+                ],
+                [
+                  "Chuncheon",
+                  "닭갈비 (Dakgalbi)",
+                  "Ayam tumis pedas"
+                ]
+              ]
+            }
+          },
+          {
+            "heading": "Cara Memesan Makanan — Frasa Praktis",
+            "body": "",
+            "lists": [
+              {
+                "label": "",
+                "items": [
+                  "Memanggil perhatian: \"여기요!\" (Yeo-gi-yo!) atau \"저기요!\" (Jeo-gi-yo!) — memanggil dengan suara keras adalah hal yang wajar dan tidak dianggap tidak sopan di restoran Korea.",
+                  "Memesan: Tunjuk pada menu dan katakan \"이거 주세요\" (I-geo ju-se-yo) = \"Yang ini, tolong.\"",
+                  "Jumlah: \"하나 주세요\" (Ha-na ju-se-yo) = satu, \"둘 주세요\" (Dul ju-se-yo) = dua.",
+                  "Tidak pedas: \"안 맵게 해주세요\" (An maep-ge hae-ju-se-yo).",
+                  "Tanpa daging babi / tanpa daging sapi: \"돼지고기 빼주세요\" (Dwaeji-gogi ppae-ju-se-yo) / \"소고기 빼주세요\" (So-gogi ppae-ju-se-yo). Pilihan halal tersedia di sekitar Busan dan Itaewon, Seoul.",
+                  "Air dan lauk pendamping: Air minum gratis (물 — mul) dan lauk pendamping (반찬 — ban-chan) selalu gratis dan dapat diisi ulang. Katakan \"리필 주세요\" (Ri-pil ju-se-yo).",
+                  "Membayar: Bayar di kasir saat Anda keluar, bukan di meja. \"계산해주세요\" (Gye-san-hae-ju-se-yo).",
+                  "Tidak ada tip. Memberi tip tidak dipraktikkan di Korea dan dapat membingungkan staf."
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Musim dan Cuaca",
+            "body": "",
+            "lists": [
+              {
+                "label": "",
+                "items": [
+                  "Musim semi (Maret–Mei) — Sejuk dan menyenangkan, bunga sakura mekar akhir Maret–April. Waspadai debu halus (미세먼지) dan debu kuning; periksa aplikasi kualitas udara dan kenakan masker pada hari-hari buruk. Suhu berubah drastis antara pagi dan siang — kenakan pakaian berlapis.",
+                  "Pergantian musim (환절기, akhir Maret & akhir Oktober) — Waktu paling umum untuk terserang flu. Selisih suhu siang-malam bisa melebihi 10°C. Selalu sediakan jaket meskipun siang hari terasa hangat.",
+                  "Musim panas (Juni–Agustus) — Panas dan sangat lembap, sering di atas 30°C dengan kelembapan 80% ke atas. Musim hujan (장마) berlangsung sekitar akhir Juni hingga akhir Juli, dan musim topan mencapai puncaknya pada Agustus–September. Ini adalah masa ketika peringatan cuaca laut dan pembatasan keberangkatan paling sering terjadi. Kelelahan akibat panas merupakan risiko nyata di dek — minumlah air terus-menerus dan ambil waktu istirahat di tempat teduh.",
+                  "Musim gugur (September–November) — Cerah, kering, dan nyaman; secara luas dianggap sebagai musim terbaik. Kondisi laut umumnya lebih tenang, meskipun topan akhir musim masih dapat terjadi.",
+                  "Musim dingin (Desember–Februari) — Dingin dan kering, sering di bawah titik beku, dengan angin barat laut yang kencang. Peringatan angin-gelombang sering membatasi kapal kecil untuk meninggalkan pelabuhan, dan risiko terendam air dingin berada pada titik tertinggi — suhu laut dapat turun cukup rendah hingga menyebabkan ketidakmampuan bergerak dalam hitungan menit. Kenakan lapisan pakaian termal di bawah peralatan kerja Anda."
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "KMA Cuaca Laut (Bahasa Inggris)",
+            "url": "https://www.weather.go.kr/w/index.do"
+          },
+          {
+            "label": "AirKorea — Kualitas Udara (Bahasa Inggris)",
+            "url": "https://www.airkorea.or.kr/eng"
+          },
+          {
+            "label": "Visit Korea — Panduan Makanan Korea (Bahasa Inggris)",
+            "url": "https://english.visitkorea.or.kr"
+          }
+        ]
+      },
+      "port-city-guide": {
+        "icon": "🏙️",
+        "navTitle": "Panduan Kota Pelabuhan",
+        "navDescription": "Seamen's Club, transportasi ke kota, turun ke darat",
+        "title": "Panduan Kota Pelabuhan",
+        "summary": "Layanan Seamen's Club dan transportasi ke kota — manfaatkan waktu Anda di darat dengan aman dan mudah!",
+        "sections": [
+          {
+            "heading": "Seamen's Club di Korea",
+            "body": "Layanan Seamen's Club tersedia di pelabuhan-pelabuhan utama Korea, termasuk Busan, Incheon, dan Pohang. Pusat-pusat ini menawarkan area istirahat, kamar mandi, akses internet dan telepon, toko, penukaran mata uang, konseling, dan fasilitas keagamaan — tempat untuk bersantai jauh dari kapal.\n\nTanyakan kepada agen lokal perusahaan pelayaran Anda tentang cara menuju Seamen's Club dan transportasi apa yang tersedia. Agen dapat mengatur shuttle atau memberi saran mengenai taksi, dan mengetahui jam operasional terkini. Ini adalah cara paling andal untuk sampai ke sana, karena aturan akses terminal dan prosedur gerbang berbeda-beda di setiap pelabuhan dan dermaga.",
+            "lists": [
+              {
+                "label": "Pusat-pusat utama",
+                "items": [
+                  "Busan New Port Seafarers Center — 354 Sinhangman-ro, Gangseo-gu, Busan. Telp +82 51 974 0774 / ponsel +82 10 9171 2333. Buka Senin–Jumat 09:00–22:00, Sabtu–Minggu 10:00–19:00.",
+                  "Mission to Seafarers Busan — 294 Sinseon-ro, Nam-gu, Busan 48562. Buka setiap hari 12:00–20:00.",
+                  "United Seamen's Service Busan — Seamen's Club, 99 Gamman 1-dong, Busan 48480 (beroperasi di Busan sejak 1954)."
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Dari Pelabuhan ke Kota",
+            "body": "Akses berbeda-beda jauh tergantung pelabuhan. Sebagian besar pelabuhan Korea berada di kawasan industri yang berjarak cukup jauh dari pusat kota, sehingga taksi biasanya merupakan pilihan tercepat dan termudah. Siapkan tujuan Anda yang ditulis dalam Bahasa Korea, atau tunjukkan di ponsel Anda. Selalu konfirmasikan rute pasti dengan agen kapal Anda sebelum turun ke darat.",
+            "table": {
+              "columns": [
+                "Pelabuhan",
+                "Pusat kota / distrik terdekat",
+                "Akses umum"
+              ],
+              "rows": [
+                [
+                  "Busan (North Port)",
+                  "Nampo-dong, Jungang-dong",
+                  "Jalur kereta bawah tanah 1 (Stasiun Jungang atau Nampo), jalan kaki singkat atau taksi dari terminal"
+                ],
+                [
+                  "Busan (New Port)",
+                  "Hadan / Jinhae",
+                  "Taksi atau shuttle agen — terminal jauh dari kota; transportasi umum terbatas"
+                ],
+                [
+                  "Incheon",
+                  "Sinpo, Dong-Incheon, Chinatown",
+                  "Jalur kereta bawah tanah 1 (Stasiun Incheon atau Dong-Incheon); taksi dari dermaga ke stasiun"
+                ],
+                [
+                  "Pyeongtaek",
+                  "Anjung, pusat kota Pyeongtaek",
+                  "Bus lokal atau taksi ke Stasiun Pyeongtaek (Jalur 1)"
+                ],
+                [
+                  "Dangjin",
+                  "Songak, pusat kota Dangjin",
+                  "Taksi — tidak ada jalur kereta di pelabuhan; layanan bus lokal jarang"
+                ],
+                [
+                  "Gwangyang",
+                  "Pusat kota Gwangyang / Suncheon",
+                  "Taksi ke kota; terminal bus antarkota untuk perjalanan lanjutan"
+                ],
+                [
+                  "Yeosu",
+                  "Pusat kota Yeosu, Idong",
+                  "Taksi; Stasiun Yeosu-Expo (KTX) untuk perjalanan lanjutan"
+                ],
+                [
+                  "Masan",
+                  "Masan Hapseong-dong, Changwon",
+                  "Bus lokal atau taksi ke pusat kota Masan"
+                ],
+                [
+                  "Pohang",
+                  "Pusat kota Pohang, Yeongildae",
+                  "Taksi dari Pelabuhan Lama/Baru Pohang; Stasiun Pohang (KTX) untuk perjalanan lanjutan"
+                ],
+                [
+                  "Donghae",
+                  "Pusat kota Donghae",
+                  "Taksi; Stasiun Donghae di dekatnya"
+                ],
+                [
+                  "Mukho",
+                  "Distrik pelabuhan Mukho, Donghae",
+                  "Perjalanan taksi singkat — kota Mukho dekat dengan pelabuhan"
+                ],
+                [
+                  "Samcheok",
+                  "Pusat kota Samcheok",
+                  "Taksi dari Pelabuhan Samcheok; bus lokal tersedia"
+                ],
+                [
+                  "Gunsan",
+                  "Pusat kota Gunsan",
+                  "Taksi atau bus lokal; Stasiun Gunsan untuk perjalanan lanjutan"
+                ]
+              ]
+            },
+            "note": "Nomor dan jadwal bus sering berubah, sehingga tabel ini hanya memberikan tujuan dan moda transportasi. Konfirmasikan rute dan tarif terkini dengan agen kapal Anda atau staf Seamen's Club sebelum meninggalkan pelabuhan.",
+            "id": "port-transport-table"
+          },
+          {
+            "heading": "Turun ke Darat dengan Aman",
+            "body": "Korea memiliki tingkat kejahatan kekerasan yang sangat rendah dan pencopetan jarang terjadi. Bawalah selalu ARC atau salinan paspor Anda, patuhi rambu lalu lintas, dan catat waktu kembali kapal Anda serta nomor telepon agen Anda sebelum Anda pergi."
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "ITF Seafarers — Temukan Pusat Kesejahteraan",
+            "url": "https://www.itfseafarers.org/en/directories/seafarers-welfare-centre-index"
+          },
+          {
+            "label": "ISWAN — Pusat Pelaut di Korea",
+            "url": "https://www.iswan.org.uk/centres/"
+          },
+          {
+            "label": "United Seamen's Service",
+            "url": "https://unitedseamensservice.org/uss-centers/"
+          }
+        ]
+      },
+      "worker-rights": {
+        "icon": "📜",
+        "navTitle": "Hak Anda sebagai Pelaut",
+        "navDescription": "Jam kerja, kontrak, pengaduan, konseling",
+        "title": "Hak Anda sebagai Pelaut",
+        "summary": "Ketahui jam kerja, kontrak, dan tempat untuk mendapatkan bantuan — pahami hak-hak Anda dan perjuangkan dengan percaya diri!",
+        "sections": [
+          {
+            "heading": "Jam Kerja dan Istirahat",
+            "body": "Undang-Undang Pelaut Korea (Pasal 60) menetapkan 8 jam per hari dan 40 jam per minggu sebagai standar dasar. Berdasarkan MLC 2006, Anda berhak atas setidaknya 10 jam istirahat dalam periode 24 jam mana pun dan 77 jam dalam periode 7 hari mana pun. Istirahat dapat dibagi menjadi tidak lebih dari dua periode, salah satunya harus berdurasi setidaknya 6 jam. Catatan jam kerja dan istirahat Anda harus disimpan."
+          },
+          {
+            "heading": "Kontrak dan Dokumen Identitas",
+            "body": "Kontrak kerja pelaut tertulis diwajibkan oleh hukum. Anda juga harus memiliki Buku Pelaut (선원수첩) yang mencatat masa kerja dan kualifikasi Anda, serta Dokumen Identitas Pelaut berdasarkan Konvensi ILO No. 185. Simpan salinan kontrak Anda sendiri — jangan pernah menyerahkan satu-satunya salinan yang Anda miliki."
+          },
+          {
+            "heading": "Pengaduan dan Konseling",
+            "body": "Berdasarkan MLC 2006 (Regulasi 5.1.5), setiap kapal harus memiliki prosedur pengaduan di atas kapal yang adil, tetapi Anda juga dapat mengadu langsung kepada otoritas eksternal — pemilik kapal, negara bendera, negara pelabuhan, atau negara asal Anda — dan Anda memiliki hak untuk didampingi serta dilindungi dari tindakan pembalasan. Di pelabuhan, Anda dapat melaporkan pelanggaran kepada petugas Pengawasan Negara Pelabuhan (Port State Control), atau meminta inspektur ITF atau petugas kesejahteraan untuk mengajukannya atas nama Anda.",
+            "lists": [
+              {
+                "label": "Di Korea, hubungi",
+                "items": [
+                  "Inspektur Ketenagakerjaan Pelaut di Kantor Regional Kelautan dan Perikanan terdekat — mereka menangani upah yang belum dibayar dan pelanggaran Undang-Undang Pelaut.",
+                  "Korea Seamen's Welfare & Employment Center (KOSWEC) — konseling pengaduan dan layanan kesejahteraan.",
+                  "Pusat Konseling Pekerja Asing 1577-0071 — 16 bahasa, 365 hari, 09:00–18:00.",
+                  "Kementerian Ketenagakerjaan 1350 — konsultasi ketenagakerjaan.",
+                  "APIL (Advocates for Public Interest Law) — +82-2-3478-0529, LSM hukum terkemuka untuk awak kapal penangkap ikan migran.",
+                  "ITF Seafarer Support — seafsupport@itf.org.uk, WhatsApp +44 7523 515097."
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "ITF Seafarers — Hak Anda Berdasarkan MLC",
+            "url": "https://www.itfseafarers.org/en/resources/your-rights-under-mlc"
+          },
+          {
+            "label": "ILO — Konvensi Ketenagakerjaan Maritim 2006",
+            "url": "https://www.ilo.org/global/standards/maritime-labour-convention/lang--en/index.htm"
+          },
+          {
+            "label": "HUG Korea — Dukungan Pekerja Asing (multibahasa)",
+            "url": "http://www.hugkorea.or.kr"
+          },
+          {
+            "label": "ISWAN — Bantuan Pelaut (24/7, multibahasa)",
+            "url": "https://www.seafarerhelp.org"
+          }
+        ]
+      },
+      "phrasebook": {
+        "icon": "💬",
+        "navTitle": "Bahasa Korea Darurat",
+        "navDescription": "Frasa penting untuk keadaan darurat",
+        "title": "Bahasa Korea Darurat",
+        "summary": "Satu frasa dapat menyelamatkan nyawa — pelajari ungkapan Korea darurat ini sekarang!",
+        "phraseGroups": [
+          {
+            "heading": "Meminta Bantuan",
+            "phrases": [
+              {
+                "korean": "도와주세요!",
+                "pronunciation": "Do wa ju se yo!",
+                "meaning": "Tolong saya!"
+              },
+              {
+                "korean": "살려주세요!",
+                "pronunciation": "Sal lyo ju se yo!",
+                "meaning": "Selamatkan saya! (mengancam jiwa)"
+              },
+              {
+                "korean": "급해요!",
+                "pronunciation": "Geu pae yo!",
+                "meaning": "Ini mendesak!"
+              },
+              {
+                "korean": "응급상황이에요",
+                "pronunciation": "Eung geup sang hwang i e yo",
+                "meaning": "Ini keadaan darurat"
+              },
+              {
+                "korean": "119에 전화해주세요",
+                "pronunciation": "Il il gu e jeon hwa hae ju se yo",
+                "meaning": "Tolong hubungi 119"
+              },
+              {
+                "korean": "경찰을 불러주세요",
+                "pronunciation": "Gyeong chal eul bul lo ju se yo",
+                "meaning": "Hubungi polisi"
+              },
+              {
+                "korean": "구급차를 불러주세요",
+                "pronunciation": "Gu geup cha reul bul lo ju se yo",
+                "meaning": "Hubungi ambulans"
+              }
+            ]
+          },
+          {
+            "heading": "Keadaan Darurat di Laut",
+            "phrases": [
+              {
+                "korean": "불이야!",
+                "pronunciation": "Bu ri ya!",
+                "meaning": "Kebakaran!"
+              },
+              {
+                "korean": "사람이 바다에 빠졌어요",
+                "pronunciation": "Sa ra mi ba da e ppa jyeo sseo yo",
+                "meaning": "Ada orang jatuh ke laut!"
+              },
+              {
+                "korean": "배가 침몰해요",
+                "pronunciation": "Bae ga chim mo rae yo",
+                "meaning": "Kapal sedang tenggelam"
+              },
+              {
+                "korean": "배가 고장났어요",
+                "pronunciation": "Bae ga go jang na sseo yo",
+                "meaning": "Kapal mengalami kerusakan"
+              },
+              {
+                "korean": "구명조끼 주세요",
+                "pronunciation": "Gu myeong jo kki ju se yo",
+                "meaning": "Berikan saya jaket pelampung"
+              },
+              {
+                "korean": "여기 위치는...",
+                "pronunciation": "Yeo gi wi chi neun...",
+                "meaning": "Posisi kami adalah..."
+              },
+              {
+                "korean": "배 이름은...",
+                "pronunciation": "Bae i reu meun...",
+                "meaning": "Nama kapal adalah..."
+              },
+              {
+                "korean": "사람 다섯 명 있어요",
+                "pronunciation": "Sa ram da seot myeong i sseo yo",
+                "meaning": "Ada lima orang"
+              }
+            ]
+          },
+          {
+            "heading": "Keadaan Darurat Medis",
+            "phrases": [
+              {
+                "korean": "다쳤어요",
+                "pronunciation": "Da chyeo sseo yo",
+                "meaning": "Saya terluka"
+              },
+              {
+                "korean": "여기 아파요",
+                "pronunciation": "Yeo gi a pa yo",
+                "meaning": "Sakit di sini (tunjuk bagian yang sakit)"
+              },
+              {
+                "korean": "피가 나요",
+                "pronunciation": "Pi ga na yo",
+                "meaning": "Saya berdarah"
+              },
+              {
+                "korean": "숨을 못 쉬어요",
+                "pronunciation": "Su meul mot swi eo yo",
+                "meaning": "Saya tidak bisa bernapas"
+              },
+              {
+                "korean": "의사가 필요해요",
+                "pronunciation": "Ui sa ga pi ryo hae yo",
+                "meaning": "Saya perlu dokter"
+              },
+              {
+                "korean": "병원이 어디예요?",
+                "pronunciation": "Byeong wo ni eo di ye yo?",
+                "meaning": "Di mana rumah sakit?"
+              },
+              {
+                "korean": "약국이 어디예요?",
+                "pronunciation": "Yak gu gi eo di ye yo?",
+                "meaning": "Di mana apotek?"
+              },
+              {
+                "korean": "알레르기가 있어요",
+                "pronunciation": "Al le reu gi ga i sseo yo",
+                "meaning": "Saya punya alergi"
+              },
+              {
+                "korean": "열이 나요",
+                "pronunciation": "Yeo ri na yo",
+                "meaning": "Saya demam"
+              },
+              {
+                "korean": "어지러워요",
+                "pronunciation": "Eo ji reo wo yo",
+                "meaning": "Saya merasa pusing"
+              }
+            ]
+          },
+          {
+            "heading": "Masalah Komunikasi",
+            "phrases": [
+              {
+                "korean": "한국어를 못해요",
+                "pronunciation": "Han gu geo reul mo tae yo",
+                "meaning": "Saya tidak bisa berbahasa Korea"
+              },
+              {
+                "korean": "영어 할 수 있어요?",
+                "pronunciation": "Yeong eo hal su i sseo yo?",
+                "meaning": "Apakah Anda bisa berbahasa Inggris?"
+              },
+              {
+                "korean": "통역이 필요해요",
+                "pronunciation": "Tong yeo gi pi ryo hae yo",
+                "meaning": "Saya perlu penerjemah"
+              },
+              {
+                "korean": "천천히 말해주세요",
+                "pronunciation": "Cheon cheo ni mal hae ju se yo",
+                "meaning": "Tolong bicara pelan-pelan"
+              },
+              {
+                "korean": "다시 말해주세요",
+                "pronunciation": "Da si mal hae ju se yo",
+                "meaning": "Tolong ulangi lagi"
+              },
+              {
+                "korean": "모르겠어요",
+                "pronunciation": "Mo reu ge sseo yo",
+                "meaning": "Saya tidak mengerti"
+              },
+              {
+                "korean": "써주세요",
+                "pronunciation": "Sseo ju se yo",
+                "meaning": "Tolong tuliskan"
+              }
+            ]
+          },
+          {
+            "heading": "Masalah dan Dokumen",
+            "phrases": [
+              {
+                "korean": "여권을 잃어버렸어요",
+                "pronunciation": "Yeo gwo neul i reo beo ryeo sseo yo",
+                "meaning": "Saya kehilangan paspor saya"
+              },
+              {
+                "korean": "지갑을 도둑맞았어요",
+                "pronunciation": "Ji ga beul do dung ma ja sseo yo",
+                "meaning": "Dompet saya dicuri"
+              },
+              {
+                "korean": "길을 잃었어요",
+                "pronunciation": "Gi reul i reo sseo yo",
+                "meaning": "Saya tersesat"
+              },
+              {
+                "korean": "대사관에 연락해주세요",
+                "pronunciation": "Dae sa gwa ne yeon la kae ju se yo",
+                "meaning": "Tolong hubungi kedutaan besar saya"
+              },
+              {
+                "korean": "회사에 연락해주세요",
+                "pronunciation": "Hoe sa e yeon la kae ju se yo",
+                "meaning": "Tolong hubungi perusahaan saya"
+              },
+              {
+                "korean": "월급을 못 받았어요",
+                "pronunciation": "Wol geu beul mot ba da sseo yo",
+                "meaning": "Saya belum dibayar"
+              },
+              {
+                "korean": "도움이 필요해요",
+                "pronunciation": "Do u mi pi ryo hae yo",
+                "meaning": "Saya perlu bantuan"
+              }
+            ]
+          },
+          {
+            "heading": "Nomor Darurat — Cara Mengucapkannya",
+            "phrases": [
+              {
+                "korean": "119",
+                "pronunciation": "Il il gu",
+                "meaning": "Kebakaran / ambulans"
+              },
+              {
+                "korean": "112",
+                "pronunciation": "Il il i",
+                "meaning": "Polisi"
+              },
+              {
+                "korean": "122",
+                "pronunciation": "Il i i",
+                "meaning": "Penjaga Pantai"
+              }
+            ]
+          }
+        ],
+        "tip": "Saat Anda menelepon 119 atau 112, katakan \"Tong yeo gi pi ryo hae yo\" (통역이 필요해요) dan operator dapat menyambungkan Anda dengan penerjemah. Anda juga dapat menghubungi BBB Korea di 1588-5644 untuk layanan penerjemahan gratis 24 jam dalam 20 bahasa.",
+        "referenceLinks": [
+          {
+            "label": "BBB Korea — Layanan Penerjemahan Gratis (Bahasa Inggris)",
+            "url": "https://www.bbbkorea.org/eng/main/main.php"
+          },
+          {
+            "label": "Danuri — Dukungan Multibahasa",
+            "url": "https://www.liveinkorea.kr/web/index.do"
+          }
+        ]
+      },
+      "emergency": {
+        "icon": "🆘",
+        "navTitle": "Kontak Darurat",
+        "navDescription": "112 / 119 / 122 / 1345 dan hotline multibahasa",
+        "title": "Kontak Darurat",
+        "summary": "Kapan pun dan di mana pun Anda membutuhkan bantuan — simpan nomor darurat ini sekarang!",
+        "contacts": [
+          {
+            "number": "119",
+            "service": "Kebakaran, ambulans, penyelamatan (juga menerima laporan kecelakaan laut)",
+            "languages": "Penerjemahan tersedia"
+          },
+          {
+            "number": "112",
+            "service": "Polisi",
+            "languages": "Penerjemahan tersedia"
+          },
+          {
+            "number": "122",
+            "service": "Penjaga Pantai Korea — keadaan darurat laut",
+            "languages": "Korea/Inggris"
+          },
+          {
+            "number": "1345",
+            "service": "Pusat Kontak Imigrasi",
+            "languages": "20 bahasa"
+          },
+          {
+            "number": "1350",
+            "service": "Kementerian Ketenagakerjaan — konsultasi ketenagakerjaan",
+            "languages": "Bahasa Korea + penerjemahan"
+          },
+          {
+            "number": "1577-0071",
+            "service": "Pusat Konseling Pekerja Asing",
+            "languages": "16 bahasa"
+          },
+          {
+            "number": "1588-5644",
+            "service": "BBB Korea — penerjemahan telepon gratis",
+            "languages": "20 bahasa, 24/7"
+          },
+          {
+            "number": "1577-1366",
+            "service": "Danuri Call Center — migran & keluarga",
+            "languages": "13 bahasa, 24/7"
+          },
+          {
+            "number": "1339",
+            "service": "Informasi medis darurat",
+            "languages": "Bahasa Korea"
+          },
+          {
+            "number": "1330",
+            "service": "Hotline Perjalanan Korea",
+            "languages": "Multibahasa"
+          },
+          {
+            "number": "033-811-2000",
+            "service": "Asuransi Kesehatan Nasional — jalur warga asing",
+            "languages": "Bahasa Inggris, Mandarin, Jepang, Vietnam"
+          },
+          {
+            "number": "+44 7523 515097",
+            "service": "ITF Seafarer Support (WhatsApp/SMS)",
+            "languages": "Multibahasa"
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "Penjaga Pantai Korea (Bahasa Inggris)",
+            "url": "https://www.kcg.go.kr/kcg/main.do"
+          },
+          {
+            "label": "HUG Korea — Konseling Pekerja Asing (multibahasa)",
+            "url": "http://www.hugkorea.or.kr"
+          },
+          {
+            "label": "BBB Korea — Layanan Penerjemahan (Bahasa Inggris)",
+            "url": "https://www.bbbkorea.org/eng/main/main.php"
+          },
+          {
+            "label": "SeafarerHelp — Hotline gratis 24/7 untuk pelaut",
+            "url": "https://www.seafarerhelp.org"
+          }
+        ]
+      }
+    }
+  },
+  "tl": {
+    "home": {
+      "title": "Gabay sa Kaligtasan at Buhay para sa mga Dayuhang Marino",
+      "subtitle": "Lahat ng kailangan mo para sa ligtas at may-kumpiyansang buhay sa dagat at sa lupa sa Korea.",
+      "prompt": "Piliin ang kailangan mo sa ibaba",
+      "disclaimer": "Ang website na ito ay para sa layuning impormasyon lamang.",
+      "aiLinkLabel": "Magtanong sa AI ng iba pa"
+    },
+    "pages": {
+      "safety-at-sea": {
+        "icon": "🦺",
+        "navTitle": "Pananatiling Ligtas sa Dagat",
+        "navDescription": "Life jacket, masamang panahon, sunog, pag-uulat ng aksidente",
+        "title": "Pananatiling Ligtas sa Dagat",
+        "summary": "Tandaan ang mahahalagang alituntunin sa kaligtasan na nagpoprotekta sa buhay mo sa dagat — mula sa mga babala sa panahon hanggang sa sunog, pagkahulog, at kung paano mag-ulat ng aksidente!",
+        "sections": [
+          {
+            "heading": "Isuot ang Iyong Life Jacket",
+            "body": "Simula Hulyo 1, 2026, dapat magsuot ng life jacket ang lahat ng nasa nakalantad na deck ng fishing vessel, anuman ang babala sa panahon o dami ng crew. Haharapin ng kapitan ang multa na KRW 900,000 (unang paglabag), 1.5 milyon (ikalawa), at hanggang 3 milyon (ikatlo o higit pa) — at pantay na ipinapatupad ang batas na ito sa mga dayuhang crew. Ayon sa KOMSA, humigit-kumulang 81% ng mga namatay o nawala sa dagat sa nakaraang limang taon ay hindi nakasuot ng life jacket; tinatantya ng Coast Guard na tumataas ang tsansang mabuhay sa humigit-kumulang 78% kapag may suot na jacket. Sa malamig na tubig, mayroon kang halos 1 minuto ng cold shock, 10 minuto ng magagamit na galaw, at 1 oras bago mawalan ng malay (ang prinsipyong 1-10-1) — huli na ang pagsusuot ng jacket kapag nahulog ka na sa tubig. Higpitan nang mabuti ang buckle at siguraduhing nakadikit ito sa katawan mo."
+          },
+          {
+            "heading": "Pagtugon sa Masamang Panahon",
+            "body": "Naglalabas ng wind-wave advisory (풍랑주의보) kapag lumagpas sa 14 m/s ang average wind speed nang 3+ oras o inaasahang lumampas sa 3 m ang taas ng alon. Ipinagbabawal sa mas maliliit na fishing vessel na maglayag habang may advisory, at ang paglabag dito ay maaaring magresulta sa suspensyon o pagkansela ng fishing permit. Suriin ang marine weather bago maglayag, sundin ang desisyon ng kapitan at ng Coast Guard, at kung maabutan ka ng babala habang nasa dagat: isuot ang iyong life jacket, siguraduhing nakatali ang mga kagamitan, bawasan ang bilis, at panatilihing nakaharap sa alon ang unahan ng barko (bow)."
+          },
+          {
+            "heading": "Pag-iwas at Pagtugon sa Sunog",
+            "body": "Ang mga sunog sa engine room (dahil sa fuel o lube oil na tumatama sa mainit na ibabaw) at sa kusina (galley) ang pangunahing sanhi ng karamihan sa mga sunog sa barko. Regular na siyasatin ang mga tubo, agad na ayusin ang mga tagas, at huwag kailanman i-overload ang mga circuit. Kung sumiklab ang apoy, itaas ang alarma at ipaalam agad sa kapitan. Huwag kailanman gumamit ng tubig sa sunog sa kusina o dahil sa langis — supilin (smother) ang apoy o gumamit ng tamang fire extinguisher."
+          },
+          {
+            "heading": "Pag-iwas sa Pagkahulog at Aksidenteng Pagkahulog sa Dagat (Man-Overboard)",
+            "body": "Ipinapakita ng estadistika ng Coast Guard na mahigit 80% ng mga namatay at nawawala sa mga aksidente sa barko ay nangyayari sa mga fishing boat, at ang pagkahulog ang may pinakamataas na panganib na ikamatay dahil mahirap magsagawa ng resiba (rescue). Panatilihing malinis ang deck mula sa langis at lusaw ng isda, magsuot ng anti-slip na sapatos at hard hat, siyasatin ang mga lubid at kable kung may pagkasira bago maglayag, at huwag kailanman tumayo sa daanan ng recoil ng net hauler o winch."
+          },
+          {
+            "heading": "Paano Mag-ulat ng Aksidente",
+            "body": "Tumawag sa 122 (Korea Coast Guard) para sa mga emergency sa dagat; tumatanggap din ang 119 ng ulat ng aksidente sa dagat at ibinabahagi ito sa lahat ng ahensya nang real-time. Kapag nag-uulat, isaad ang: ang nangyari, ang iyong posisyon, pangalan ng barko, bilang ng tao sa barko, at numero na matatawagan."
+          },
+          {
+            "heading": "Safety Training",
+            "body": "Sa ilalim ng Article 25 ng Fishing Vessel Safety Act, malinaw na kasama ang mga dayuhang crew sa taunang sapilitang safety training kasama ang mga may-ari, kapitan, at inhinyero. Sinasaklaw ng training ang mga aral sa nabigasyon batay sa aktwal na mga aksidente, paggamit ng life-saving equipment, at hands-on na pagsasanay sa fire extinguisher, CPR, at life jacket."
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "Korea Coast Guard (Ingles)",
+            "url": "https://www.kcg.go.kr/kcg/main.do"
+          },
+          {
+            "label": "Korea.net — Ipinag-uutos na Life Jacket para sa Lahat ng Fishing Vessel",
+            "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148967364"
+          },
+          {
+            "label": "Safety Report Portal",
+            "url": "https://www.safetyreport.go.kr"
+          }
+        ]
+      },
+      "living-in-korea": {
+        "icon": "🏠",
+        "navTitle": "Pamumuhay sa Korea",
+        "navDescription": "Pangangalagang medikal, banking, telepono, mga dokumento",
+        "title": "Pamumuhay sa Korea",
+        "summary": "Mula sa health insurance hanggang sa bank account at mobile phone — alamin ang mga praktikal na hakbang para sa buhay sa Korea bago mo pa ito kailanganin!",
+        "sections": [
+          {
+            "heading": "Health Insurance (NHIS)",
+            "body": "Awtomatikong nairerehistro ang mga dayuhang may trabaho sa National Health Insurance sa pamamagitan ng kanilang employer mula pa sa unang araw. May available na konsultasyon sa 1577-1000 (Korean) o 033-811-2000 (English, Chinese, Japanese, Vietnamese). Ang hindi nabayarang premium ay maaaring humadlang sa iyong pagpapalawig ng visa."
+          },
+          {
+            "heading": "Pagbubukas ng Bank Account",
+            "body": "Kailangan mo ng tatlong bagay: ang iyong Alien Registration Card (ARC), orihinal na pasaporte, at Korean mobile number para sa OTP verification. Dalhin mo rin ang iyong employment contract. Bago dumating ang iyong ARC, may ilang bangko na magbubukas ng limitadong account gamit lang ang pasaporte. Mga bangkong friendly sa dayuhan: KEB Hana, Shinhan, Woori, at IBK. Tumatagal ang pagbubukas ng 30–60 minuto; darating ang iyong card sa pamamagitan ng koreo sa loob ng 1–2 linggo."
+          },
+          {
+            "heading": "Pagkuha ng Mobile Phone",
+            "body": "Maaaring bumili ng prepaid SIM gamit lang ang pasaporte. Kailangan ng ARC at Korean bank account para sa auto-debit kung postpaid contract naman. Inirerekomendang gawin: gumamit ng prepaid pagdating mo, tapos lumipat sa mas murang MVNO (알뜰폰) postpaid plan kapag dumating na ang iyong ARC, habang pinapanatili ang parehong numero."
+          },
+          {
+            "heading": "Mahahalagang Dokumento",
+            "body": "Sapilitan ang Alien Registration Card kung mananatili ka nang mahigit 90 araw — magparehistro sa lokal na immigration office mo sa loob ng 90 araw mula sa pagdating. Dapat ding taglay ng mga marino ang Seafarer's Book at Seafarer's Identity Document (ILO C185). Panatilihing may kopya ng lahat."
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "NHIS — Health Insurance para sa Dayuhan (Ingles)",
+            "url": "https://www.nhis.or.kr/english/index.do"
+          },
+          {
+            "label": "HiKorea — Alien Registration (Ingles)",
+            "url": "https://www.hikorea.go.kr/Main.pt?locale=en"
+          }
+        ]
+      },
+      "first-time-korea": {
+        "icon": "🛬",
+        "navTitle": "Unang Beses sa Korea",
+        "navDescription": "Immigration, salapi, transit card, pangunahing asal",
+        "title": "Unang Beses sa Korea",
+        "summary": "Mula sa visa at pera hanggang sa pang-araw-araw na asal — simulan nang may kumpiyansa ang iyong unang hakbang sa Korea!",
+        "sections": [
+          {
+            "heading": "Visa",
+            "body": "Ang pangunahing work visa para sa marino ay E-10, balido nang hanggang 3 taon at maaaring palawigin hanggang 4 taon 10 buwan kapag muling na-hire. Kumpirmahin ang eksaktong status mo sa Immigration sa 1345 (20 wika; +82-2-1345 mula sa ibang bansa)."
+          },
+          {
+            "heading": "Salapi at Pera",
+            "body": "Gumagamit ang Korea ng won (KRW/₩). Tinatanggap ng mga ATM na may markang \"Global\" ang mga dayuhang card. Halos saanman tinatanggap ang card, pero magdala pa rin ng konting cash para sa maliliit na tindahan at tradisyunal na palengke."
+          },
+          {
+            "heading": "Pagbili ng Transit Card (T-money) — Hakbang-hakbang",
+            "body": "Ang T-money card ang pinakamadaling paraan para sumakay ng bus at subway sa buong bansa.",
+            "subsections": [
+              {
+                "label": "Saan Bumili",
+                "text": "Sa kahit anong convenience store — CU, GS25, 7-Eleven, Emart24 — hanapin ang T-money sticker sa pinto. Available din sa mga vending machine sa istasyon ng subway at sa mga convenience store sa airport."
+              },
+              {
+                "label": "Paano Bumili",
+                "text": "Sabihin ang \"T-money card, please\" (티머니 카드 주세요 — Tee-money kadeu ju-se-yo). Walang kailangang ID o pagpaparehistro."
+              },
+              {
+                "label": "Halaga",
+                "text": "Ang card mismo ay nagkakahalaga ng humigit-kumulang KRW 2,500–4,000 (mas mahal ang mga character/designer na bersyon). Isang beses lang itong bayaran para sa card at hindi ito ma-re-refund bilang transit credit."
+              },
+              {
+                "label": "Paano Mag-load",
+                "text": "Sabihin ang \"Chungjeon haejuseyo\" (충전해주세요 — Choong-jeon hae-ju-se-yo = \"Please charge it\") at ibigay ang cash. Cash lang ang tinatanggap sa karamihan ng convenience store. Karaniwang halaga ng top-up ay KRW 10,000–50,000."
+              },
+              {
+                "label": "Paano Gamitin",
+                "text": "I-tap ang card sa reader kapag sumasakay at muli kapag bababa sa bus — ang pag-tap out ay nagbibigay ng libreng transfer sa pagitan ng bus at subway sa loob ng 30 minuto. Ang base fare ay humigit-kumulang KRW 1,500 at bahagyang mas mura kaysa magbayad ng cash."
+              },
+              {
+                "label": "Kapaki-pakinabang Din",
+                "text": "Gumagana rin ang parehong card sa mga convenience store, ilang taxi, at vending machine. Ang pisikal na T-money card ang pinakasimple — hindi kailangan ng ARC."
+              }
+            ]
+          },
+          {
+            "heading": "Pangunahing Asal — Ano ang Gagawin at Iiwasan",
+            "body": "",
+            "lists": [
+              {
+                "label": "Gawin",
+                "items": [
+                  "Gumamit ng dalawang kamay kapag nagbibigay o tumatanggap ng anumang bagay mula sa isang mas matanda o senior — pera, dokumento, inumin.",
+                  "Yumuko nang bahagya kapag bumabati; sapat na ang pagtango sa mga kaswal na sitwasyon.",
+                  "Magtanggal ng sapatos kapag pumapasok sa bahay o sa tradisyunal na restawran na naka-upo sa sahig.",
+                  "Hintayin munang kumain ang pinakamatanda bago ka rin kumain.",
+                  "Kapag nagbubuhos o tumatanggap ng inumin mula sa isang nakatatanda, hawakan ang baso o bote gamit ang dalawang kamay at bahagyang ihiwalay ang mukha mo kapag umiinom."
+                ]
+              },
+              {
+                "label": "Iwasan — Mga Bagay na Talagang Hindi Gusto ng mga Koreano",
+                "items": [
+                  "Ang pagsasalita nang malakas sa publiko, lalo na sa subway, bus, at tren. Kapansin-pansin kung gaano katahimik ang pampublikong sasakyan sa Korea — itinuturing na bastos ang pagtawag sa telepono. Gumamit na lang ng text message.",
+                  "Ang pagpapatugtog ng musika o video nang walang earphones sa mga pampublikong lugar.",
+                  "Ang paghinguto sa mesa — pumunta na lang sa restroom.",
+                  "Ang pagtusok ng chopsticks nang patayo sa kanin — kahawig ito ng ritwal sa libing.",
+                  "Ang tuwirang pagtanggi sa inumin o pagkain — magalang na tumanggi (\"괜찮습니다\" — Gwaen-chan-seum-ni-da) sa halip na diretsong sabihing hindi.",
+                  "Ang pagdaya sa pila o pagsiksik papasok sa pampublikong sasakyan bago pa makababa ang ibang pasahero.",
+                  "Ang pagtatapon ng basura kung saan-saan o paninigarilyo sa labas ng itinalagang lugar — may multa sa maraming pampublikong zone.",
+                  "Ang pagkagulat kapag tinanong ang edad mo — karaniwan lang ito sa Korea at hindi bastos; ito ang nagtatakda kung paano nag-uusap ang mga tao sa isa't isa.",
+                  "Ang paghuhuli. Seryosong pinapahalagahan ang pagiging maagap sa trabaho at sa pakikisalamuha.",
+                  "Ang malakas na pag-uusap sa telepono sa mga restawran o pagsasalita nang masungit sa mga service staff."
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "HiKorea — Impormasyon sa Visa (Ingles)",
+            "url": "https://www.hikorea.go.kr/Main.pt?locale=en"
+          },
+          {
+            "label": "T-money Official (Ingles)",
+            "url": "https://www.t-money.co.kr"
+          },
+          {
+            "label": "Visit Korea — Transport Card (Ingles)",
+            "url": "https://english.visitkorea.or.kr"
+          }
+        ]
+      },
+      "know-korea": {
+        "icon": "🇰🇷",
+        "navTitle": "Pagkilala sa Korea",
+        "navDescription": "Kultura, pagkain, pag-order, mga panahon",
+        "title": "Pagkilala sa Korea",
+        "summary": "Tuklasin ang pagkain, kultura, at mga panahon sa Korea — ang pagkakaalam sa bansa ay nagpapagaan ng buhay sa dagat at sa lupa!",
+        "sections": [
+          {
+            "heading": "Kultura ng Korea — Kung Paano Nag-iisip ang mga Tao",
+            "body": "Pinahahalagahan ng Korea ang jeong (정) — isang malalim na damdamin ng pagmamalasakit at pagkakalinga na umaabot maging sa mga estranghero. Kung ikaw ay nasa gulo, madalas tumutulong ang mga tao kahit hindi hinihingi. Ang edad at seniority ay humuhubog sa wika at asal, kaya ginagamit ang magalang na pananalita sa mga estranghero, matatanda, at service staff. Mataas ang pagpapahalaga sa nunchi (눈치) — ang pagbabasa ng atmospera o sitwasyon; ang pagmamasid sa ginagawa ng iba bago kumilos ay itinuturing na pagiging maalalahanin, hindi pagiging pasibo. Mas mahalaga ang pagkakaisa ng grupo kaysa sa personal na pagpapahayag sa karamihan ng mga workplace. Ang pagkain at pag-inom pagkatapos ng trabaho ay mahalagang bahagi ng team bonding, bagama't lalong tinatanggap na ang pagtanggi sa alak. Ginagamit ang mga titulo sa halip na unang pangalan (선장님 = Seon-jang-nim = Kapitan); ang pagdaragdag ng \"-nim\" (님) ay nagpapakita ng paggalang."
+          },
+          {
+            "heading": "Sikat na Pagkain Ayon sa Lungsod",
+            "body": "",
+            "table": {
+              "columns": [
+                "Lungsod",
+                "Kilalang Putahe",
+                "Ano Ito"
+              ],
+              "rows": [
+                [
+                  "Busan",
+                  "돼지국밥 (Dwaeji-gukbap)",
+                  "Sopas na kanin sa sabaw ng baboy — soul food ng Busan, mura at nakakabusog"
+                ],
+                [
+                  "Busan",
+                  "밀면 (Milmyeon)",
+                  "Malamig na noodles na gawa sa trigo, orihinal sa Busan"
+                ],
+                [
+                  "Incheon",
+                  "짜장면 (Jjajangmyeon)",
+                  "Noodles na may itim na paste ng black bean — ipinanganak sa Chinatown ng Incheon"
+                ],
+                [
+                  "Jeonju",
+                  "비빔밥 (Bibimbap)",
+                  "Kanin na may gulay at gochujang"
+                ],
+                [
+                  "Pohang",
+                  "과메기 (Gwamegi)",
+                  "Kalahating tuyong saury (isda), isang delicacy sa taglamig"
+                ],
+                [
+                  "Pohang",
+                  "물회 (Mulhoe)",
+                  "Hilaw na isda sa malamig, maasim na sabaw — paboritong lokal na putahe, lalo na sa tag-init"
+                ],
+                [
+                  "Yeosu",
+                  "갓김치 (Gat-kimchi)",
+                  "Kimchi na gawa sa dahon ng mustasa, maanghang at matapang ang amoy"
+                ],
+                [
+                  "Gwangyang",
+                  "불고기 (Bulgogi)",
+                  "Inihaw na inadobong karne ng baka, istilong Gwangyang"
+                ],
+                [
+                  "Mokpo",
+                  "세발낙지 (Sebal-nakji)",
+                  "Maliit na pugita, kinakain nang sariwa"
+                ],
+                [
+                  "Chuncheon",
+                  "닭갈비 (Dakgalbi)",
+                  "Maanghang na guisadong manok"
+                ]
+              ]
+            }
+          },
+          {
+            "heading": "Paano Mag-order ng Pagkain — Praktikal na mga Parirala",
+            "body": "",
+            "lists": [
+              {
+                "label": "",
+                "items": [
+                  "Pagpansin: \"여기요!\" (Yeo-gi-yo!) o \"저기요!\" (Jeo-gi-yo!) — normal lang at hindi bastos ang pagtawag nang malakas sa mga restawran sa Korea.",
+                  "Pag-order: Ituro ang menu at sabihin \"이거 주세요\" (I-geo ju-se-yo) = \"Ito po.\"",
+                  "Dami: \"하나 주세요\" (Ha-na ju-se-yo) = isa, \"둘 주세요\" (Dul ju-se-yo) = dalawa.",
+                  "Hindi maanghang: \"안 맵게 해주세요\" (An maep-ge hae-ju-se-yo).",
+                  "Walang baboy / walang baka: \"돼지고기 빼주세요\" (Dwaeji-gogi ppae-ju-se-yo) / \"소고기 빼주세요\" (So-gogi ppae-ju-se-yo). May mga pagpipiliang Halal malapit sa Busan at sa Itaewon ng Seoul.",
+                  "Tubig at side dish: Palaging libre ang tubig (물 — mul) at mga side dish (반찬 — ban-chan) at maaaring pa-refill. Sabihin ang \"리필 주세요\" (Ri-pil ju-se-yo).",
+                  "Pagbabayad: Magbayad sa counter habang lumalabas, hindi sa mesa. \"계산해주세요\" (Gye-san-hae-ju-se-yo).",
+                  "Walang tip. Hindi kaugalian ang pagbibigay ng tip sa Korea at maaari itong makalito sa staff."
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Mga Panahon at Klima",
+            "body": "",
+            "lists": [
+              {
+                "label": "",
+                "items": [
+                  "Tagsibol (Marso–Mayo) — Malamig-init at kaaya-aya, namumulaklak ang cherry blossoms sa huling bahagi ng Marso hanggang Abril. Mag-ingat sa fine dust (미세먼지) at yellow dust; suriin ang mga air quality app at magsuot ng maskara sa mga masamang araw. Malaki ang pagbabago ng temperatura sa umaga at hapon — magsuot ng maramihang layer ng damit.",
+                  "Panahon ng Paglipat (환절기, huling bahagi ng Marso at huling bahagi ng Oktubre) — Ang pinakakaraniwang oras para magkasakit ng sipon. Maaaring lumampas sa 10°C ang pagkakaiba ng temperatura sa araw at gabi. Magdala pa rin ng jacket kahit mainit ang hapon.",
+                  "Tag-init (Hunyo–Agosto) — Mainit at sobrang halumigmig, kadalasang lumalampas sa 30°C na may 80%+ na humidity. Ang monsoon (장마) ay tumatagal mula huling bahagi ng Hunyo hanggang huling bahagi ng Hulyo, at ang taas ng bagyo (typhoon) ay sa Agosto–Setyembre. Dito pinakamadalas ang mga marine weather advisory at paghihigpit sa paglayag. Totoong panganib ang heat exhaustion sa deck — uminom ng tubig nang palagi at magpahinga sa lilim.",
+                  "Taglagas (Setyembre–Nobyembre) — Malinaw, tuyo, at komportable; malawakang itinuturing na pinakamagandang panahon. Karaniwang mas kalmado ang kalagayan ng dagat, bagama't nagkakaroon pa rin ng mga huling bagyo.",
+                  "Taglamig (Disyembre–Pebrero) — Malamig at tuyo, kadalasang bumababa sa freezing point, na may malalakas na hangin mula hilagang-kanluran. Madalas na pinipigilan ng wind-wave warning ang maliliit na barko na umalis sa daungan, at pinakamataas dito ang panganib ng pagkalubog sa malamig na tubig — maaaring bumaba nang husto ang temperatura ng dagat na sanhi ng pagkawala ng lakas sa loob lamang ng ilang minuto. Magsuot ng thermal layer sa ilalim ng iyong work gear."
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "KMA Marine Weather (Ingles)",
+            "url": "https://www.weather.go.kr/w/index.do"
+          },
+          {
+            "label": "AirKorea — Kalidad ng Hangin (Ingles)",
+            "url": "https://www.airkorea.or.kr/eng"
+          },
+          {
+            "label": "Visit Korea — Gabay sa Pagkaing Korean (Ingles)",
+            "url": "https://english.visitkorea.or.kr"
+          }
+        ]
+      },
+      "port-city-guide": {
+        "icon": "🏙️",
+        "navTitle": "Gabay sa mga Lungsod ng Daungan",
+        "navDescription": "Seamen's Club, transportasyon papuntang bayan, pagbaba sa lupa",
+        "title": "Gabay sa mga Lungsod ng Daungan",
+        "summary": "Mga serbisyo ng Seamen's Club at transportasyon papuntang bayan — samantalahin ang oras mo sa lupa, nang ligtas at madali!",
+        "sections": [
+          {
+            "heading": "Mga Seamen's Club sa Korea",
+            "body": "Available ang mga serbisyo ng Seamen's Club sa mga pangunahing daungan ng Korea, kabilang ang Busan, Incheon, at Pohang. Nag-aalok ang mga sentrong ito ng resting area, shower, internet at access sa telepono, mga tindahan, currency exchange, konsultasyon, at pasilidad na pang-relihiyon — isang lugar para makapagpahinga malayo sa barko.\n\nItanong sa lokal na ahente ng iyong shipping company kung paano makarating sa Seamen's Club at kung anong transportasyon ang available. Maaaring mag-ayos ang ahente ng shuttle o magpayo tungkol sa taxi, at alam nito ang kasalukuyang oras ng operasyon. Ito ang pinaka-maaasahang paraan para makarating doon, dahil nag-iiba ang mga patakaran sa terminal access at gate procedure depende sa daungan at berth.",
+            "lists": [
+              {
+                "label": "Mga Pangunahing Sentro",
+                "items": [
+                  "Busan New Port Seafarers Center — 354 Sinhangman-ro, Gangseo-gu, Busan. Tel +82 51 974 0774 / mobile +82 10 9171 2333. Bukas Lunes–Biyernes 09:00–22:00, Sabado–Linggo 10:00–19:00.",
+                  "Mission to Seafarers Busan — 294 Sinseon-ro, Nam-gu, Busan 48562. Bukas araw-araw 12:00–20:00.",
+                  "United Seamen's Service Busan — Seamen's Club, 99 Gamman 1-dong, Busan 48480 (nagpapatakbo sa Busan mula 1954)."
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "Pagpunta mula sa Daungan Papuntang Bayan",
+            "body": "Lubhang magkakaiba ang access depende sa daungan. Karamihan sa mga daungan sa Korea ay nasa industrial area na may kalayuan mula sa sentro ng bayan, kaya ang taxi ang karaniwang pinakamabilis at pinakasimpleng opsyon. Ipasulat sa Korean ang iyong destinasyon, o ipakita ito sa iyong telepono. Laging kumpirmahin ang eksaktong ruta sa ahente ng iyong barko bago bumaba sa lupa.",
+            "table": {
+              "columns": [
+                "Daungan",
+                "Pinakamalapit na Downtown / Distrito",
+                "Karaniwang Access"
+              ],
+              "rows": [
+                [
+                  "Busan (North Port)",
+                  "Nampo-dong, Jungang-dong",
+                  "Subway Line 1 (Jungang o Nampo Station), maikling lakad o taxi mula sa terminal"
+                ],
+                [
+                  "Busan (New Port)",
+                  "Hadan / Jinhae",
+                  "Taxi o shuttle ng ahente — malayo ang terminal mula sa lungsod; limitado ang pampublikong sasakyan"
+                ],
+                [
+                  "Incheon",
+                  "Sinpo, Dong-Incheon, Chinatown",
+                  "Subway Line 1 (Incheon o Dong-Incheon Station); taxi mula sa berth papunta sa istasyon"
+                ],
+                [
+                  "Pyeongtaek",
+                  "Anjung, Pyeongtaek city centre",
+                  "Lokal na bus o taxi papuntang Pyeongtaek Station (Line 1)"
+                ],
+                [
+                  "Dangjin",
+                  "Songak, Dangjin city centre",
+                  "Taxi — walang rail link sa daungan; bihira ang lokal na serbisyo ng bus"
+                ],
+                [
+                  "Gwangyang",
+                  "Gwangyang city centre / Suncheon",
+                  "Taxi papuntang bayan; intercity bus terminal para sa karagdagang biyahe"
+                ],
+                [
+                  "Yeosu",
+                  "Yeosu city centre, Idong",
+                  "Taxi; Yeosu-Expo Station (KTX) para sa karagdagang biyahe"
+                ],
+                [
+                  "Masan",
+                  "Masan Hapseong-dong, Changwon",
+                  "Lokal na bus o taxi papuntang sentro ng Masan"
+                ],
+                [
+                  "Pohang",
+                  "Pohang city centre, Yeongildae",
+                  "Taxi mula sa Pohang Old/New Port; Pohang Station (KTX) para sa karagdagang biyahe"
+                ],
+                [
+                  "Donghae",
+                  "Donghae city centre",
+                  "Taxi; malapit ang Donghae Station"
+                ],
+                [
+                  "Mukho",
+                  "Mukho port district, Donghae",
+                  "Maikling sakay ng taxi — malapit ang bayan ng Mukho sa daungan"
+                ],
+                [
+                  "Samcheok",
+                  "Samcheok city centre",
+                  "Taxi mula sa Samcheok Port; may available na lokal na bus"
+                ],
+                [
+                  "Gunsan",
+                  "Gunsan city centre",
+                  "Taxi o lokal na bus; Gunsan Station para sa karagdagang biyahe"
+                ]
+              ]
+            },
+            "note": "Madalas nagbabago ang mga numero at oras ng bus, kaya ang talahanayang ito ay nagbibigay lamang ng destinasyon at paraan ng byahe. Kumpirmahin ang kasalukuyang ruta at pamasahe sa ahente ng iyong barko o sa staff ng Seamen's Club bago umalis sa daungan.",
+            "id": "port-transport-table"
+          },
+          {
+            "heading": "Ligtas na Pagbaba sa Lupa",
+            "body": "Napakababa ng krimeng marahas sa Korea at bihira ang pickpocketing. Dalhin palagi ang kopya ng iyong ARC o pasaporte, sundin ang mga traffic signal, at tandaan ang oras ng pagbalik ng iyong barko at numero ng telepono ng iyong ahente bago ka umalis."
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "ITF Seafarers — Maghanap ng Welfare Centre",
+            "url": "https://www.itfseafarers.org/en/directories/seafarers-welfare-centre-index"
+          },
+          {
+            "label": "ISWAN — Mga Seafarer Centre sa Korea",
+            "url": "https://www.iswan.org.uk/centres/"
+          },
+          {
+            "label": "United Seamen's Service",
+            "url": "https://unitedseamensservice.org/uss-centers/"
+          }
+        ]
+      },
+      "worker-rights": {
+        "icon": "📜",
+        "navTitle": "Ang Iyong mga Karapatan bilang Marino",
+        "navDescription": "Oras ng trabaho, kontrata, reklamo, konsultasyon",
+        "title": "Ang Iyong mga Karapatan bilang Marino",
+        "summary": "Alamin ang iyong oras ng trabaho, kontrata, at kung saan hihingi ng tulong — unawain ang iyong mga karapatan at ipaglaban ito nang may kumpiyansa!",
+        "sections": [
+          {
+            "heading": "Oras ng Trabaho at Pahinga",
+            "body": "Itinatakda ng Seafarers' Act ng Korea (Article 60) ang 8 oras kada araw at 40 oras kada linggo bilang batayan. Sa ilalim ng MLC 2006, karapat-dapat kang makakuha ng hindi bababa sa 10 oras na pahinga sa loob ng anumang 24 oras, at 77 oras sa loob ng anumang 7 araw. Maaaring hatiin ang pahinga sa hindi hihigit sa dalawang bahagi, at ang isa dito ay dapat hindi bababa sa 6 na oras ang haba. Dapat itala ang iyong mga oras ng trabaho at pahinga."
+          },
+          {
+            "heading": "Kontrata at mga Dokumento ng Pagkakakilanlan",
+            "body": "Kinakailangan ng batas ang nakasulat na employment contract ng marino. Dapat ka ring may hawak na Seafarer's Book (선원수첩) na nagtatala ng iyong serbisyo at kwalipikasyon, at Seafarer's Identity Document sa ilalim ng ILO Convention No. 185. Panatilihin ang sarili mong kopya ng iyong kontrata — huwag kailanman isuko ang iyong tanging kopya."
+          },
+          {
+            "heading": "Mga Reklamo at Konsultasyon",
+            "body": "Sa ilalim ng MLC 2006 (Regulation 5.1.5), dapat mayroong patas na proseso ng reklamo sa barko ang bawat sasakyang-dagat, ngunit maaari ka ring direktang magreklamo sa mga panlabas na awtoridad — ang may-ari ng barko, ang flag State, ang port State, o ang iyong sariling bansa — at may karapatan kang samahan at protektahan mula sa paghihiganti. Sa daungan, maaari kang mag-ulat ng paglabag sa isang Port State Control officer, o hayaan ang isang ITF inspector o welfare worker na maghain nito para sa iyo.",
+            "lists": [
+              {
+                "label": "Sa Korea, Kontakin ang",
+                "items": [
+                  "Seafarer Labour Inspectors sa pinakamalapit na Regional Office of Oceans and Fisheries — hinahawakan nila ang mga hindi nabayarang sahod at paglabag sa Seafarers' Act.",
+                  "Korea Seamen's Welfare & Employment Center (KOSWEC) — konsultasyon sa reklamo at mga serbisyong panlipunan.",
+                  "Foreign Workers' Counselling Centre 1577-0071 — 16 na wika, 365 araw, 09:00–18:00.",
+                  "Ministry of Employment and Labour 1350 — konsultasyon sa paggawa.",
+                  "APIL (Advocates for Public Interest Law) — +82-2-3478-0529, ang nangungunang legal na NGO para sa migranteng crew ng pangingisda.",
+                  "ITF Seafarer Support — seafsupport@itf.org.uk, WhatsApp +44 7523 515097."
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "ITF Seafarers — Ang Iyong mga Karapatan Ayon sa MLC",
+            "url": "https://www.itfseafarers.org/en/resources/your-rights-under-mlc"
+          },
+          {
+            "label": "ILO — Maritime Labour Convention 2006",
+            "url": "https://www.ilo.org/global/standards/maritime-labour-convention/lang--en/index.htm"
+          },
+          {
+            "label": "HUG Korea — Suporta para sa mga Dayuhang Manggagawa (maraming wika)",
+            "url": "http://www.hugkorea.or.kr"
+          },
+          {
+            "label": "ISWAN — Seafarer Help (24/7, maraming wika)",
+            "url": "https://www.seafarerhelp.org"
+          }
+        ]
+      },
+      "phrasebook": {
+        "icon": "💬",
+        "navTitle": "Mahahalagang Koreano para sa Emergency",
+        "navDescription": "Mahahalagang parirala para sa emergency",
+        "title": "Mahahalagang Koreano para sa Emergency",
+        "summary": "Isang parirala lang ay maaaring magligtas ng buhay — alamin ang mga emergency na expression sa Koreano ngayon!",
+        "phraseGroups": [
+          {
+            "heading": "Paghingi ng Tulong",
+            "phrases": [
+              {
+                "korean": "도와주세요!",
+                "pronunciation": "Do wa ju se yo!",
+                "meaning": "Tulungan mo ako!"
+              },
+              {
+                "korean": "살려주세요!",
+                "pronunciation": "Sal lyo ju se yo!",
+                "meaning": "Iligtas mo ako! (nanganganib ang buhay)"
+              },
+              {
+                "korean": "급해요!",
+                "pronunciation": "Geu pae yo!",
+                "meaning": "Madalian ito!"
+              },
+              {
+                "korean": "응급상황이에요",
+                "pronunciation": "Eung geup sang hwang i e yo",
+                "meaning": "Emergency ito"
+              },
+              {
+                "korean": "119에 전화해주세요",
+                "pronunciation": "Il il gu e jeon hwa hae ju se yo",
+                "meaning": "Pakitawagan ang 119"
+              },
+              {
+                "korean": "경찰을 불러주세요",
+                "pronunciation": "Gyeong chal eul bul lo ju se yo",
+                "meaning": "Tawagan ang pulis"
+              },
+              {
+                "korean": "구급차를 불러주세요",
+                "pronunciation": "Gu geup cha reul bul lo ju se yo",
+                "meaning": "Tawagan ang ambulansya"
+              }
+            ]
+          },
+          {
+            "heading": "Mga Emergency sa Dagat",
+            "phrases": [
+              {
+                "korean": "불이야!",
+                "pronunciation": "Bu ri ya!",
+                "meaning": "Sunog!"
+              },
+              {
+                "korean": "사람이 바다에 빠졌어요",
+                "pronunciation": "Sa ra mi ba da e ppa jyeo sseo yo",
+                "meaning": "May nahulog sa dagat!"
+              },
+              {
+                "korean": "배가 침몰해요",
+                "pronunciation": "Bae ga chim mo rae yo",
+                "meaning": "Lumulubog ang barko"
+              },
+              {
+                "korean": "배가 고장났어요",
+                "pronunciation": "Bae ga go jang na sseo yo",
+                "meaning": "Nasira ang barko"
+              },
+              {
+                "korean": "구명조끼 주세요",
+                "pronunciation": "Gu myeong jo kki ju se yo",
+                "meaning": "Bigyan mo ako ng life jacket"
+              },
+              {
+                "korean": "여기 위치는...",
+                "pronunciation": "Yeo gi wi chi neun...",
+                "meaning": "Ang posisyon namin ay..."
+              },
+              {
+                "korean": "배 이름은...",
+                "pronunciation": "Bae i reu meun...",
+                "meaning": "Ang pangalan ng barko ay..."
+              },
+              {
+                "korean": "사람 다섯 명 있어요",
+                "pronunciation": "Sa ram da seot myeong i sseo yo",
+                "meaning": "May limang tao"
+              }
+            ]
+          },
+          {
+            "heading": "Mga Medikal na Emergency",
+            "phrases": [
+              {
+                "korean": "다쳤어요",
+                "pronunciation": "Da chyeo sseo yo",
+                "meaning": "Nasugatan ako"
+              },
+              {
+                "korean": "여기 아파요",
+                "pronunciation": "Yeo gi a pa yo",
+                "meaning": "Masakit dito (ituro ang bahagi)"
+              },
+              {
+                "korean": "피가 나요",
+                "pronunciation": "Pi ga na yo",
+                "meaning": "Dumudugo ako"
+              },
+              {
+                "korean": "숨을 못 쉬어요",
+                "pronunciation": "Su meul mot swi eo yo",
+                "meaning": "Hindi ako makahinga"
+              },
+              {
+                "korean": "의사가 필요해요",
+                "pronunciation": "Ui sa ga pi ryo hae yo",
+                "meaning": "Kailangan ko ng doktor"
+              },
+              {
+                "korean": "병원이 어디예요?",
+                "pronunciation": "Byeong wo ni eo di ye yo?",
+                "meaning": "Nasaan ang ospital?"
+              },
+              {
+                "korean": "약국이 어디예요?",
+                "pronunciation": "Yak gu gi eo di ye yo?",
+                "meaning": "Nasaan ang parmasya?"
+              },
+              {
+                "korean": "알레르기가 있어요",
+                "pronunciation": "Al le reu gi ga i sseo yo",
+                "meaning": "May allergy ako"
+              },
+              {
+                "korean": "열이 나요",
+                "pronunciation": "Yeo ri na yo",
+                "meaning": "May lagnat ako"
+              },
+              {
+                "korean": "어지러워요",
+                "pronunciation": "Eo ji reo wo yo",
+                "meaning": "Nahihilo ako"
+              }
+            ]
+          },
+          {
+            "heading": "Mga Problema sa Komunikasyon",
+            "phrases": [
+              {
+                "korean": "한국어를 못해요",
+                "pronunciation": "Han gu geo reul mo tae yo",
+                "meaning": "Hindi ako marunong mag-Korean"
+              },
+              {
+                "korean": "영어 할 수 있어요?",
+                "pronunciation": "Yeong eo hal su i sseo yo?",
+                "meaning": "Marunong ka bang mag-English?"
+              },
+              {
+                "korean": "통역이 필요해요",
+                "pronunciation": "Tong yeo gi pi ryo hae yo",
+                "meaning": "Kailangan ko ng interpreter"
+              },
+              {
+                "korean": "천천히 말해주세요",
+                "pronunciation": "Cheon cheo ni mal hae ju se yo",
+                "meaning": "Pakibagalan ang pagsasalita"
+              },
+              {
+                "korean": "다시 말해주세요",
+                "pronunciation": "Da si mal hae ju se yo",
+                "meaning": "Pakiulit"
+              },
+              {
+                "korean": "모르겠어요",
+                "pronunciation": "Mo reu ge sseo yo",
+                "meaning": "Hindi ko maintindihan"
+              },
+              {
+                "korean": "써주세요",
+                "pronunciation": "Sseo ju se yo",
+                "meaning": "Pakisulat na lang"
+              }
+            ]
+          },
+          {
+            "heading": "Problema at mga Dokumento",
+            "phrases": [
+              {
+                "korean": "여권을 잃어버렸어요",
+                "pronunciation": "Yeo gwo neul i reo beo ryeo sseo yo",
+                "meaning": "Nawala ang pasaporte ko"
+              },
+              {
+                "korean": "지갑을 도둑맞았어요",
+                "pronunciation": "Ji ga beul do dung ma ja sseo yo",
+                "meaning": "Ninakawan ako ng pitaka"
+              },
+              {
+                "korean": "길을 잃었어요",
+                "pronunciation": "Gi reul i reo sseo yo",
+                "meaning": "Naligaw ako"
+              },
+              {
+                "korean": "대사관에 연락해주세요",
+                "pronunciation": "Dae sa gwa ne yeon la kae ju se yo",
+                "meaning": "Pakikontak ang embahada ko"
+              },
+              {
+                "korean": "회사에 연락해주세요",
+                "pronunciation": "Hoe sa e yeon la kae ju se yo",
+                "meaning": "Pakikontak ang kompanya ko"
+              },
+              {
+                "korean": "월급을 못 받았어요",
+                "pronunciation": "Wol geu beul mot ba da sseo yo",
+                "meaning": "Hindi pa ako nababayaran"
+              },
+              {
+                "korean": "도움이 필요해요",
+                "pronunciation": "Do u mi pi ryo hae yo",
+                "meaning": "Kailangan ko ng tulong"
+              }
+            ]
+          },
+          {
+            "heading": "Mga Numero ng Emergency — Kung Paano Bigkasin",
+            "phrases": [
+              {
+                "korean": "119",
+                "pronunciation": "Il il gu",
+                "meaning": "Sunog / ambulansya"
+              },
+              {
+                "korean": "112",
+                "pronunciation": "Il il i",
+                "meaning": "Pulis"
+              },
+              {
+                "korean": "122",
+                "pronunciation": "Il i i",
+                "meaning": "Coast Guard"
+              }
+            ]
+          }
+        ],
+        "tip": "Kapag tumawag ka sa 119 o 112, sabihin ang \"Tong yeo gi pi ryo hae yo\" (통역이 필요해요) para maikonekta ka ng operator sa isang interpreter. Maaari ka ring tumawag sa BBB Korea 1588-5644 para sa libreng 24-oras na interpretasyon sa 20 wika.",
+        "referenceLinks": [
+          {
+            "label": "BBB Korea — Libreng Serbisyo ng Interpretasyon (Ingles)",
+            "url": "https://www.bbbkorea.org/eng/main/main.php"
+          },
+          {
+            "label": "Danuri — Suportang Maraming Wika",
+            "url": "https://www.liveinkorea.kr/web/index.do"
+          }
+        ]
+      },
+      "emergency": {
+        "icon": "🆘",
+        "navTitle": "Mga Contact sa Emergency",
+        "navDescription": "112 / 119 / 122 / 1345 at mga helpline na may maraming wika",
+        "title": "Mga Contact sa Emergency",
+        "summary": "Kailanman at saanman mo kailangan ang tulong — i-save na ang mga numero ng emergency na ito ngayon!",
+        "contacts": [
+          {
+            "number": "119",
+            "service": "Sunog, ambulansya, resiba (tumatanggap din ng ulat ng aksidente sa dagat)",
+            "languages": "May available na interpretasyon"
+          },
+          {
+            "number": "112",
+            "service": "Pulis",
+            "languages": "May available na interpretasyon"
+          },
+          {
+            "number": "122",
+            "service": "Korea Coast Guard — mga emergency sa dagat",
+            "languages": "Koreano/Ingles"
+          },
+          {
+            "number": "1345",
+            "service": "Immigration Contact Center",
+            "languages": "20 wika"
+          },
+          {
+            "number": "1350",
+            "service": "Ministry of Employment & Labour — konsultasyon sa paggawa",
+            "languages": "Koreano + interpretasyon"
+          },
+          {
+            "number": "1577-0071",
+            "service": "Foreign Workers' Counselling Centre",
+            "languages": "16 wika"
+          },
+          {
+            "number": "1588-5644",
+            "service": "BBB Korea — libreng interpretasyon sa telepono",
+            "languages": "20 wika, 24/7"
+          },
+          {
+            "number": "1577-1366",
+            "service": "Danuri Call Center — mga migrante at pamilya",
+            "languages": "13 wika, 24/7"
+          },
+          {
+            "number": "1339",
+            "service": "Impormasyong medikal para sa emergency",
+            "languages": "Koreano"
+          },
+          {
+            "number": "1330",
+            "service": "Korea Travel Hotline",
+            "languages": "Maraming wika"
+          },
+          {
+            "number": "033-811-2000",
+            "service": "National Health Insurance — linya para sa dayuhan",
+            "languages": "Ingles, Tsino, Hapon, Vietnamese"
+          },
+          {
+            "number": "+44 7523 515097",
+            "service": "ITF Seafarer Support (WhatsApp/SMS)",
+            "languages": "Maraming wika"
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "Korea Coast Guard (Ingles)",
+            "url": "https://www.kcg.go.kr/kcg/main.do"
+          },
+          {
+            "label": "HUG Korea — Konsultasyon para sa Dayuhang Manggagawa (maraming wika)",
+            "url": "http://www.hugkorea.or.kr"
+          },
+          {
+            "label": "BBB Korea — Serbisyo ng Interpretasyon (Ingles)",
+            "url": "https://www.bbbkorea.org/eng/main/main.php"
+          },
+          {
+            "label": "SeafarerHelp — Libreng 24/7 na helpline para sa mga marino",
+            "url": "https://www.seafarerhelp.org"
+          }
+        ]
+      }
+    }
+  },
+  "my": {
+    "home": {
+      "title": "နိုင်ငံခြားသား သင်္ဘောသားများအတွက် ဘေးကင်းရေးနှင့် နေထိုင်မှုလမ်းညွှန်",
+      "subtitle": "ကိုရီးယားနိုင်ငံတွင် ပင်လယ်ပြင်နှင့် ကုန်းမြေပေါ်တွင် ဘေးကင်းစွာနှင့်ယုံကြည်မှုရှိစွာ နေထိုင်ရန် လိုအပ်သည့်အရာအားလုံး။",
+      "prompt": "အောက်တွင် သင်လိုအပ်သည့်အရာကို ရွေးချယ်ပါ",
+      "disclaimer": "ဤဝဘ်ဆိုက်သည် သတင်းအချက်အလက်ပေးရုံအတွက်သာ ဖြစ်ပါသည်။",
+      "aiLinkLabel": "အခြားအရာများအတွက် AI ကို မေးမြန်းပါ"
+    },
+    "pages": {
+      "safety-at-sea": {
+        "icon": "🦺",
+        "navTitle": "ပင်လယ်ပြင်တွင် ဘေးကင်းစွာနေထိုင်ခြင်း",
+        "navDescription": "အသက်ကယ်အင်္ကျီများ၊ ရာသီဥတုဆိုးရွားမှု၊ မီးလောင်မှု၊ မတော်တဆမှုများ တိုင်ကြားခြင်း",
+        "title": "ပင်လယ်ပြင်တွင် ဘေးကင်းစွာနေထိုင်ခြင်း",
+        "summary": "ရာသီဥတုသတိပေးချက်များမှသည် မီးလောင်မှု၊ လဲကျမှုများနှင့် မတော်တဆမှုကို မည်သို့တိုင်ကြားရမည်အထိ - သင့်အသက်ကို ပင်လယ်ပြင်တွင် ကာကွယ်ပေးသည့် မရှိမဖြစ် ဘေးကင်းရေးစည်းမျဉ်းများကို မှတ်သားထားပါ!",
+        "sections": [
+          {
+            "heading": "အသက်ကယ်အင်္ကျီ ဝတ်ဆင်ပါ",
+            "body": "၂၀၂၆ ခုနှစ် ဇူလိုင်လ ၁ ရက်နေ့မှစတင်၍ ငါးဖမ်းသင်္ဘော၏ ပွင့်လင်းသောကုန်းပတ်ပေါ်ရှိ လူတိုင်းသည် ရာသီဥတုသတိပေးချက် သို့မဟုတ် သင်္ဘောသားအရေအတွက်မည်မျှပင်ရှိစေကာမူ အသက်ကယ်အင်္ကျီကို မဖြစ်မနေ ဝတ်ဆင်ရမည်ဖြစ်သည်။ သင်္ဘောသူကြီးသည် ၁ကြိမ်မြောက် ချိုးဖောက်မှုအတွက် ကျပ်ငွေ ၉၀၀,၀၀၀ ဒဏ်ငွေ၊ ၂ကြိမ်မြောက်အတွက် ၁.၅ သန်း၊ ၃ကြိမ်မြောက် သို့မဟုတ် ထို့ထက်ပိုပါက အများဆုံး ၃ သန်းအထိ ဒဏ်ငွေဆောင်ရမည်ဖြစ်ပြီး — ဤစည်းမျဉ်းသည် နိုင်ငံခြားသား သင်္ဘောသားများအတွက်လည်း အတူတူပင် သက်ဆိုင်ပါသည်။ KOMSA ၏ အဆိုအရ လွန်ခဲ့သည့်ငါးနှစ်အတွင်း ပင်လယ်ပြင်တွင် သေဆုံးသူ သို့မဟုတ် ပျောက်ဆုံးသွားသူများ၏ ၈၁% ခန့်သည် အသက်ကယ်အင်္ကျီ မဝတ်ဆင်ခဲ့ကြပါ၊ ကမ်းခြေစောင့်တပ်၏ ခန့်မှန်းချက်အရ အင်္ကျီဝတ်ဆင်ပါက အသက်ရှင်ကျန်ရစ်နိုင်ခြေမှာ ၇၈% ခန့်အထိ မြင့်တက်လာသည်။ အေးမြသောရေထဲတွင် သင့်တွင် အေးမြမှုလန့်နှစ်ခြင်း ၁ မိနစ်၊ အသုံးဝင်စွာ လှုပ်ရှားနိုင်ချိန် ၁၀ မိနစ်၊ သတိလစ်မှုမတိုင်မီ ၁ နာရီ (1-10-1 စည်းမျဉ်း) ခန့်သာ ရှိပါသည် — ပင်လယ်ထဲကျပြီးမှ အင်္ကျီဝတ်ရန် ကြိုးစားခြင်းမှာ အလွန်နောက်ကျနေပြီဖြစ်သည်။ တိုက်ကွင်းကို ခိုင်ခိုင်မာမာ တပ်ဆင်ပြီး ကိုယ်ခန္ဓာနှင့်ကပ်အောင် တင်းတင်းကျပ်ကျပ် စည်းထားပါ။"
+          },
+          {
+            "heading": "ရာသီဥတုဆိုးရွားမှုကို တုံ့ပြန်ခြင်း",
+            "body": "လေတိုက်နှုန်း ပျမ်းမျှ တစ်စက္ကန့်လျှင် မီတာ ၁၄ ကျော် (နာရီ ၃ ကျော်ကြာ) သို့မဟုတ် လှိုင်းအမြင့် မီတာ ၃ အထက် ရှိမည်ဟု ခန့်မှန်းရသောအခါ လေပြင်းလှိုင်းကြီးသတိပေးချက် (풍랑주의보) ကို ထုတ်ပြန်ပါသည်။ သတိပေးချက်ကာလအတွင်း ငါးဖမ်းသင်္ဘောငယ်များ ထွက်ခွာခြင်းကို တားမြစ်ထားပြီး၊ ချိုးဖောက်ပါက ငါးဖမ်းလိုင်စင်ကို ယာယီရပ်ဆိုင်းခြင်း သို့မဟုတ် ပယ်ဖျက်ခြင်းခံရနိုင်ပါသည်။ ထွက်ခွာတိုင်း ပင်လယ်ရာသီဥတုကို စစ်ဆေးပါ၊ သင်္ဘောသူကြီးနှင့် ကမ်းခြေစောင့်တပ်၏ ဆုံးဖြတ်ချက်များကို လိုက်နာပါ၊ ပင်လယ်ပြင်တွင်ရှိစဉ် သတိပေးချက်ရောက်ရှိလာပါက - အသက်ကယ်အင်္ကျီ ဝတ်ဆင်ပါ၊ လွတ်နေသောပစ္စည်းများကို ခိုင်ခိုင်မာမာ ချည်နှောင်ထားပါ၊ အမြန်နှုန်းလျှော့ချပါ၊ သင်္ဘောဦးကို လှိုင်းကြီးဘက်သို့ ထိန်းထားပါ။"
+          },
+          {
+            "heading": "မီးလောင်မှုကာကွယ်ခြင်းနှင့် တုံ့ပြန်ခြင်း",
+            "body": "အင်ဂျင်ခန်းမီးလောင်မှုများ (လောင်စာဆီ သို့မဟုတ် ဆီအေးများ အပူပိုင်းနေရာများသို့ ရောက်ရှိခြင်း) နှင့် မီးဖိုချောင်မီးလောင်မှုများသည် သင်္ဘောမီးလောင်မှုအများစု၏ အကြောင်းရင်းဖြစ်သည်။ ပိုက်လိုင်းများကို ပုံမှန်စစ်ဆေးပါ၊ ယိုစိမ့်မှုများကို ချက်ချင်းပြင်ဆင်ပါ၊ လျှပ်စစ်ဆားကစ်များကို ဝန်ပိုမလွန်ခံစေပါနှင့်။ မီးလောင်ပါက အချက်ပေးအချက်ပြပြီး သင်္ဘောသူကြီးကို ပထမဆုံးအကြောင်းကြားပါ။ မီးဖိုချောင် သို့မဟုတ် ဆီမီးလောင်မှုများတွင် ရေကို လုံးဝမသုံးပါနှင့် — မီးကို လေထုတားခြင်းဖြင့် ငြိမ်းသတ်ပါ သို့မဟုတ် သင့်လျော်သော မီးသတ်ဆေးဘူးကို အသုံးပြုပါ။"
+          },
+          {
+            "heading": "လဲကျခြင်းနှင့် ရေထဲကျခြင်း မတော်တဆမှုများကို ကာကွယ်ခြင်း",
+            "body": "ကမ်းခြေစောင့်တပ်၏ စာရင်းအင်းများအရ သင်္ဘောမတော်တဆမှုများတွင် သေဆုံးသူနှင့် ပျောက်ဆုံးသူ ၈၀% ကျော်သည် ငါးဖမ်းသင်္ဘောများတွင် ဖြစ်ပွားသည်ဟု ပြသထားပြီး၊ ကယ်ဆယ်ရန်ခက်ခဲသောကြောင့် လဲကျမှုများသည် သေဆုံးနိုင်ခြေအမြင့်ဆုံးဖြစ်သည်။ ကုန်းပတ်ကို ဆီနှင့်ငါးချေးများ ကင်းရှင်းအောင်ထားပါ၊ ချော်ခြင်းမှကာကွယ်သောဖိနပ်နှင့် ဦးထုပ်ကို ဝတ်ဆင်ပါ၊ ထွက်ခွာမီ ကြိုးများနှင့် ဂျယ်ကြိုးများကို ဖောက်ပြန်ခြင်းရှိမရှိ စစ်ဆေးပါ၊ ပိုက်ကွန်ဆွဲစက် သို့မဟုတ် ဝင်ချ်စက်၏ ပြန်ဆွဲသည့်လမ်းကြောင်းတွင် ဘယ်တော့မှ မရပ်ပါနှင့်။"
+          },
+          {
+            "heading": "မတော်တဆမှုကို မည်သို့တိုင်ကြားရမည်",
+            "body": "ပင်လယ်ပြင် အရေးပေါ်အခြေအနေများအတွက် 122 (ကိုရီးယား ကမ်းခြေစောင့်တပ်) သို့ ဖုန်းခေါ်ဆိုပါ၊ 119 သည်လည်း ပင်လယ်ပြင်မတော်တဆမှု တိုင်ကြားချက်များကို လက်ခံပြီး ဌာနအားလုံးသို့ အချိန်နှင့်တပြေးညီ မျှဝေပေးပါသည်။ တိုင်ကြားသည့်အခါ - ဖြစ်ပျက်ခဲ့ပုံ၊ သင့်တည်နေရာ၊ သင်္ဘောအမည်၊ သင်္ဘောပေါ်ရှိလူဦးရေနှင့် ပြန်လည်ဆက်သွယ်နိုင်သည့်ဖုန်းနံပါတ်ကို ဖော်ပြပါ။"
+          },
+          {
+            "heading": "ဘေးကင်းရေးသင်တန်း",
+            "body": "ငါးဖမ်းသင်္ဘော ဘေးကင်းရေးအက်ဥပဒေ ပုဒ်မ ၂၅ အရ၊ နိုင်ငံခြားသား သင်္ဘောသားများသည် သင်္ဘောပိုင်ရှင်များ၊ သင်္ဘောသူကြီးများနှင့် အင်ဂျင်နီယာများနှင့်အတူ နှစ်စဉ်မဖြစ်မနေ ဘေးကင်းရေးသင်တန်းတွင် တိကျစွာ ပါဝင်ရမည်ဖြစ်သည်။ သင်တန်းတွင် မတော်တဆမှုအခြေခံ ရေကြောင်းသင်ခန်းစာများ၊ အသက်ကယ်ကိရိယာများ အသုံးပြုနည်းနှင့် မီးသတ်ဆေးဘူး၊ CPR နှင့် အသက်ကယ်အင်္ကျီများ လက်တွေ့လေ့ကျင့်ခန်းများ ပါဝင်ပါသည်။"
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "ကိုရီးယား ကမ်းခြေစောင့်တပ် (အင်္ဂလိပ်)",
+            "url": "https://www.kcg.go.kr/kcg/main.do"
+          },
+          {
+            "label": "Korea.net — ငါးဖမ်းသင်္ဘောအားလုံးအတွက် အသက်ကယ်အင်္ကျီစည်းမျဉ်း",
+            "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148967364"
+          },
+          {
+            "label": "ဘေးကင်းရေးတိုင်ကြားမှု ပေါ်တယ်",
+            "url": "https://www.safetyreport.go.kr"
+          }
+        ]
+      },
+      "living-in-korea": {
+        "icon": "🏠",
+        "navTitle": "ကိုရီးယားနိုင်ငံတွင် နေထိုင်ခြင်း",
+        "navDescription": "ဆေးဘက်ဆိုင်ရာစောင့်ရှောက်မှု၊ ဘဏ်လုပ်ငန်း၊ ဖုန်း၊ စာရွက်စာတမ်းများ",
+        "title": "ကိုရီးယားနိုင်ငံတွင် နေထိုင်ခြင်း",
+        "summary": "ကျန်းမာရေးအာမခံမှသည် ဘဏ်အကောင့်နှင့် မိုဘိုင်းဖုန်းများအထိ — ကိုရီးယားနိုင်ငံတွင် နေထိုင်ရန်အတွက် လက်တွေ့ကျသောအဆင့်များကို မလိုအပ်မီကတည်းက လေ့လာထားပါ!",
+        "sections": [
+          {
+            "heading": "ကျန်းမာရေးအာမခံ (NHIS)",
+            "body": "အလုပ်ရှင်ရှိသော နိုင်ငံခြားသားများသည် အလုပ်စတင်သည့်နေ့မှစတင်၍ အလုပ်ရှင်မှတစ်ဆင့် အမျိုးသားကျန်းမာရေးအာမခံတွင် စာရင်းသွင်းခံရပါသည်။ အတိုင်ပင်ခံဝန်ဆောင်မှုကို 1577-1000 (ကိုရီးယားဘာသာ) သို့မဟုတ် 033-811-2000 (အင်္ဂလိပ်၊ တရုတ်၊ ဂျပန်၊ ဗီယက်နမ်ဘာသာ) တွင် ရယူနိုင်ပါသည်။ အာမခံကြေးမပေးဆောင်ပါက သင့်ဗီဇာသက်တမ်းတိုးခြင်းကို ပိတ်ဆို့နိုင်ပါသည်။"
+          },
+          {
+            "heading": "ဘဏ်အကောင့်ဖွင့်ခြင်း",
+            "body": "သင့်တွင် အရာသုံးခုလိုအပ်ပါသည် - သင့်နိုင်ငံခြားသားမှတ်ပုံတင်ကတ် (ARC)၊ သင့်မူရင်းပတ်စ်ပို့နှင့် OTP အတည်ပြုမှုအတွက် ကိုရီးယားမိုဘိုင်းဖုန်းနံပါတ်။ အလုပ်ခန့်အပ်မှုစာချုပ်ကိုလည်း ယူဆောင်လာပါ။ သင့် ARC မရောက်မီ ဘဏ်အချို့သည် ပတ်စ်ပို့သာဖြင့် လုပ်ဆောင်ချက်ကန့်သတ်ထားသော အကောင့်ကို ဖွင့်ပေးပါသည်။ နိုင်ငံခြားသားများအတွက် အဆင်ပြေသောဘဏ်များ - KEB Hana၊ Shinhan၊ Woori နှင့် IBK။ အကောင့်ဖွင့်ရန် ၃၀-၆၀ မိနစ်ခန့်ကြာပြီး၊ သင့်ကတ်သည် စာတိုက်မှတစ်ဆင့် ၁-၂ ပတ်အတွင်း ရောက်ရှိပါလိမ့်မည်။"
+          },
+          {
+            "heading": "မိုဘိုင်းဖုန်း ရယူခြင်း",
+            "body": "ကြိုတင်ငွေဖြည့် ဆင်းကတ်များကို ပတ်စ်ပို့တစ်ခုတည်းဖြင့် ဝယ်ယူနိုင်ပါသည်။ နောက်ကျပေးဆောင်ရသော စာချုပ်များအတွက် ARC နှင့် အလိုအလျောက်နှုတ်ယူရန် ကိုရီးယားဘဏ်အကောင့် လိုအပ်ပါသည်။ အကြံပြုချက် - ရောက်ရှိချိန်တွင် ကြိုတင်ငွေဖြည့် သုံးပြီး၊ သင့် ARC ရောက်ရှိလာသောအခါ ဖုန်းနံပါတ်ကို ဆက်လက်ထားရှိကာ ပိုစျေးသက်သာသော MVNO (알뜰폰) နောက်ကျပေးဆောင်စနစ်သို့ ပြောင်းလဲသုံးစွဲပါ။"
+          },
+          {
+            "heading": "မရှိမဖြစ် စာရွက်စာတမ်းများ",
+            "body": "ရက်ပေါင်း ၉၀ ကျော် နေထိုင်မည်ဆိုပါက နိုင်ငံခြားသားမှတ်ပုံတင်ကတ် မဖြစ်မနေလိုအပ်ပါသည် — ရောက်ရှိသည့်နေ့မှ ရက်ပေါင်း ၉၀ အတွင်း သင့်ဒေသန္တရ လူဝင်မှုကြီးကြပ်ရေးရုံးတွင် မှတ်ပုံတင်ပါ။ သင်္ဘောသားများသည် သင်္ဘောသားစာအုပ်နှင့် သင်္ဘောသားနိုင်ငံသားစိစစ်ရေးစာရွက်စာတမ်း (ILO C185) ကိုလည်း ယူဆောင်ထားရပါသည်။ အားလုံး၏မိတ္တူများကို သိမ်းဆည်းထားပါ။"
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "NHIS — နိုင်ငံခြားသားကျန်းမာရေးအာမခံ (အင်္ဂလိပ်)",
+            "url": "https://www.nhis.or.kr/english/index.do"
+          },
+          {
+            "label": "HiKorea — နိုင်ငံခြားသားမှတ်ပုံတင်ခြင်း (အင်္ဂလိပ်)",
+            "url": "https://www.hikorea.go.kr/Main.pt?locale=en"
+          }
+        ]
+      },
+      "first-time-korea": {
+        "icon": "🛬",
+        "navTitle": "ကိုရီးယားနိုင်ငံသို့ ပထမဆုံးအကြိမ်ရောက်ရှိခြင်း",
+        "navDescription": "လူဝင်မှုကြီးကြပ်ရေး၊ ငွေကြေး၊ သွားလာရေးကတ်များ၊ အခြေခံကျင့်ဝတ်",
+        "title": "ကိုရီးယားနိုင်ငံသို့ ပထမဆုံးအကြိမ်ရောက်ရှိခြင်း",
+        "summary": "ဗီဇာနှင့်ငွေကြေးမှသည် နေ့စဉ်ကျင့်ဝတ်များအထိ — ကိုရီးယားနိုင်ငံတွင် သင့်ပထမဆုံးခြေလှမ်းများကို ယုံကြည်မှုနှင့်အတူ စတင်ပါ!",
+        "sections": [
+          {
+            "heading": "ဗီဇာ",
+            "body": "အဓိက သင်္ဘောသားအလုပ်ဗီဇာမှာ E-10 ဖြစ်ပြီး ၃ နှစ်အထိ သက်တမ်းရှိကာ ပြန်လည်ငှားရမ်းပါက ၄ နှစ် ၁၀ လအထိ သက်တမ်းတိုးနိုင်ပါသည်။ သင့်အတိအကျအခြေအနေကို လူဝင်မှုကြီးကြပ်ရေး 1345 (ဘာသာစကား ၂၀ ခု၊ နိုင်ငံခြားမှခေါ်ပါက +82-2-1345) တွင် အတည်ပြုပါ။"
+          },
+          {
+            "heading": "ငွေကြေးနှင့်ငွေစနစ်",
+            "body": "ကိုရီးယားနိုင်ငံသည် ဝမ်ငွေကြေး (KRW/₩) ကို အသုံးပြုပါသည်။ \"Global\" ဟုရေးထားသော ATM များသည် နိုင်ငံခြားကတ်များကို လက်ခံပါသည်။ နေရာအနှံ့အပြားတွင် ကတ်များကို လက်ခံသော်လည်း၊ ဆိုင်ငယ်များနှင့် ရိုးရာစျေးများအတွက် ငွေသားအနည်းငယ် ယူဆောင်ထားပါ။"
+          },
+          {
+            "heading": "သွားလာရေးကတ် (T-money) ဝယ်ယူခြင်း — အဆင့်ဆင့်",
+            "body": "T-money ကတ်သည် တစ်နိုင်ငံလုံးရှိ ဘတ်စ်ကားများနှင့် မြေအောက်ရထားများကို အသုံးပြုရန် အလွယ်ကူဆုံးနည်းလမ်းဖြစ်သည်။",
+            "subsections": [
+              {
+                "label": "ဘယ်နေရာတွင် ဝယ်ယူရမည်",
+                "text": "အဆင်ပြေဆိုင်တိုင်းတွင် — CU, GS25, 7-Eleven, Emart24 — တံခါးပေါ်ရှိ T-money စတစ်ကာကို ရှာပါ။ မြေအောက်ရထားဘူတာများရှိ အလိုအလျောက်ရောင်းစက်များနှင့် လေဆိပ်အဆင်ပြေဆိုင်များတွင်လည်း ရရှိနိုင်ပါသည်။"
+              },
+              {
+                "label": "ဘယ်လိုဝယ်ယူရမည်",
+                "text": "\"T-money card, please\" (티머니 카드 주세요 — Tee-money kadeu ju-se-yo) ဟု ပြောပါ။ မှတ်ပုံတင်ကတ် သို့မဟုတ် မှတ်ပုံတင်ခြင်း မလိုအပ်ပါ။"
+              },
+              {
+                "label": "စျေးနှုန်း",
+                "text": "ကတ်ကိုယ်တိုင်၏ စျေးနှုန်းမှာ ကျပ်ငွေ ၂,၅၀၀-၄,၀၀၀ ခန့်ဖြစ်သည် (ကာတွန်း/ဒီဇိုင်နာဗားရှင်းများသည် ပိုစျေးကြီးသည်)။ ဤသည်မှာ တစ်ကြိမ်တည်း ကတ်ကြေးဖြစ်ပြီး သွားလာရေးအကြွေးအဖြစ် ပြန်အမ်းငွေမရနိုင်ပါ။"
+              },
+              {
+                "label": "ငွေဖြည့်နည်း",
+                "text": "\"Chungjeon haejuseyo\" (충전해주세요 — Choong-jeon hae-ju-se-yo = \"ကျေးဇူးပြု၍ ငွေဖြည့်ပေးပါ\") ဟုပြောပြီး ငွေသားလက်ဆောင်ပါ။ အဆင်ပြေဆိုင်အများစုတွင် ငွေသားသာ လက်ခံပါသည်။ ပုံမှန်ငွေဖြည့်ပမာဏများမှာ ကျပ်ငွေ ၁၀,၀၀၀-၅၀,၀၀၀ ဖြစ်သည်။"
+              },
+              {
+                "label": "အသုံးပြုနည်း",
+                "text": "ဘတ်စ်ကားတက်စဉ်နှင့် ဆင်းစဉ် ကတ်ကို ဖတ်စက်ပေါ်တွင် တို့ပါ — ဆင်းချိန်တို့ခြင်းသည် ၃၀ မိနစ်အတွင်း ဘတ်စ်ကားနှင့် မြေအောက်ရထားကြား အခမဲ့ လွှဲပြောင်းစီးနင်းခွင့်ပေးပါသည်။ အခြေခံခရီးစရိတ်မှာ ကျပ်ငွေ ၁,၅၀၀ ခန့်ဖြစ်ပြီး ငွေသားဖြင့်ပေးချေခြင်းထက် အနည်းငယ်စျေးသက်သာသည်။"
+              },
+              {
+                "label": "အသုံးဝင်သောအချက်များ",
+                "text": "ကတ်တစ်ခုတည်းကို အဆင်ပြေဆိုင်များ၊ တက္ကစီအချို့နှင့် အလိုအလျောက်ရောင်းစက်များတွင်လည်း အသုံးပြုနိုင်ပါသည်။ တကယ့်ကတ်ပုံစံ T-money ကတ်သည် အလွယ်ကူဆုံးဖြစ်ပြီး ARC မလိုအပ်ပါ။"
+              }
+            ]
+          },
+          {
+            "heading": "အခြေခံကျင့်ဝတ် — ဘာလုပ်ရမည်နှင့် ဘာရှောင်ရမည်",
+            "body": "",
+            "lists": [
+              {
+                "label": "လုပ်ဆောင်ရမည်",
+                "items": [
+                  "အသက်ကြီးသူ သို့မဟုတ် အထက်လူကြီးထံမှ တစ်စုံတစ်ခု ပေးသည်ဖြစ်စေ၊ လက်ခံသည်ဖြစ်စေ — ငွေ၊ စာရွက်စာတမ်း၊ သောက်စရာများ — လက်နှစ်ဖက်ကို အသုံးပြုပါ။",
+                  "နှုတ်ဆက်သည့်အခါ အနည်းငယ် ဦးညွှတ်ပါ၊ ပေါ့ပေါ့ပါးပါးအခြေအနေများတွင် ခေါင်းညိတ်ရုံနှင့် လုံလောက်ပါသည်။",
+                  "အိမ်တစ်လုံး သို့မဟုတ် ကြမ်းပြင်ပေါ်ထိုင်သည့် ရိုးရာစားသောက်ဆိုင်သို့ ဝင်ရောက်သည့်အခါ ဖိနပ်ချွတ်ပါ။",
+                  "အသက်အကြီးဆုံးသူ စတင်စားသောက်ပြီးမှ သင်စတင်ပါ။",
+                  "အသက်ကြီးသူထံမှ သောက်စရာ လောင်းသည်ဖြစ်စေ၊ လက်ခံသည်ဖြစ်စေ ဖန်ခွက် သို့မဟုတ် ပုလင်းကို လက်နှစ်ဖက်ဖြင့် ကိုင်ပြီး သောက်သည့်အခါ မျက်နှာကို အနည်းငယ်လှည့်ထားပါ။"
+                ]
+              },
+              {
+                "label": "ရှောင်ကြဉ်ရမည် — ကိုရီးယားလူမျိုးများ တကယ်ပင်မကြိုက်သောအရာများ",
+                "items": [
+                  "အများပြည်သူနေရာများတွင် အသံကျယ်စွာစကားပြောခြင်း၊ အထူးသဖြင့် မြေအောက်ရထား၊ ဘတ်စ်ကားနှင့် ရထားများပေါ်တွင်။ ကိုရီးယား အများပြည်သူသွားလာရေးယာဉ်များသည် အံ့ဩဖွယ် တိတ်ဆိတ်ပါသည် — ဖုန်းခေါ်ဆိုခြင်းကို ယဉ်ကျေးမှုမရှိဟု ယူဆကြသည်။ ယင်းအစား စာတိုပေးပို့ခြင်းကို သုံးပါ။",
+                  "အများပြည်သူနေရာများတွင် နားကြပ်မပါဘဲ တေးဂီတ သို့မဟုတ် ဗီဒီယို ဖွင့်နားထောင်ခြင်း။",
+                  "စားပွဲပေါ်တွင် နှာခေါင်းရှုတ်ခြင်း — သန့်စင်ခန်းသို့သွားပါ။",
+                  "ထမင်းထဲတွင် တူးများကို ဒေါင်လိုက်စိုက်ထားခြင်း — ဤသည်မှာ သင်္ဂြိုဟ်ပွဲအခမ်းအနားနှင့် တူညီပါသည်။",
+                  "သောက်စရာ သို့မဟုတ် အစားအစာကို ရိုင်းရိုင်းစိုင်းစိုင်း ငြင်းဆိုခြင်း — ရိုးရိုးရှင်းရှင်း \"မဟုတ်ပါ\" ဟုပြောမည့်အစား \"괜찮습니다\" (Gwaen-chan-seum-ni-da) ဖြင့်ယဉ်ကျေးစွာ ငြင်းပယ်ပါ။",
+                  "တန်းစီမှုကို ကျော်တက်ခြင်း သို့မဟုတ် အခြားသူများ မဆင်းရသေးမီ အများပြည်သူသွားလာရေးယာဉ်ပေါ်သို့ တွန်းတိုက်တက်ခြင်း။",
+                  "အမှိုက်များပစ်ချခြင်း သို့မဟုတ် သတ်မှတ်ထားသောနေရာများ ပြင်ပတွင် ဆေးလိပ်သောက်ခြင်း — အများပြည်သူနေရာများစွာတွင် ဒဏ်ငွေများ ကျသင့်နိုင်ပါသည်။",
+                  "အသက်မေးမြန်းခံရသည့်အခါ အံ့ဩခြင်း — ဤသည်မှာ ကိုရီးယားနိုင်ငံတွင် ပုံမှန်ဖြစ်ပြီး ရိုင်းစိုင်းမှုမဟုတ်ပါ၊ လူများ တစ်ဦးနှင့်တစ်ဦး မည်သို့ပြောဆိုကြမည်ကို ဆုံးဖြတ်ပေးသောကြောင့်ဖြစ်သည်။",
+                  "အချိန်နောက်ကျခြင်း။ အချိန်ကိုက်တိကျမှုကို အလုပ်တွင်ရော လူမှုရေးအရပါ အလေးအနက်ထားကြသည်။",
+                  "စားသောက်ဆိုင်များတွင် အသံကျယ်စွာ ဖုန်းစကားပြောခြင်း သို့မဟုတ် ဝန်ဆောင်မှုဝန်ထမ်းများကို ရိုင်းစိုင်းစွာပြောဆိုခြင်း။"
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "HiKorea — ဗီဇာအချက်အလက် (အင်္ဂလိပ်)",
+            "url": "https://www.hikorea.go.kr/Main.pt?locale=en"
+          },
+          {
+            "label": "T-money တရားဝင်ဝဘ်ဆိုက် (အင်္ဂလိပ်)",
+            "url": "https://www.t-money.co.kr"
+          },
+          {
+            "label": "Visit Korea — သွားလာရေးကတ်များ (အင်္ဂလိပ်)",
+            "url": "https://english.visitkorea.or.kr"
+          }
+        ]
+      },
+      "know-korea": {
+        "icon": "🇰🇷",
+        "navTitle": "ကိုရီးယားနိုင်ငံကို လေ့လာသိရှိခြင်း",
+        "navDescription": "ယဉ်ကျေးမှု၊ အစားအစာ၊ မှာယူခြင်း၊ ရာသီများ",
+        "title": "ကိုရီးယားနိုင်ငံကို လေ့လာသိရှိခြင်း",
+        "summary": "ကိုရီးယား၏ အစားအစာ၊ ယဉ်ကျေးမှုနှင့် ရာသီများကို ရှာဖွေလေ့လာပါ — နိုင်ငံကိုသိရှိခြင်းသည် ပင်လယ်ပြင်နှင့် ကုန်းမြေပေါ်ရှိ နေထိုင်မှုကို ပိုမိုလွယ်ကူစေပါသည်!",
+        "sections": [
+          {
+            "heading": "ကိုရီးယားယဉ်ကျေးမှု — လူများ မည်သို့တွေးခေါ်ကြသည်",
+            "body": "ကိုရီးယားနိုင်ငံသည် ချေါင် (정) ကို တန်ဖိုးထားသည် — မသိကျွမ်းသူများအထိပါ ကျယ်ပြန့်သွားသော ခိုင်မာသောစည်းလုံးမှုနှင့် အပြန်အလှန်ဂရုစိုက်မှု၏ ခံစားချက်နက်ရှိုင်းမှုတစ်ခုဖြစ်သည်။ သင်ဒုက္ခရောက်နေပါက လူများသည် မတောင်းဆိုဘဲ များသောအားဖြင့် ကူညီကြလိမ့်မည်။ အသက်နှင့် အထက်လူကြီးအဆင့်အတန်းသည် စကားပြောနှင့် အပြုအမူကို ပုံဖော်ပေးသောကြောင့်၊ မသိကျွမ်းသူများ၊ အသက်ကြီးသူများနှင့် ဝန်ဆောင်မှုဝန်ထမ်းများနှင့် ယဉ်ကျေးသော စကားလုံးများကို အသုံးပြုကြသည်။ နွန်ချီ (눈치) — ပတ်ဝန်းကျင်အခြေအနေကို ဖတ်တတ်ခြင်း — ကို အလွန်တန်ဖိုးထားကြသည်၊ လုပ်ဆောင်ခြင်းမပြုမီ အခြားသူများ လုပ်ဆောင်နေသည်ကို ကြည့်ခြင်းသည် စဉ်းစားတတ်ခြင်းဟု ယူဆကြပြီး လက်ပိုက်ကြည့်နေခြင်းမဟုတ်ပါ။ လုပ်ငန်းခွင်အများစုတွင် တစ်ဦးချင်းထုတ်ဖော်မှုထက် အုပ်စုသဟဇာတမှုက ပိုအရေးကြီးသည်။ အလုပ်ပြီးနောက် အတူစားသောက်ခြင်းသည် အသင်းအဖွဲ့ ခိုင်မာမှု၏ အဓိကအစိတ်အပိုင်းတစ်ခုဖြစ်သော်လည်း၊ အရက်ငြင်းဆိုခြင်းကို ပိုမို လက်ခံလာကြသည်။ ပထမအမည်များအစား ရာထူးအမည်များကို သုံးကြသည် (선장님 = Seon-jang-nim = သင်္ဘောသူကြီး)၊ \"-nim\" (님) ထည့်ခြင်းသည် လေးစားမှုကို ပြသသည်။"
+          },
+          {
+            "heading": "မြို့အလိုက် နာမည်ကြီးအစားအစာများ",
+            "body": "",
+            "table": {
+              "columns": [
+                "မြို့",
+                "အထူးအစားအစာ",
+                "၎င်းသည် အဘယ်နည်း"
+              ],
+              "rows": [
+                [
+                  "Busan",
+                  "돼지국밥 (Dwaeji-gukbap)",
+                  "ဝက်သားပြုတ်ရည်ထမင်းဟင်း — ပူဆန်း၏ စိတ်ဓာတ်အစားအစာ၊ စျေးသက်သာပြီး ဗိုက်ပြည့်စေသည်"
+                ],
+                [
+                  "Busan",
+                  "밀면 (Milmyeon)",
+                  "ရေခဲဂျုံမုန့်ဟင်းခါး၊ ပူဆန်းမူလ"
+                ],
+                [
+                  "Incheon",
+                  "짜장면 (Jjajangmyeon)",
+                  "အနက်ရောင်ပဲမှုန့်မုန့်ဟင်းခါး — အင်ချွန်း တရုတ်တန်း၌ မွေးဖွားခဲ့သည်"
+                ],
+                [
+                  "Jeonju",
+                  "비빔밥 (Bibimbap)",
+                  "ဟင်းသီးဟင်းရွက်နှင့် ငရုတ်ကောင်းအဖျော့နှင့် ရောစပ်ထားသော ထမင်း"
+                ],
+                [
+                  "Pohang",
+                  "과메기 (Gwamegi)",
+                  "တစ်ဝက်အခြောက်ခံထားသော ငါးမျိုး၊ ဆောင်းရာသီ အထူးအစားအစာ"
+                ],
+                [
+                  "Pohang",
+                  "물회 (Mulhoe)",
+                  "အေးမြပြီး ချဉ်နည်းနည်းရှိသော ဟင်းရည်ထဲက စစ်ဆေးရေကြောင်းငါးစိမ်း — နွေရာသီတွင် အထူးနှစ်သက်ကြသော ဒေသအစားအစာ"
+                ],
+                [
+                  "Yeosu",
+                  "갓김치 (Gat-kimchi)",
+                  "မုန်ညင်းရွက် ကင်ချီ၊ စပ်ပြီး အနံ့ပြင်းသော"
+                ],
+                [
+                  "Gwangyang",
+                  "불고기 (Bulgogi)",
+                  "ချက်ချင်းအရသာစိမ့်ထားသော အကင်နွားသား၊ ဂွမ်ယမ်းပုံစံ"
+                ],
+                [
+                  "Mokpo",
+                  "세발낙지 (Sebal-nakji)",
+                  "ရေဩက်ကလေး၊ လတ်ဆတ်စွာစားရသည်"
+                ],
+                [
+                  "Chuncheon",
+                  "닭갈비 (Dakgalbi)",
+                  "စပ်သော ကြက်သားကြော်"
+                ]
+              ]
+            }
+          },
+          {
+            "heading": "အစားအစာ မှာယူနည်း — လက်တွေ့ကျသော စကားစုများ",
+            "body": "",
+            "lists": [
+              {
+                "label": "",
+                "items": [
+                  "အာရုံစိုက်စေရန် - \"여기요!\" (Yeo-gi-yo!) သို့မဟုတ် \"저기요!\" (Jeo-gi-yo!) — ကျယ်လောင်စွာခေါ်ခြင်းသည် ကိုရီးယားစားသောက်ဆိုင်များတွင် ပုံမှန်ဖြစ်ပြီး ရိုင်းစိုင်းမှုမဟုတ်ပါ။",
+                  "မှာယူခြင်း - မီနူးကို လက်ညှိုးထိုးပြီး \"이거 주세요\" (I-geo ju-se-yo) = \"ဒီဟာပေးပါ\" ဟုပြောပါ။",
+                  "အရေအတွက် - \"하나 주세요\" (Ha-na ju-se-yo) = တစ်ခု၊ \"둘 주세요\" (Dul ju-se-yo) = နှစ်ခု။",
+                  "မစပ်စေရန် - \"안 맵게 해주세요\" (An maep-ge hae-ju-se-yo)။",
+                  "ဝက်သားမပါ / နွားသားမပါ - \"돼지고기 빼주세요\" (Dwaeji-gogi ppae-ju-se-yo) / \"소고기 빼주세요\" (So-gogi ppae-ju-se-yo)။ ဟလာလ် ရွေးချယ်စရာများကို ပူဆန်းနှင့် ဆိုးလ်မြို့ အီတေဝွန်းအနီးတွင် တွေ့ရှိနိုင်ပါသည်။",
+                  "ရေနှင့် ဟင်းလျာငယ်များ - အခမဲ့ရေ (물 — mul) နှင့် ဟင်းလျာငယ်များ (반찬 — ban-chan) သည် အမြဲတမ်း အခမဲ့ဖြစ်ပြီး ထပ်ဖြည့်နိုင်ပါသည်။ \"리필 주세요\" (Ri-pil ju-se-yo) ဟု တောင်းဆိုပါ။",
+                  "ငွေပေးချေခြင်း - ထွက်သွားချိန်တွင် ကောင်တာတွင် ငွေပေးချေပါ၊ စားပွဲတွင် မဟုတ်ပါ။ \"계산해주세요\" (Gye-san-hae-ju-se-yo)။",
+                  "အပိုဆုကြေးမပေးရ။ ကိုရီးယားနိုင်ငံတွင် အပိုဆုကြေးပေးခြင်း အလေ့အထမရှိပါ၊ ဝန်ထမ်းများကို ရှုပ်ထွေးစေနိုင်ပါသည်။"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "ရာသီများနှင့် ရာသီဥတု",
+            "body": "",
+            "lists": [
+              {
+                "label": "",
+                "items": [
+                  "နွေဦးရာသီ (မတ်-မေ) — အေးမြပျော့ပျောင်းပြီး နှစ်လိုဖွယ်ကောင်းကာ၊ မတ်လနှောင်း-ဧပြီလတွင် ချယ်ရီပန်းများ ပွင့်သည်။ အနုစိတ်မှုန်တိုက်စီးမှု (미세먼지) နှင့် အဝါရောင် ဖုန်မှုန့်ကို သတိထားပါ၊ လေထုအရည်အသွေး အက်ပ်များကို စစ်ဆေးပြီး ရာသီဥတုဆိုးသောနေ့များတွင် မျက်နှာဖုံးဝတ်ဆင်ပါ။ မနက်ခင်းနှင့် နေ့လယ်ခင်းအကြား အပူချိန် ကွာခြားမှု များစွာရှိသည် — အထပ်ထပ်ဝတ်ဆင်ပါ။",
+                  "ရာသီပြောင်းချိန် (환절기, မတ်လနှောင်းနှင့် အောက်တိုဘာလနှောင်း) — အအေးမိလွယ်ဆုံးအချိန်ဖြစ်သည်။ နေ့-ညအပူချိန်ကွာခြားမှု ၁၀°C ကျော်နိုင်သည်။ နွေးထွေးသော နေ့လယ်ခင်းများတွင်ပင် အင်္ကျီကို အနီးအနားထားပါ။",
+                  "နွေရာသီ (ဇွန်-သြဂုတ်) — ပူပြင်းပြီး စိုထိုင်းမှုအလွန်များကာ၊ များသောအားဖြင့် 30°C ကျော်ကာ 80%+ စိုထိုင်းမှုရှိသည်။ မိုးရာသီ (장마) သည် ဇွန်လနှောင်းမှ ဇူလိုင်လနှောင်းအထိ ခန့်မှန်းအားဖြင့်ကြာမြင့်ပြီး၊ တိုင်ဖွန်းရာသီသည် သြဂုတ်-စက်တင်ဘာတွင် အထွတ်အထိပ်ရောက်ရှိသည်။ ဤအချိန်သည် ပင်လယ်ရာသီဥတုသတိပေးချက်များနှင့် ထွက်ခွာမှုကန့်သတ်ချက်များ အများဆုံးဖြစ်ပေါ်သည့်အချိန်ဖြစ်သည်။ ကုန်းပတ်ပေါ်တွင် အပူဒဏ်ခံရနိုင်ခြေမှာ စစ်မှန်သောအန္တရာယ်ဖြစ်သည် — ရေအမြဲသောက်ပြီး အရိပ်တွင် နားနေချိန်ယူပါ။",
+                  "ဆောင်းဦးရာသီ (စက်တင်ဘာ-နိုဝင်ဘာ) — ကြည်လင်ပြီး ခြောက်သွေ့ကာ သက်တောင့်သက်သာရှိသည်၊ အကောင်းဆုံးရာသီဟု ကျယ်ပြန့်စွာ ယူဆကြသည်။ နောက်ကျတိုင်ဖွန်းများ ဖြစ်ပေါ်နေဆဲဖြစ်သော်လည်း ပင်လယ်အခြေအနေများ ယေဘုယျအားဖြင့် ငြိမ်သက်သည်။",
+                  "ဆောင်းရာသီ (ဒီဇင်ဘာ-ဖေဖော်ဝါရီ) — အေးခဲပြီး ခြောက်သွေ့ကာ၊ များသောအားဖြင့် ရေခဲမှတ်အောက်ဖြစ်ကာ အနောက်မြောက်လေများ ပြင်းထန်စွာတိုက်ခတ်သည်။ လေပြင်းလှိုင်းကြီးသတိပေးချက်များသည် သင်္ဘောငယ်များကို ဆိပ်ကမ်းမှ ထွက်ခွာခြင်းမှ မကြာခဏ ကန့်သတ်ကာ၊ ရေအေးထဲနစ်မြုပ်မှုအန္တရာယ်သည် အမြင့်ဆုံးအဆင့်ရှိသည် — ပင်လယ်ရေအပူချိန်သည် မိနစ်အနည်းငယ်အတွင်း လှုပ်ရှားနိုင်စွမ်းဆုံးရှုံးစေနိုင်လောက်အောင် နိမ့်ကျနိုင်သည်။ အလုပ်ဝတ်စုံအောက်တွင် အပူလွှာများ ဝတ်ဆင်ပါ။"
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "KMA ပင်လယ်ရေရာသီဥတု (အင်္ဂလိပ်)",
+            "url": "https://www.weather.go.kr/w/index.do"
+          },
+          {
+            "label": "AirKorea — လေထုအရည်အသွေး (အင်္ဂလိပ်)",
+            "url": "https://www.airkorea.or.kr/eng"
+          },
+          {
+            "label": "Visit Korea — ကိုရီးယားအစားအစာလမ်းညွှန် (အင်္ဂလိပ်)",
+            "url": "https://english.visitkorea.or.kr"
+          }
+        ]
+      },
+      "port-city-guide": {
+        "icon": "🏙️",
+        "navTitle": "ဆိပ်ကမ်းမြို့လမ်းညွှန်",
+        "navDescription": "သင်္ဘောသားကလပ်များ၊ မြို့သို့သွားလာရေး၊ ကုန်းပေါ်တက်ခြင်း",
+        "title": "ဆိပ်ကမ်းမြို့လမ်းညွှန်",
+        "summary": "သင်္ဘောသားကလပ် ဝန်ဆောင်မှုများနှင့် မြို့သို့သွားလာရေး — ကုန်းပေါ်ရှိအချိန်ကို ဘေးကင်းစွာနှင့် လွယ်ကူစွာ အကောင်းဆုံးအသုံးချပါ!",
+        "sections": [
+          {
+            "heading": "ကိုရီးယားနိုင်ငံရှိ သင်္ဘောသားကလပ်များ",
+            "body": "သင်္ဘောသားကလပ် ဝန်ဆောင်မှုများကို ပူဆန်း၊ အင်ချွန်းနှင့် ဖိုဟန်းအပါအဝင် ကိုရီးယားနိုင်ငံ၏ အဓိကဆိပ်ကမ်းများတွင် ရရှိနိုင်ပါသည်။ ဤစင်တာများတွင် နားနေရာများ၊ ရေချိုးခန်းများ၊ အင်တာနက်နှင့်ဖုန်းအသုံးပြုခွင့်၊ ဆိုင်များ၊ ငွေလဲလှယ်ခြင်း၊ အတိုင်ပင်ခံဝန်ဆောင်မှုနှင့် ဘာသာရေးအဆောက်အအုံများ ပါဝင်ပါသည် — သင်္ဘောနှင့် ကင်းကွာစွာ အနားယူနိုင်သောနေရာဖြစ်သည်။\n\nသင့်သင်္ဘောကုမ္ပဏီ၏ ဒေသန္တရကိုယ်စားလှယ်ကို သင်္ဘောသားကလပ်သို့ မည်သို့သွားရောက်ရမည်နှင့် မည်သည့်သွားလာရေးရနိုင်သည်ကို မေးမြန်းပါ။ ကိုယ်စားလှယ်သည် ရွှေ့ယူယာဉ်ကို စီစဉ်ပေးနိုင်သည် သို့မဟုတ် တက္ကစီများနှင့်ပတ်သက်၍ အကြံပေးနိုင်ပြီး လက်ရှိဖွင့်ချိန်များကို သိရှိထားပါသည်။ ဆိပ်ကမ်းဌာနခွင့်ပြုချက်စည်းမျဉ်းများနှင့် ဂိတ်လုပ်ငန်းစဉ်များသည် ဆိပ်ကမ်းနှင့် ဘတ်သ်အလိုက် ကွဲပြားသောကြောင့် ဤနည်းလမ်းသည် ထိုနေရာသို့ သွားရန် အယုံကြည်ရဆုံးနည်းလမ်းဖြစ်သည်။",
+            "lists": [
+              {
+                "label": "အဓိကစင်တာများ",
+                "items": [
+                  "Busan New Port Seafarers Center — 354 Sinhangman-ro, Gangseo-gu, Busan။ ဖုန်း +82 51 974 0774 / မိုဘိုင်း +82 10 9171 2333။ ဖွင့်ချိန် တနင်္လာ-သောကြာ 09:00–22:00၊ စနေ-တနင်္ဂနွေ 10:00–19:00။",
+                  "Mission to Seafarers Busan — 294 Sinseon-ro, Nam-gu, Busan 48562။ နေ့စဉ်ဖွင့်ချိန် 12:00–20:00။",
+                  "United Seamen's Service Busan — Seamen's Club, 99 Gamman 1-dong, Busan 48480 (1954 ခုနှစ်မှစတင်၍ ပူဆန်းတွင် လုပ်ငန်းလည်ပတ်နေသည်)။"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "ဆိပ်ကမ်းမှ မြို့ထဲသို့ သွားလာခြင်း",
+            "body": "ဆိပ်ကမ်းအလိုက် သွားလာရေးနည်းလမ်းများ များစွာကွဲပြားသည်။ ကိုရီးယားဆိပ်ကမ်းအများစုသည် မြို့လယ်ဗဟိုမှ အနည်းငယ်ဝေးကွာသော စက်မှုဇုန်များတွင် တည်ရှိသောကြောင့်၊ တက္ကစီများသည် များသောအားဖြင့် အမြန်ဆုံးနှင့် အလွယ်ကူဆုံး ရွေးချယ်စရာဖြစ်သည်။ သင့်ခရီးဆုံးမှတ်ကို ကိုရီးယားဘာသာဖြင့် ရေးထားပါ သို့မဟုတ် သင့်ဖုန်းတွင် ပြသပါ။ ကုန်းပေါ်မတက်မီ သင့်သင်္ဘော၏ ကိုယ်စားလှယ်နှင့် အတိအကျလမ်းကြောင်းကို အမြဲအတည်ပြုပါ။",
+            "table": {
+              "columns": [
+                "ဆိပ်ကမ်း",
+                "အနီးဆုံး မြို့လယ်ဗဟို / ခရိုင်",
+                "ပုံမှန်သွားလာရေးနည်းလမ်း"
+              ],
+              "rows": [
+                [
+                  "Busan (North Port)",
+                  "Nampo-dong, Jungang-dong",
+                  "မြေအောက်ရထားလိုင်း ၁ (Jungang သို့မဟုတ် Nampo ဘူတာ)၊ တာမီနယ်မှ လမ်းလျှောက်တိုတို သို့မဟုတ် တက္ကစီ"
+                ],
+                [
+                  "Busan (New Port)",
+                  "Hadan / Jinhae",
+                  "တက္ကစီ သို့မဟုတ် ကိုယ်စားလှယ်ရွှေ့ယူယာဉ် — တာမီနယ်သည် မြို့မှဝေးကွာပြီး အများပြည်သူသွားလာရေးယာဉ် ကန့်သတ်ထားသည်"
+                ],
+                [
+                  "Incheon",
+                  "Sinpo, Dong-Incheon, Chinatown",
+                  "မြေအောက်ရထားလိုင်း ၁ (Incheon သို့မဟုတ် Dong-Incheon ဘူတာ)၊ ဘတ်သ်မှ ဘူတာအထိ တက္ကစီ"
+                ],
+                [
+                  "Pyeongtaek",
+                  "Anjung, Pyeongtaek city centre",
+                  "ဒေသန္တရဘတ်စ်ကား သို့မဟုတ် Pyeongtaek ဘူတာ (လိုင်း ၁) သို့ တက္ကစီ"
+                ],
+                [
+                  "Dangjin",
+                  "Songak, Dangjin city centre",
+                  "တက္ကစီ — ဆိပ်ကမ်းတွင် ရထားလမ်းမရှိပါ၊ ဒေသန္တရဘတ်စ်ကားဝန်ဆောင်မှု ရှားပါးသည်"
+                ],
+                [
+                  "Gwangyang",
+                  "Gwangyang city centre / Suncheon",
+                  "မြို့ထဲသို့ တက္ကစီ၊ ဆက်လက်ခရီးသွားရန် မြို့ကြားဘတ်စ်ကားဝင်း"
+                ],
+                [
+                  "Yeosu",
+                  "Yeosu city centre, Idong",
+                  "တက္ကစီ၊ ဆက်လက်ခရီးသွားရန် Yeosu-Expo ဘူတာ (KTX)"
+                ],
+                [
+                  "Masan",
+                  "Masan Hapseong-dong, Changwon",
+                  "Masan မြို့လယ်ဗဟိုသို့ ဒေသန္တရဘတ်စ်ကား သို့မဟုတ် တက္ကစီ"
+                ],
+                [
+                  "Pohang",
+                  "Pohang city centre, Yeongildae",
+                  "Pohang အဟောင်း/အသစ်ဆိပ်ကမ်းမှ တက္ကစီ၊ ဆက်လက်ခရီးသွားရန် Pohang ဘူတာ (KTX)"
+                ],
+                [
+                  "Donghae",
+                  "Donghae city centre",
+                  "တက္ကစီ၊ အနီးအနားရှိ Donghae ဘူတာ"
+                ],
+                [
+                  "Mukho",
+                  "Mukho port district, Donghae",
+                  "တက္ကစီစီးနင်းမှု တိုတို — Mukho မြို့သည် ဆိပ်ကမ်းနှင့်နီးကပ်သည်"
+                ],
+                [
+                  "Samcheok",
+                  "Samcheok city centre",
+                  "Samcheok ဆိပ်ကမ်းမှ တက္ကစီ၊ ဒေသန္တရဘတ်စ်ကား ရရှိနိုင်သည်"
+                ],
+                [
+                  "Gunsan",
+                  "Gunsan city centre",
+                  "တက္ကစီ သို့မဟုတ် ဒေသန္တရဘတ်စ်ကား၊ ဆက်လက်ခရီးသွားရန် Gunsan ဘူတာ"
+                ]
+              ]
+            },
+            "note": "ဘတ်စ်ကားနံပါတ်များနှင့် အချိန်ဇယားများသည် မကြာခဏပြောင်းလဲတတ်သောကြောင့် ဤဇယားတွင် ခရီးဆုံးမှတ်နှင့် သွားလာရေးနည်းလမ်းကိုသာ ဖော်ပြထားပါသည်။ ဆိပ်ကမ်းမှမထွက်ခွာမီ လက်ရှိလမ်းကြောင်းများနှင့် စျေးနှုန်းများကို သင့်သင်္ဘော၏ ကိုယ်စားလှယ် သို့မဟုတ် သင်္ဘောသားကလပ်ဝန်ထမ်းများနှင့် အတည်ပြုပါ။",
+            "id": "port-transport-table"
+          },
+          {
+            "heading": "ဘေးကင်းစွာ ကုန်းပေါ်တက်ခြင်း",
+            "body": "ကိုရီးယားနိုင်ငံတွင် အကြမ်းဖက်ရာဇဝတ်မှုနှုန်း အလွန်နည်းပါးပြီး အိတ်ဆွဲမှုများ ရှားပါးသည်။ သင့် ARC သို့မဟုတ် ပတ်စ်ပို့မိတ္တူကို အမြဲယူဆောင်ထားပါ၊ ယာဉ်စည်းကမ်းသတ်ပြာများကို လိုက်နာပါ၊ ထွက်ခွာမီ သင့်သင်္ဘောပြန်လည်ရောက်ရှိချိန်နှင့် သင့်ကိုယ်စားလှယ်၏ ဖုန်းနံပါတ်ကို မှတ်သားထားပါ။"
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "ITF Seafarers — လူမှုဖူလုံရေးစင်တာရှာဖွေရန်",
+            "url": "https://www.itfseafarers.org/en/directories/seafarers-welfare-centre-index"
+          },
+          {
+            "label": "ISWAN — ကိုရီးယားနိုင်ငံရှိ သင်္ဘောသားစင်တာများ",
+            "url": "https://www.iswan.org.uk/centres/"
+          },
+          {
+            "label": "United Seamen's Service",
+            "url": "https://unitedseamensservice.org/uss-centers/"
+          }
+        ]
+      },
+      "worker-rights": {
+        "icon": "📜",
+        "navTitle": "သင်္ဘောသားတစ်ဦးအနေဖြင့် သင့်အခွင့်အရေးများ",
+        "navDescription": "အလုပ်ချိန်များ၊ စာချုပ်များ၊ တိုင်ကြားချက်များ၊ အတိုင်ပင်ခံဝန်ဆောင်မှု",
+        "title": "သင်္ဘောသားတစ်ဦးအနေဖြင့် သင့်အခွင့်အရေးများ",
+        "summary": "သင့်အလုပ်ချိန်၊ စာချုပ်နှင့် အကူအညီရနိုင်မည့်နေရာများကို သိရှိပါ — သင့်အခွင့်အရေးများကို နားလည်ပြီး ယုံကြည်မှုနှင့်အတူ ကာကွယ်စောင့်ရှောက်ပါ!",
+        "sections": [
+          {
+            "heading": "အလုပ်ချိန်နှင့် နားရက်",
+            "body": "ကိုရီးယား သင်္ဘောသားအက်ဥပဒေ (ပုဒ်မ ၆၀) သည် တစ်ရက်လျှင် ၈ နာရီနှင့် တစ်ပတ်လျှင် ၄၀ နာရီကို အခြေခံအဆင့်အဖြစ် သတ်မှတ်ထားသည်။ MLC 2006 အောက်တွင်၊ သင်သည် မည်သည့် ၂၄ နာရီကာလအတွင်းမဆို အနည်းဆုံး ၁၀ နာရီ နားနေခွင့်နှင့် မည်သည့် ၇ ရက်ကာလအတွင်းမဆို ၇၇ နာရီ ရရှိခွင့်ရှိသည်။ နားရက်ကို ကာလနှစ်ခုထက်မပိုစေဘဲ ခွဲနိုင်ပြီး၊ ထိုကာလများထဲမှ တစ်ခုသည် အနည်းဆုံး ၆ နာရီ ကြာရမည်ဖြစ်သည်။ သင့်အလုပ်ချိန်နှင့် နားချိန်များကို မှတ်တမ်းတင်ထားရမည်ဖြစ်သည်။"
+          },
+          {
+            "heading": "စာချုပ်နှင့် နိုင်ငံသားစိစစ်ရေး စာရွက်စာတမ်းများ",
+            "body": "စာဖြင့်ရေးသားထားသော သင်္ဘောသားအလုပ်ခန့်အပ်မှုစာချုပ်ကို ဥပဒေအရ လိုအပ်သည်။ သင့်ဝန်ဆောင်မှုနှင့် အရည်အချင်းများကို မှတ်တမ်းတင်ထားသော သင်္ဘောသားစာအုပ် (선원수첩) နှင့် ILO သဘောတူညီချက် အမှတ် ၁၈၅ အောက်ရှိ သင်္ဘောသားနိုင်ငံသားစိစစ်ရေးစာရွက်စာတမ်းကိုလည်း သင်ကိုယ်တိုင် ကိုင်ဆောင်သင့်သည်။ သင့်စာချုပ်၏ မိတ္တူကို သင်ကိုယ်တိုင် သိမ်းဆည်းထားပါ — သင့်တွင်ရှိသော တစ်ခုတည်းသောမိတ္တူကို ဘယ်တော့မှ လက်လွှတ်မပေးပါနှင့်။"
+          },
+          {
+            "heading": "တိုင်ကြားချက်များနှင့် အတိုင်ပင်ခံဝန်ဆောင်မှု",
+            "body": "MLC 2006 (စည်းမျဉ်း 5.1.5) အောက်တွင်၊ သင်္ဘောတိုင်းသည် သင်္ဘောပေါ်တွင် တရားမျှတသော တိုင်ကြားမှုလုပ်ငန်းစဉ်တစ်ခု ရှိရမည်ဖြစ်သော်လည်း၊ သင်သည် ပြင်ပအာဏာပိုင်များ — သင်္ဘောပိုင်ရှင်၊ အလံနိုင်ငံ၊ ဆိပ်ကမ်းနိုင်ငံ သို့မဟုတ် သင့်နိုင်ငံ — ထံသို့ တိုက်ရိုက်တိုင်ကြားနိုင်သည်၊ ထို့အပြင် သင့်တွင် အတူပါဝင်ခံစားခွင့်နှင့် လက်တုံ့ပြန်ခြင်းမှ ကာကွယ်ခံရရန် အခွင့်အရေးရှိသည်။ ဆိပ်ကမ်းတွင်ရှိစဉ်၊ Port State Control အရာရှိထံ ချိုးဖောက်မှုကို တိုင်ကြားနိုင်သည် သို့မဟုတ် ITF စစ်ဆေးရေးအရာရှိ သို့မဟုတ် လူမှုဖူလုံရေးဝန်ထမ်းတစ်ဦးအား သင့်ကိုယ်စား တိုင်ကြားပေးစေနိုင်သည်။",
+            "lists": [
+              {
+                "label": "ကိုရီးယားနိုင်ငံတွင် ဆက်သွယ်ရန်",
+                "items": [
+                  "သင့်အနီးဆုံး ဒေသန္တရ ပင်လယ်ရေရာနှင့် ငါးလုပ်ငန်းရုံးရှိ သင်္ဘောသားအလုပ်သမား စစ်ဆေးရေးအရာရှိများ — ၎င်းတို့သည် လုပ်ခမပေးရသောကိစ္စများနှင့် သင်္ဘောသားအက်ဥပဒေ ချိုးဖောက်မှုများကို ကိုင်တွယ်ဆောင်ရွက်ကြသည်။",
+                  "Korea Seamen's Welfare & Employment Center (KOSWEC) — မကျေနပ်ချက်အတိုင်ပင်ခံဝန်ဆောင်မှုနှင့် လူမှုဖူလုံရေးဝန်ဆောင်မှုများ။",
+                  "နိုင်ငံခြားသားအလုပ်သမားများ အတိုင်ပင်ခံစင်တာ 1577-0071 — ဘာသာစကား ၁၆ ခု၊ ၃၆၅ ရက်၊ 09:00–18:00။",
+                  "အလုပ်သမားနှင့်အလုပ်အကိုင်ဝန်ကြီးဌာန 1350 — အလုပ်သမားအတိုင်ပင်ခံဝန်ဆောင်မှု။",
+                  "APIL (Advocates for Public Interest Law) — +82-2-3478-0529၊ ရွှေ့ပြောင်းငါးဖမ်းသင်္ဘောသားများအတွက် ဦးဆောင် ဥပဒေအကူအညီပေး NGO အဖွဲ့။",
+                  "ITF Seafarer Support — seafsupport@itf.org.uk, WhatsApp +44 7523 515097။"
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "ITF Seafarers — MLC အောက်ရှိ သင့်အခွင့်အရေးများ",
+            "url": "https://www.itfseafarers.org/en/resources/your-rights-under-mlc"
+          },
+          {
+            "label": "ILO — ရေကြောင်းအလုပ်သမားသဘောတူညီချက် 2006",
+            "url": "https://www.ilo.org/global/standards/maritime-labour-convention/lang--en/index.htm"
+          },
+          {
+            "label": "HUG Korea — နိုင်ငံခြားသားအလုပ်သမားများ ပံ့ပိုးမှု (ဘာသာစကားများစွာ)",
+            "url": "http://www.hugkorea.or.kr"
+          },
+          {
+            "label": "ISWAN — သင်္ဘောသားအကူအညီ (၂၄/၇၊ ဘာသာစကားများစွာ)",
+            "url": "https://www.seafarerhelp.org"
+          }
+        ]
+      },
+      "phrasebook": {
+        "icon": "💬",
+        "navTitle": "အသက်ကယ် ကိုရီးယားစကားစု",
+        "navDescription": "အရေးပေါ်အခြေအနေများအတွက် အဓိကစကားစုများ",
+        "title": "အသက်ကယ် ကိုရီးယားစကားစု",
+        "summary": "စကားစုတစ်ခုတည်းက အသက်တစ်ချောင်းကို ကယ်တင်နိုင်သည် — ဤအရေးပေါ် ကိုရီးယားအသုံးအနှုန်းများကို ယခုပင် လေ့လာထားပါ!",
+        "phraseGroups": [
+          {
+            "heading": "အကူအညီတောင်းခြင်း",
+            "phrases": [
+              {
+                "korean": "도와주세요!",
+                "pronunciation": "Do wa ju se yo!",
+                "meaning": "ကူညီပါ!"
+              },
+              {
+                "korean": "살려주세요!",
+                "pronunciation": "Sal lyo ju se yo!",
+                "meaning": "ကယ်ပါ! (အသက်အန္တရာယ်ရှိသည်)"
+              },
+              {
+                "korean": "급해요!",
+                "pronunciation": "Geu pae yo!",
+                "meaning": "အရေးကြီးသည်!"
+              },
+              {
+                "korean": "응급상황이에요",
+                "pronunciation": "Eung geup sang hwang i e yo",
+                "meaning": "အရေးပေါ်အခြေအနေဖြစ်သည်"
+              },
+              {
+                "korean": "119에 전화해주세요",
+                "pronunciation": "Il il gu e jeon hwa hae ju se yo",
+                "meaning": "119 ကို ဖုန်းခေါ်ပေးပါ"
+              },
+              {
+                "korean": "경찰을 불러주세요",
+                "pronunciation": "Gyeong chal eul bul lo ju se yo",
+                "meaning": "ရဲကို ခေါ်ပေးပါ"
+              },
+              {
+                "korean": "구급차를 불러주세요",
+                "pronunciation": "Gu geup cha reul bul lo ju se yo",
+                "meaning": "လူနာတင်ကားကို ခေါ်ပေးပါ"
+              }
+            ]
+          },
+          {
+            "heading": "ပင်လယ်ပြင် အရေးပေါ်အခြေအနေများ",
+            "phrases": [
+              {
+                "korean": "불이야!",
+                "pronunciation": "Bu ri ya!",
+                "meaning": "မီးလောင်နေသည်!"
+              },
+              {
+                "korean": "사람이 바다에 빠졌어요",
+                "pronunciation": "Sa ra mi ba da e ppa jyeo sseo yo",
+                "meaning": "တစ်စုံတစ်ဦး ပင်လယ်ထဲကျသွားသည်!"
+              },
+              {
+                "korean": "배가 침몰해요",
+                "pronunciation": "Bae ga chim mo rae yo",
+                "meaning": "သင်္ဘောနစ်မြုပ်နေသည်"
+              },
+              {
+                "korean": "배가 고장났어요",
+                "pronunciation": "Bae ga go jang na sseo yo",
+                "meaning": "သင်္ဘောပျက်စီးသွားသည်"
+              },
+              {
+                "korean": "구명조끼 주세요",
+                "pronunciation": "Gu myeong jo kki ju se yo",
+                "meaning": "အသက်ကယ်အင်္ကျီပေးပါ"
+              },
+              {
+                "korean": "여기 위치는...",
+                "pronunciation": "Yeo gi wi chi neun...",
+                "meaning": "ကျွန်ုပ်တို့၏တည်နေရာမှာ..."
+              },
+              {
+                "korean": "배 이름은...",
+                "pronunciation": "Bae i reu meun...",
+                "meaning": "သင်္ဘော၏အမည်မှာ..."
+              },
+              {
+                "korean": "사람 다섯 명 있어요",
+                "pronunciation": "Sa ram da seot myeong i sseo yo",
+                "meaning": "လူငါးဦးရှိသည်"
+              }
+            ]
+          },
+          {
+            "heading": "ဆေးဘက်ဆိုင်ရာ အရေးပေါ်အခြေအနေများ",
+            "phrases": [
+              {
+                "korean": "다쳤어요",
+                "pronunciation": "Da chyeo sseo yo",
+                "meaning": "ကျွန်ုပ်ဒဏ်ရာရရှိထားသည်"
+              },
+              {
+                "korean": "여기 아파요",
+                "pronunciation": "Yeo gi a pa yo",
+                "meaning": "ဒီနေရာမှာနာသည် (နေရာကိုထောက်ပြပါ)"
+              },
+              {
+                "korean": "피가 나요",
+                "pronunciation": "Pi ga na yo",
+                "meaning": "ကျွန်ုပ် သွေးထွက်နေသည်"
+              },
+              {
+                "korean": "숨을 못 쉬어요",
+                "pronunciation": "Su meul mot swi eo yo",
+                "meaning": "ကျွန်ုပ် အသက်ရှူမရပါ"
+              },
+              {
+                "korean": "의사가 필요해요",
+                "pronunciation": "Ui sa ga pi ryo hae yo",
+                "meaning": "ကျွန်ုပ်ဆရာဝန်လိုအပ်သည်"
+              },
+              {
+                "korean": "병원이 어디예요?",
+                "pronunciation": "Byeong wo ni eo di ye yo?",
+                "meaning": "ဆေးရုံဘယ်မှာလဲ?"
+              },
+              {
+                "korean": "약국이 어디예요?",
+                "pronunciation": "Yak gu gi eo di ye yo?",
+                "meaning": "ဆေးဆိုင်ဘယ်မှာလဲ?"
+              },
+              {
+                "korean": "알레르기가 있어요",
+                "pronunciation": "Al le reu gi ga i sseo yo",
+                "meaning": "ကျွန်ုပ်တွင် ဓာတ်မတည့်မှုရှိသည်"
+              },
+              {
+                "korean": "열이 나요",
+                "pronunciation": "Yeo ri na yo",
+                "meaning": "ကျွန်ုပ် ဖျားနေသည်"
+              },
+              {
+                "korean": "어지러워요",
+                "pronunciation": "Eo ji reo wo yo",
+                "meaning": "ကျွန်ုပ် မူးဝေနေသည်"
+              }
+            ]
+          },
+          {
+            "heading": "ဆက်သွယ်ရေးပြဿနာများ",
+            "phrases": [
+              {
+                "korean": "한국어를 못해요",
+                "pronunciation": "Han gu geo reul mo tae yo",
+                "meaning": "ကျွန်ုပ် ကိုရီးယားစကားမပြောတတ်ပါ"
+              },
+              {
+                "korean": "영어 할 수 있어요?",
+                "pronunciation": "Yeong eo hal su i sseo yo?",
+                "meaning": "သင်အင်္ဂလိပ်စကားပြောနိုင်ပါသလား?"
+              },
+              {
+                "korean": "통역이 필요해요",
+                "pronunciation": "Tong yeo gi pi ryo hae yo",
+                "meaning": "ကျွန်ုပ် စကားပြန်လိုအပ်သည်"
+              },
+              {
+                "korean": "천천히 말해주세요",
+                "pronunciation": "Cheon cheo ni mal hae ju se yo",
+                "meaning": "ကျေးဇူးပြု၍ ဖြည်းဖြည်းပြောပါ"
+              },
+              {
+                "korean": "다시 말해주세요",
+                "pronunciation": "Da si mal hae ju se yo",
+                "meaning": "ကျေးဇူးပြု၍ ထပ်ပြောပါ"
+              },
+              {
+                "korean": "모르겠어요",
+                "pronunciation": "Mo reu ge sseo yo",
+                "meaning": "ကျွန်ုပ် နားမလည်ပါ"
+              },
+              {
+                "korean": "써주세요",
+                "pronunciation": "Sseo ju se yo",
+                "meaning": "ကျေးဇူးပြု၍ ရေးပေးပါ"
+              }
+            ]
+          },
+          {
+            "heading": "ပြဿနာများနှင့် စာရွက်စာတမ်းများ",
+            "phrases": [
+              {
+                "korean": "여권을 잃어버렸어요",
+                "pronunciation": "Yeo gwo neul i reo beo ryeo sseo yo",
+                "meaning": "ကျွန်ုပ် ပတ်စ်ပို့ ပျောက်သွားသည်"
+              },
+              {
+                "korean": "지갑을 도둑맞았어요",
+                "pronunciation": "Ji ga beul do dung ma ja sseo yo",
+                "meaning": "ကျွန်ုပ်ပိုက်ဆံအိတ် ခိုးခံရသည်"
+              },
+              {
+                "korean": "길을 잃었어요",
+                "pronunciation": "Gi reul i reo sseo yo",
+                "meaning": "ကျွန်ုပ် လမ်းပျောက်နေသည်"
+              },
+              {
+                "korean": "대사관에 연락해주세요",
+                "pronunciation": "Dae sa gwa ne yeon la kae ju se yo",
+                "meaning": "ကျေးဇူးပြု၍ ကျွန်ုပ်၏သံရုံးကို ဆက်သွယ်ပေးပါ"
+              },
+              {
+                "korean": "회사에 연락해주세요",
+                "pronunciation": "Hoe sa e yeon la kae ju se yo",
+                "meaning": "ကျေးဇူးပြု၍ ကျွန်ုပ်၏ကုမ္ပဏီကို ဆက်သွယ်ပေးပါ"
+              },
+              {
+                "korean": "월급을 못 받았어요",
+                "pronunciation": "Wol geu beul mot ba da sseo yo",
+                "meaning": "ကျွန်ုပ် လုပ်ခမရသေးပါ"
+              },
+              {
+                "korean": "도움이 필요해요",
+                "pronunciation": "Do u mi pi ryo hae yo",
+                "meaning": "ကျွန်ုပ် အကူအညီလိုအပ်သည်"
+              }
+            ]
+          },
+          {
+            "heading": "အရေးပေါ်ဖုန်းနံပါတ်များ — ရွတ်ဆိုနည်း",
+            "phrases": [
+              {
+                "korean": "119",
+                "pronunciation": "Il il gu",
+                "meaning": "မီးသတ် / လူနာတင်ကား"
+              },
+              {
+                "korean": "112",
+                "pronunciation": "Il il i",
+                "meaning": "ရဲ"
+              },
+              {
+                "korean": "122",
+                "pronunciation": "Il i i",
+                "meaning": "ကမ်းခြေစောင့်တပ်"
+              }
+            ]
+          }
+        ],
+        "tip": "119 သို့မဟုတ် 112 ကိုခေါ်ဆိုသည့်အခါ \"Tong yeo gi pi ryo hae yo\" (통역이 필요해요) ဟုပြောပါ၊ ထို့နောက် အော်ပရေတာသည် စကားပြန်တစ်ဦးနှင့် ဆက်သွယ်ပေးနိုင်ပါသည်။ ဘာသာစကား ၂၀ ခုဖြင့် အခမဲ့ ၂၄ နာရီ စကားပြန်ဝန်ဆောင်မှုအတွက် BBB Korea 1588-5644 ကိုလည်း ခေါ်ဆိုနိုင်ပါသည်။",
+        "referenceLinks": [
+          {
+            "label": "BBB Korea — အခမဲ့ စကားပြန်ဝန်ဆောင်မှု (အင်္ဂလိပ်)",
+            "url": "https://www.bbbkorea.org/eng/main/main.php"
+          },
+          {
+            "label": "Danuri — ဘာသာစကားများစွာ ပံ့ပိုးမှု",
+            "url": "https://www.liveinkorea.kr/web/index.do"
+          }
+        ]
+      },
+      "emergency": {
+        "icon": "🆘",
+        "navTitle": "အရေးပေါ်ဆက်သွယ်ရန်နံပါတ်များ",
+        "navDescription": "112 / 119 / 122 / 1345 နှင့် ဘာသာစကားများစွာ အကူအညီလိုင်းများ",
+        "title": "အရေးပေါ်ဆက်သွယ်ရန်နံပါတ်များ",
+        "summary": "မည်သည့်အချိန် မည်သည့်နေရာမှာမဆို အကူအညီလိုအပ်ချိန် — ဤအရေးပေါ်နံပါတ်များကို ယခုပင် သိမ်းဆည်းထားပါ!",
+        "contacts": [
+          {
+            "number": "119",
+            "service": "မီးသတ်၊ လူနာတင်ကား၊ ကယ်ဆယ်ရေး (ပင်လယ်ပြင်မတော်တဆမှုများကိုလည်း လက်ခံသည်)",
+            "languages": "စကားပြန်ဝန်ဆောင်မှု ရရှိနိုင်သည်"
+          },
+          {
+            "number": "112",
+            "service": "ရဲ",
+            "languages": "စကားပြန်ဝန်ဆောင်မှု ရရှိနိုင်သည်"
+          },
+          {
+            "number": "122",
+            "service": "ကိုရီးယား ကမ်းခြေစောင့်တပ် — ပင်လယ်ပြင် အရေးပေါ်အခြေအနေများ",
+            "languages": "ကိုရီးယား/အင်္ဂလိပ်"
+          },
+          {
+            "number": "1345",
+            "service": "လူဝင်မှုကြီးကြပ်ရေးဆက်သွယ်ရေးစင်တာ",
+            "languages": "ဘာသာစကား ၂၀"
+          },
+          {
+            "number": "1350",
+            "service": "အလုပ်သမားနှင့်အလုပ်အကိုင်ဝန်ကြီးဌာန — အလုပ်သမားအတိုင်ပင်ခံဝန်ဆောင်မှု",
+            "languages": "ကိုရီးယား + စကားပြန်ဝန်ဆောင်မှု"
+          },
+          {
+            "number": "1577-0071",
+            "service": "နိုင်ငံခြားသားအလုပ်သမားများ အတိုင်ပင်ခံစင်တာ",
+            "languages": "ဘာသာစကား ၁၆"
+          },
+          {
+            "number": "1588-5644",
+            "service": "BBB Korea — အခမဲ့ ဖုန်းစကားပြန်ဝန်ဆောင်မှု",
+            "languages": "ဘာသာစကား ၂၀၊ ၂၄/၇"
+          },
+          {
+            "number": "1577-1366",
+            "service": "Danuri ခေါ်ဆိုရေးစင်တာ — ရွှေ့ပြောင်းနေထိုင်သူများနှင့် မိသားစုများ",
+            "languages": "ဘာသာစကား ၁၃၊ ၂၄/၇"
+          },
+          {
+            "number": "1339",
+            "service": "အရေးပေါ်ဆေးဘက်ဆိုင်ရာ အချက်အလက်",
+            "languages": "ကိုရီးယား"
+          },
+          {
+            "number": "1330",
+            "service": "ကိုရီးယားခရီးသွားဟော့လိုင်း",
+            "languages": "ဘာသာစကားများစွာ"
+          },
+          {
+            "number": "033-811-2000",
+            "service": "အမျိုးသားကျန်းမာရေးအာမခံ — နိုင်ငံခြားသားလိုင်း",
+            "languages": "အင်္ဂလိပ်၊ တရုတ်၊ ဂျပန်၊ ဗီယက်နမ်"
+          },
+          {
+            "number": "+44 7523 515097",
+            "service": "ITF Seafarer Support (WhatsApp/SMS)",
+            "languages": "ဘာသာစကားများစွာ"
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "ကိုရီးယား ကမ်းခြေစောင့်တပ် (အင်္ဂလိပ်)",
+            "url": "https://www.kcg.go.kr/kcg/main.do"
+          },
+          {
+            "label": "HUG Korea — နိုင်ငံခြားသားအလုပ်သမားများ အတိုင်ပင်ခံဝန်ဆောင်မှု (ဘာသာစကားများစွာ)",
+            "url": "http://www.hugkorea.or.kr"
+          },
+          {
+            "label": "BBB Korea — စကားပြန်ဝန်ဆောင်မှု (အင်္ဂလိပ်)",
+            "url": "https://www.bbbkorea.org/eng/main/main.php"
+          },
+          {
+            "label": "SeafarerHelp — သင်္ဘောသားများအတွက် ၂၄/၇ အခမဲ့ အကူအညီလိုင်း",
+            "url": "https://www.seafarerhelp.org"
+          }
+        ]
+      }
+    }
+  },
+  "th": {
+    "home": {
+      "title": "คู่มือความปลอดภัยและการใช้ชีวิตสำหรับลูกเรือชาวต่างชาติ",
+      "subtitle": "ทุกสิ่งที่คุณต้องรู้เพื่อการใช้ชีวิตอย่างปลอดภัยและมั่นใจทั้งในทะเลและบนฝั่งในประเทศเกาหลี",
+      "prompt": "เลือกสิ่งที่คุณต้องการด้านล่าง",
+      "disclaimer": "เว็บไซต์นี้จัดทำขึ้นเพื่อให้ข้อมูลเท่านั้น",
+      "aiLinkLabel": "ถามเอไอเรื่องอื่นๆ เพิ่มเติม"
+    },
+    "pages": {
+      "safety-at-sea": {
+        "icon": "🦺",
+        "navTitle": "ความปลอดภัยในทะเล",
+        "navDescription": "เสื้อชูชีพ สภาพอากาศเลวร้าย อัคคีภัย การแจ้งอุบัติเหตุ",
+        "title": "ความปลอดภัยในทะเล",
+        "summary": "จดจำกฎความปลอดภัยที่จำเป็นซึ่งปกป้องชีวิตของคุณในทะเล ตั้งแต่การเตือนภัยสภาพอากาศไปจนถึงอัคคีภัย การพลัดตกน้ำ และวิธีแจ้งอุบัติเหตุ!",
+        "sections": [
+          {
+            "heading": "สวมเสื้อชูชีพเสมอ",
+            "body": "ตั้งแต่วันที่ 1 กรกฎาคม 2026 เป็นต้นไป ทุกคนที่อยู่บนดาดฟ้าเปิดของเรือประมงต้องสวมเสื้อชูชีพ ไม่ว่าจะมีการเตือนภัยสภาพอากาศหรือจำนวนลูกเรือเท่าใดก็ตาม กัปตันเรือจะต้องเสียค่าปรับ 900,000 วอน (ความผิดครั้งที่ 1), 1.5 ล้านวอน (ครั้งที่ 2) และสูงสุด 3 ล้านวอน (ครั้งที่ 3 ขึ้นไป) — และกฎนี้ใช้บังคับกับลูกเรือชาวต่างชาติเช่นเดียวกัน จากข้อมูลของ KOMSA ประมาณ 81% ของผู้เสียชีวิตหรือสูญหายในทะเลในช่วงห้าปีที่ผ่านมาไม่ได้สวมเสื้อชูชีพ หน่วยยามฝั่งประเมินว่าอัตราการรอดชีวิตจะเพิ่มขึ้นเป็นประมาณ 78% เมื่อสวมเสื้อชูชีพ ในน้ำเย็น คุณมีเวลาประมาณ 1 นาทีสำหรับอาการช็อกจากความเย็น (cold shock), 10 นาทีที่ยังเคลื่อนไหวร่างกายได้อย่างมีประสิทธิภาพ และ 1 ชั่วโมงก่อนหมดสติ (หลักการ 1-10-1) — การใส่เสื้อชูชีพหลังจากตกน้ำไปแล้วนั้นสายเกินไป ให้รัดหัวเข็มขัดให้แน่นและกระชับกับลำตัว"
+          },
+          {
+            "heading": "การรับมือกับสภาพอากาศเลวร้าย",
+            "body": "ประกาศเตือนภัยลมและคลื่นแรง (풍랑주의보) จะออกเมื่อความเร็วลมเฉลี่ยเกิน 14 เมตร/วินาที เป็นเวลา 3 ชั่วโมงขึ้นไป หรือคาดว่าคลื่นจะสูงเกิน 3 เมตร เรือประมงขนาดเล็กถูกห้ามออกเรือในช่วงที่มีประกาศเตือนภัย และการฝ่าฝืนอาจนำไปสู่การพักใช้หรือเพิกถอนใบอนุญาตทำการประมง ตรวจสอบสภาพอากาศทางทะเลก่อนออกเรือทุกครั้ง ปฏิบัติตามคำสั่งของกัปตันและหน่วยยามฝั่ง และหากเกิดพายุขณะอยู่ในทะเล ให้สวมเสื้อชูชีพ ยึดอุปกรณ์ที่หลวมให้แน่น ลดความเร็ว และหันหัวเรือเข้าหาคลื่น"
+          },
+          {
+            "heading": "การป้องกันและรับมืออัคคีภัย",
+            "body": "อัคคีภัยในห้องเครื่อง (น้ำมันเชื้อเพลิงหรือน้ำมันหล่อลื่นสัมผัสกับพื้นผิวที่ร้อน) และอัคคีภัยในห้องครัวเป็นสาเหตุหลักของเพลิงไหม้บนเรือ ตรวจสอบระบบท่อเป็นประจำ ซ่อมแซมจุดรั่วไหลทันที และห้ามใช้ไฟฟ้าเกินกำลังวงจร หากเกิดเพลิงไหม้ ให้ส่งสัญญาณเตือนภัยและแจ้งกัปตันเป็นอันดับแรก ห้ามใช้น้ำดับไฟในห้องครัวหรือไฟจากน้ำมันโดยเด็ดขาด — ให้ใช้วิธีตัดออกซิเจนหรือใช้ถังดับเพลิงที่เหมาะสม"
+          },
+          {
+            "heading": "การป้องกันการพลัดตกและอุบัติเหตุตกน้ำ",
+            "body": "สถิติของหน่วยยามฝั่งแสดงให้เห็นว่ามากกว่า 80% ของผู้เสียชีวิตและสูญหายจากอุบัติเหตุทางเรือเกิดขึ้นบนเรือประมง และการพลัดตกมีความเสี่ยงต่อการเสียชีวิตสูงที่สุดเนื่องจากการช่วยเหลือทำได้ยาก รักษาดาดฟ้าให้สะอาดปราศจากคราบน้ำมันและเมือกปลา สวมรองเท้ากันลื่นและหมวกนิรภัย ตรวจสอบเชือกและสายเคเบิลว่ามีการสึกหรอก่อนออกเรือ และห้ามยืนในแนวการดีดกลับของเครื่องดึงอวนหรือกว้าน"
+          },
+          {
+            "heading": "วิธีแจ้งอุบัติเหตุ",
+            "body": "โทร 122 (หน่วยยามฝั่งเกาหลี) สำหรับเหตุฉุกเฉินทางทะเล นอกจากนี้หมายเลข 119 ก็รับแจ้งอุบัติเหตุทางทะเลเช่นกัน และจะแบ่งปันข้อมูลไปยังทุกหน่วยงานแบบเรียลไทม์ เมื่อแจ้งเหตุ ให้ระบุ: เกิดอะไรขึ้น ตำแหน่งของคุณ ชื่อเรือ จำนวนคนบนเรือ และหมายเลขโทรศัพท์ที่ติดต่อกลับได้"
+          },
+          {
+            "heading": "การฝึกอบรมด้านความปลอดภัย",
+            "body": "ตามมาตรา 25 ของกฎหมายความปลอดภัยเรือประมง ลูกเรือชาวต่างชาติถูกรวมไว้อย่างชัดเจนในการฝึกอบรมความปลอดภัยประจำปีภาคบังคับ ร่วมกับเจ้าของเรือ กัปตัน และวิศวกร การฝึกอบรมครอบคลุมบทเรียนการเดินเรือจากกรณีอุบัติเหตุจริง การใช้อุปกรณ์ช่วยชีวิต และการฝึกปฏิบัติจริงกับถังดับเพลิง การทำ CPR และเสื้อชูชีพ"
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "หน่วยยามฝั่งเกาหลี (ภาษาอังกฤษ)",
+            "url": "https://www.kcg.go.kr/kcg/main.do"
+          },
+          {
+            "label": "Korea.net — ข้อบังคับสวมเสื้อชูชีพสำหรับเรือประมงทุกลำ",
+            "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148967364"
+          },
+          {
+            "label": "พอร์ทัลแจ้งเหตุความปลอดภัย",
+            "url": "https://www.safetyreport.go.kr"
+          }
+        ]
+      },
+      "living-in-korea": {
+        "icon": "🏠",
+        "navTitle": "การใช้ชีวิตในเกาหลี",
+        "navDescription": "การรักษาพยาบาล การธนาคาร โทรศัพท์มือถือ เอกสารต่างๆ",
+        "title": "การใช้ชีวิตในเกาหลี",
+        "summary": "ตั้งแต่ประกันสุขภาพไปจนถึงบัญชีธนาคารและโทรศัพท์มือถือ — เรียนรู้ขั้นตอนที่ใช้ได้จริงสำหรับการใช้ชีวิตในเกาหลีก่อนที่คุณจะต้องใช้!",
+        "sections": [
+          {
+            "heading": "ประกันสุขภาพแห่งชาติ (NHIS)",
+            "body": "ชาวต่างชาติที่มีงานทำจะได้รับการลงทะเบียนในระบบประกันสุขภาพแห่งชาติตั้งแต่วันแรกผ่านทางนายจ้าง สามารถขอรับคำปรึกษาได้ที่ 1577-1000 (ภาษาเกาหลี) หรือ 033-811-2000 (ภาษาอังกฤษ จีน ญี่ปุ่น เวียดนาม) การค้างชำระเบี้ยประกันอาจทำให้ไม่สามารถต่อวีซ่าได้"
+          },
+          {
+            "heading": "การเปิดบัญชีธนาคาร",
+            "body": "คุณต้องมีสามสิ่ง: บัตรประจำตัวคนต่างด้าว (ARC) หนังสือเดินทางฉบับจริง และหมายเลขโทรศัพท์มือถือเกาหลีสำหรับยืนยัน OTP ควรนำสัญญาจ้างงานมาด้วย ก่อนที่บัตร ARC จะออก ธนาคารบางแห่งจะเปิดบัญชีแบบจำกัดการใช้งานให้โดยใช้เพียงหนังสือเดินทาง ธนาคารที่เป็นมิตรกับชาวต่างชาติ ได้แก่ KEB Hana, Shinhan, Woori และ IBK การเปิดบัญชีใช้เวลา 30-60 นาที บัตรของคุณจะจัดส่งทางไปรษณีย์ภายใน 1-2 สัปดาห์"
+          },
+          {
+            "heading": "การขอใช้โทรศัพท์มือถือ",
+            "body": "ซิมการ์ดแบบเติมเงินสามารถซื้อได้โดยใช้เพียงหนังสือเดินทาง ส่วนสัญญาแบบรายเดือนต้องใช้บัตร ARC พร้อมบัญชีธนาคารเกาหลีสำหรับหักบัญชีอัตโนมัติ แนวทางที่แนะนำ: ใช้ซิมแบบเติมเงินเมื่อเดินทางมาถึง จากนั้นเปลี่ยนไปใช้แพ็กเกจรายเดือนของผู้ให้บริการ MVNO (알뜰폰) ที่ราคาถูกกว่าเมื่อได้รับบัตร ARC แล้ว โดยยังคงใช้หมายเลขเดิม"
+          },
+          {
+            "heading": "เอกสารสำคัญ",
+            "body": "บัตรประจำตัวคนต่างด้าวเป็นสิ่งจำเป็นสำหรับการพำนักเกิน 90 วัน — ให้ลงทะเบียนที่สำนักงานตรวจคนเข้าเมืองในพื้นที่ภายใน 90 วันหลังจากเดินทางมาถึง ลูกเรือยังต้องพกสมุดประจำตัวลูกเรือ (Seafarer's Book) และเอกสารประจำตัวลูกเรือ (Seafarer's Identity Document ตามอนุสัญญา ILO ฉบับที่ 185) เก็บสำเนาเอกสารทุกอย่างไว้"
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "NHIS — ประกันสุขภาพสำหรับชาวต่างชาติ (ภาษาอังกฤษ)",
+            "url": "https://www.nhis.or.kr/english/index.do"
+          },
+          {
+            "label": "HiKorea — การลงทะเบียนคนต่างด้าว (ภาษาอังกฤษ)",
+            "url": "https://www.hikorea.go.kr/Main.pt?locale=en"
+          }
+        ]
+      },
+      "first-time-korea": {
+        "icon": "🛬",
+        "navTitle": "มาเกาหลีครั้งแรก",
+        "navDescription": "การตรวจคนเข้าเมือง สกุลเงิน บัตรโดยสาร มารยาทพื้นฐาน",
+        "title": "มาเกาหลีครั้งแรก",
+        "summary": "ตั้งแต่วีซ่าและเงินไปจนถึงมารยาทในชีวิตประจำวัน — เริ่มต้นก้าวแรกในเกาหลีอย่างมั่นใจ!",
+        "sections": [
+          {
+            "heading": "วีซ่า",
+            "body": "วีซ่าทำงานหลักสำหรับลูกเรือคือวีซ่า E-10 มีอายุสูงสุด 3 ปี และสามารถขยายเป็น 4 ปี 10 เดือนได้เมื่อมีการจ้างงานต่อ ตรวจสอบสถานะที่แน่ชัดของคุณได้กับสำนักงานตรวจคนเข้าเมืองที่หมายเลข 1345 (20 ภาษา; +82-2-1345 จากต่างประเทศ)"
+          },
+          {
+            "heading": "สกุลเงินและการเงิน",
+            "body": "เกาหลีใช้สกุลเงินวอน (KRW/₩) ตู้ ATM ที่มีเครื่องหมาย \"Global\" รองรับบัตรต่างประเทศ บัตรสามารถใช้ได้เกือบทุกที่ แต่ควรพกเงินสดติดตัวไว้บ้างสำหรับร้านค้าเล็กๆ และตลาดแบบดั้งเดิม"
+          },
+          {
+            "heading": "การซื้อบัตรโดยสาร (T-money) — ทีละขั้นตอน",
+            "body": "บัตร T-money เป็นวิธีที่ง่ายที่สุดในการใช้บริการรถบัสและรถไฟใต้ดินทั่วประเทศ",
+            "subsections": [
+              {
+                "label": "ซื้อได้ที่ไหน",
+                "text": "ร้านสะดวกซื้อทั่วไป เช่น CU, GS25, 7-Eleven, Emart24 — สังเกตสติกเกอร์ T-money ที่หน้าประตูร้าน นอกจากนี้ยังมีจำหน่ายที่ตู้ขายอัตโนมัติในสถานีรถไฟใต้ดินและร้านสะดวกซื้อในสนามบิน"
+              },
+              {
+                "label": "วิธีซื้อ",
+                "text": "พูดว่า \"T-money card, please\" (티머니 카드 주세요 — Tee-money kadeu ju-se-yo) ไม่ต้องใช้บัตรประจำตัวหรือลงทะเบียนใดๆ"
+              },
+              {
+                "label": "ราคา",
+                "text": "ตัวบัตรมีราคาประมาณ 2,500-4,000 วอน (รุ่นลายการ์ตูนหรือดีไซน์พิเศษราคาสูงกว่า) นี่เป็นค่าบัตรแบบจ่ายครั้งเดียวและไม่สามารถขอคืนเป็นเครดิตค่าโดยสารได้"
+              },
+              {
+                "label": "วิธีเติมเงิน",
+                "text": "พูดว่า \"Chungjeon haejuseyo\" (충전해주세요 — Choong-jeon hae-ju-se-yo แปลว่า \"กรุณาเติมเงินให้ด้วย\") แล้วยื่นเงินสดให้ ร้านสะดวกซื้อส่วนใหญ่รับเฉพาะเงินสดเท่านั้น จำนวนเงินที่นิยมเติมคือ 10,000-50,000 วอน"
+              },
+              {
+                "label": "วิธีใช้งาน",
+                "text": "แตะบัตรที่เครื่องอ่านเมื่อขึ้นรถและแตะอีกครั้งเมื่อลงจากรถบัส — การแตะตอนลงรถจะทำให้คุณได้สิทธิ์เปลี่ยนต่อรถบัสและรถไฟใต้ดินฟรีภายใน 30 นาที ค่าโดยสารพื้นฐานอยู่ที่ประมาณ 1,500 วอน และถูกกว่าการจ่ายด้วยเงินสดเล็กน้อย"
+              },
+              {
+                "label": "ประโยชน์อื่นๆ",
+                "text": "บัตรใบเดียวกันนี้ใช้ได้ที่ร้านสะดวกซื้อ แท็กซี่บางคัน และตู้ขายสินค้าอัตโนมัติ บัตร T-money แบบจับต้องได้เป็นวิธีที่ง่ายที่สุด — ไม่ต้องใช้บัตร ARC"
+              }
+            ]
+          },
+          {
+            "heading": "มารยาทพื้นฐาน — สิ่งที่ควรทำและควรหลีกเลี่ยง",
+            "body": "",
+            "lists": [
+              {
+                "label": "สิ่งที่ควรทำ",
+                "items": [
+                  "ใช้สองมือเมื่อให้หรือรับสิ่งของจากผู้ที่อาวุโสหรือมีตำแหน่งสูงกว่า เช่น เงิน เอกสาร เครื่องดื่ม",
+                  "โค้งเล็กน้อยเมื่อทักทาย การพยักหน้าก็เพียงพอในสถานการณ์ที่ไม่เป็นทางการ",
+                  "ถอดรองเท้าเมื่อเข้าบ้านหรือร้านอาหารแบบนั่งพื้นแบบดั้งเดิม",
+                  "รอให้ผู้อาวุโสที่สุดเริ่มรับประทานอาหารก่อนแล้วจึงเริ่มรับประทาน",
+                  "เมื่อรินหรือรับเครื่องดื่มจากผู้อาวุโส ให้ถือแก้วหรือขวดด้วยสองมือ และหันหน้าออกไปเล็กน้อยขณะดื่ม"
+                ]
+              },
+              {
+                "label": "สิ่งที่ควรหลีกเลี่ยง — สิ่งที่คนเกาหลีไม่ชอบจริงๆ",
+                "items": [
+                  "การพูดเสียงดังในที่สาธารณะ โดยเฉพาะบนรถไฟใต้ดิน รถบัส และรถไฟ ระบบขนส่งสาธารณะของเกาหลีเงียบสงบเป็นพิเศษ — การคุยโทรศัพท์ถือเป็นเรื่องไม่สุภาพ ควรใช้การส่งข้อความแทน",
+                  "การเปิดเพลงหรือวิดีโอโดยไม่ใช้หูฟังในที่สาธารณะ",
+                  "การสั่งน้ำมูกที่โต๊ะอาหาร — ควรเดินออกไปที่ห้องน้ำ",
+                  "การปักตะเกียบตั้งตรงลงในข้าว — เพราะมีลักษณะคล้ายพิธีศพ",
+                  "การปฏิเสธเครื่องดื่มหรืออาหารอย่างตรงไปตรงมา — ควรปฏิเสธอย่างสุภาพ (\"괜찮습니다\" — Gwaen-chan-seum-ni-da) แทนการพูดปฏิเสธตรงๆ",
+                  "การแซงคิวหรือเบียดขึ้นรถขนส่งสาธารณะก่อนที่ผู้อื่นจะลงจากรถ",
+                  "การทิ้งขยะหรือสูบบุหรี่นอกพื้นที่ที่กำหนด — มีค่าปรับในหลายพื้นที่สาธารณะ",
+                  "การรู้สึกแปลกใจเมื่อถูกถามอายุ — เรื่องนี้เป็นเรื่องปกติในเกาหลีและไม่ถือว่าไม่สุภาพ เพราะอายุเป็นตัวกำหนดวิธีที่ผู้คนพูดคุยกัน",
+                  "การมาสาย ความตรงต่อเวลาถือเป็นเรื่องสำคัญทั้งในที่ทำงานและในสังคม",
+                  "การคุยโทรศัพท์เสียงดังในร้านอาหาร หรือพูดจาไม่ดีกับพนักงานบริการ"
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "HiKorea — ข้อมูลวีซ่า (ภาษาอังกฤษ)",
+            "url": "https://www.hikorea.go.kr/Main.pt?locale=en"
+          },
+          {
+            "label": "T-money เว็บไซต์ทางการ (ภาษาอังกฤษ)",
+            "url": "https://www.t-money.co.kr"
+          },
+          {
+            "label": "Visit Korea — บัตรโดยสารขนส่ง (ภาษาอังกฤษ)",
+            "url": "https://english.visitkorea.or.kr"
+          }
+        ]
+      },
+      "know-korea": {
+        "icon": "🇰🇷",
+        "navTitle": "ทำความรู้จักเกาหลี",
+        "navDescription": "วัฒนธรรม อาหาร การสั่งอาหาร ฤดูกาล",
+        "title": "ทำความรู้จักเกาหลี",
+        "summary": "ค้นพบอาหาร วัฒนธรรม และฤดูกาลของเกาหลี — การรู้จักประเทศนี้จะทำให้ชีวิตทั้งในทะเลและบนฝั่งง่ายขึ้นมาก!",
+        "sections": [
+          {
+            "heading": "วัฒนธรรมเกาหลี — วิธีคิดของผู้คน",
+            "body": "เกาหลีให้ความสำคัญกับ \"จอง\" (정) — ความรู้สึกผูกพันและห่วงใยซึ่งกันและกันอย่างลึกซึ้ง ซึ่งขยายไปถึงคนแปลกหน้าด้วย หากคุณตกอยู่ในสถานการณ์ลำบาก ผู้คนมักจะช่วยเหลือโดยไม่ต้องร้องขอ อายุและความอาวุโสมีผลต่อการใช้ภาษาและพฤติกรรม ดังนั้นจึงใช้คำพูดสุภาพกับคนแปลกหน้า ผู้อาวุโส และพนักงานบริการ \"นุนชี\" (눈치) — การอ่านบรรยากาศ — เป็นสิ่งที่ได้รับการยกย่องอย่างมาก การสังเกตว่าผู้อื่นกำลังทำอะไรก่อนที่จะลงมือทำถือเป็นความเกรงใจ ไม่ใช่ความเฉื่อยชา ความกลมเกลียวของกลุ่มมีความสำคัญมากกว่าการแสดงออกส่วนบุคคลในที่ทำงานส่วนใหญ่ การรับประทานอาหารและดื่มเครื่องดื่มร่วมกันหลังเลิกงานเป็นส่วนสำคัญของการสร้างความผูกพันในทีม แม้ว่าการปฏิเสธเครื่องดื่มแอลกอฮอล์จะได้รับการยอมรับมากขึ้นเรื่อยๆ ก็ตาม มีการใช้ตำแหน่งแทนชื่อจริง (선장님 = ซอนจังนิม = กัปตัน) การเติม \"-นิม\" (님) แสดงถึงความเคารพ"
+          },
+          {
+            "heading": "อาหารขึ้นชื่อประจำเมือง",
+            "body": "",
+            "table": {
+              "columns": [
+                "เมือง",
+                "อาหารขึ้นชื่อ",
+                "รายละเอียด"
+              ],
+              "rows": [
+                [
+                  "Busan",
+                  "돼지국밥 (Dwaeji-gukbap)",
+                  "ซุปข้าวน้ำซุปกระดูกหมู — อาหารประจำเมืองปูซาน ราคาถูกและอิ่มท้อง"
+                ],
+                [
+                  "Busan",
+                  "밀면 (Milmyeon)",
+                  "เส้นก๋วยเตี๋ยวข้าวสาลีเย็น อาหารต้นตำรับของปูซาน"
+                ],
+                [
+                  "Incheon",
+                  "짜장면 (Jjajangmyeon)",
+                  "บะหมี่ซอสถั่วดำ — ถือกำเนิดที่ไชน่าทาวน์อินชอน"
+                ],
+                [
+                  "Jeonju",
+                  "비빔밥 (Bibimbap)",
+                  "ข้าวคลุกผักและซอสโคชูจัง"
+                ],
+                [
+                  "Pohang",
+                  "과메기 (Gwamegi)",
+                  "ปลาซอรีตากครึ่งแห้ง อาหารพิเศษประจำฤดูหนาว"
+                ],
+                [
+                  "Pohang",
+                  "물회 (Mulhoe)",
+                  "ปลาดิบในน้ำซุปเย็นรสเปรี้ยว — เมนูท้องถิ่นยอดนิยม โดยเฉพาะช่วงหน้าร้อน"
+                ],
+                [
+                  "Yeosu",
+                  "갓김치 (Gat-kimchi)",
+                  "กิมจิใบมัสตาร์ด รสเผ็ดและฉุน"
+                ],
+                [
+                  "Gwangyang",
+                  "불고기 (Bulgogi)",
+                  "เนื้อวัวหมักย่าง สไตล์กวางยาง"
+                ],
+                [
+                  "Mokpo",
+                  "세발낙지 (Sebal-nakji)",
+                  "ปลาหมึกยักษ์ตัวเล็ก รับประทานสด"
+                ],
+                [
+                  "Chuncheon",
+                  "닭갈비 (Dakgalbi)",
+                  "ไก่ผัดรสเผ็ด"
+                ]
+              ]
+            }
+          },
+          {
+            "heading": "วิธีสั่งอาหาร — ประโยคที่ใช้ได้จริง",
+            "body": "",
+            "lists": [
+              {
+                "label": "",
+                "items": [
+                  "การเรียกความสนใจ: \"여기요!\" (Yeo-gi-yo!) หรือ \"저기요!\" (Jeo-gi-yo!) — การเรียกแบบนี้เป็นเรื่องปกติและไม่ถือว่าไม่สุภาพในร้านอาหารเกาหลี",
+                  "การสั่งอาหาร: ชี้ไปที่เมนูแล้วพูดว่า \"이거 주세요\" (I-geo ju-se-yo) = \"ขอเมนูนี้ครับ/ค่ะ\"",
+                  "จำนวน: \"하나 주세요\" (Ha-na ju-se-yo) = หนึ่งที่, \"둘 주세요\" (Dul ju-se-yo) = สองที่",
+                  "ไม่เผ็ด: \"안 맵게 해주세요\" (An maep-ge hae-ju-se-yo)",
+                  "ไม่ใส่หมู / ไม่ใส่เนื้อวัว: \"돼지고기 빼주세요\" (Dwaeji-gogi ppae-ju-se-yo) / \"소고기 빼주세요\" (So-gogi ppae-ju-se-yo) มีตัวเลือกอาหารฮาลาลอยู่ใกล้ปูซานและย่านอิแทวอนในโซล",
+                  "น้ำและกับข้าว: น้ำเปล่า (물 — mul) และกับข้าว (반찬 — ban-chan) จะให้ฟรีและเติมได้เสมอ ให้พูดว่า \"리필 주세요\" (Ri-pil ju-se-yo)",
+                  "การจ่ายเงิน: จ่ายเงินที่เคาน์เตอร์ตอนขาออก ไม่ใช่ที่โต๊ะ \"계산해주세요\" (Gye-san-hae-ju-se-yo)",
+                  "ไม่มีการให้ทิป การให้ทิปไม่ใช่ธรรมเนียมปฏิบัติในเกาหลีและอาจทำให้พนักงานสับสน"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "ฤดูกาลและสภาพอากาศ",
+            "body": "",
+            "lists": [
+              {
+                "label": "",
+                "items": [
+                  "ฤดูใบไม้ผลิ (มีนาคม–พฤษภาคม) — อากาศอบอุ่นสบาย ดอกซากุระบานช่วงปลายมีนาคม–เมษายน ระวังฝุ่นละอองขนาดเล็ก (미세먼지) และฝุ่นเหลือง ควรตรวจสอบแอปคุณภาพอากาศและสวมหน้ากากในวันที่อากาศแย่ อุณหภูมิเปลี่ยนแปลงมากระหว่างเช้าและบ่าย — ควรแต่งกายแบบเป็นชั้นๆ",
+                  "ช่วงเปลี่ยนฤดู (환절기, ปลายเดือนมีนาคมและปลายเดือนตุลาคม) — เป็นช่วงที่มักเป็นหวัดได้ง่ายที่สุด ความแตกต่างของอุณหภูมิระหว่างกลางวันและกลางคืนอาจเกิน 10°C ควรพกเสื้อแจ็คเก็ตติดตัวไว้แม้ในบ่ายที่อากาศอบอุ่น",
+                  "ฤดูร้อน (มิถุนายน–สิงหาคม) — อากาศร้อนและชื้นมาก มักสูงกว่า 30°C พร้อมความชื้นมากกว่า 80% ฤดูฝน (장마) อยู่ในช่วงประมาณปลายมิถุนายนถึงปลายกรกฎาคม และฤดูไต้ฝุ่นจะสูงสุดในเดือนสิงหาคม–กันยายน นี่คือช่วงที่มีประกาศเตือนภัยสภาพอากาศทางทะเลและข้อจำกัดในการออกเรือบ่อยที่สุด อาการเพลียแดดเป็นความเสี่ยงที่แท้จริงบนดาดฟ้า — ควรดื่มน้ำอย่างสม่ำเสมอและพักในที่ร่ม",
+                  "ฤดูใบไม้ร่วง (กันยายน–พฤศจิกายน) — อากาศแจ่มใส แห้ง และสบาย ถือกันโดยทั่วไปว่าเป็นฤดูที่ดีที่สุด สภาพทะเลโดยทั่วไปสงบกว่า แม้ว่าไต้ฝุ่นช่วงปลายฤดูยังคงเกิดขึ้นได้",
+                  "ฤดูหนาว (ธันวาคม–กุมภาพันธ์) — อากาศหนาวและแห้ง มักต่ำกว่าจุดเยือกแข็ง พร้อมลมตะวันตกเฉียงเหนือที่แรง ประกาศเตือนภัยลมและคลื่นมักจำกัดไม่ให้เรือขนาดเล็กออกจากท่า และความเสี่ยงจากการแช่ในน้ำเย็นอยู่ในระดับสูงสุด — อุณหภูมิน้ำทะเลอาจลดต่ำจนทำให้ร่างกายไม่สามารถเคลื่อนไหวได้ภายในไม่กี่นาที ควรสวมเสื้อผ้าชั้นในกันความหนาวใต้ชุดทำงาน"
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "KMA สภาพอากาศทางทะเล (ภาษาอังกฤษ)",
+            "url": "https://www.weather.go.kr/w/index.do"
+          },
+          {
+            "label": "AirKorea — คุณภาพอากาศ (ภาษาอังกฤษ)",
+            "url": "https://www.airkorea.or.kr/eng"
+          },
+          {
+            "label": "Visit Korea — คู่มืออาหารเกาหลี (ภาษาอังกฤษ)",
+            "url": "https://english.visitkorea.or.kr"
+          }
+        ]
+      },
+      "port-city-guide": {
+        "icon": "🏙️",
+        "navTitle": "คู่มือเมืองท่าเรือ",
+        "navDescription": "สโมสรลูกเรือ การเดินทางเข้าเมือง การขึ้นฝั่ง",
+        "title": "คู่มือเมืองท่าเรือ",
+        "summary": "บริการของสโมสรลูกเรือและการเดินทางเข้าเมือง — ใช้เวลาบนฝั่งของคุณให้คุ้มค่า อย่างปลอดภัยและง่ายดาย!",
+        "sections": [
+          {
+            "heading": "สโมสรลูกเรือในเกาหลี",
+            "body": "บริการสโมสรลูกเรือมีให้บริการที่ท่าเรือหลักของเกาหลี รวมถึงปูซาน อินชอน และโพฮัง ศูนย์เหล่านี้มีพื้นที่พักผ่อน ห้องอาบน้ำ อินเทอร์เน็ตและโทรศัพท์ ร้านค้า การแลกเปลี่ยนเงินตรา บริการให้คำปรึกษา และสถานที่ประกอบศาสนกิจ — เป็นสถานที่ผ่อนคลายห่างจากเรือ\n\nสอบถามตัวแทนท้องถิ่นของบริษัทเดินเรือของคุณว่าจะเดินทางไปสโมสรลูกเรือได้อย่างไรและมีการเดินทางแบบใดบ้าง ตัวแทนสามารถจัดรถรับส่งหรือให้คำแนะนำเรื่องแท็กซี่ และทราบเวลาทำการปัจจุบัน นี่เป็นวิธีที่น่าเชื่อถือที่สุดในการเดินทางไปที่นั่น เนื่องจากกฎการเข้าถึงท่าเทียบเรือและขั้นตอนที่ประตูแตกต่างกันไปตามท่าเรือและท่าจอดเรือ",
+            "lists": [
+              {
+                "label": "ศูนย์บริการหลัก",
+                "items": [
+                  "ศูนย์ลูกเรือท่าเรือใหม่ปูซาน (Busan New Port Seafarers Center) — 354 Sinhangman-ro, Gangseo-gu, Busan โทร +82 51 974 0774 / มือถือ +82 10 9171 2333 เปิดวันจันทร์–ศุกร์ 09:00–22:00 น. วันเสาร์–อาทิตย์ 10:00–19:00 น.",
+                  "Mission to Seafarers Busan — 294 Sinseon-ro, Nam-gu, Busan 48562 เปิดทุกวัน 12:00–20:00 น.",
+                  "United Seamen's Service Busan — สโมสรลูกเรือ (Seamen's Club), 99 Gamman 1-dong, Busan 48480 (ดำเนินการในปูซานมาตั้งแต่ปี 1954)"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "การเดินทางจากท่าเรือเข้าสู่ตัวเมือง",
+            "body": "การเดินทางแตกต่างกันมากในแต่ละท่าเรือ ท่าเรือส่วนใหญ่ในเกาหลีตั้งอยู่ในเขตอุตสาหกรรมที่ห่างจากใจกลางเมืองพอสมควร ดังนั้นแท็กซี่มักเป็นตัวเลือกที่เร็วและง่ายที่สุด ควรเตรียมจุดหมายปลายทางที่เขียนเป็นภาษาเกาหลี หรือแสดงบนโทรศัพท์ของคุณ ควรตรวจสอบเส้นทางที่แน่ชัดกับตัวแทนเรือของคุณก่อนขึ้นฝั่งเสมอ",
+            "table": {
+              "columns": [
+                "ท่าเรือ",
+                "ย่านใจกลางเมือง / เขตที่ใกล้ที่สุด",
+                "วิธีเดินทางทั่วไป"
+              ],
+              "rows": [
+                [
+                  "Busan (North Port)",
+                  "Nampo-dong, Jungang-dong",
+                  "รถไฟใต้ดินสาย 1 (สถานี Jungang หรือ Nampo) เดินระยะสั้นหรือนั่งแท็กซี่จากท่าเทียบเรือ"
+                ],
+                [
+                  "Busan (New Port)",
+                  "Hadan / Jinhae",
+                  "แท็กซี่หรือรถรับส่งของตัวแทน — ท่าเทียบเรืออยู่ไกลจากตัวเมือง ระบบขนส่งสาธารณะมีจำกัด"
+                ],
+                [
+                  "Incheon",
+                  "Sinpo, Dong-Incheon, Chinatown",
+                  "รถไฟใต้ดินสาย 1 (สถานี Incheon หรือ Dong-Incheon) แท็กซี่จากท่าจอดเรือไปยังสถานี"
+                ],
+                [
+                  "Pyeongtaek",
+                  "Anjung, ใจกลางเมือง Pyeongtaek",
+                  "รถบัสท้องถิ่นหรือแท็กซี่ไปยังสถานี Pyeongtaek (สาย 1)"
+                ],
+                [
+                  "Dangjin",
+                  "Songak, ใจกลางเมือง Dangjin",
+                  "แท็กซี่ — ไม่มีเส้นทางรถไฟที่ท่าเรือ บริการรถบัสท้องถิ่นมีไม่บ่อย"
+                ],
+                [
+                  "Gwangyang",
+                  "ใจกลางเมือง Gwangyang / Suncheon",
+                  "แท็กซี่เข้าเมือง สถานีขนส่งระหว่างเมืองสำหรับการเดินทางต่อ"
+                ],
+                [
+                  "Yeosu",
+                  "ใจกลางเมือง Yeosu, Idong",
+                  "แท็กซี่ สถานี Yeosu-Expo (KTX) สำหรับการเดินทางต่อ"
+                ],
+                [
+                  "Masan",
+                  "Masan Hapseong-dong, Changwon",
+                  "รถบัสท้องถิ่นหรือแท็กซี่ไปยังใจกลางเมือง Masan"
+                ],
+                [
+                  "Pohang",
+                  "ใจกลางเมือง Pohang, Yeongildae",
+                  "แท็กซี่จากท่าเรือเก่า/ใหม่ Pohang สถานี Pohang (KTX) สำหรับการเดินทางต่อ"
+                ],
+                [
+                  "Donghae",
+                  "ใจกลางเมือง Donghae",
+                  "แท็กซี่ สถานี Donghae อยู่ใกล้เคียง"
+                ],
+                [
+                  "Mukho",
+                  "เขตท่าเรือ Mukho, Donghae",
+                  "นั่งแท็กซี่ระยะสั้น — ตัวเมือง Mukho อยู่ใกล้ท่าเรือ"
+                ],
+                [
+                  "Samcheok",
+                  "ใจกลางเมือง Samcheok",
+                  "แท็กซี่จากท่าเรือ Samcheok มีรถบัสท้องถิ่นให้บริการ"
+                ],
+                [
+                  "Gunsan",
+                  "ใจกลางเมือง Gunsan",
+                  "แท็กซี่หรือรถบัสท้องถิ่น สถานี Gunsan สำหรับการเดินทางต่อ"
+                ]
+              ]
+            },
+            "note": "หมายเลขและตารางเวลารถบัสมีการเปลี่ยนแปลงบ่อย ตารางนี้จึงให้ข้อมูลเฉพาะจุดหมายปลายทางและรูปแบบการเดินทางเท่านั้น ควรตรวจสอบเส้นทางและค่าโดยสารปัจจุบันกับตัวแทนเรือของคุณหรือเจ้าหน้าที่สโมสรลูกเรือก่อนออกจากท่าเรือ",
+            "id": "port-transport-table"
+          },
+          {
+            "heading": "การขึ้นฝั่งอย่างปลอดภัย",
+            "body": "เกาหลีมีอัตราอาชญากรรมรุนแรงต่ำมาก และการล้วงกระเป๋าเกิดขึ้นน้อยมาก ควรพกสำเนาบัตร ARC หรือหนังสือเดินทางติดตัวตลอดเวลา ปฏิบัติตามสัญญาณจราจร และจดจำเวลากลับเรือและหมายเลขโทรศัพท์ของตัวแทนก่อนออกจากเรือ"
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "ITF Seafarers — ค้นหาศูนย์สวัสดิการ",
+            "url": "https://www.itfseafarers.org/en/directories/seafarers-welfare-centre-index"
+          },
+          {
+            "label": "ISWAN — ศูนย์ลูกเรือในเกาหลี",
+            "url": "https://www.iswan.org.uk/centres/"
+          },
+          {
+            "label": "United Seamen's Service",
+            "url": "https://unitedseamensservice.org/uss-centers/"
+          }
+        ]
+      },
+      "worker-rights": {
+        "icon": "📜",
+        "navTitle": "สิทธิของคุณในฐานะลูกเรือ",
+        "navDescription": "ชั่วโมงทำงาน สัญญาจ้าง การร้องเรียน การให้คำปรึกษา",
+        "title": "สิทธิของคุณในฐานะลูกเรือ",
+        "summary": "รู้จักชั่วโมงทำงาน สัญญาจ้าง และแหล่งที่จะขอความช่วยเหลือ — เข้าใจสิทธิของคุณและยืนหยัดเพื่อสิทธินั้นอย่างมั่นใจ!",
+        "sections": [
+          {
+            "heading": "ชั่วโมงทำงานและการพักผ่อน",
+            "body": "กฎหมายว่าด้วยลูกเรือของเกาหลี (มาตรา 60) กำหนดชั่วโมงทำงานพื้นฐานไว้ที่ 8 ชั่วโมงต่อวันและ 40 ชั่วโมงต่อสัปดาห์ ภายใต้อนุสัญญาแรงงานทางทะเล ค.ศ. 2006 (MLC 2006) คุณมีสิทธิได้รับการพักผ่อนอย่างน้อย 10 ชั่วโมงในทุกช่วง 24 ชั่วโมง และ 77 ชั่วโมงในทุกช่วง 7 วัน การพักผ่อนอาจแบ่งได้ไม่เกินสองช่วง โดยหนึ่งในนั้นต้องมีความยาวอย่างน้อย 6 ชั่วโมง ต้องมีการบันทึกชั่วโมงทำงานและชั่วโมงพักผ่อนของคุณไว้เป็นหลักฐาน"
+          },
+          {
+            "heading": "สัญญาจ้างและเอกสารประจำตัว",
+            "body": "กฎหมายกำหนดให้ต้องมีสัญญาจ้างงานลูกเรือเป็นลายลักษณ์อักษร คุณควรมีสมุดประจำตัวลูกเรือ (선원수첩) ที่บันทึกประวัติการทำงานและคุณสมบัติของคุณด้วย รวมถึงเอกสารประจำตัวลูกเรือภายใต้อนุสัญญา ILO ฉบับที่ 185 เก็บสำเนาสัญญาของคุณเองไว้ — ห้ามมอบสำเนาฉบับเดียวที่คุณมีให้ผู้อื่นโดยเด็ดขาด"
+          },
+          {
+            "heading": "การร้องเรียนและการให้คำปรึกษา",
+            "body": "ภายใต้ MLC 2006 (ระเบียบข้อ 5.1.5) เรือทุกลำต้องมีขั้นตอนการร้องเรียนบนเรือที่เป็นธรรม แต่คุณก็สามารถร้องเรียนโดยตรงกับหน่วยงานภายนอกได้เช่นกัน — เจ้าของเรือ รัฐเจ้าของธง รัฐเจ้าของท่าเรือ หรือประเทศบ้านเกิดของคุณ — และคุณมีสิทธิที่จะมีผู้ติดตามและได้รับการคุ้มครองจากการตอบโต้ เมื่ออยู่ในท่าเรือ คุณสามารถแจ้งการละเมิดต่อเจ้าหน้าที่ควบคุมรัฐเจ้าของท่าเรือ (Port State Control) หรือให้ผู้ตรวจสอบของ ITF หรือเจ้าหน้าที่สวัสดิการยื่นเรื่องแทนคุณได้",
+            "lists": [
+              {
+                "label": "ในเกาหลี ติดต่อได้ที่",
+                "items": [
+                  "เจ้าหน้าที่ตรวจแรงงานลูกเรือ ณ สำนักงานภูมิภาคด้านมหาสมุทรและการประมงที่ใกล้ที่สุด — ดูแลเรื่องค่าจ้างค้างจ่ายและการละเมิดกฎหมายลูกเรือ",
+                  "ศูนย์สวัสดิการและการจ้างงานลูกเรือเกาหลี (KOSWEC) — ให้คำปรึกษาเรื่องข้อร้องเรียนและบริการสวัสดิการ",
+                  "ศูนย์ให้คำปรึกษาแรงงานต่างชาติ 1577-0071 — 16 ภาษา ให้บริการ 365 วัน เวลา 09:00–18:00 น.",
+                  "กระทรวงแรงงาน 1350 — ให้คำปรึกษาด้านแรงงาน",
+                  "APIL (Advocates for Public Interest Law) — +82-2-3478-0529 องค์กรพัฒนาเอกชนด้านกฎหมายชั้นนำสำหรับลูกเรือประมงข้ามชาติ",
+                  "ITF Seafarer Support — seafsupport@itf.org.uk, WhatsApp +44 7523 515097"
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "ITF Seafarers — สิทธิของคุณภายใต้ MLC",
+            "url": "https://www.itfseafarers.org/en/resources/your-rights-under-mlc"
+          },
+          {
+            "label": "ILO — อนุสัญญาแรงงานทางทะเล ค.ศ. 2006",
+            "url": "https://www.ilo.org/global/standards/maritime-labour-convention/lang--en/index.htm"
+          },
+          {
+            "label": "HUG Korea — การช่วยเหลือแรงงานต่างชาติ (หลายภาษา)",
+            "url": "http://www.hugkorea.or.kr"
+          },
+          {
+            "label": "ISWAN — ความช่วยเหลือลูกเรือ (24/7 หลายภาษา)",
+            "url": "https://www.seafarerhelp.org"
+          }
+        ]
+      },
+      "phrasebook": {
+        "icon": "💬",
+        "navTitle": "ภาษาเกาหลีเพื่อการเอาชีวิตรอด",
+        "navDescription": "วลีสำคัญสำหรับสถานการณ์ฉุกเฉิน",
+        "title": "ภาษาเกาหลีเพื่อการเอาชีวิตรอด",
+        "summary": "หนึ่งประโยคอาจช่วยชีวิตได้ — เรียนรู้วลีภาษาเกาหลีฉุกเฉินเหล่านี้ตั้งแต่ตอนนี้!",
+        "phraseGroups": [
+          {
+            "heading": "การขอความช่วยเหลือ",
+            "phrases": [
+              {
+                "korean": "도와주세요!",
+                "pronunciation": "Do wa ju se yo!",
+                "meaning": "ช่วยด้วย!"
+              },
+              {
+                "korean": "살려주세요!",
+                "pronunciation": "Sal lyo ju se yo!",
+                "meaning": "ช่วยชีวิตด้วย! (อันตรายถึงชีวิต)"
+              },
+              {
+                "korean": "급해요!",
+                "pronunciation": "Geu pae yo!",
+                "meaning": "เร่งด่วนมาก!"
+              },
+              {
+                "korean": "응급상황이에요",
+                "pronunciation": "Eung geup sang hwang i e yo",
+                "meaning": "เป็นเหตุฉุกเฉิน"
+              },
+              {
+                "korean": "119에 전화해주세요",
+                "pronunciation": "Il il gu e jeon hwa hae ju se yo",
+                "meaning": "กรุณาโทร 119"
+              },
+              {
+                "korean": "경찰을 불러주세요",
+                "pronunciation": "Gyeong chal eul bul lo ju se yo",
+                "meaning": "เรียกตำรวจ"
+              },
+              {
+                "korean": "구급차를 불러주세요",
+                "pronunciation": "Gu geup cha reul bul lo ju se yo",
+                "meaning": "เรียกรถพยาบาล"
+              }
+            ]
+          },
+          {
+            "heading": "เหตุฉุกเฉินทางทะเล",
+            "phrases": [
+              {
+                "korean": "불이야!",
+                "pronunciation": "Bu ri ya!",
+                "meaning": "ไฟไหม้!"
+              },
+              {
+                "korean": "사람이 바다에 빠졌어요",
+                "pronunciation": "Sa ra mi ba da e ppa jyeo sseo yo",
+                "meaning": "มีคนตกทะเล!"
+              },
+              {
+                "korean": "배가 침몰해요",
+                "pronunciation": "Bae ga chim mo rae yo",
+                "meaning": "เรือกำลังจม"
+              },
+              {
+                "korean": "배가 고장났어요",
+                "pronunciation": "Bae ga go jang na sseo yo",
+                "meaning": "เรือเสีย"
+              },
+              {
+                "korean": "구명조끼 주세요",
+                "pronunciation": "Gu myeong jo kki ju se yo",
+                "meaning": "ขอเสื้อชูชีพ"
+              },
+              {
+                "korean": "여기 위치는...",
+                "pronunciation": "Yeo gi wi chi neun...",
+                "meaning": "ตำแหน่งของเราคือ..."
+              },
+              {
+                "korean": "배 이름은...",
+                "pronunciation": "Bae i reu meun...",
+                "meaning": "ชื่อเรือคือ..."
+              },
+              {
+                "korean": "사람 다섯 명 있어요",
+                "pronunciation": "Sa ram da seot myeong i sseo yo",
+                "meaning": "มีคนอยู่ห้าคน"
+              }
+            ]
+          },
+          {
+            "heading": "เหตุฉุกเฉินทางการแพทย์",
+            "phrases": [
+              {
+                "korean": "다쳤어요",
+                "pronunciation": "Da chyeo sseo yo",
+                "meaning": "ฉันได้รับบาดเจ็บ"
+              },
+              {
+                "korean": "여기 아파요",
+                "pronunciation": "Yeo gi a pa yo",
+                "meaning": "เจ็บตรงนี้ (ชี้ไปยังจุดที่เจ็บ)"
+              },
+              {
+                "korean": "피가 나요",
+                "pronunciation": "Pi ga na yo",
+                "meaning": "ฉันมีเลือดออก"
+              },
+              {
+                "korean": "숨을 못 쉬어요",
+                "pronunciation": "Su meul mot swi eo yo",
+                "meaning": "ฉันหายใจไม่ออก"
+              },
+              {
+                "korean": "의사가 필요해요",
+                "pronunciation": "Ui sa ga pi ryo hae yo",
+                "meaning": "ฉันต้องการหมอ"
+              },
+              {
+                "korean": "병원이 어디예요?",
+                "pronunciation": "Byeong wo ni eo di ye yo?",
+                "meaning": "โรงพยาบาลอยู่ที่ไหน"
+              },
+              {
+                "korean": "약국이 어디예요?",
+                "pronunciation": "Yak gu gi eo di ye yo?",
+                "meaning": "ร้านขายยาอยู่ที่ไหน"
+              },
+              {
+                "korean": "알레르기가 있어요",
+                "pronunciation": "Al le reu gi ga i sseo yo",
+                "meaning": "ฉันแพ้"
+              },
+              {
+                "korean": "열이 나요",
+                "pronunciation": "Yeo ri na yo",
+                "meaning": "ฉันมีไข้"
+              },
+              {
+                "korean": "어지러워요",
+                "pronunciation": "Eo ji reo wo yo",
+                "meaning": "ฉันรู้สึกเวียนหัว"
+              }
+            ]
+          },
+          {
+            "heading": "ปัญหาด้านการสื่อสาร",
+            "phrases": [
+              {
+                "korean": "한국어를 못해요",
+                "pronunciation": "Han gu geo reul mo tae yo",
+                "meaning": "ฉันพูดภาษาเกาหลีไม่ได้"
+              },
+              {
+                "korean": "영어 할 수 있어요?",
+                "pronunciation": "Yeong eo hal su i sseo yo?",
+                "meaning": "คุณพูดภาษาอังกฤษได้ไหม"
+              },
+              {
+                "korean": "통역이 필요해요",
+                "pronunciation": "Tong yeo gi pi ryo hae yo",
+                "meaning": "ฉันต้องการล่าม"
+              },
+              {
+                "korean": "천천히 말해주세요",
+                "pronunciation": "Cheon cheo ni mal hae ju se yo",
+                "meaning": "กรุณาพูดช้าๆ"
+              },
+              {
+                "korean": "다시 말해주세요",
+                "pronunciation": "Da si mal hae ju se yo",
+                "meaning": "กรุณาพูดอีกครั้ง"
+              },
+              {
+                "korean": "모르겠어요",
+                "pronunciation": "Mo reu ge sseo yo",
+                "meaning": "ฉันไม่เข้าใจ"
+              },
+              {
+                "korean": "써주세요",
+                "pronunciation": "Sseo ju se yo",
+                "meaning": "กรุณาเขียนลงมาให้ด้วย"
+              }
+            ]
+          },
+          {
+            "heading": "ปัญหาและเอกสาร",
+            "phrases": [
+              {
+                "korean": "여권을 잃어버렸어요",
+                "pronunciation": "Yeo gwo neul i reo beo ryeo sseo yo",
+                "meaning": "ฉันทำหนังสือเดินทางหาย"
+              },
+              {
+                "korean": "지갑을 도둑맞았어요",
+                "pronunciation": "Ji ga beul do dung ma ja sseo yo",
+                "meaning": "กระเป๋าเงินของฉันถูกขโมย"
+              },
+              {
+                "korean": "길을 잃었어요",
+                "pronunciation": "Gi reul i reo sseo yo",
+                "meaning": "ฉันหลงทาง"
+              },
+              {
+                "korean": "대사관에 연락해주세요",
+                "pronunciation": "Dae sa gwa ne yeon la kae ju se yo",
+                "meaning": "กรุณาติดต่อสถานทูตของฉัน"
+              },
+              {
+                "korean": "회사에 연락해주세요",
+                "pronunciation": "Hoe sa e yeon la kae ju se yo",
+                "meaning": "กรุณาติดต่อบริษัทของฉัน"
+              },
+              {
+                "korean": "월급을 못 받았어요",
+                "pronunciation": "Wol geu beul mot ba da sseo yo",
+                "meaning": "ฉันยังไม่ได้รับค่าจ้าง"
+              },
+              {
+                "korean": "도움이 필요해요",
+                "pronunciation": "Do u mi pi ryo hae yo",
+                "meaning": "ฉันต้องการความช่วยเหลือ"
+              }
+            ]
+          },
+          {
+            "heading": "หมายเลขฉุกเฉิน — วิธีพูด",
+            "phrases": [
+              {
+                "korean": "119",
+                "pronunciation": "Il il gu",
+                "meaning": "ดับเพลิง / รถพยาบาล"
+              },
+              {
+                "korean": "112",
+                "pronunciation": "Il il i",
+                "meaning": "ตำรวจ"
+              },
+              {
+                "korean": "122",
+                "pronunciation": "Il i i",
+                "meaning": "หน่วยยามฝั่ง"
+              }
+            ]
+          }
+        ],
+        "tip": "เมื่อคุณโทรไปที่ 119 หรือ 112 ให้พูดว่า \"Tong yeo gi pi ryo hae yo\" (통역이 필요해요) และเจ้าหน้าที่จะสามารถเชื่อมต่อล่ามให้ได้ นอกจากนี้คุณยังสามารถโทรไปที่ BBB Korea 1588-5644 เพื่อขอรับบริการล่ามฟรีตลอด 24 ชั่วโมงใน 20 ภาษา",
+        "referenceLinks": [
+          {
+            "label": "BBB Korea — บริการล่ามฟรี (ภาษาอังกฤษ)",
+            "url": "https://www.bbbkorea.org/eng/main/main.php"
+          },
+          {
+            "label": "Danuri — การช่วยเหลือหลายภาษา",
+            "url": "https://www.liveinkorea.kr/web/index.do"
+          }
+        ]
+      },
+      "emergency": {
+        "icon": "🆘",
+        "navTitle": "ช่องทางติดต่อฉุกเฉิน",
+        "navDescription": "112 / 119 / 122 / 1345 และสายด่วนหลายภาษา",
+        "title": "ช่องทางติดต่อฉุกเฉิน",
+        "summary": "ไม่ว่าเมื่อใดหรือที่ใดที่คุณต้องการความช่วยเหลือ — บันทึกหมายเลขฉุกเฉินเหล่านี้ไว้ตั้งแต่ตอนนี้!",
+        "contacts": [
+          {
+            "number": "119",
+            "service": "ดับเพลิง รถพยาบาล กู้ภัย (รับแจ้งอุบัติเหตุทางทะเลด้วย)",
+            "languages": "มีบริการล่าม"
+          },
+          {
+            "number": "112",
+            "service": "ตำรวจ",
+            "languages": "มีบริการล่าม"
+          },
+          {
+            "number": "122",
+            "service": "หน่วยยามฝั่งเกาหลี — เหตุฉุกเฉินทางทะเล",
+            "languages": "เกาหลี/อังกฤษ"
+          },
+          {
+            "number": "1345",
+            "service": "ศูนย์ติดต่อสำนักงานตรวจคนเข้าเมือง",
+            "languages": "20 ภาษา"
+          },
+          {
+            "number": "1350",
+            "service": "กระทรวงแรงงาน — ให้คำปรึกษาด้านแรงงาน",
+            "languages": "ภาษาเกาหลี + บริการล่าม"
+          },
+          {
+            "number": "1577-0071",
+            "service": "ศูนย์ให้คำปรึกษาแรงงานต่างชาติ",
+            "languages": "16 ภาษา"
+          },
+          {
+            "number": "1588-5644",
+            "service": "BBB Korea — บริการล่ามทางโทรศัพท์ฟรี",
+            "languages": "20 ภาษา ตลอด 24 ชั่วโมงทุกวัน"
+          },
+          {
+            "number": "1577-1366",
+            "service": "ศูนย์บริการโทรศัพท์ Danuri — ผู้ย้ายถิ่นฐานและครอบครัว",
+            "languages": "13 ภาษา ตลอด 24 ชั่วโมงทุกวัน"
+          },
+          {
+            "number": "1339",
+            "service": "ข้อมูลการแพทย์ฉุกเฉิน",
+            "languages": "ภาษาเกาหลี"
+          },
+          {
+            "number": "1330",
+            "service": "สายด่วนท่องเที่ยวเกาหลี",
+            "languages": "หลายภาษา"
+          },
+          {
+            "number": "033-811-2000",
+            "service": "ประกันสุขภาพแห่งชาติ — สายสำหรับชาวต่างชาติ",
+            "languages": "อังกฤษ จีน ญี่ปุ่น เวียดนาม"
+          },
+          {
+            "number": "+44 7523 515097",
+            "service": "ITF Seafarer Support (WhatsApp/SMS)",
+            "languages": "หลายภาษา"
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "หน่วยยามฝั่งเกาหลี (ภาษาอังกฤษ)",
+            "url": "https://www.kcg.go.kr/kcg/main.do"
+          },
+          {
+            "label": "HUG Korea — การให้คำปรึกษาแรงงานต่างชาติ (หลายภาษา)",
+            "url": "http://www.hugkorea.or.kr"
+          },
+          {
+            "label": "BBB Korea — บริการล่าม (ภาษาอังกฤษ)",
+            "url": "https://www.bbbkorea.org/eng/main/main.php"
+          },
+          {
+            "label": "SeafarerHelp — สายด่วนฟรีสำหรับลูกเรือตลอด 24 ชั่วโมง",
+            "url": "https://www.seafarerhelp.org"
+          }
+        ]
+      }
+    }
+  },
+  "zh": {
+    "home": {
+      "title": "外籍船员安全与生活指南",
+      "subtitle": "在韩国海上和陆上安全、自信生活所需的一切信息。",
+      "prompt": "请选择您需要的内容",
+      "disclaimer": "本网站仅供参考之用。",
+      "aiLinkLabel": "向AI询问其他问题"
+    },
+    "pages": {
+      "safety-at-sea": {
+        "icon": "🦺",
+        "navTitle": "海上安全须知",
+        "navDescription": "救生衣、恶劣天气、火灾、事故报告",
+        "title": "海上安全须知",
+        "summary": "牢记保护您海上生命安全的基本规则——从天气预警到火灾、跌落事故,以及如何报告事故!",
+        "sections": [
+          {
+            "heading": "穿好您的救生衣",
+            "body": "自2026年7月1日起,无论天气预警状况或船员人数多少,渔船外露甲板上的所有人员均须穿着救生衣。船长如违反规定,首次违规将被处以90万韩元罚款,第二次150万韩元,第三次及以上最高300万韩元——该规定同样适用于外籍船员。据韩国海洋安全审判院(KOMSA)统计,过去五年海上死亡或失踪人员中约81%未穿救生衣;海洋警察厅估计,穿着救生衣可将生存几率提高至约78%。在冷水中,您大约有1分钟的冷休克反应时间、10分钟的有效活动时间,以及1小时的意识丧失时间(即“1-10-1原则”)——落水后才穿救生衣为时已晚。请务必扣紧扣环,并将其贴身系紧。"
+          },
+          {
+            "heading": "应对恶劣天气",
+            "body": "当平均风速连续3小时以上超过14米/秒,或预计浪高超过3米时,将发布风浪注意报(풍랑주의보)。在预警期间,小型渔船禁止出海,违反规定可能导致捕捞许可被暂停或吊销。每次出海前请务必查看海洋天气预报,服从船长和海洋警察厅的决定;若在海上遇到预警,应立即穿上救生衣、固定好松动物品、降低航速,并使船头正对波浪方向。"
+          },
+          {
+            "heading": "防火与应急处理",
+            "body": "机舱火灾(燃油或润滑油接触高温表面所致)和厨房火灾是船舶火灾的主要来源。应定期检查管路、及时修复泄漏,切勿使电路超负荷运行。一旦发生火灾,应立即拉响警报并首先通知船长。厨房或油类火灾切勿用水扑救——应使用窒息法或正确类型的灭火器。"
+          },
+          {
+            "heading": "预防跌落与落水事故",
+            "body": "海洋警察厅统计显示,船舶事故中超过80%的死亡与失踪案例发生在渔船上,而跌落事故因救援困难而致死风险最高。应保持甲板清洁、无油污和鱼粘液,穿着防滑鞋并佩戴安全帽,出海前检查绳索和钢缆是否磨损,切勿站在起网机或绞车的回弹路径上。"
+          },
+          {
+            "heading": "如何报告事故",
+            "body": "海上紧急情况请拨打122(韩国海洋警察厅);119同样受理海上事故报告,并会实时与各相关机构共享信息。报告时请说明:发生了什么情况、您的位置、船名、船上人数以及可回拨的联系电话。"
+          },
+          {
+            "heading": "安全培训",
+            "body": "根据《渔船安全法》第25条,外籍船员被明确纳入与船东、船长、轮机长共同参加的年度强制安全培训范围。培训内容包括基于事故案例的航行教学、救生设备的使用,以及灭火器、心肺复苏(CPR)和救生衣的实操演练。"
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "韩国海洋警察厅(英文)",
+            "url": "https://www.kcg.go.kr/kcg/main.do"
+          },
+          {
+            "label": "Korea.net——全体渔船强制配备救生衣的规定",
+            "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148967364"
+          },
+          {
+            "label": "安全举报门户网站",
+            "url": "https://www.safetyreport.go.kr"
+          }
+        ]
+      },
+      "living-in-korea": {
+        "icon": "🏠",
+        "navTitle": "在韩国生活",
+        "navDescription": "医疗、银行业务、电话、证件",
+        "title": "在韩国生活",
+        "summary": "从健康保险到银行账户和手机——提前了解在韩国生活的实用步骤,防患于未然!",
+        "sections": [
+          {
+            "heading": "健康保险(NHIS)",
+            "body": "受雇外国人自入职第一天起即通过雇主加入国民健康保险。咨询电话:1577-1000(韩语)或033-811-2000(英语、中文、日语、越南语)。未缴纳的保险费可能会影响您的签证延期。"
+          },
+          {
+            "heading": "开设银行账户",
+            "body": "您需要准备三样东西:外国人登录证(ARC)、护照原件,以及用于接收一次性验证码(OTP)的韩国手机号码。建议同时携带雇佣合同。在您的外国人登录证下发之前,部分银行仅凭护照即可为您开设功能有限的账户。对外国人较为友好的银行包括:韩亚银行(KEB Hana)、新韩银行(Shinhan)、友利银行(Woori)和企业银行(IBK)。开户一般需要30至60分钟,银行卡将在1至2周内以邮寄方式送达。"
+          },
+          {
+            "heading": "办理手机业务",
+            "body": "仅凭护照即可购买预付费SIM卡。签约后付费套餐则需要外国人登录证以及用于自动扣款的韩国银行账户。建议方案:抵达后先使用预付费卡,待外国人登录证下发后再更换为更便宜的虚拟运营商(알뜰폰,Alddeulpon)后付费套餐,并保留原号码。"
+          },
+          {
+            "heading": "必备证件",
+            "body": "在韩停留超过90天者必须办理外国人登录证——请在抵达后90天内前往当地出入境管理事务所办理登记。船员还需随身携带船员手册(Seafarer's Book)以及依据《国际劳工组织第185号公约》(ILO C185)签发的船员身份证件。请务必保留所有证件的复印件。"
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "国民健康保险公团(NHIS)——外国人健康保险(英文)",
+            "url": "https://www.nhis.or.kr/english/index.do"
+          },
+          {
+            "label": "HiKorea——外国人登记(英文)",
+            "url": "https://www.hikorea.go.kr/Main.pt?locale=en"
+          }
+        ]
+      },
+      "first-time-korea": {
+        "icon": "🛬",
+        "navTitle": "初到韩国",
+        "navDescription": "出入境、货币、交通卡、基本礼仪",
+        "title": "初到韩国",
+        "summary": "从签证、货币到日常礼仪——自信地迈出您在韩国的第一步!",
+        "sections": [
+          {
+            "heading": "签证",
+            "body": "主要的船员工作签证为E-10,有效期最长3年,续签后可延长至4年10个月。请拨打出入境热线1345(提供20种语言服务;境外拨打请使用+82-2-1345)确认您的具体身份状态。"
+          },
+          {
+            "heading": "货币与金钱",
+            "body": "韩国使用韩元(KRW/₩)。标有“Global”标志的自动取款机(ATM)可使用外国银行卡。几乎所有场所均可刷卡支付,但小型商店和传统市场建议随身携带一些现金。"
+          },
+          {
+            "heading": "购买交通卡(T-money)——分步指南",
+            "body": "T-money交通卡是在全国范围内乘坐公交和地铁最便捷的方式。",
+            "subsections": [
+              {
+                "label": "购买地点",
+                "text": "任意便利店均可购买——如CU、GS25、7-Eleven、Emart24——留意店门上的T-money标识。地铁站自动售票机和机场便利店也有出售。"
+              },
+              {
+                "label": "购买方法",
+                "text": "只需说“T-money card, please”(티머니 카드 주세요——Tee-money kadeu ju-se-yo)即可。无需身份证明或注册。"
+              },
+              {
+                "label": "费用",
+                "text": "卡本身的价格约为2,500至4,000韩元(卡通人物或设计师款价格更高)。这是一次性工本费,不可作为交通余额退还。"
+              },
+              {
+                "label": "如何充值",
+                "text": "说“Chungjeon haejuseyo”(충전해주세요——Choong-jeon hae-ju-se-yo,意为“请帮我充值”)并递上现金即可。大多数便利店仅接受现金充值。常见充值金额为10,000至50,000韩元。"
+              },
+              {
+                "label": "使用方法",
+                "text": "上车和下车时都需在读卡器上刷卡——下车刷卡可在30分钟内免费换乘公交和地铁。基础票价约为1,500韩元,比现金支付略便宜。"
+              },
+              {
+                "label": "其他用途",
+                "text": "同一张卡还可在便利店、部分出租车及自动售货机使用。使用实体T-money卡最为简便——无需外国人登录证。"
+              }
+            ]
+          },
+          {
+            "heading": "基本礼仪——应做与应避免的事项",
+            "body": "",
+            "lists": [
+              {
+                "label": "应做的事",
+                "items": [
+                  "向年长者或上级递交或接收任何物品时——如金钱、文件、饮品——请使用双手。",
+                  "打招呼时应微微鞠躬;在较随意的场合点头示意即可。",
+                  "进入他人家中或传统地板座位餐厅前应脱鞋。",
+                  "用餐时应等年纪最长者先动筷。",
+                  "为长辈斟酒或接受长辈斟酒时,应双手端杯或持瓶,饮用时应稍稍侧过头去。"
+                ]
+              },
+              {
+                "label": "应避免的事——韩国人真心反感的行为",
+                "items": [
+                  "在公共场合大声说话,尤其是在地铁、公交车和火车上。韩国的公共交通异常安静——接打电话被视为不礼貌行为,建议改用短信联系。",
+                  "在公共场所不戴耳机播放音乐或视频。",
+                  "在餐桌上擤鼻涕——应起身前往洗手间处理。",
+                  "将筷子竖直插在米饭中——这一动作与丧葬仪式相似。",
+                  "直接拒绝他人递上的饮品或食物——应礼貌婉拒(说“괜찮습니다”——Gwaen-chan-seum-ni-da),而非直接说“不”。",
+                  "插队,或在他人下车前就挤上公共交通工具。",
+                  "乱扔垃圾或在非指定区域吸烟——许多公共区域对此设有罚款。",
+                  "被问及年龄时感到惊讶——这在韩国十分常见,并非无礼之举,而是用来确定彼此说话方式的依据。",
+                  "迟到。无论在工作场合还是社交场合,韩国人都非常重视守时。",
+                  "在餐厅大声打电话,或对服务人员出言不逊。"
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "HiKorea——签证信息(英文)",
+            "url": "https://www.hikorea.go.kr/Main.pt?locale=en"
+          },
+          {
+            "label": "T-money官方网站(英文)",
+            "url": "https://www.t-money.co.kr"
+          },
+          {
+            "label": "韩国旅游发展局——交通卡指南(英文)",
+            "url": "https://english.visitkorea.or.kr"
+          }
+        ]
+      },
+      "know-korea": {
+        "icon": "🇰🇷",
+        "navTitle": "了解韩国",
+        "navDescription": "文化、美食、点餐、季节",
+        "title": "了解韩国",
+        "summary": "探索韩国的美食、文化与四季——了解这个国家能让您的海上与陆上生活更加轻松!",
+        "sections": [
+          {
+            "heading": "韩国文化——韩国人的思维方式",
+            "body": "韩国人重视“情”(정)——一种深厚的情感纽带与相互关怀,这种情感甚至延伸至陌生人之间。如果您遇到困难,人们往往会主动伸出援手。年龄与资历在很大程度上决定了语言和行为方式,因此面对陌生人、长辈和服务人员时通常使用敬语。“眼色”(눈치,读懂气氛的能力)备受重视——在行动前先观察他人的举动被视为体贴周到,而非消极被动。在大多数职场中,群体和谐比个人表达更受重视。下班后的聚餐和聚饮是团队凝聚力的重要组成部分,不过如今拒绝饮酒也已日益被接受。人们习惯以头衔而非名字称呼彼此(如선장님,即“船长”);在称呼后加上“님”(-nim)则表示尊敬。"
+          },
+          {
+            "heading": "各城市代表美食",
+            "body": "",
+            "table": {
+              "columns": [
+                "城市",
+                "招牌美食",
+                "美食介绍"
+              ],
+              "rows": [
+                [
+                  "釜山",
+                  "돼지국밥 (Dwaeji-gukbap)",
+                  "猪骨汤泡饭——釜山的灵魂美食,价格实惠又管饱"
+                ],
+                [
+                  "釜山",
+                  "밀면 (Milmyeon)",
+                  "冷麦面,釜山的独创美食"
+                ],
+                [
+                  "仁川",
+                  "짜장면 (Jjajangmyeon)",
+                  "炸酱面——诞生于仁川中华街"
+                ],
+                [
+                  "全州",
+                  "비빔밥 (Bibimbap)",
+                  "拌饭,以蔬菜和辣椒酱拌米饭而成"
+                ],
+                [
+                  "浦项",
+                  "과메기 (Gwamegi)",
+                  "半干秋刀鱼,冬季限定美味"
+                ],
+                [
+                  "浦项",
+                  "물회 (Mulhoe)",
+                  "生鱼片配冰镇酸辣汤汁 — 深受欢迎的地方特色美食，尤其在夏季"
+                ],
+                [
+                  "丽水",
+                  "갓김치 (Gat-kimchi)",
+                  "芥菜叶泡菜,辛辣刺激"
+                ],
+                [
+                  "光阳",
+                  "불고기 (Bulgogi)",
+                  "烤腌牛肉,光阳风味"
+                ],
+                [
+                  "木浦",
+                  "세발낙지 (Sebal-nakji)",
+                  "小章鱼,趁鲜生食"
+                ],
+                [
+                  "春川",
+                  "닭갈비 (Dakgalbi)",
+                  "辣炒鸡肉"
+                ]
+              ]
+            }
+          },
+          {
+            "heading": "如何点餐——实用短语",
+            "body": "",
+            "lists": [
+              {
+                "label": "",
+                "items": [
+                  "招呼服务员:“여기요!”(Yeo-gi-yo!)或“저기요!”(Jeo-gi-yo!)——在韩国餐厅出声招呼是很正常的做法,并不失礼。",
+                  "点餐:指着菜单说“이거 주세요”(I-geo ju-se-yo),意为“请给我这个”。",
+                  "数量:“하나 주세요”(Ha-na ju-se-yo)表示一份,“둘 주세요”(Dul ju-se-yo)表示两份。",
+                  "不要辣:“안 맵게 해주세요”(An maep-ge hae-ju-se-yo)。",
+                  "不要猪肉/不要牛肉:“돼지고기 빼주세요”(Dwaeji-gogi ppae-ju-se-yo)/“소고기 빼주세요”(So-gogi ppae-ju-se-yo)。釜山及首尔梨泰院附近设有清真(Halal)餐饮选择。",
+                  "水与小菜:免费的水(물,mul)和小菜(반찬,ban-chan)均可免费无限续加。可以说“리필 주세요”(Ri-pil ju-se-yo)。",
+                  "付款:离开时在收银台结账,而非在餐桌上付款。可以说“계산해주세요”(Gye-san-hae-ju-se-yo)。",
+                  "无需小费。韩国没有付小费的习惯,给小费反而可能让服务人员感到困惑。"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "四季与天气",
+            "body": "",
+            "lists": [
+              {
+                "label": "",
+                "items": [
+                  "春季(3月至5月)——气候温和宜人,樱花于3月末至4月盛开。需留意雾霾(미세먼지,细颗粒物)与黄沙天气,建议查看空气质量应用程序,并在空气质量不佳的日子佩戴口罩。早晚温差较大,建议采用分层穿衣法。",
+                  "换季期(환절기,3月末及10月末)——是最容易感冒的时期。昼夜温差可能超过10摄氏度。即使午后天气温暖,也建议随身携带外套。",
+                  "夏季(6月至8月)——炎热且极为潮湿,气温常超过30摄氏度,湿度超过80%。梅雨季(장마)大致从6月末持续到7月末,台风季则在8月至9月达到高峰。此时也是海上天气预警和出海限制最为频繁的时期。甲板作业存在中暑的实际风险——应持续补充水分并适时到阴凉处休息。",
+                  "秋季(9月至11月)——天气晴朗、干燥、舒适宜人,普遍被认为是最佳季节。海况总体较为平稳,但仍可能出现晚台风。",
+                  "冬季(12月至次年2月)——寒冷干燥,气温常降至冰点以下,并伴有强劲的西北风。风浪预警常导致小型船只禁止离港,冷水浸泡风险也达到全年最高——海水温度可能低到在数分钟内使人丧失行动能力。请在工作服内加穿保暖内层衣物。"
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "韩国气象厅——海洋天气(英文)",
+            "url": "https://www.weather.go.kr/w/index.do"
+          },
+          {
+            "label": "AirKorea——空气质量(英文)",
+            "url": "https://www.airkorea.or.kr/eng"
+          },
+          {
+            "label": "韩国旅游发展局——韩国美食指南(英文)",
+            "url": "https://english.visitkorea.or.kr"
+          }
+        ]
+      },
+      "port-city-guide": {
+        "icon": "🏙️",
+        "navTitle": "港口城市指南",
+        "navDescription": "海员俱乐部、进城交通、上岸须知",
+        "title": "港口城市指南",
+        "summary": "海员俱乐部服务与进城交通信息——安全便捷地充分利用您的上岸时间!",
+        "sections": [
+          {
+            "heading": "韩国的海员俱乐部",
+            "body": "韩国主要港口均设有海员俱乐部服务,包括釜山、仁川和浦项。这些中心提供休息区、淋浴设施、网络与电话服务、商店、货币兑换、心理咨询以及宗教活动场所——是远离船舶、放松身心的好去处。\n\n请向贵公司当地代理询问前往海员俱乐部的方式及可用交通工具。代理可安排班车接送,或就搭乘出租车提供建议,并了解最新的开放时间。由于码头出入规定及闸口手续因港口和泊位而异,通过代理咨询是最可靠的方式。",
+            "lists": [
+              {
+                "label": "主要中心",
+                "items": [
+                  "釜山新港海员中心——釜山广域市江西区新港湾路354号。电话+82 51 974 0774/手机+82 10 9171 2333。周一至周五09:00–22:00开放,周六至周日10:00–19:00开放。",
+                  "釜山海员传教会(Mission to Seafarers Busan)——釜山广域市南区新仙路294号,邮编48562。每日12:00–20:00开放。",
+                  "釜山联合海员服务中心(United Seamen's Service Busan)——海员俱乐部,釜山广域市甘万1洞99号,邮编48480(自1954年起在釜山运营)。"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "从港口进城",
+            "body": "各港口的交通状况差异很大。韩国大多数港口位于工业区,距离市中心有一定距离,因此出租车通常是最快捷简便的选择。请提前将目的地写成韩文,或在手机上显示出来。上岸前请务必向船舶代理确认具体路线。",
+            "table": {
+              "columns": [
+                "港口",
+                "最近的市区/地段",
+                "常用交通方式"
+              ],
+              "rows": [
+                [
+                  "釜山(北港)",
+                  "南浦洞、中央洞",
+                  "地铁1号线(中央站或南浦站),从码头步行或乘出租车即可到达"
+                ],
+                [
+                  "釜山(新港)",
+                  "河端/镇海",
+                  "出租车或代理班车——码头距离市区较远,公共交通有限"
+                ],
+                [
+                  "仁川",
+                  "新浦、东仁川、中华街",
+                  "地铁1号线(仁川站或东仁川站);从泊位乘出租车前往车站"
+                ],
+                [
+                  "平泽",
+                  "安中、平泽市中心",
+                  "乘当地公交车或出租车前往平泽站(1号线)"
+                ],
+                [
+                  "唐津",
+                  "松岳、唐津市中心",
+                  "出租车——港口无铁路连接,当地公交班次较少"
+                ],
+                [
+                  "光阳",
+                  "光阳市中心/顺天",
+                  "乘出租车进城;可在市际客运站转乘前往其他地方"
+                ],
+                [
+                  "丽水",
+                  "丽水市中心、梨洞",
+                  "出租车;可在丽水世博站(KTX)转乘前往其他地方"
+                ],
+                [
+                  "马山",
+                  "马山合城洞、昌原",
+                  "乘当地公交车或出租车前往马山市中心"
+                ],
+                [
+                  "浦项",
+                  "浦项市中心、迎日台",
+                  "从浦项旧港/新港乘出租车;可在浦项站(KTX)转乘前往其他地方"
+                ],
+                [
+                  "东海",
+                  "东海市中心",
+                  "出租车;东海站就在附近"
+                ],
+                [
+                  "墨湖",
+                  "墨湖港区、东海",
+                  "短程出租车即可——墨湖镇距港口很近"
+                ],
+                [
+                  "三陟",
+                  "三陟市中心",
+                  "从三陟港乘出租车;当地也有公交车可乘"
+                ],
+                [
+                  "群山",
+                  "群山市中心",
+                  "出租车或当地公交车;可在群山站转乘前往其他地方"
+                ]
+              ]
+            },
+            "note": "公交车路线和班次经常变动,因此本表仅提供目的地和交通方式,不列具体路线信息。出发前请向船舶代理或海员俱乐部工作人员确认当前的具体路线和票价。",
+            "id": "port-transport-table"
+          },
+          {
+            "heading": "安全上岸须知",
+            "body": "韩国暴力犯罪率极低,扒窃案件也十分罕见。请随身携带外国人登录证或护照复印件,遵守交通信号,并在离船前记下船舶返航时间以及代理的联系电话。"
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "国际运输工人联合会(ITF)海员——查找福利中心",
+            "url": "https://www.itfseafarers.org/en/directories/seafarers-welfare-centre-index"
+          },
+          {
+            "label": "ISWAN——韩国海员中心",
+            "url": "https://www.iswan.org.uk/centres/"
+          },
+          {
+            "label": "联合海员服务中心(United Seamen's Service)",
+            "url": "https://unitedseamensservice.org/uss-centers/"
+          }
+        ]
+      },
+      "worker-rights": {
+        "icon": "📜",
+        "navTitle": "船员权利须知",
+        "navDescription": "工作时间、合同、投诉、咨询",
+        "title": "船员权利须知",
+        "summary": "了解您的工作时间、合同以及可寻求帮助的渠道——自信地了解并维护自己的权利!",
+        "sections": [
+          {
+            "heading": "工作时间与休息",
+            "body": "韩国《船员法》第60条规定,基准工作时间为每日8小时、每周40小时。根据《2006年海事劳工公约》(MLC 2006),您在任何24小时内至少享有10小时休息时间,任何7天内至少享有77小时休息时间。休息时间最多可分为两段,其中一段必须不少于6小时。您的工作与休息时间记录必须予以保存。"
+          },
+          {
+            "heading": "合同与身份证件",
+            "body": "法律要求必须签订书面船员雇佣合同。您还应持有记录服务经历与资质的船员手册(선원수첩),以及依据《国际劳工组织第185号公约》签发的船员身份证件。请自行保留一份合同副本——切勿交出您手中唯一的一份合同。"
+          },
+          {
+            "heading": "投诉与咨询",
+            "body": "根据《2006年海事劳工公约》(第5.1.5条规定),每艘船舶都必须设有公正的船上投诉程序,但您也可以直接向外部机构投诉——船东、船旗国、港口国或您的本国机构——并且您有权在申诉时获得陪同,并受到保护免遭报复。在港期间,您可以向港口国监督(PSC)官员报告违规行为,或委托国际运输工人联合会(ITF)检查员或福利工作人员代为提出。",
+            "lists": [
+              {
+                "label": "在韩国,可联系",
+                "items": [
+                  "所在地区海洋水产厅的船员劳动监督官——负责处理欠薪及违反《船员法》的相关事宜。",
+                  "韩国海员福利雇佣中心(KOSWEC)——提供投诉咨询与福利服务。",
+                  "外国劳动者咨询中心1577-0071——提供16种语言服务,全年365天,09:00–18:00。",
+                  "雇佣劳动部1350——劳动咨询服务。",
+                  "公益法律辩护会(APIL)——电话+82-2-3478-0529,是为外籍渔业船员提供法律援助的主要非政府组织。",
+                  "国际运输工人联合会(ITF)海员支援——邮箱seafsupport@itf.org.uk,WhatsApp +44 7523 515097。"
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "国际运输工人联合会(ITF)海员——MLC公约下的权利",
+            "url": "https://www.itfseafarers.org/en/resources/your-rights-under-mlc"
+          },
+          {
+            "label": "国际劳工组织(ILO)——2006年海事劳工公约",
+            "url": "https://www.ilo.org/global/standards/maritime-labour-convention/lang--en/index.htm"
+          },
+          {
+            "label": "HUG Korea——外国劳动者支援(多语言)",
+            "url": "http://www.hugkorea.or.kr"
+          },
+          {
+            "label": "ISWAN——海员求助热线(24小时,多语言)",
+            "url": "https://www.seafarerhelp.org"
+          }
+        ]
+      },
+      "phrasebook": {
+        "icon": "💬",
+        "navTitle": "韩语生存手册",
+        "navDescription": "紧急情况关键短语",
+        "title": "韩语生存手册",
+        "summary": "一句话或许就能救命——现在就来学习这些紧急韩语表达!",
+        "phraseGroups": [
+          {
+            "heading": "呼救",
+            "phrases": [
+              {
+                "korean": "도와주세요!",
+                "pronunciation": "Do wa ju se yo!",
+                "meaning": "救命!/请帮帮我!"
+              },
+              {
+                "korean": "살려주세요!",
+                "pronunciation": "Sal lyo ju se yo!",
+                "meaning": "救救我!(生命危急时使用)"
+              },
+              {
+                "korean": "급해요!",
+                "pronunciation": "Geu pae yo!",
+                "meaning": "很紧急!"
+              },
+              {
+                "korean": "응급상황이에요",
+                "pronunciation": "Eung geup sang hwang i e yo",
+                "meaning": "这是紧急情况"
+              },
+              {
+                "korean": "119에 전화해주세요",
+                "pronunciation": "Il il gu e jeon hwa hae ju se yo",
+                "meaning": "请拨打119"
+              },
+              {
+                "korean": "경찰을 불러주세요",
+                "pronunciation": "Gyeong chal eul bul lo ju se yo",
+                "meaning": "请叫警察"
+              },
+              {
+                "korean": "구급차를 불러주세요",
+                "pronunciation": "Gu geup cha reul bul lo ju se yo",
+                "meaning": "请叫救护车"
+              }
+            ]
+          },
+          {
+            "heading": "海上紧急情况",
+            "phrases": [
+              {
+                "korean": "불이야!",
+                "pronunciation": "Bu ri ya!",
+                "meaning": "着火了!"
+              },
+              {
+                "korean": "사람이 바다에 빠졌어요",
+                "pronunciation": "Sa ra mi ba da e ppa jyeo sseo yo",
+                "meaning": "有人落水了!"
+              },
+              {
+                "korean": "배가 침몰해요",
+                "pronunciation": "Bae ga chim mo rae yo",
+                "meaning": "船正在下沉"
+              },
+              {
+                "korean": "배가 고장났어요",
+                "pronunciation": "Bae ga go jang na sseo yo",
+                "meaning": "船出故障了"
+              },
+              {
+                "korean": "구명조끼 주세요",
+                "pronunciation": "Gu myeong jo kki ju se yo",
+                "meaning": "请给我救生衣"
+              },
+              {
+                "korean": "여기 위치는...",
+                "pronunciation": "Yeo gi wi chi neun...",
+                "meaning": "我们的位置是……"
+              },
+              {
+                "korean": "배 이름은...",
+                "pronunciation": "Bae i reu meun...",
+                "meaning": "船名是……"
+              },
+              {
+                "korean": "사람 다섯 명 있어요",
+                "pronunciation": "Sa ram da seot myeong i sseo yo",
+                "meaning": "船上有五个人"
+              }
+            ]
+          },
+          {
+            "heading": "医疗紧急情况",
+            "phrases": [
+              {
+                "korean": "다쳤어요",
+                "pronunciation": "Da chyeo sseo yo",
+                "meaning": "我受伤了"
+              },
+              {
+                "korean": "여기 아파요",
+                "pronunciation": "Yeo gi a pa yo",
+                "meaning": "这里疼(指向疼痛部位)"
+              },
+              {
+                "korean": "피가 나요",
+                "pronunciation": "Pi ga na yo",
+                "meaning": "我在流血"
+              },
+              {
+                "korean": "숨을 못 쉬어요",
+                "pronunciation": "Su meul mot swi eo yo",
+                "meaning": "我无法呼吸"
+              },
+              {
+                "korean": "의사가 필요해요",
+                "pronunciation": "Ui sa ga pi ryo hae yo",
+                "meaning": "我需要医生"
+              },
+              {
+                "korean": "병원이 어디예요?",
+                "pronunciation": "Byeong wo ni eo di ye yo?",
+                "meaning": "医院在哪里?"
+              },
+              {
+                "korean": "약국이 어디예요?",
+                "pronunciation": "Yak gu gi eo di ye yo?",
+                "meaning": "药店在哪里?"
+              },
+              {
+                "korean": "알레르기가 있어요",
+                "pronunciation": "Al le reu gi ga i sseo yo",
+                "meaning": "我有过敏症"
+              },
+              {
+                "korean": "열이 나요",
+                "pronunciation": "Yeo ri na yo",
+                "meaning": "我发烧了"
+              },
+              {
+                "korean": "어지러워요",
+                "pronunciation": "Eo ji reo wo yo",
+                "meaning": "我感到头晕"
+              }
+            ]
+          },
+          {
+            "heading": "沟通障碍",
+            "phrases": [
+              {
+                "korean": "한국어를 못해요",
+                "pronunciation": "Han gu geo reul mo tae yo",
+                "meaning": "我不会说韩语"
+              },
+              {
+                "korean": "영어 할 수 있어요?",
+                "pronunciation": "Yeong eo hal su i sseo yo?",
+                "meaning": "您会说英语吗?"
+              },
+              {
+                "korean": "통역이 필요해요",
+                "pronunciation": "Tong yeo gi pi ryo hae yo",
+                "meaning": "我需要口译"
+              },
+              {
+                "korean": "천천히 말해주세요",
+                "pronunciation": "Cheon cheo ni mal hae ju se yo",
+                "meaning": "请说慢一点"
+              },
+              {
+                "korean": "다시 말해주세요",
+                "pronunciation": "Da si mal hae ju se yo",
+                "meaning": "请再说一遍"
+              },
+              {
+                "korean": "모르겠어요",
+                "pronunciation": "Mo reu ge sseo yo",
+                "meaning": "我不明白"
+              },
+              {
+                "korean": "써주세요",
+                "pronunciation": "Sseo ju se yo",
+                "meaning": "请写下来"
+              }
+            ]
+          },
+          {
+            "heading": "麻烦与证件问题",
+            "phrases": [
+              {
+                "korean": "여권을 잃어버렸어요",
+                "pronunciation": "Yeo gwo neul i reo beo ryeo sseo yo",
+                "meaning": "我的护照丢了"
+              },
+              {
+                "korean": "지갑을 도둑맞았어요",
+                "pronunciation": "Ji ga beul do dung ma ja sseo yo",
+                "meaning": "我的钱包被偷了"
+              },
+              {
+                "korean": "길을 잃었어요",
+                "pronunciation": "Gi reul i reo sseo yo",
+                "meaning": "我迷路了"
+              },
+              {
+                "korean": "대사관에 연락해주세요",
+                "pronunciation": "Dae sa gwa ne yeon la kae ju se yo",
+                "meaning": "请联系我的大使馆"
+              },
+              {
+                "korean": "회사에 연락해주세요",
+                "pronunciation": "Hoe sa e yeon la kae ju se yo",
+                "meaning": "请联系我的公司"
+              },
+              {
+                "korean": "월급을 못 받았어요",
+                "pronunciation": "Wol geu beul mot ba da sseo yo",
+                "meaning": "我还没收到工资"
+              },
+              {
+                "korean": "도움이 필요해요",
+                "pronunciation": "Do u mi pi ryo hae yo",
+                "meaning": "我需要帮助"
+              }
+            ]
+          },
+          {
+            "heading": "紧急电话号码——读法",
+            "phrases": [
+              {
+                "korean": "119",
+                "pronunciation": "Il il gu",
+                "meaning": "消防/救护车"
+              },
+              {
+                "korean": "112",
+                "pronunciation": "Il il i",
+                "meaning": "警察"
+              },
+              {
+                "korean": "122",
+                "pronunciation": "Il i i",
+                "meaning": "海洋警察厅"
+              }
+            ]
+          }
+        ],
+        "tip": "拨打119或112时,说一句“Tong yeo gi pi ryo hae yo”(통역이 필요해요),接线员即可为您接通口译服务。您也可以拨打BBB Korea 1588-5644,全天24小时免费获取20种语言的口译服务。",
+        "referenceLinks": [
+          {
+            "label": "BBB Korea——免费口译服务(英文)",
+            "url": "https://www.bbbkorea.org/eng/main/main.php"
+          },
+          {
+            "label": "Danuri——多语言支援",
+            "url": "https://www.liveinkorea.kr/web/index.do"
+          }
+        ]
+      },
+      "emergency": {
+        "icon": "🆘",
+        "navTitle": "紧急联系方式",
+        "navDescription": "112/119/122/1345及多语言求助热线",
+        "title": "紧急联系方式",
+        "summary": "无论何时何地需要帮助——现在就保存这些紧急联系电话!",
+        "contacts": [
+          {
+            "number": "119",
+            "service": "消防、救护车、救援(也受理海上事故报告)",
+            "languages": "提供口译服务"
+          },
+          {
+            "number": "112",
+            "service": "警察",
+            "languages": "提供口译服务"
+          },
+          {
+            "number": "122",
+            "service": "韩国海洋警察厅——海上紧急情况",
+            "languages": "韩语/英语"
+          },
+          {
+            "number": "1345",
+            "service": "出入境联络中心",
+            "languages": "20种语言"
+          },
+          {
+            "number": "1350",
+            "service": "雇佣劳动部——劳动咨询",
+            "languages": "韩语+口译服务"
+          },
+          {
+            "number": "1577-0071",
+            "service": "外国劳动者咨询中心",
+            "languages": "16种语言"
+          },
+          {
+            "number": "1588-5644",
+            "service": "BBB Korea——免费电话口译",
+            "languages": "20种语言,全天24小时"
+          },
+          {
+            "number": "1577-1366",
+            "service": "Danuri呼叫中心——移民与家庭支援",
+            "languages": "13种语言,全天24小时"
+          },
+          {
+            "number": "1339",
+            "service": "紧急医疗信息",
+            "languages": "韩语"
+          },
+          {
+            "number": "1330",
+            "service": "韩国旅游咨询热线",
+            "languages": "多语言"
+          },
+          {
+            "number": "033-811-2000",
+            "service": "国民健康保险——外国人专线",
+            "languages": "英语、中文、日语、越南语"
+          },
+          {
+            "number": "+44 7523 515097",
+            "service": "国际运输工人联合会(ITF)海员支援(WhatsApp/短信)",
+            "languages": "多语言"
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "韩国海洋警察厅(英文)",
+            "url": "https://www.kcg.go.kr/kcg/main.do"
+          },
+          {
+            "label": "HUG Korea——外国劳动者咨询(多语言)",
+            "url": "http://www.hugkorea.or.kr"
+          },
+          {
+            "label": "BBB Korea——口译服务(英文)",
+            "url": "https://www.bbbkorea.org/eng/main/main.php"
+          },
+          {
+            "label": "SeafarerHelp——海员24小时免费求助热线",
+            "url": "https://www.seafarerhelp.org"
+          }
+        ]
+      }
+    }
+  },
+  "km": {
+    "home": {
+      "title": "មគ្គុទ្ទេសក៍សុវត្ថិភាព និងជីវិតសម្រាប់នាវិកបរទេស",
+      "subtitle": "អ្វីៗគ្រប់យ៉ាងដែលអ្នកត្រូវការសម្រាប់ជីវិតដ៏មានសុវត្ថិភាព និងទំនុកចិត្តទាំងនៅលើសមុទ្រ និងនៅលើគោកនៅប្រទេសកូរ៉េ។",
+      "prompt": "ជ្រើសរើសអ្វីដែលអ្នកត្រូវការខាងក្រោម",
+      "disclaimer": "គេហទំព័រនេះមានគោលបំណងផ្តល់ព័ត៌មានតែប៉ុណ្ណោះ។",
+      "aiLinkLabel": "សួរ AI អំពីរឿងផ្សេងទៀត"
+    },
+    "pages": {
+      "safety-at-sea": {
+        "icon": "🦺",
+        "navTitle": "ការរក្សាសុវត្ថិភាពនៅលើសមុទ្រ",
+        "navDescription": "អាវសង្គ្រោះជីវិត អាកាសធាតុអាក្រក់ អគ្គីភ័យ ការរាយការណ៍ពីគ្រោះថ្នាក់",
+        "title": "ការរក្សាសុវត្ថិភាពនៅលើសមុទ្រ",
+        "summary": "ចងចាំច្បាប់សុវត្ថិភាពសំខាន់ៗដែលការពារជីវិតរបស់អ្នកនៅលើសមុទ្រ — ចាប់ពីការព្រមានអាកាសធាតុ រហូតដល់អគ្គីភ័យ ការធ្លាក់ និងរបៀបរាយការណ៍ពីគ្រោះថ្នាក់!",
+        "sections": [
+          {
+            "heading": "ពាក់អាវសង្គ្រោះជីវិតរបស់អ្នក",
+            "body": "ចាប់ពីថ្ងៃទី 1 ខែកក្កដា ឆ្នាំ 2026 ជនគ្រប់រូបនៅលើដេកបើកចំហនៃនាវាចាប់ត្រីត្រូវពាក់អាវសង្គ្រោះជីវិត ដោយមិនគិតពីការព្រមានអាកាសធាតុ ឬចំនួនក្រុមការងារឡើយ។ ចៅហ្វាយនាវាប្រឈមនឹងការពិន័យជាប្រាក់ចំនួន 900,000 វ៉ុន (លើកទី 1) 1.5 លានវ៉ុន (លើកទី 2) និងរហូតដល់ 3 លានវ៉ុន (លើកទី 3 ឬច្រើនជាងនេះ) — ហើយច្បាប់នេះអនុវត្តស្មើគ្នាចំពោះក្រុមការងារបរទេសផងដែរ។ យោងតាម KOMSA ប្រមាណ 81% នៃអ្នកដែលបានស្លាប់ ឬបាត់ខ្លួននៅលើសមុទ្រក្នុងរយៈពេលប្រាំឆ្នាំចុងក្រោយ មិនបានពាក់អាវសង្គ្រោះជីវិតទេ; អង្គភាពយាមឆ្នេរប៉ាន់ស្មានថា អត្រារស់រានមានជីវិតកើនឡើងដល់ប្រមាណ 78% នៅពេលពាក់អាវ។ នៅក្នុងទឹកត្រជាក់ អ្នកមានពេលប្រមាណ 1 នាទីនៃការឆក់ត្រជាក់ 10 នាទីនៃចលនាមានប្រយោជន៍ និង 1 ម៉ោងមុនពេលបាត់ស្មារតី (គោលការណ៍ 1-10-1) — ការពាក់អាវសង្គ្រោះជីវិតបន្ទាប់ពីធ្លាក់ចុះទឹកគឺយឺតពេលហើយ។ ចាក់ក្រវ៉ាត់ឱ្យជិត ហើយទាញឱ្យតឹងជាប់នឹងខ្លួនអ្នក។"
+          },
+          {
+            "heading": "ការឆ្លើយតបនឹងអាកាសធាតុអាក្រក់",
+            "body": "ការជូនដំណឹងអំពីខ្យល់និងរលក (풍랑주의보) ត្រូវបានប្រកាសនៅពេលល្បឿនខ្យល់ជាមធ្យមលើសពី 14 ម៉ែត្រ/វិនាទី ក្នុងរយៈពេលលើសពី 3 ម៉ោង ឬនៅពេលរលកត្រូវបានរំពឹងថានឹងកើនលើសពី 3 ម៉ែត្រ។ នាវាចាប់ត្រីតូចៗត្រូវបានហាមឃាត់មិនឱ្យចេញដំណើរក្នុងអំឡុងពេលមានការជូនដំណឹង ហើយការល្មើសអាចនាំឱ្យមានការផ្អាក ឬលុបចោលអាជ្ញាប័ណ្ណនេសាទ។ ត្រូវពិនិត្យអាកាសធាតុសមុទ្រមុនពេលចេញដំណើរជារៀងរាល់ដង អនុវត្តតាមការសម្រេចចិត្តរបស់ចៅហ្វាយនាវា និងអង្គភាពយាមឆ្នេរ ហើយប្រសិនបើការព្រមានកើតឡើងខណៈអ្នកកំពុងនៅលើសមុទ្រ សូម៖ ពាក់អាវសង្គ្រោះជីវិត ចងបន្ដឹងឧបករណ៍ដែលមិនចាប់ជាប់ ថយល្បឿន និងរក្សាក្បាលនាវាឱ្យប្រឈមមុខនឹងរលក។"
+          },
+          {
+            "heading": "ការទប់ស្កាត់ និងឆ្លើយតបនឹងអគ្គីភ័យ",
+            "body": "អគ្គីភ័យក្នុងបន្ទប់ម៉ាស៊ីន (ប្រេងឥន្ធនៈ ឬប្រេងរំអិលប៉ះនឹងផ្ទៃក្តៅ) និងអគ្គីភ័យក្នុងផ្ទះបាយ គឺជាមូលហេតុនៃអគ្គីភ័យភាគច្រើននៅលើនាវា។ ត្រូវពិនិត្យប្រព័ន្ធបំពង់ជាទៀងទាត់ ជួសជុលការលេចធ្លាយភ្លាមៗ និងមិនដែលដាក់ចរន្តអគ្គិសនីលើសទម្ងន់។ ប្រសិនបើមានអគ្គីភ័យកើតឡើង សូមធ្វើសញ្ញាព្រមាន និងជូនដំណឹងដល់ចៅហ្វាយនាវាជាមុនសិន។ កុំប្រើទឹកលើអគ្គីភ័យក្នុងផ្ទះបាយ ឬអគ្គីភ័យប្រេង — សូមបិទបាំងអគ្គីភ័យ ឬប្រើប្រដាប់ពន្លត់អគ្គីភ័យដែលត្រឹមត្រូវ។"
+          },
+          {
+            "heading": "ការទប់ស្កាត់ការធ្លាក់ និងគ្រោះថ្នាក់ធ្លាក់ចុះទឹក",
+            "body": "ស្ថិតិរបស់អង្គភាពយាមឆ្នេរបង្ហាញថា ជាង 80% នៃការស្លាប់ និងការបាត់ខ្លួនក្នុងគ្រោះថ្នាក់នាវា កើតឡើងលើនាវាចាប់ត្រី ហើយការធ្លាក់មានហានិភ័យស្លាប់ខ្ពស់បំផុត ដោយសារការជួយសង្គ្រោះមានការលំបាក។ សូមរក្សាដេកនាវាឱ្យស្អាតគ្មានប្រេង និងខ្យល់ត្រី ពាក់ស្បែកជើងការពារការរអិល និងមួកសុវត្ថិភាព ពិនិត្យខ្សែពួរ និងខ្សែកាបសម្រាប់ស្ថានភាពរីករាលមុនពេលចេញដំណើរ និងមិនដែលឈរនៅផ្លូវខ្សែដែលអាចលោតត្រឡប់ពីម៉ាស៊ីនទាញអួន ឬម៉ាស៊ីនរ៉ូល។"
+          },
+          {
+            "heading": "របៀបរាយការណ៍ពីគ្រោះថ្នាក់",
+            "body": "ទូរស័ព្ទទៅលេខ 122 (អង្គភាពយាមឆ្នេរកូរ៉េ) សម្រាប់ករណីអាសន្ននៅលើសមុទ្រ; លេខ 119 ក៏អាចទទួលការរាយការណ៍ពីគ្រោះថ្នាក់សមុទ្រ ហើយចែករំលែកព័ត៌មាននេះទៅកាន់ភ្នាក់ងារទាំងអស់ភ្លាមៗផងដែរ។ នៅពេលរាយការណ៍ សូមប្រាប់៖ អ្វីដែលបានកើតឡើង ទីតាំងរបស់អ្នក ឈ្មោះនាវា ចំនួនមនុស្សនៅលើនាវា និងលេខទូរស័ព្ទសម្រាប់ទាក់ទងត្រឡប់។"
+          },
+          {
+            "heading": "ការបណ្តុះបណ្តាលសុវត្ថិភាព",
+            "body": "យោងតាមមាត្រា 25 នៃច្បាប់ស្តីពីសុវត្ថិភាពនាវាចាប់ត្រី ក្រុមការងារបរទេសត្រូវបានរាប់បញ្ចូលយ៉ាងច្បាស់ក្នុងការបណ្តុះបណ្តាលសុវត្ថិភាពប្រចាំឆ្នាំជាកាតព្វកិច្ច រួមជាមួយម្ចាស់នាវា ចៅហ្វាយនាវា និងវិស្វករ។ ការបណ្តុះបណ្តាលនេះរួមមានមេរៀនអំពីការធ្វើដំណើរដោយផ្អែកលើករណីគ្រោះថ្នាក់ ការប្រើប្រាស់ឧបករណ៍សង្គ្រោះជីវិត និងការអនុវត្តជាក់ស្តែងជាមួយប្រដាប់ពន្លត់អគ្គីភ័យ ការសង្គ្រោះបេះដូងនិងសួត (CPR) និងអាវសង្គ្រោះជីវិត។"
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "អង្គភាពយាមឆ្នេរកូរ៉េ (ភាសាអង់គ្លេស)",
+            "url": "https://www.kcg.go.kr/kcg/main.do"
+          },
+          {
+            "label": "Korea.net — កាតព្វកិច្ចពាក់អាវសង្គ្រោះជីវិតសម្រាប់នាវាចាប់ត្រីទាំងអស់",
+            "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148967364"
+          },
+          {
+            "label": "វិបផតថលរាយការណ៍សុវត្ថិភាព",
+            "url": "https://www.safetyreport.go.kr"
+          }
+        ]
+      },
+      "living-in-korea": {
+        "icon": "🏠",
+        "navTitle": "ការរស់នៅកូរ៉េ",
+        "navDescription": "ការថែទាំសុខភាព ធនាគារ ទូរស័ព្ទ ឯកសារ",
+        "title": "ការរស់នៅកូរ៉េ",
+        "summary": "ចាប់ពីធានារ៉ាប់រងសុខភាព រហូតដល់គណនីធនាគារ និងទូរស័ព្ទចល័ត — សូមរៀនពីជំហានជាក់ស្តែងសម្រាប់ការរស់នៅកូរ៉េ មុនពេលអ្នកត្រូវការវា!",
+        "sections": [
+          {
+            "heading": "ធានារ៉ាប់រងសុខភាព (NHIS)",
+            "body": "ជនបរទេសដែលមានការងារធ្វើ ត្រូវបានចុះឈ្មោះក្នុងធានារ៉ាប់រងសុខភាពជាតិចាប់ពីថ្ងៃដំបូងតាមរយៈនិយោជករបស់ខ្លួន។ សេវាប្រឹក្សាមានតាមរយៈលេខ 1577-1000 (ភាសាកូរ៉េ) ឬ 033-811-2000 (ភាសាអង់គ្លេស ចិន ជប៉ុន វៀតណាម)។ ការមិនបង់ថ្លៃធានារ៉ាប់រងអាចរារាំងការបន្តទិដ្ឋាការរបស់អ្នក។"
+          },
+          {
+            "heading": "ការបើកគណនីធនាគារ",
+            "body": "អ្នកត្រូវការវត្ថុបី៖ សំបុត្រចុះបញ្ជីជនបរទេស (ARC) លិខិតឆ្លងដែនច្បាប់ដើមរបស់អ្នក និងលេខទូរស័ព្ទចល័តកូរ៉េសម្រាប់ការផ្ទៀងផ្ទាត់ OTP។ សូមនាំយកកិច្ចសន្យាការងាររបស់អ្នកមកជាមួយផងដែរ។ មុនពេល ARC របស់អ្នកមកដល់ ធនាគារមួយចំនួនអាចបើកគណនីមានមុខងារកម្រិត ដោយប្រើតែលិខិតឆ្លងដែនប៉ុណ្ណោះ។ ធនាគារដែលងាយស្រួលសម្រាប់ជនបរទេស៖ KEB Hana, Shinhan, Woori និង IBK។ ការបើកគណនីចំណាយពេលពី 30–60 នាទី; កាតរបស់អ្នកនឹងផ្ញើមកតាមប្រៃសណីយ៍ក្នុងរយៈពេល 1–2 សប្តាហ៍។"
+          },
+          {
+            "heading": "ការទទួលបានទូរស័ព្ទចល័ត",
+            "body": "កាតស៊ីមបង់ប្រាក់មុនអាចទិញបានដោយប្រើតែលិខិតឆ្លងដែន។ កិច្ចសន្យាបង់ប្រាក់ក្រោយ ត្រូវការ ARC បូកនឹងគណនីធនាគារកូរ៉េសម្រាប់ការកាត់ប្រាក់ស្វ័យប្រវត្តិ។ ផ្លូវដែលបានណែនាំ៖ ប្រើប្រាស់ស៊ីមបង់ប្រាក់មុននៅពេលមកដល់ បន្ទាប់មកប្តូរទៅផែនការបង់ប្រាក់ក្រោយបែប MVNO (알뜰폰) ដែលមានតម្លៃថោកជាង នៅពេល ARC របស់អ្នកមកដល់ ខណៈរក្សាលេខទូរស័ព្ទដដែល។"
+          },
+          {
+            "heading": "ឯកសារសំខាន់ៗ",
+            "body": "សំបុត្រចុះបញ្ជីជនបរទេសគឺជាកាតព្វកិច្ចសម្រាប់ការស្នាក់នៅលើសពី 90 ថ្ងៃ — សូមចុះឈ្មោះនៅការិយាល័យអន្តោប្រវេសន៍មូលដ្ឋានរបស់អ្នកក្នុងរយៈពេល 90 ថ្ងៃបន្ទាប់ពីមកដល់។ នាវិកក៏ត្រូវកាន់សៀវភៅនាវិក និងឯកសារបញ្ជាក់អត្តសញ្ញាណនាវិក (ILO C185) ផងដែរ។ សូមរក្សាច្បាប់ចម្លងនៃរាល់ឯកសារទាំងអស់។"
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "NHIS — ធានារ៉ាប់រងសុខភាពសម្រាប់ជនបរទេស (ភាសាអង់គ្លេស)",
+            "url": "https://www.nhis.or.kr/english/index.do"
+          },
+          {
+            "label": "HiKorea — ការចុះបញ្ជីជនបរទេស (ភាសាអង់គ្លេស)",
+            "url": "https://www.hikorea.go.kr/Main.pt?locale=en"
+          }
+        ]
+      },
+      "first-time-korea": {
+        "icon": "🛬",
+        "navTitle": "លើកដំបូងមកកូរ៉េ",
+        "navDescription": "អន្តោប្រវេសន៍ រូបិយប័ណ្ណ កាតដឹកជញ្ជូន និងសុជីវធម៌មូលដ្ឋាន",
+        "title": "លើកដំបូងមកកូរ៉េ",
+        "summary": "ចាប់ពីទិដ្ឋាការ និងលុយកាក់ រហូតដល់ការប្រព្រឹត្តប្រចាំថ្ងៃ — ចាប់ផ្តើមជំហានដំបូងរបស់អ្នកនៅកូរ៉េដោយទំនុកចិត្ត!",
+        "sections": [
+          {
+            "heading": "ទិដ្ឋាការ",
+            "body": "ទិដ្ឋាការការងារនាវិកចម្បងគឺ E-10 មានសុពលភាពរហូតដល់ 3 ឆ្នាំ និងអាចបន្តរហូតដល់ 4 ឆ្នាំ 10 ខែ នៅពេលជួលការងារឡើងវិញ។ សូមផ្ទៀងផ្ទាត់ស្ថានភាពជាក់លាក់របស់អ្នកជាមួយអន្តោប្រវេសន៍តាមរយៈលេខ 1345 (20 ភាសា; +82-2-1345 ពីក្រៅប្រទេស)។"
+          },
+          {
+            "heading": "រូបិយប័ណ្ណ និងលុយកាក់",
+            "body": "កូរ៉េប្រើប្រាស់រូបិយប័ណ្ណវ៉ុន (KRW/₩)។ ម៉ាស៊ីនអេធីអឹមដែលមានសញ្ញា \"Global\" ទទួលកាតបរទេស។ កាតត្រូវបានទទួលស្ទើរតែគ្រប់ទីកន្លែង ប៉ុន្តែសូមនាំយកប្រាក់សុទ្ធខ្លះសម្រាប់ហាងតូចៗ និងផ្សារបែបប្រពៃណី។"
+          },
+          {
+            "heading": "ការទិញកាតដឹកជញ្ជូន (T-money) — ជាជំហានៗ",
+            "body": "កាត T-money គឺជាវិធីងាយស្រួលបំផុតដើម្បីប្រើឡានក្រុង និងរថភ្លើងក្រោមដីនៅទូទាំងប្រទេស។",
+            "subsections": [
+              {
+                "label": "កន្លែងទិញ",
+                "text": "ហាងងាយស្រួលណាមួយ — CU, GS25, 7-Eleven, Emart24 — សូមមើលស្គ្ករ T-money នៅលើទ្វារ។ ក៏អាចរកបានតាមម៉ាស៊ីនលក់ស្វ័យប្រវត្តិនៅស្ថានីយ៍រថភ្លើងក្រោមដី និងហាងងាយស្រួលនៅព្រលានយន្តហោះផងដែរ។"
+              },
+              {
+                "label": "របៀបទិញ",
+                "text": "សូមនិយាយថា \"T-money card, please\" (티머니 카드 주세요 — Tee-money kadeu ju-se-yo)។ មិនចាំបាច់មានអត្តសញ្ញាណប័ណ្ណ ឬការចុះឈ្មោះឡើយ។"
+              },
+              {
+                "label": "តម្លៃ",
+                "text": "កាតខ្លួនឯងមានតម្លៃប្រមាណ 2,500–4,000 វ៉ុន (ជំនាន់មានតួអង្គ/រចនាបទពិសេសមានតម្លៃខ្ពស់ជាង)។ នេះជាថ្លៃកាតតែម្តងគត់ ហើយមិនអាចដូរជាឥណទានដឹកជញ្ជូនវិញបានទេ។"
+              },
+              {
+                "label": "របៀបបញ្ចូលប្រាក់",
+                "text": "សូមនិយាយថា \"Chungjeon haejuseyo\" (충전해주세요 — Choong-jeon hae-ju-se-yo មានន័យថា \"សូមបញ្ចូលប្រាក់\") ហើយប្រគល់ប្រាក់សុទ្ធ។ ហាងងាយស្រួលភាគច្រើនទទួលតែប្រាក់សុទ្ធប៉ុណ្ណោះ។ ចំនួនទឹកប្រាក់បញ្ចូលធម្មតាគឺពី 10,000–50,000 វ៉ុន។"
+              },
+              {
+                "label": "របៀបប្រើប្រាស់",
+                "text": "សូមប៉ះកាតលើម៉ាស៊ីនអានពេលឡើងឡាន និងម្តងទៀតពេលចុះពីឡានក្រុង — ការប៉ះពេលចុះនឹងផ្តល់ការផ្លាស់ប្តូរឥតគិតថ្លៃរវាងឡានក្រុង និងរថភ្លើងក្រោមដីក្នុងរយៈពេល 30 នាទី។ ថ្លៃដំណើរជាមូលដ្ឋានប្រមាណ 1,500 វ៉ុន ហើយថោកជាងបន្តិចបើប្រៀបធៀបនឹងការបង់ជាប្រាក់សុទ្ធ។"
+              },
+              {
+                "label": "មានប្រយោជន៍ផងដែរ",
+                "text": "កាតដដែលនេះអាចប្រើបានតាមហាងងាយស្រួល តាក់ស៊ីមួយចំនួន និងម៉ាស៊ីនលក់ស្វ័យប្រវត្តិ។ កាត T-money ជាកាតសម្ភារៈគឺជាវិធីសាមញ្ញបំផុត — មិនតម្រូវឱ្យមាន ARC ទេ។"
+              }
+            ]
+          },
+          {
+            "heading": "សុជីវធម៌មូលដ្ឋាន — អ្វីត្រូវធ្វើ និងអ្វីត្រូវជៀសវាង",
+            "body": "",
+            "lists": [
+              {
+                "label": "គួរធ្វើ",
+                "items": [
+                  "ប្រើដៃទាំងពីរនៅពេលឱ្យ ឬទទួលអ្វីមួយពីអ្នកដែលចាស់ជាង ឬមានឋានៈខ្ពស់ជាង — ប្រាក់ ឯកសារ ភេសជ្ជៈ។",
+                  "ក្រាបលំទោនបន្តិចនៅពេលស្វាគមន៍; ការងក់ក្បាលគឺគ្រប់គ្រាន់ហើយក្នុងស្ថានភាពធម្មតា។",
+                  "ដោះស្បែកជើងនៅពេលចូលក្នុងផ្ទះ ឬភោជនីយដ្ឋានបែបប្រពៃណីដែលអង្គុយលើកម្រាល។",
+                  "រង់ចាំឱ្យអ្នកចាស់ជាងគេចាប់ផ្តើមញ៉ាំមុនពេលអ្នកចាប់ផ្តើម។",
+                  "នៅពេលចាក់ ឬទទួលភេសជ្ជៈពីអ្នកចាស់ជាង សូមកាន់កែវ ឬដបដោយដៃទាំងពីរ ហើយបែរមុខបន្តិចនៅពេលផឹក។"
+                ]
+              },
+              {
+                "label": "ជៀសវាង — អ្វីដែលជនជាតិកូរ៉េពិតជាមិនចូលចិត្ត",
+                "items": [
+                  "ការនិយាយខ្លាំងកន្លែងសាធារណៈ ជាពិសេសនៅលើរថភ្លើងក្រោមដី ឡានក្រុង និងរថភ្លើង។ ការដឹកជញ្ជូនសាធារណៈរបស់កូរ៉េស្ងាត់ណាស់ — ការនិយាយទូរស័ព្ទត្រូវបានចាត់ទុកថាគ្មានសុជីវធម៌។ សូមប្រើសារជាអក្សរជំនួសវិញ។",
+                  "ការចាក់តន្ត្រី ឬវីដេអូដោយគ្មានកាស នៅកន្លែងសាធារណៈ។",
+                  "ការស្អុះច្រមុះនៅលើតុ — សូមទៅសម្អាតនៅបន្ទប់ទឹកជំនួសវិញ។",
+                  "ការចាក់ចង្កឹះឈរនៅក្នុងបាយ — នេះស្រដៀងទៅនឹងពិធីបុណ្យសព។",
+                  "ការបដិសេធភេសជ្ជៈ ឬអាហារដោយផ្ទាល់ — សូមបដិសេធដោយសុជីវធម៌ (\"괜찮습니다\" — Gwaen-chan-seum-ni-da) ជាជាងនិយាយថាទេត្រង់ៗ។",
+                  "ការរំលងជួរ ឬច្រានចូលក្នុងយានដ្ឋានសាធារណៈមុនពេលអ្នកដទៃចុះ។",
+                  "ការចោលសំរាម ឬជក់បារីនៅក្រៅតំបន់ដែលបានកំណត់ — មានការពិន័យជាប្រាក់នៅតំបន់សាធារណៈជាច្រើន។",
+                  "ការភ្ញាក់ផ្អើលនៅពេលត្រូវបានសួរអំពីអាយុរបស់អ្នក — នេះជារឿងធម្មតានៅកូរ៉េ ហើយមិនមែនជាការគ្មានសុជីវធម៌ទេ; វាកំណត់របៀបដែលមនុស្សនិយាយគ្នាទៅវិញទៅមក។",
+                  "ការមកយឺត។ ភាពទៀងទាត់ពេលវេលាត្រូវបានចាត់ទុកយ៉ាងខ្ជាប់ខ្ជួននៅកន្លែងធ្វើការ និងក្នុងសង្គម។",
+                  "ការនិយាយទូរស័ព្ទខ្លាំងក្នុងភោជនីយដ្ឋាន ឬការនិយាយយ៉ាងតឹងរឹងទៅកាន់បុគ្គលិកសេវាកម្ម។"
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "HiKorea — ព័ត៌មានទិដ្ឋាការ (ភាសាអង់គ្លេស)",
+            "url": "https://www.hikorea.go.kr/Main.pt?locale=en"
+          },
+          {
+            "label": "T-money ផ្លូវការ (ភាសាអង់គ្លេស)",
+            "url": "https://www.t-money.co.kr"
+          },
+          {
+            "label": "Visit Korea — កាតដឹកជញ្ជូន (ភាសាអង់គ្លេស)",
+            "url": "https://english.visitkorea.or.kr"
+          }
+        ]
+      },
+      "know-korea": {
+        "icon": "🇰🇷",
+        "navTitle": "ស្គាល់ប្រទេសកូរ៉េ",
+        "navDescription": "វប្បធម៌ អាហារ ការកម្ម៉ង់ម្ហូប រដូវកាល",
+        "title": "ស្គាល់ប្រទេសកូរ៉េ",
+        "summary": "ស្វែងយល់អំពីអាហារ វប្បធម៌ និងរដូវកាលរបស់កូរ៉េ — ការស្គាល់ប្រទេសនេះធ្វើឱ្យជីវិតទាំងលើសមុទ្រ និងលើគោកកាន់តែងាយស្រួល!",
+        "sections": [
+          {
+            "heading": "វប្បធម៌កូរ៉េ — របៀបគិតរបស់មនុស្ស",
+            "body": "កូរ៉េឱ្យតម្លៃចំពោះ jeong (정) — អារម្មណ៍ជាប់ចិត្ត និងការយកចិត្តទុកដាក់គ្នាទៅវិញទៅមកយ៉ាងជ្រាលជ្រៅ ដែលពង្រីកទៅដល់សូម្បីតែជនចម្លែក។ ប្រសិនបើអ្នកជួបបញ្ហា មនុស្សតែងតែជួយដោយមិនចាំបាច់ស្នើសុំ។ អាយុ និងឋានៈជាន់ខ្ពស់កំណត់រូបភាសា និងឥរិយាបថ ដូច្នេះការនិយាយសុភាពត្រូវបានប្រើជាមួយជនចម្លែក អ្នកចាស់ជាង និងបុគ្គលិកសេវាកម្ម។ Nunchi (눈치) — ការអានបរិយាកាស — ត្រូវបានឱ្យតម្លៃខ្ពស់; ការសង្កេតមើលអ្វីដែលអ្នកដទៃកំពុងធ្វើមុនពេលធ្វើសកម្មភាព ត្រូវបានចាត់ទុកថាជាការគិតគូរ មិនមែនអសកម្មទេ។ សុខដុមភាពជាក្រុមមានសារៈសំខាន់ជាងការបញ្ចេញមតិផ្ទាល់ខ្លួននៅកន្លែងធ្វើការភាគច្រើន។ អាហារ និងភេសជ្ជៈបន្ទាប់ពីធ្វើការគឺជាផ្នែកស្នូលនៃការចងសម្ព័ន្ធជាក្រុម ទោះបីជាការបដិសេធស្រាកាន់តែត្រូវបានទទួលយកកាន់តែច្រើនក៏ដោយ។ គោរមងារត្រូវបានប្រើជំនួសឱ្យឈ្មោះខ្លួន (선장님 = Seon-jang-nim = ចៅហ្វាយនាវា); ការបន្ថែម \"-nim\" (님) បង្ហាញពីការគោរព។"
+          },
+          {
+            "heading": "ម្ហូបល្បីៗតាមទីក្រុង",
+            "body": "",
+            "table": {
+              "columns": [
+                "ទីក្រុង",
+                "ម្ហូបពិសេស",
+                "អ្វីទៅជាវា"
+              ],
+              "rows": [
+                [
+                  "Busan",
+                  "돼지국밥 (Dwaeji-gukbap)",
+                  "សម្លទឹកជូរជាមួយសាច់ជ្រូក និងបាយ — ជាអាហារព្រលឹងរបស់ទីក្រុងប៊ូសាន មានតម្លៃថោក និងឆ្អែត"
+                ],
+                [
+                  "Busan",
+                  "밀면 (Milmyeon)",
+                  "មីស្រូវសាលីត្រជាក់ ជាម្ហូបដើមកំណើតរបស់ប៊ូសាន"
+                ],
+                [
+                  "Incheon",
+                  "짜장면 (Jjajangmyeon)",
+                  "មីសណ្តែកខ្មៅ — កំណើតនៅភូមិចិននៅអ៊ិនឆន"
+                ],
+                [
+                  "Jeonju",
+                  "비빔밥 (Bibimbap)",
+                  "បាយលាយបន្លែ និងទឹកជូរហឹរ gochujang"
+                ],
+                [
+                  "Pohang",
+                  "과메기 (Gwamegi)",
+                  "ត្រីសូរីស្ងួតកន្លះ ជាមុខម្ហូបពិសេសនៃរដូវរងា"
+                ],
+                [
+                  "Pohang",
+                  "물회 (Mulhoe)",
+                  "ត្រីឆៅក្នុងទឹកស៊ុបត្រជាក់ជូរបន្តិច — ម្ហូបពិសេសក្នុងតំបន់ដែលពេញនិយម ជាពិសេសនៅរដូវក្តៅ"
+                ],
+                [
+                  "Yeosu",
+                  "갓김치 (Gat-kimchi)",
+                  "គីមឈីស្លឹកមូតាដ ហឹរ និងមានក្លិនខ្លាំង"
+                ],
+                [
+                  "Gwangyang",
+                  "불고기 (Bulgogi)",
+                  "សាច់គោអាំងមានទឹកជ្រលក់ តាមបែបក្វាំងយ៉ាង"
+                ],
+                [
+                  "Mokpo",
+                  "세발낙지 (Sebal-nakji)",
+                  "ត្រីមឹករបស់តូច ញ៉ាំបែបស្រស់"
+                ],
+                [
+                  "Chuncheon",
+                  "닭갈비 (Dakgalbi)",
+                  "សាច់មាន់ឆាហឹរ"
+                ]
+              ]
+            }
+          },
+          {
+            "heading": "របៀបកម្ម៉ង់អាហារ — ឃ្លាជាក់ស្តែង",
+            "body": "",
+            "lists": [
+              {
+                "label": "",
+                "items": [
+                  "ការហៅចំណាប់អារម្មណ៍៖ \"여기요!\" (Yeo-gi-yo!) ឬ \"저기요!\" (Jeo-gi-yo!) — ការស្រែកហៅគឺជារឿងធម្មតា និងមិនមែនជាការគ្មានសុជីវធម៌ទេនៅភោជនីយដ្ឋានកូរ៉េ។",
+                  "ការកម្ម៉ង់៖ ចង្អុលទៅមីនុយ ហើយនិយាយថា \"이거 주세요\" (I-geo ju-se-yo) មានន័យថា \"សូមយកមួយនេះ។\"",
+                  "បរិមាណ៖ \"하나 주세요\" (Ha-na ju-se-yo) = មួយ, \"둘 주세요\" (Dul ju-se-yo) = ពីរ។",
+                  "មិនហឹរ៖ \"안 맵게 해주세요\" (An maep-ge hae-ju-se-yo)។",
+                  "គ្មានសាច់ជ្រូក / គ្មានសាច់គោ៖ \"돼지고기 빼주세요\" (Dwaeji-gogi ppae-ju-se-yo) / \"소고기 빼주세요\" (So-gogi ppae-ju-se-yo)។ ជម្រើសអាហារហាឡាលមាននៅជិតប៊ូសាន និងតំបន់អ៊ីតែវ៉ុននៃទីក្រុងសេអ៊ូល។",
+                  "ទឹក និងម្ហូបចំណី៖ ទឹកឥតគិតថ្លៃ (물 — mul) និងម្ហូបចំណី (반찬 — ban-chan) តែងតែឥតគិតថ្លៃ និងអាចបញ្ចូលបន្ថែមបាន។ សូមស្នើសុំថា \"리필 주세요\" (Ri-pil ju-se-yo)។",
+                  "ការបង់ប្រាក់៖ បង់ប្រាក់នៅកន្លែងគិតលុយនៅពេលចេញ មិនមែននៅលើតុទេ។ \"계산해주세요\" (Gye-san-hae-ju-se-yo)។",
+                  "គ្មានការឱ្យប្រាក់តិប។ ការឱ្យប្រាក់តិបមិនត្រូវបានប្រតិបត្តិនៅកូរ៉េទេ ហើយអាចធ្វើឱ្យបុគ្គលិកច្រឡំ។"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "រដូវកាល និងអាកាសធាតុ",
+            "body": "",
+            "lists": [
+              {
+                "label": "",
+                "items": [
+                  "រដូវផ្ការីក (ខែមីនា–ឧសភា) — មានអាកាសធាតុស្រួល និងកក់ក្តៅ ផ្កាសាគូរ៉ាកកើតឡើងចុងខែមីនា–ខែមេសា។ សូមប្រុងប្រយ័ត្ននឹងធូលីម្សៅ (미세먼지) និងធូលីលឿង; ពិនិត្យកម្មវិធីគុណភាពខ្យល់ និងពាក់ម៉ាស់ក្នុងថ្ងៃដែលមានគុណភាពមិនល្អ។ សីតុណ្ហភាពប្រែប្រួលយ៉ាងខ្លាំងរវាងព្រឹក និងរសៀល — សូមស្លៀកសំលៀកបំពាក់ជាស្រទាប់ៗ។",
+                  "រដូវប្តូរ (환절기, ចុងខែមីនា និងចុងខែតុលា) — ជាពេលវេលាទូទៅបំផុតដែលងាយកើតជម្ងឺផ្តាសាយ។ គម្លាតសីតុណ្ហភាពថ្ងៃ-យប់អាចលើសពី 10°C។ សូមរក្សាអាវក្តៅតាមខ្លួនជានិច្ច សូម្បីតែក្នុងរសៀលដែលកក់ក្តៅក៏ដោយ។",
+                  "រដូវក្តៅ (ខែមិថុនា–សីហា) — ក្តៅ និងសើមខ្លាំង ជាធម្មតាលើសពី 30°C ជាមួយសំណើមលើសពី 80%។ រដូវភ្លៀង (장마) ដំណើរការប្រមាណពីចុងខែមិថុនា ដល់ចុងខែកក្កដា ហើយរដូវព្យុះទីហ្វុងឡើងខ្ពស់បំផុតនៅខែសីហា–កញ្ញា។ នេះជាពេលដែលការជូនដំណឹងអាកាសធាតុសមុទ្រ និងការរឹតបន្តឹងការចេញដំណើរញឹកញាប់បំផុត។ ការហត់នឿយដោយកម្តៅគឺជាហានិភ័យពិតប្រាកដនៅលើដេកនាវា — សូមផឹកទឹកជានិច្ច និងសម្រាកនៅកន្លែងម្លប់។",
+                  "រដូវស្លឹកឈើជ្រុះ (ខែកញ្ញា–វិច្ឆិកា) — ស្រឡះ ស្ងួត និងកក់ក្តៅ; ត្រូវបានចាត់ទុកជាទូទៅថាជារដូវល្អបំផុត។ ស្ថានភាពសមុទ្រជាទូទៅស្ងប់ជាង ទោះបីជានៅតែមានព្យុះទីហ្វុងចុងក្រោយកើតឡើងក៏ដោយ។",
+                  "រដូវរងា (ខែធ្នូ–កុម្ភៈ) — ត្រជាក់ និងស្ងួត ជាធម្មតាទាបជាងចំណុចកកទឹក ជាមួយខ្យល់ខ្លាំងពីទិសពាយព្យ។ ការព្រមានអំពីខ្យល់ និងរលកជាញឹកញាប់រឹតបន្តឹងនាវាតូចៗមិនឱ្យចេញពីកំពង់ផែ ហើយហានិភ័យនៃការជ្រមុជក្នុងទឹកត្រជាក់ស្ថិតនៅកម្រិតខ្ពស់បំផុត — សីតុណ្ហភាពទឹកសមុទ្រអាចធ្លាក់ចុះទាបគ្រប់គ្រាន់ដើម្បីធ្វើឱ្យបាត់សមត្ថភាពក្នុងរយៈពេលប៉ុន្មាននាទី។ សូមពាក់សម្លៀកបំពាក់កក់ក្តៅនៅក្រោមឧបករណ៍ការងាររបស់អ្នក។"
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "KMA អាកាសធាតុសមុទ្រ (ភាសាអង់គ្លេស)",
+            "url": "https://www.weather.go.kr/w/index.do"
+          },
+          {
+            "label": "AirKorea — គុណភាពខ្យល់ (ភាសាអង់គ្លេស)",
+            "url": "https://www.airkorea.or.kr/eng"
+          },
+          {
+            "label": "Visit Korea — មគ្គុទ្ទេសក៍អាហារកូរ៉េ (ភាសាអង់គ្លេស)",
+            "url": "https://english.visitkorea.or.kr"
+          }
+        ]
+      },
+      "port-city-guide": {
+        "icon": "🏙️",
+        "navTitle": "មគ្គុទ្ទេសក៍ទីក្រុងកំពង់ផែ",
+        "navDescription": "ក្លឹបនាវិក ការធ្វើដំណើរទៅទីក្រុង ការចុះលើគោក",
+        "title": "មគ្គុទ្ទេសក៍ទីក្រុងកំពង់ផែ",
+        "summary": "សេវាកម្មក្លឹបនាវិក និងការធ្វើដំណើរទៅទីក្រុង — ទាញយកអត្ថប្រយោជន៍ខ្ពស់បំផុតពីពេលវេលារបស់អ្នកនៅលើគោក ដោយសុវត្ថិភាព និងងាយស្រួល!",
+        "sections": [
+          {
+            "heading": "ក្លឹបនាវិកនៅកូរ៉េ",
+            "body": "សេវាកម្មក្លឹបនាវិកមាននៅតាមកំពង់ផែធំៗរបស់កូរ៉េ រួមមានប៊ូសាន អ៊ិនឆន និងផូហាំង។ មជ្ឈមណ្ឌលទាំងនេះផ្តល់នូវកន្លែងសម្រាក បន្ទប់ងូតទឹក ការចូលប្រើអ៊ីនធឺណិត និងទូរស័ព្ទ ហាងលក់ទំនិញ ការប្តូររូបិយប័ណ្ណ សេវាប្រឹក្សា និងសម្ភារៈសាសនា — ជាកន្លែងសម្រាកលំហែឆ្ងាយពីនាវា។\n\nសូមសួរភ្នាក់ងារមូលដ្ឋានរបស់ក្រុមហ៊ុនដឹកជញ្ជូនរបស់អ្នកអំពីរបៀបទៅដល់ក្លឹបនាវិក និងមធ្យោបាយធ្វើដំណើរដែលមាន។ ភ្នាក់ងារអាចរៀបចំរថយន្តដឹកជញ្ជូន ឬផ្តល់ដំបូន្មានអំពីតាក់ស៊ី ហើយដឹងពីម៉ោងបើកបច្ចុប្បន្ន។ នេះជាវិធីដ៏អាចទុកចិត្តបានបំផុតដើម្បីទៅដល់ទីនោះ ព្រោះច្បាប់ចូលច្រកកំពង់ផែ និងនីតិវិធីច្រកទ្វារខុសគ្នាទៅតាមកំពង់ផែ និងកន្លែងចតនាវា។",
+            "lists": [
+              {
+                "label": "មជ្ឈមណ្ឌលសំខាន់ៗ",
+                "items": [
+                  "មជ្ឈមណ្ឌលនាវិកកំពង់ផែថ្មីប៊ូសាន (Busan New Port Seafarers Center) — 354 Sinhangman-ro, Gangseo-gu, Busan។ ទូរស័ព្ទ +82 51 974 0774 / ទូរស័ព្ទចល័ត +82 10 9171 2333។ បើកថ្ងៃច័ន្ទ–សុក្រ 09:00–22:00, សៅរ៍–អាទិត្យ 10:00–19:00។",
+                  "បេសកកម្មសម្រាប់នាវិកប៊ូសាន (Mission to Seafarers Busan) — 294 Sinseon-ro, Nam-gu, Busan 48562។ បើកជារៀងរាល់ថ្ងៃ 12:00–20:00។",
+                  "United Seamen's Service ប៊ូសាន — ក្លឹបនាវិក, 99 Gamman 1-dong, Busan 48480 (ដំណើរការនៅប៊ូសានតាំងពីឆ្នាំ 1954)។"
+                ]
+              }
+            ]
+          },
+          {
+            "heading": "ការធ្វើដំណើរពីកំពង់ផែទៅទីក្រុង",
+            "body": "ការចូលដំណើរការខុសគ្នាខ្លាំងទៅតាមកំពង់ផែនីមួយៗ។ កំពង់ផែភាគច្រើននៅកូរ៉េស្ថិតនៅតំបន់ឧស្សាហកម្មដែលមានចម្ងាយពីមជ្ឈមណ្ឌលទីក្រុង ដូច្នេះតាក់ស៊ីជាទូទៅជាជម្រើសលឿន និងសាមញ្ញបំផុត។ សូមសរសេរទីតាំងគោលដៅរបស់អ្នកជាភាសាកូរ៉េ ឬបង្ហាញវានៅលើទូរស័ព្ទរបស់អ្នក។ សូមផ្ទៀងផ្ទាត់ផ្លូវពិតប្រាកដជាមួយភ្នាក់ងារនាវារបស់អ្នកជានិច្ច មុនពេលចុះលើគោក។",
+            "table": {
+              "columns": [
+                "កំពង់ផែ",
+                "តំបន់/ទីក្រុងជិតបំផុត",
+                "មធ្យោបាយចូលដំណើរការទូទៅ"
+              ],
+              "rows": [
+                [
+                  "Busan (North Port)",
+                  "Nampo-dong, Jungang-dong",
+                  "ខ្សែរថភ្លើងក្រោមដីលេខ 1 (ស្ថានីយ៍ Jungang ឬ Nampo) ដើរបន្តិច ឬតាក់ស៊ីពីស្ថានីយ៍"
+                ],
+                [
+                  "Busan (New Port)",
+                  "Hadan / Jinhae",
+                  "តាក់ស៊ី ឬរថយន្តដឹកជញ្ជូនរបស់ភ្នាក់ងារ — ស្ថានីយ៍នេះនៅឆ្ងាយពីទីក្រុង; ការដឹកជញ្ជូនសាធារណៈមានកម្រិត"
+                ],
+                [
+                  "Incheon",
+                  "Sinpo, Dong-Incheon, Chinatown",
+                  "ខ្សែរថភ្លើងក្រោមដីលេខ 1 (ស្ថានីយ៍ Incheon ឬ Dong-Incheon); តាក់ស៊ីពីកន្លែងចតនាវាទៅស្ថានីយ៍"
+                ],
+                [
+                  "Pyeongtaek",
+                  "Anjung, Pyeongtaek city centre",
+                  "ឡានក្រុងក្នុងស្រុក ឬតាក់ស៊ីទៅស្ថានីយ៍ Pyeongtaek (ខ្សែលេខ 1)"
+                ],
+                [
+                  "Dangjin",
+                  "Songak, Dangjin city centre",
+                  "តាក់ស៊ី — គ្មានផ្លូវរថភ្លើងភ្ជាប់នៅកំពង់ផែ; សេវាឡានក្រុងក្នុងស្រុកមិនញឹកញាប់"
+                ],
+                [
+                  "Gwangyang",
+                  "Gwangyang city centre / Suncheon",
+                  "តាក់ស៊ីទៅទីក្រុង; ស្ថានីយ៍រថយន្តក្រុងអន្តរទីក្រុងសម្រាប់ការធ្វើដំណើរបន្ត"
+                ],
+                [
+                  "Yeosu",
+                  "Yeosu city centre, Idong",
+                  "តាក់ស៊ី; ស្ថានីយ៍ Yeosu-Expo (KTX) សម្រាប់ការធ្វើដំណើរបន្ត"
+                ],
+                [
+                  "Masan",
+                  "Masan Hapseong-dong, Changwon",
+                  "ឡានក្រុងក្នុងស្រុក ឬតាក់ស៊ីទៅមជ្ឈមណ្ឌលទីក្រុង Masan"
+                ],
+                [
+                  "Pohang",
+                  "Pohang city centre, Yeongildae",
+                  "តាក់ស៊ីពីកំពង់ផែចាស់/ថ្មីនៃ Pohang; ស្ថានីយ៍ Pohang (KTX) សម្រាប់ការធ្វើដំណើរបន្ត"
+                ],
+                [
+                  "Donghae",
+                  "Donghae city centre",
+                  "តាក់ស៊ី; ស្ថានីយ៍ Donghae នៅជិត"
+                ],
+                [
+                  "Mukho",
+                  "Mukho port district, Donghae",
+                  "ការជិះតាក់ស៊ីខ្លី — ទីក្រុង Mukho នៅជិតកំពង់ផែ"
+                ],
+                [
+                  "Samcheok",
+                  "Samcheok city centre",
+                  "តាក់ស៊ីពីកំពង់ផែ Samcheok; មានឡានក្រុងក្នុងស្រុក"
+                ],
+                [
+                  "Gunsan",
+                  "Gunsan city centre",
+                  "តាក់ស៊ី ឬឡានក្រុងក្នុងស្រុក; ស្ថានីយ៍ Gunsan សម្រាប់ការធ្វើដំណើរបន្ត"
+                ]
+              ]
+            },
+            "note": "លេខឡានក្រុង និងកាលវិភាគផ្លាស់ប្តូរញឹកញាប់ ដូច្នេះតារាងនេះផ្តល់ត្រឹមតែគោលដៅ និងមធ្យោបាយប៉ុណ្ណោះ។ សូមផ្ទៀងផ្ទាត់ផ្លូវ និងថ្លៃសេវាបច្ចុប្បន្នជាមួយភ្នាក់ងារនាវារបស់អ្នក ឬបុគ្គលិកក្លឹបនាវិក មុនពេលចាកចេញពីកំពង់ផែ។",
+            "id": "port-transport-table"
+          },
+          {
+            "heading": "ការចុះលើគោកដោយសុវត្ថិភាព",
+            "body": "កូរ៉េមានអត្រាឧក្រិដ្ឋកម្មហិង្សាទាបណាស់ ហើយការលួចហោប៉ៅកម្រកើតមានណាស់។ សូមកាន់ច្បាប់ចម្លង ARC ឬលិខិតឆ្លងដែនរបស់អ្នកជានិច្ច គោរពសញ្ញាចរាចរណ៍ និងកត់ត្រាម៉ោងវិលត្រឡប់របស់នាវា និងលេខទូរស័ព្ទរបស់ភ្នាក់ងាររបស់អ្នកមុនពេលចាកចេញ។"
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "ITF Seafarers — ស្វែងរកមជ្ឈមណ្ឌលសុខុមាលភាព",
+            "url": "https://www.itfseafarers.org/en/directories/seafarers-welfare-centre-index"
+          },
+          {
+            "label": "ISWAN — មជ្ឈមណ្ឌលនាវិកនៅកូរ៉េ",
+            "url": "https://www.iswan.org.uk/centres/"
+          },
+          {
+            "label": "United Seamen's Service",
+            "url": "https://unitedseamensservice.org/uss-centers/"
+          }
+        ]
+      },
+      "worker-rights": {
+        "icon": "📜",
+        "navTitle": "សិទ្ធិរបស់អ្នកក្នុងនាមជានាវិក",
+        "navDescription": "ម៉ោងធ្វើការ កិច្ចសន្យា ការតវ៉ា ការប្រឹក្សា",
+        "title": "សិទ្ធិរបស់អ្នកក្នុងនាមជានាវិក",
+        "summary": "ដឹងអំពីម៉ោងធ្វើការ កិច្ចសន្យារបស់អ្នក និងកន្លែងដែលអាចរកជំនួយបាន — យល់ដឹងពីសិទ្ធិរបស់អ្នក ហើយតស៊ូមតិដើម្បីវាដោយទំនុកចិត្ត!",
+        "sections": [
+          {
+            "heading": "ម៉ោងធ្វើការ និងការសម្រាក",
+            "body": "ច្បាប់ស្តីពីនាវិកកូរ៉េ (មាត្រា 60) កំណត់ម៉ោងធ្វើការមូលដ្ឋានចំនួន 8 ម៉ោងក្នុងមួយថ្ងៃ និង 40 ម៉ោងក្នុងមួយសប្តាហ៍។ ស្របតាម MLC 2006 អ្នកមានសិទ្ធិទទួលបានការសម្រាកយ៉ាងតិច 10 ម៉ោងក្នុងរយៈពេល 24 ម៉ោងណាមួយ និង 77 ម៉ោងក្នុងរយៈពេល 7 ថ្ងៃណាមួយ។ ការសម្រាកអាចបែងចែកជាមិនលើសពីពីរដំណាក់កាល ដែលមួយក្នុងចំណោមនោះត្រូវមានរយៈពេលយ៉ាងតិច 6 ម៉ោង។ កំណត់ត្រានៃម៉ោងធ្វើការ និងម៉ោងសម្រាករបស់អ្នកត្រូវតែរក្សាទុក។"
+          },
+          {
+            "heading": "កិច្ចសន្យា និងឯកសារអត្តសញ្ញាណ",
+            "body": "កិច្ចសន្យាការងារនាវិកជាលាយលក្ខណ៍អក្សរត្រូវបានតម្រូវដោយច្បាប់។ អ្នកគួរតែកាន់សៀវភៅនាវិក (선원수첩) ដែលកត់ត្រាការងារ និងគុណវុឌ្ឍិរបស់អ្នក ព្រមទាំងឯកសារបញ្ជាក់អត្តសញ្ញាណនាវិកស្របតាមអនុសញ្ញា ILO លេខ 185។ សូមរក្សាច្បាប់ចម្លងកិច្ចសន្យារបស់អ្នកផ្ទាល់ — កុំប្រគល់ច្បាប់ចម្លងតែមួយគត់របស់អ្នកឱ្យអ្នកដទៃឡើយ។"
+          },
+          {
+            "heading": "ការតវ៉ា និងការប្រឹក្សា",
+            "body": "ស្របតាម MLC 2006 (បទប្បញ្ញត្តិ 5.1.5) នាវាគ្រប់លំដាប់ត្រូវតែមាននីតិវិធីតវ៉ាដ៏យុត្តិធម៌នៅលើនាវា ប៉ុន្តែអ្នកក៏អាចតវ៉ាដោយផ្ទាល់ទៅកាន់អាជ្ញាធរខាងក្រៅផងដែរ — ម្ចាស់នាវា រដ្ឋទង់ជាតិ រដ្ឋកំពង់ផែ ឬប្រទេសកំណើតរបស់អ្នក — ហើយអ្នកមានសិទ្ធិត្រូវបានអមដំណើរ និងការពារពីការសងសឹក។ នៅកំពង់ផែ អ្នកអាចរាយការណ៍ពីការល្មើសទៅមន្ត្រីត្រួតពិនិត្យរដ្ឋកំពង់ផែ ឬស្នើឱ្យអធិការកិច្ច ITF ឬបុគ្គលិកសុខុមាលភាពដាក់ពាក្យតវ៉ាជំនួសអ្នក។",
+            "lists": [
+              {
+                "label": "នៅកូរ៉េ សូមទាក់ទង",
+                "items": [
+                  "អធិការការងារនាវិកនៅការិយាល័យតំបន់សមុទ្រ និងនេសាទដែលនៅជិតបំផុត — ពួកគេដោះស្រាយបញ្ហាប្រាក់ខែមិនបានបង់ និងការល្មើសច្បាប់ស្តីពីនាវិក។",
+                  "មជ្ឈមណ្ឌលសុខុមាលភាព និងការងារនាវិកកូរ៉េ (KOSWEC) — សេវាប្រឹក្សាពាក្យបណ្តឹង និងសេវាសុខុមាលភាព។",
+                  "មជ្ឈមណ្ឌលប្រឹក្សាកម្មករបរទេស 1577-0071 — 16 ភាសា, 365 ថ្ងៃ, 09:00–18:00។",
+                  "ក្រសួងការងារ 1350 — ការប្រឹក្សាការងារ។",
+                  "APIL (Advocates for Public Interest Law) — +82-2-3478-0529, ជាអង្គការក្រៅរដ្ឋាភិបាលផ្នែកច្បាប់ឈានមុខគេសម្រាប់ក្រុមការងារនេសាទចំណាកស្រុក។",
+                  "ITF Seafarer Support — seafsupport@itf.org.uk, WhatsApp +44 7523 515097។"
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "ITF Seafarers — សិទ្ធិរបស់អ្នកស្របតាម MLC",
+            "url": "https://www.itfseafarers.org/en/resources/your-rights-under-mlc"
+          },
+          {
+            "label": "ILO — អនុសញ្ញាការងារសមុទ្រ 2006",
+            "url": "https://www.ilo.org/global/standards/maritime-labour-convention/lang--en/index.htm"
+          },
+          {
+            "label": "HUG Korea — ការគាំទ្រកម្មករបរទេស (ពហុភាសា)",
+            "url": "http://www.hugkorea.or.kr"
+          },
+          {
+            "label": "ISWAN — ជំនួយនាវិក (24/7, ពហុភាសា)",
+            "url": "https://www.seafarerhelp.org"
+          }
+        ]
+      },
+      "phrasebook": {
+        "icon": "💬",
+        "navTitle": "ភាសាកូរ៉េសម្រាប់ការរស់រាន",
+        "navDescription": "ឃ្លាសំខាន់ៗសម្រាប់ករណីអាសន្ន",
+        "title": "ភាសាកូរ៉េសម្រាប់ការរស់រាន",
+        "summary": "ឃ្លាមួយអាចជួយសង្គ្រោះជីវិតបាន — សូមរៀនកន្សោមភាសាកូរ៉េសម្រាប់ករណីអាសន្នទាំងនេះឥឡូវនេះ!",
+        "phraseGroups": [
+          {
+            "heading": "ការហៅសុំជំនួយ",
+            "phrases": [
+              {
+                "korean": "도와주세요!",
+                "pronunciation": "Do wa ju se yo!",
+                "meaning": "ជួយខ្ញុំផង!"
+              },
+              {
+                "korean": "살려주세요!",
+                "pronunciation": "Sal lyo ju se yo!",
+                "meaning": "សង្គ្រោះខ្ញុំផង! (គ្រោះថ្នាក់ដល់អាយុជីវិត)"
+              },
+              {
+                "korean": "급해요!",
+                "pronunciation": "Geu pae yo!",
+                "meaning": "វាបន្ទាន់ណាស់!"
+              },
+              {
+                "korean": "응급상황이에요",
+                "pronunciation": "Eung geup sang hwang i e yo",
+                "meaning": "នេះជាករណីអាសន្ន"
+              },
+              {
+                "korean": "119에 전화해주세요",
+                "pronunciation": "Il il gu e jeon hwa hae ju se yo",
+                "meaning": "សូមទូរស័ព្ទទៅលេខ 119"
+              },
+              {
+                "korean": "경찰을 불러주세요",
+                "pronunciation": "Gyeong chal eul bul lo ju se yo",
+                "meaning": "សូមហៅប៉ូលិស"
+              },
+              {
+                "korean": "구급차를 불러주세요",
+                "pronunciation": "Gu geup cha reul bul lo ju se yo",
+                "meaning": "សូមហៅរថយន្តពេទ្យសង្គ្រោះបន្ទាន់"
+              }
+            ]
+          },
+          {
+            "heading": "ករណីអាសន្ននៅលើសមុទ្រ",
+            "phrases": [
+              {
+                "korean": "불이야!",
+                "pronunciation": "Bu ri ya!",
+                "meaning": "ភ្លើងឆេះ!"
+              },
+              {
+                "korean": "사람이 바다에 빠졌어요",
+                "pronunciation": "Sa ra mi ba da e ppa jyeo sseo yo",
+                "meaning": "មានគេធ្លាក់ចុះសមុទ្រ!"
+              },
+              {
+                "korean": "배가 침몰해요",
+                "pronunciation": "Bae ga chim mo rae yo",
+                "meaning": "នាវាកំពុងលិច"
+              },
+              {
+                "korean": "배가 고장났어요",
+                "pronunciation": "Bae ga go jang na sseo yo",
+                "meaning": "នាវាបានខូច"
+              },
+              {
+                "korean": "구명조끼 주세요",
+                "pronunciation": "Gu myeong jo kki ju se yo",
+                "meaning": "សូមឱ្យខ្ញុំនូវអាវសង្គ្រោះជីវិត"
+              },
+              {
+                "korean": "여기 위치는...",
+                "pronunciation": "Yeo gi wi chi neun...",
+                "meaning": "ទីតាំងរបស់យើងគឺ..."
+              },
+              {
+                "korean": "배 이름은...",
+                "pronunciation": "Bae i reu meun...",
+                "meaning": "ឈ្មោះនាវាគឺ..."
+              },
+              {
+                "korean": "사람 다섯 명 있어요",
+                "pronunciation": "Sa ram da seot myeong i sseo yo",
+                "meaning": "មានមនុស្សប្រាំនាក់"
+              }
+            ]
+          },
+          {
+            "heading": "ករណីអាសន្នផ្នែកវេជ្ជសាស្ត្រ",
+            "phrases": [
+              {
+                "korean": "다쳤어요",
+                "pronunciation": "Da chyeo sseo yo",
+                "meaning": "ខ្ញុំរបួស"
+              },
+              {
+                "korean": "여기 아파요",
+                "pronunciation": "Yeo gi a pa yo",
+                "meaning": "ឈឺត្រង់នេះ (ចង្អុលទៅកន្លែងនោះ)"
+              },
+              {
+                "korean": "피가 나요",
+                "pronunciation": "Pi ga na yo",
+                "meaning": "ខ្ញុំហូរឈាម"
+              },
+              {
+                "korean": "숨을 못 쉬어요",
+                "pronunciation": "Su meul mot swi eo yo",
+                "meaning": "ខ្ញុំដកដង្ហើមមិនរួច"
+              },
+              {
+                "korean": "의사가 필요해요",
+                "pronunciation": "Ui sa ga pi ryo hae yo",
+                "meaning": "ខ្ញុំត្រូវការគ្រូពេទ្យ"
+              },
+              {
+                "korean": "병원이 어디예요?",
+                "pronunciation": "Byeong wo ni eo di ye yo?",
+                "meaning": "មន្ទីរពេទ្យនៅឯណា?"
+              },
+              {
+                "korean": "약국이 어디예요?",
+                "pronunciation": "Yak gu gi eo di ye yo?",
+                "meaning": "ឱសថស្ថាននៅឯណា?"
+              },
+              {
+                "korean": "알레르기가 있어요",
+                "pronunciation": "Al le reu gi ga i sseo yo",
+                "meaning": "ខ្ញុំមានអាឡែស៊ី"
+              },
+              {
+                "korean": "열이 나요",
+                "pronunciation": "Yeo ri na yo",
+                "meaning": "ខ្ញុំមានគ្រុនក្តៅ"
+              },
+              {
+                "korean": "어지러워요",
+                "pronunciation": "Eo ji reo wo yo",
+                "meaning": "ខ្ញុំមានអារម្មណ៍វិលមុខ"
+              }
+            ]
+          },
+          {
+            "heading": "បញ្ហាទំនាក់ទំនង",
+            "phrases": [
+              {
+                "korean": "한국어를 못해요",
+                "pronunciation": "Han gu geo reul mo tae yo",
+                "meaning": "ខ្ញុំនិយាយភាសាកូរ៉េមិនកើត"
+              },
+              {
+                "korean": "영어 할 수 있어요?",
+                "pronunciation": "Yeong eo hal su i sseo yo?",
+                "meaning": "តើអ្នកនិយាយភាសាអង់គ្លេសបានទេ?"
+              },
+              {
+                "korean": "통역이 필요해요",
+                "pronunciation": "Tong yeo gi pi ryo hae yo",
+                "meaning": "ខ្ញុំត្រូវការអ្នកបកប្រែ"
+              },
+              {
+                "korean": "천천히 말해주세요",
+                "pronunciation": "Cheon cheo ni mal hae ju se yo",
+                "meaning": "សូមនិយាយយឺតៗ"
+              },
+              {
+                "korean": "다시 말해주세요",
+                "pronunciation": "Da si mal hae ju se yo",
+                "meaning": "សូមនិយាយម្តងទៀត"
+              },
+              {
+                "korean": "모르겠어요",
+                "pronunciation": "Mo reu ge sseo yo",
+                "meaning": "ខ្ញុំមិនយល់ទេ"
+              },
+              {
+                "korean": "써주세요",
+                "pronunciation": "Sseo ju se yo",
+                "meaning": "សូមសរសេរវាចុះ"
+              }
+            ]
+          },
+          {
+            "heading": "បញ្ហា និងឯកសារ",
+            "phrases": [
+              {
+                "korean": "여권을 잃어버렸어요",
+                "pronunciation": "Yeo gwo neul i reo beo ryeo sseo yo",
+                "meaning": "ខ្ញុំបានបាត់លិខិតឆ្លងដែន"
+              },
+              {
+                "korean": "지갑을 도둑맞았어요",
+                "pronunciation": "Ji ga beul do dung ma ja sseo yo",
+                "meaning": "កាបូបលុយរបស់ខ្ញុំត្រូវបានលួច"
+              },
+              {
+                "korean": "길을 잃었어요",
+                "pronunciation": "Gi reul i reo sseo yo",
+                "meaning": "ខ្ញុំវង្វេងផ្លូវ"
+              },
+              {
+                "korean": "대사관에 연락해주세요",
+                "pronunciation": "Dae sa gwa ne yeon la kae ju se yo",
+                "meaning": "សូមទាក់ទងស្ថានទូតរបស់ខ្ញុំ"
+              },
+              {
+                "korean": "회사에 연락해주세요",
+                "pronunciation": "Hoe sa e yeon la kae ju se yo",
+                "meaning": "សូមទាក់ទងក្រុមហ៊ុនរបស់ខ្ញុំ"
+              },
+              {
+                "korean": "월급을 못 받았어요",
+                "pronunciation": "Wol geu beul mot ba da sseo yo",
+                "meaning": "ខ្ញុំមិនទាន់ទទួលបានប្រាក់ខែទេ"
+              },
+              {
+                "korean": "도움이 필요해요",
+                "pronunciation": "Do u mi pi ryo hae yo",
+                "meaning": "ខ្ញុំត្រូវការជំនួយ"
+              }
+            ]
+          },
+          {
+            "heading": "លេខទូរស័ព្ទអាសន្ន — របៀបនិយាយវា",
+            "phrases": [
+              {
+                "korean": "119",
+                "pronunciation": "Il il gu",
+                "meaning": "អគ្គីភ័យ / រថយន្តពេទ្យសង្គ្រោះបន្ទាន់"
+              },
+              {
+                "korean": "112",
+                "pronunciation": "Il il i",
+                "meaning": "ប៉ូលិស"
+              },
+              {
+                "korean": "122",
+                "pronunciation": "Il i i",
+                "meaning": "អង្គភាពយាមឆ្នេរ"
+              }
+            ]
+          }
+        ],
+        "tip": "នៅពេលអ្នកទូរស័ព្ទទៅលេខ 119 ឬ 112 សូមនិយាយថា \"Tong yeo gi pi ryo hae yo\" (통역이 필요해요) ហើយអ្នកទទួលទូរស័ព្ទអាចភ្ជាប់អ្នកបកប្រែឱ្យអ្នកបាន។ អ្នកក៏អាចទូរស័ព្ទទៅ BBB Korea តាមលេខ 1588-5644 សម្រាប់សេវាបកប្រែឥតគិតថ្លៃ 24ម៉ោង ក្នុង 20ភាសាផងដែរ។",
+        "referenceLinks": [
+          {
+            "label": "BBB Korea — សេវាបកប្រែឥតគិតថ្លៃ (ភាសាអង់គ្លេស)",
+            "url": "https://www.bbbkorea.org/eng/main/main.php"
+          },
+          {
+            "label": "Danuri — ការគាំទ្រពហុភាសា",
+            "url": "https://www.liveinkorea.kr/web/index.do"
+          }
+        ]
+      },
+      "emergency": {
+        "icon": "🆘",
+        "navTitle": "ទំនាក់ទំនងអាសន្ន",
+        "navDescription": "112 / 119 / 122 / 1345 និងខ្សែទូរស័ព្ទជំនួយពហុភាសា",
+        "title": "ទំនាក់ទំនងអាសន្ន",
+        "summary": "ពេលណា និងទីណាដែលអ្នកត្រូវការជំនួយ — សូមរក្សាទុកលេខទូរស័ព្ទអាសន្នទាំងនេះឥឡូវនេះ!",
+        "contacts": [
+          {
+            "number": "119",
+            "service": "អគ្គីភ័យ រថយន្តពេទ្យសង្គ្រោះបន្ទាន់ ការសង្គ្រោះ (ក៏ទទួលរាយការណ៍គ្រោះថ្នាក់សមុទ្រផងដែរ)",
+            "languages": "មានសេវាបកប្រែ"
+          },
+          {
+            "number": "112",
+            "service": "ប៉ូលិស",
+            "languages": "មានសេវាបកប្រែ"
+          },
+          {
+            "number": "122",
+            "service": "អង្គភាពយាមឆ្នេរកូរ៉េ — ករណីអាសន្ននៅលើសមុទ្រ",
+            "languages": "កូរ៉េ/អង់គ្លេស"
+          },
+          {
+            "number": "1345",
+            "service": "មជ្ឈមណ្ឌលទំនាក់ទំនងអន្តោប្រវេសន៍",
+            "languages": "20 ភាសា"
+          },
+          {
+            "number": "1350",
+            "service": "ក្រសួងការងារ — ការប្រឹក្សាការងារ",
+            "languages": "កូរ៉េ + សេវាបកប្រែ"
+          },
+          {
+            "number": "1577-0071",
+            "service": "មជ្ឈមណ្ឌលប្រឹក្សាកម្មករបរទេស",
+            "languages": "16 ភាសា"
+          },
+          {
+            "number": "1588-5644",
+            "service": "BBB Korea — សេវាបកប្រែតាមទូរស័ព្ទឥតគិតថ្លៃ",
+            "languages": "20 ភាសា, 24/7"
+          },
+          {
+            "number": "1577-1366",
+            "service": "មជ្ឈមណ្ឌលហៅទូរស័ព្ទ Danuri — ជនចំណាកស្រុក និងគ្រួសារ",
+            "languages": "13 ភាសា, 24/7"
+          },
+          {
+            "number": "1339",
+            "service": "ព័ត៌មានវេជ្ជសាស្ត្រអាសន្ន",
+            "languages": "កូរ៉េ"
+          },
+          {
+            "number": "1330",
+            "service": "ខ្សែទូរស័ព្ទទេសចរណ៍កូរ៉េ",
+            "languages": "ពហុភាសា"
+          },
+          {
+            "number": "033-811-2000",
+            "service": "ធានារ៉ាប់រងសុខភាពជាតិ — ខ្សែសម្រាប់ជនបរទេស",
+            "languages": "អង់គ្លេស ចិន ជប៉ុន វៀតណាម"
+          },
+          {
+            "number": "+44 7523 515097",
+            "service": "ITF Seafarer Support (WhatsApp/SMS)",
+            "languages": "ពហុភាសា"
+          }
+        ],
+        "referenceLinks": [
+          {
+            "label": "អង្គភាពយាមឆ្នេរកូរ៉េ (ភាសាអង់គ្លេស)",
+            "url": "https://www.kcg.go.kr/kcg/main.do"
+          },
+          {
+            "label": "HUG Korea — ការប្រឹក្សាកម្មករបរទេស (ពហុភាសា)",
+            "url": "http://www.hugkorea.or.kr"
+          },
+          {
+            "label": "BBB Korea — សេវាបកប្រែ (ភាសាអង់គ្លេស)",
+            "url": "https://www.bbbkorea.org/eng/main/main.php"
+          },
+          {
+            "label": "SeafarerHelp — ខ្សែទូរស័ព្ទជំនួយឥតគិតថ្លៃ 24/7 សម្រាប់នាវិក",
             "url": "https://www.seafarerhelp.org"
           }
         ]

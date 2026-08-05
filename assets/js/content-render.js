@@ -49,6 +49,32 @@
     return html;
   }
 
+  // Collapsible per-row mini-map: OpenStreetMap embed (no API key needed)
+  // plus a link to open the same spot in the Naver Map app/website for full
+  // navigation. `rows` are the table's rows (for the port name label),
+  // `points` is meta.portMapPoints — parallel array, matched by index.
+  function renderMapPoints(rows, points, lang) {
+    if (!Array.isArray(points) || !points.length) return "";
+    var viewLabel = { en: "View map", ko: "지도 보기" }[lang] || "View map";
+    var naverLabel = { en: "Open in Naver Map", ko: "네이버지도에서 보기" }[lang] || "Open in Naver Map";
+    var html = '<div class="port-maps">';
+    rows.forEach(function (row, i) {
+      var point = points[i];
+      if (!point) return;
+      var portName = row[0] || "";
+      var bbox = [point.lon - 0.05, point.lat - 0.035, point.lon + 0.05, point.lat + 0.035].join(",");
+      var osmSrc = "https://www.openstreetmap.org/export/embed.html?bbox=" + bbox + "&layer=mapnik&marker=" + point.lat + "," + point.lon;
+      var naverUrl = "https://map.naver.com/p/search/" + encodeURIComponent(point.naverQuery || portName);
+      html += '<details class="port-map-item">' +
+        "<summary>" + escapeHtml(portName) + ' — <span class="view-map-label">' + escapeHtml(viewLabel) + "</span></summary>" +
+        '<div class="port-map-frame"><iframe src="' + osmSrc + '" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>' +
+        '<a class="external-link-btn port-map-naver" href="' + naverUrl + '" target="_blank" rel="noopener noreferrer"><span>' + escapeHtml(naverLabel) + '</span><span class="arrow" aria-hidden="true">↗</span></a>' +
+        "</details>";
+    });
+    html += "</div>";
+    return html;
+  }
+
   function renderSection(sec) {
     var html = '<div class="section-block" data-section>';
     html += "<h2>" + escapeHtml(sec.heading) + "</h2>";
@@ -73,7 +99,14 @@
       });
     }
 
-    if (sec.table) html += renderTable(sec.table);
+    if (sec.table) {
+      html += renderTable(sec.table);
+      if (sec.id === "port-transport-table") {
+        var meta = global.SFWi18n.getMeta();
+        var lang = global.SFWi18n.getLang();
+        html += renderMapPoints(sec.table.rows, meta.portMapPoints, lang);
+      }
+    }
     if (sec.note) html += '<div class="placeholder-box">' + richText(sec.note) + "</div>";
 
     html += "</div>";
@@ -123,6 +156,26 @@
     return '<div class="content-error">⚠️ ' + escapeHtml(message) + "</div>";
   }
 
+  // Hero illustration shown at the top of each content page. Pages always
+  // live under pages/, so the ../ prefix here is safe and doesn't need to
+  // be computed dynamically.
+  var HERO_IMAGES = {
+    "safety-at-sea": "../assets/images/safety-at-sea.png",
+    "worker-rights": "../assets/images/worker-rights.png",
+    "living-in-korea": "../assets/images/living-in-korea.png",
+    "first-time-korea": "../assets/images/first-time-korea.png",
+    "know-korea": "../assets/images/know-korea.png",
+    "port-city-guide": "../assets/images/port-city-guide.png",
+    "phrasebook": "../assets/images/phrasebook.png",
+    "emergency": "../assets/images/emergency.png"
+  };
+
+  function renderHeroImage(pageId, altText) {
+    var src = HERO_IMAGES[pageId];
+    if (!src) return "";
+    return '<img class="hero-image" src="' + src + '" alt="' + escapeHtml(altText) + '" loading="lazy">';
+  }
+
   function renderPage(main, pageId) {
     var lang = global.SFWi18n.getLang();
     var data;
@@ -141,6 +194,7 @@
 
     var html = "";
     html += "<h1>" + escapeHtml(data.title) + "</h1>";
+    html += renderHeroImage(pageId, data.title);
     if (data.summary) html += '<div class="summary-box">' + richText(data.summary) + "</div>";
 
     var saveSlug = escapeHtml(pageId);
@@ -200,6 +254,8 @@
 
     html += "</div>";
     html += '<footer class="sfw-footer">' + escapeHtml(home.disclaimer) + "</footer>";
+    html += '<div class="ai-help-link"><a href="https://claude.ai" target="_blank" rel="noopener noreferrer">' +
+      '<span aria-hidden="true">🤖</span> <span>' + escapeHtml(home.aiLinkLabel || "Ask AI for anything else") + "</span></a></div>";
     main.innerHTML = html;
   }
 
