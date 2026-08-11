@@ -395,7 +395,34 @@ window.SFW_SITE_CONTENT = {
                   "Spicy stir-fried chicken"
                 ]
               ]
-            }
+            },
+            "cityLinksLabel": "Find restaurants near you (Naver search):",
+            "cityLinks": [
+              {
+                "label": "Busan",
+                "query": "부산 맛집"
+              },
+              {
+                "label": "Incheon",
+                "query": "인천 맛집"
+              },
+              {
+                "label": "Pohang",
+                "query": "포항 맛집"
+              },
+              {
+                "label": "Yeosu",
+                "query": "여수 맛집"
+              },
+              {
+                "label": "Gwangyang",
+                "query": "광양 맛집"
+              },
+              {
+                "label": "Mokpo",
+                "query": "목포 맛집"
+              }
+            ]
           },
           {
             "heading": "How to Order Food — Practical Phrases",
@@ -1237,7 +1264,34 @@ window.SFW_SITE_CONTENT = {
                   "매콤한 닭 볶음"
                 ]
               ]
-            }
+            },
+            "cityLinksLabel": "내 주변 맛집 찾기 (네이버 검색):",
+            "cityLinks": [
+              {
+                "label": "부산",
+                "query": "부산 맛집"
+              },
+              {
+                "label": "인천",
+                "query": "인천 맛집"
+              },
+              {
+                "label": "포항",
+                "query": "포항 맛집"
+              },
+              {
+                "label": "여수",
+                "query": "여수 맛집"
+              },
+              {
+                "label": "광양",
+                "query": "광양 맛집"
+              },
+              {
+                "label": "목포",
+                "query": "목포 맛집"
+              }
+            ]
           },
           {
             "heading": "음식 주문 방법 — 실전 표현",
@@ -2079,7 +2133,34 @@ window.SFW_SITE_CONTENT = {
                   "Gà xào cay"
                 ]
               ]
-            }
+            },
+            "cityLinksLabel": "Tìm nhà hàng gần bạn (tìm kiếm trên Naver):",
+            "cityLinks": [
+              {
+                "label": "Busan",
+                "query": "부산 맛집"
+              },
+              {
+                "label": "Incheon",
+                "query": "인천 맛집"
+              },
+              {
+                "label": "Pohang",
+                "query": "포항 맛집"
+              },
+              {
+                "label": "Yeosu",
+                "query": "여수 맛집"
+              },
+              {
+                "label": "Gwangyang",
+                "query": "광양 맛집"
+              },
+              {
+                "label": "Mokpo",
+                "query": "목포 맛집"
+              }
+            ]
           },
           {
             "heading": "Cách Gọi Món — Các Câu Nói Thực Tế",
@@ -2921,7 +3002,34 @@ window.SFW_SITE_CONTENT = {
                   "Ayam tumis pedas"
                 ]
               ]
-            }
+            },
+            "cityLinksLabel": "Cari restoran di dekat Anda (pencarian Naver):",
+            "cityLinks": [
+              {
+                "label": "Busan",
+                "query": "부산 맛집"
+              },
+              {
+                "label": "Incheon",
+                "query": "인천 맛집"
+              },
+              {
+                "label": "Pohang",
+                "query": "포항 맛집"
+              },
+              {
+                "label": "Yeosu",
+                "query": "여수 맛집"
+              },
+              {
+                "label": "Gwangyang",
+                "query": "광양 맛집"
+              },
+              {
+                "label": "Mokpo",
+                "query": "목포 맛집"
+              }
+            ]
           },
           {
             "heading": "Cara Memesan Makanan — Frasa Praktis",
@@ -3763,7 +3871,34 @@ window.SFW_SITE_CONTENT = {
                   "Maanghang na guisadong manok"
                 ]
               ]
-            }
+            },
+            "cityLinksLabel": "Maghanap ng restaurant malapit sa iyo (Naver search):",
+            "cityLinks": [
+              {
+                "label": "Busan",
+                "query": "부산 맛집"
+              },
+              {
+                "label": "Incheon",
+                "query": "인천 맛집"
+              },
+              {
+                "label": "Pohang",
+                "query": "포항 맛집"
+              },
+              {
+                "label": "Yeosu",
+                "query": "여수 맛집"
+              },
+              {
+                "label": "Gwangyang",
+                "query": "광양 맛집"
+              },
+              {
+                "label": "Mokpo",
+                "query": "목포 맛집"
+              }
+            ]
           },
           {
             "heading": "Paano Mag-order ng Pagkain — Praktikal na mga Parirala",
@@ -4605,7 +4740,34 @@ window.SFW_SITE_CONTENT = {
                   "စပ်သော ကြက်သားကြော်"
                 ]
               ]
-            }
+            },
+            "cityLinksLabel": "သင့်အနီးရှိ စားသောက်ဆိုင်များ ရှာဖွေရန် (Naver ရှာဖွေမှု):",
+            "cityLinks": [
+              {
+                "label": "Busan",
+                "query": "부산 맛집"
+              },
+              {
+                "label": "Incheon",
+                "query": "인천 맛집"
+              },
+              {
+                "label": "Pohang",
+                "query": "포항 맛집"
+              },
+              {
+                "label": "Yeosu",
+                "query": "여수 맛집"
+              },
+              {
+                "label": "Gwangyang",
+                "query": "광양 맛집"
+              },
+              {
+                "label": "Mokpo",
+                "query": "목포 맛집"
+              }
+            ]
           },
           {
             "heading": "အစားအစာ မှာယူနည်း — လက်တွေ့ကျသော စကားစုများ",
@@ -5447,7 +5609,34 @@ window.SFW_SITE_CONTENT = {
                   "ไก่ผัดรสเผ็ด"
                 ]
               ]
-            }
+            },
+            "cityLinksLabel": "ค้นหาร้านอาหารใกล้คุณ (ค้นหาบน Naver):",
+            "cityLinks": [
+              {
+                "label": "Busan",
+                "query": "부산 맛집"
+              },
+              {
+                "label": "Incheon",
+                "query": "인천 맛집"
+              },
+              {
+                "label": "Pohang",
+                "query": "포항 맛집"
+              },
+              {
+                "label": "Yeosu",
+                "query": "여수 맛집"
+              },
+              {
+                "label": "Gwangyang",
+                "query": "광양 맛집"
+              },
+              {
+                "label": "Mokpo",
+                "query": "목포 맛집"
+              }
+            ]
           },
           {
             "heading": "วิธีสั่งอาหาร — ประโยคที่ใช้ได้จริง",
@@ -6289,7 +6478,34 @@ window.SFW_SITE_CONTENT = {
                   "辣炒鸡肉"
                 ]
               ]
-            }
+            },
+            "cityLinksLabel": "查找附近的餐厅(Naver 搜索):",
+            "cityLinks": [
+              {
+                "label": "釜山",
+                "query": "부산 맛집"
+              },
+              {
+                "label": "仁川",
+                "query": "인천 맛집"
+              },
+              {
+                "label": "浦项",
+                "query": "포항 맛집"
+              },
+              {
+                "label": "丽水",
+                "query": "여수 맛집"
+              },
+              {
+                "label": "光阳",
+                "query": "광양 맛집"
+              },
+              {
+                "label": "木浦",
+                "query": "목포 맛집"
+              }
+            ]
           },
           {
             "heading": "如何点餐——实用短语",
@@ -7131,7 +7347,34 @@ window.SFW_SITE_CONTENT = {
                   "សាច់មាន់ឆាហឹរ"
                 ]
               ]
-            }
+            },
+            "cityLinksLabel": "ស្វែងរកភោជនីយដ្ឋាននៅជិតអ្នក (ស្វែងរកលើ Naver):",
+            "cityLinks": [
+              {
+                "label": "Busan",
+                "query": "부산 맛집"
+              },
+              {
+                "label": "Incheon",
+                "query": "인천 맛집"
+              },
+              {
+                "label": "Pohang",
+                "query": "포항 맛집"
+              },
+              {
+                "label": "Yeosu",
+                "query": "여수 맛집"
+              },
+              {
+                "label": "Gwangyang",
+                "query": "광양 맛집"
+              },
+              {
+                "label": "Mokpo",
+                "query": "목포 맛집"
+              }
+            ]
           },
           {
             "heading": "របៀបកម្ម៉ង់អាហារ — ឃ្លាជាក់ស្តែង",

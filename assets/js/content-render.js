@@ -75,6 +75,22 @@
     return html;
   }
 
+  // Row of icon-link chips ("바로가기" shortcuts) to Naver search results for
+  // "<city> 맛집" (restaurants), one per port city. Shows a city label +
+  // icon, not the raw URL, per the query used to power the search.
+  function renderCityFoodLinks(items) {
+    if (!Array.isArray(items) || !items.length) return "";
+    var html = '<div class="city-food-links">';
+    items.forEach(function (it) {
+      var url = "https://search.naver.com/search.naver?query=" + encodeURIComponent(it.query);
+      html += '<a class="external-link-btn city-food-link" href="' + url + '" target="_blank" rel="noopener noreferrer">' +
+        '<span aria-hidden="true">🍴</span><span>' + escapeHtml(it.label) + "</span>" +
+        '<span class="arrow" aria-hidden="true">↗</span></a>';
+    });
+    html += "</div>";
+    return html;
+  }
+
   function renderSection(sec) {
     var html = '<div class="section-block" data-section>';
     html += "<h2>" + escapeHtml(sec.heading) + "</h2>";
@@ -106,6 +122,10 @@
         var lang = global.SFWi18n.getLang();
         html += renderMapPoints(sec.table.rows, meta.portMapPoints, lang);
       }
+    }
+    if (Array.isArray(sec.cityLinks)) {
+      if (sec.cityLinksLabel) html += '<h3 class="list-label">' + escapeHtml(sec.cityLinksLabel) + "</h3>";
+      html += renderCityFoodLinks(sec.cityLinks);
     }
     if (sec.note) html += '<div class="placeholder-box">' + richText(sec.note) + "</div>";
 

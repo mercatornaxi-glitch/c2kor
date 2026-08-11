@@ -262,6 +262,14 @@ ul.plain-list {
 .external-link-btn:active { background: #eef4f9; }
 .external-link-btn .arrow { color: var(--color-accent); }
 
+.city-food-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+.city-food-link { font-size: 0.85rem; padding: 8px 14px; }
+
 /* ---------- Persona hero (index.html) ---------- */
 .persona-hero {
   text-align: center;
