@@ -110,7 +110,7 @@ ul.plain-list {
 }
 
 .sfw-header__brand .flag { display: flex; align-items: center; }
-.sfw-header__brand .flag svg { display: block; }
+.sfw-header__brand .flag svg { display: block; width: 36px; height: 24px; }
 
 .sfw-header__controls {
   display: flex;
@@ -273,6 +273,8 @@ ul.plain-list {
 }
 
 .persona-hero .logo-emoji svg {
+  width: 132px;
+  height: 88px;
   filter: drop-shadow(0 2px 4px rgba(0,0,0,0.15));
 }
 

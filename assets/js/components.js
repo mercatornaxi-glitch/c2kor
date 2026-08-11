@@ -6,13 +6,23 @@
  * SFW_SITE_CONTENT.meta.languageOrder / meta.languages at render time.
  */
 (function (global) {
-  // Taegeuk (태극) mark: split along the upper-left/lower-right diagonal
-  // (red upper-left, blue lower-right), matching the official construction
-  // in the National Flag Act enforcement decree — not a plain vertical
-  // split. Exported so content-render.js can reuse it for the home hero.
-  var TAEGEUK_SVG = '<svg viewBox="0 0 100 100" width="26" height="26" focusable="false">' +
-    '<circle cx="50" cy="50" r="50" fill="#0047A0"/>' +
-    '<path d="M50 0a50 50 0 000 100 25 25 0 000-50 25 25 0 010-50z" fill="#CD2E3A" transform="rotate(45 50 50)"/>' +
+  // Full Taegukgi (태극기). Geometry taken directly from the verified
+  // reference construction (matches the National Flag Act enforcement
+  // decree: circle split by a curve rotated atan(2/3) ≈ 33.69° off the
+  // flag's horizontal axis — not a plain 45° diagonal — and the four
+  // trigrams (건/곴/감/리) as tilted bar groups radiating toward each
+  // corner, not horizontal bars). Exported so content-render.js can reuse
+  // it for the home hero.
+  var TAEGEUK_SVG = '<svg viewBox="-72 -48 144 96" focusable="false">' +
+    '<rect x="-72" y="-48" width="144" height="96" fill="#FFFFFF" stroke="#00000022" stroke-width="1"/>' +
+    '<g stroke="#0B0B0B" stroke-width="4">' +
+    '<path transform="rotate(33.69006752598)" d="M-50-12v24m6 0v-24m6 0v24m76 0V1m0-2v-11m6 0v11m0 2v11m6 0V1m0-2v-11"/>' +
+    '<path transform="rotate(-33.69006752598)" d="M-50-12v24m6 0V1m0-2v-11m6 0v24m76 0V1m0-2v-11m6 0v24m6 0V1m0-2v-11"/>' +
+    '</g>' +
+    '<g transform="rotate(33.69006752598)">' +
+    '<path fill="#CD2E3A" d="M12 0a18 18 0 11-36 0 24 24 0 1148 0"/>' +
+    '<path fill="#0047A0" d="M-24 0a24 24 0 1048 0A12 12 0 100 0a12 12 0 11-24 0"/>' +
+    '</g>' +
     '</svg>';
 
   function pathPrefix() {
